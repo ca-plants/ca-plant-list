@@ -1,0 +1,18 @@
+---
+title: Common Name Search
+js: common_name_search.js
+---
+<h1>Search for Common Name</h1>
+
+<script>
+    const COMMON_NAMES = {% include common_names.json%};
+</script>
+
+<form>
+    <input type="text" id="common-name">
+</form>
+
+<div class="section" id="message"></div>
+
+<table id="results">
+</table>

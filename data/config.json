@@ -1,0 +1,16 @@
+{
+    "calflora": {
+        "counties": [
+            "ALA",
+            "CCA"
+        ]
+    },
+    "inat": {
+        "project": "ebcnps"
+    },
+    "labels": {
+        "introduced": "Introduced to the East Bay",
+        "native": "Native to the East Bay",
+        "status-NC": "California native introduced to the East Bay"
+    }
+}

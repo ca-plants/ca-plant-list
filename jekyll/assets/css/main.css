@@ -1,0 +1,65 @@
+/* Defaults */
+
+:root {
+    --bs-body-bg: #ECF87F;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgba(255, 255, 255, .5);
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-color: white;
+    --bs-navbar-brand-hover-color: rgba(255, 255, 255, .5);
+    --bs-navbar-brand-color: white;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    background-color: #3D550C;
+}
+
+td {
+    border: solid 1px;
+    vertical-align: top;
+}
+
+th {
+    vertical-align: bottom;
+}
+
+/* Lists */
+
+a.native {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Taxon Page */
+
+.common-names {
+    font-size: larger;
+    font-weight: bold;
+}
+
+div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+}
+
+div.section {
+    margin-bottom: .5rem;
+    ;
+}
+
+div.section h2 {
+    font-size: 1.25rem;
+}
+
+div.section ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.section li {
+    display: block;
+}

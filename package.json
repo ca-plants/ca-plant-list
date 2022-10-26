@@ -1,0 +1,17 @@
+{
+    "name": "@ca-plant-list/ca-plant-list",
+    "version": "0.0.2",
+    "description": "Tools to create Jekyll files for a website listing plants in an area of California.",
+    "license": "MIT",
+    "type": "module",
+    "bin": {
+        "ca-plant-list": "build-site.js"
+    },
+    "dependencies": {
+        "command-line-args": "^5.2.1",
+        "csv-parse": "^5.3.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.26.0"
+    }
+}

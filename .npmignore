@@ -1,0 +1,6 @@
+output/
+_site/
+*.cmd
+.eslintrc.json
+_config.yml
+Gemfile*
