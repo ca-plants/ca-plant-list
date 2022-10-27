@@ -17,6 +17,15 @@
     background-color: #3D550C;
 }
 
+span[title] {
+    text-decoration: underline dotted;
+}
+
+span.label {
+    font-weight: 600;
+    padding-right: .5rem;
+}
+
 td {
     border: solid 1px;
     vertical-align: top;
@@ -29,6 +38,10 @@ th {
 /* Lists */
 
 a.native {
+    font-weight: bold;
+}
+
+a.rare {
     font-weight: bold;
     font-style: italic;
 }

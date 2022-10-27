@@ -1,9 +1,28 @@
 {
     "name": "@ca-plant-list/ca-plant-list",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "Tools to create Jekyll files for a website listing plants in an area of California.",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ca-plants/ca-plant-list.git"
+    },
+    "homepage": "https://github.com/ca-plants/ca-plant-list",
     "type": "module",
+    "exports": {
+        "./CSV": {
+            "import": "./lib/csv.js"
+        },
+        "./DataLoader": {
+            "import": "./lib/dataloader.js"
+        },
+        "./Exceptions": {
+            "import": "./lib/exceptions.js"
+        },
+        "./Taxa": {
+            "import": "./lib/taxa.js"
+        }
+    },
     "bin": {
         "ca-plant-list": "build-site.js"
     },
