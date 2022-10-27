@@ -37,13 +37,16 @@ th {
 
 /* Lists */
 
-a.native {
+span.native {
     font-weight: bold;
 }
 
-a.rare {
+span.rare {
     font-weight: bold;
-    font-style: italic;
+}
+
+span.rare::before {
+    content: "\2606";
 }
 
 /* Taxon Page */
@@ -75,4 +78,8 @@ div.section ul {
 
 div.section li {
     display: block;
+}
+
+div.section ul.indent {
+    padding-left: 1rem;
 }
