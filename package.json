@@ -10,9 +10,7 @@
     "homepage": "https://github.com/ca-plants/ca-plant-list",
     "type": "module",
     "exports": {
-        "./Config": {
-            "import": "./lib/config.js"
-        },
+        ".": "./lib/index.js",
         "./CSV": {
             "import": "./lib/csv.js"
         },
