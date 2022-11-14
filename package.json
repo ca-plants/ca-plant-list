@@ -10,22 +10,7 @@
     "homepage": "https://github.com/ca-plants/ca-plant-list",
     "type": "module",
     "exports": {
-        ".": "./lib/index.js",
-        "./CSV": {
-            "import": "./lib/csv.js"
-        },
-        "./DataLoader": {
-            "import": "./lib/dataloader.js"
-        },
-        "./Exceptions": {
-            "import": "./lib/exceptions.js"
-        },
-        "./Files": {
-            "import": "./lib/files.js"
-        },
-        "./Taxa": {
-            "import": "./lib/taxa.js"
-        }
+        ".": "./lib/index.js"
     },
     "bin": {
         "ca-plant-list": "build-site.js"
