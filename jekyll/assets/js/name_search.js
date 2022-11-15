@@ -6,9 +6,9 @@ class Search {
     static #debounceTimer;
     static #searchData;
 
-    static #debounce( func ) {
+    static #debounce( timeout = 500 ) {
         clearTimeout( this.#debounceTimer );
-        this.#debounceTimer = setTimeout( func, 500 );
+        this.#debounceTimer = setTimeout( Search.#doSearch, timeout );
     }
 
     static #doSearch() {
@@ -141,7 +141,11 @@ class Search {
     }
 
     static #handleChange() {
-        this.#debounce( Search.#doSearch );
+        this.#debounce();
+    }
+
+    static #handleSubmit() {
+        this.#debounce( 0 );
     }
 
     static init() {
@@ -149,6 +153,7 @@ class Search {
         const eName = document.getElementById( "name" );
         eName.focus();
         eName.oninput = ( ev ) => { return this.#handleChange( ev ); };
+        document.getElementById( "search_form" ).onsubmit = () => { this.#handleSubmit(); return false; };
     }
 
 }
