@@ -1,0 +1,14 @@
+{
+    // Change this to match your project
+    "files": [
+        "lib/index.js",
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "output",
+        "module": "es6",
+        "newLine": "lf"
+    }
+}

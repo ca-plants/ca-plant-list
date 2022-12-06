@@ -1,5 +1,6 @@
 node_modules/
 output/
 _site/
+*.d.ts
 /*.cmd
 /Gemfile*

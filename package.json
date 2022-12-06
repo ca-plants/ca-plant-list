@@ -10,16 +10,21 @@
     "homepage": "https://github.com/ca-plants/ca-plant-list",
     "type": "module",
     "exports": {
-        ".": "./lib/index.js"
+        ".": "./lib/index.js",
+        "./HTML": "./lib/HTML.js"
     },
+    "types": "./lib/index.d.ts",
     "bin": {
         "ca-plant-list": "build-site.js"
     },
     "dependencies": {
         "command-line-args": "^5.2.1",
-        "csv-parse": "^5.3.1"
+        "csv-parse": "^5.3.1",
+        "unzipper": "^0.10.11"
     },
     "devDependencies": {
-        "eslint": "^8.26.0"
+        "@types/node": "^18.11.9",
+        "eslint": "^8.26.0",
+        "typescript": "^4.9.3"
     }
 }
