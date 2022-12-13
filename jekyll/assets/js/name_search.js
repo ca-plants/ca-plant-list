@@ -1,3 +1,5 @@
+import { Utils } from "./utils.js";
+
 const MIN_LEN = 2;
 const MAX_RESULTS = 50;
 
@@ -75,9 +77,7 @@ class Search {
                 const name = match[ 0 ];
                 const syn = match[ 2 ];
                 const td1 = document.createElement( "td" );
-                const link = document.createElement( "a" );
-                link.setAttribute( "href", "./" + name.replaceAll( ".", "" ).replaceAll( " ", "-" ) + ".html" );
-                link.textContent = name;
+                const link = Utils.domTaxonLink( name );
                 td1.appendChild( link );
                 if ( syn ) {
                     td1.appendChild( document.createTextNode( " (" + syn + ")" ) );
