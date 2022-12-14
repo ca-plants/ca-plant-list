@@ -1,9 +1,12 @@
 class Utils {
 
-    static domElement( name, attributes = {} ) {
+    static domElement( name, attributes = {}, content ) {
         const e = document.createElement( name );
         for ( const [ k, v ] of Object.entries( attributes ) ) {
             e.setAttribute( k, v );
+        }
+        if ( content ) {
+            e.textContent = content;
         }
         return e;
     }
