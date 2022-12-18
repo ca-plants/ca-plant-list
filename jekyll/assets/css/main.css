@@ -17,10 +17,6 @@
     background-color: #3D550C;
 }
 
-span[title] {
-    text-decoration: underline dotted;
-}
-
 span.label {
     font-weight: 600;
     padding-right: .5rem;
