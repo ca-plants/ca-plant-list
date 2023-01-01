@@ -15,4 +15,4 @@ Config.init( CONFIG_DATA_DIR );
 DataLoader.load( options );
 PageRenderer.render( OUTPUT_DIR );
 
-ErrorLog.write( OUTPUT_DIR + "/errors.txt" );
+ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
