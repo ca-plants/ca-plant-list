@@ -1,7 +1,10 @@
 /* Defaults */
 
 :root {
-    --bs-body-bg: #ECF87F;
+    /* See https://visme.co/blog/website-color-schemes/ theme 4 */
+    --bs-body-bg: #5cdb95;
+    --bs-link-color: #05386b;
+    --pl-navbar-bg: #379683;
 }
 
 .navbar-nav {
@@ -14,7 +17,7 @@
     --bs-navbar-brand-hover-color: rgba(255, 255, 255, .5);
     --bs-navbar-brand-color: white;
     --bs-navbar-nav-link-padding-x: 1rem;
-    background-color: #3D550C;
+    background-color: var(--pl-navbar-bg);
 }
 
 span.label {
