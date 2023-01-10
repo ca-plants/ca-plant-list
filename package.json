@@ -11,6 +11,7 @@
     "type": "module",
     "exports": {
         ".": "./lib/index.js",
+        "./Families": "./lib/families.js",
         "./Files": "./lib/files.js",
         "./HTML": "./lib/html.js",
         "./Jekyll": "./lib/jekyll.js"
@@ -21,6 +22,7 @@
     },
     "dependencies": {
         "command-line-args": "^5.2.1",
+        "command-line-usage": "^6.1.3",
         "csv-parse": "^5.3.1",
         "unzipper": "^0.10.11"
     },
