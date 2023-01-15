@@ -35,6 +35,25 @@ th {
     vertical-align: bottom;
 }
 
+ul.listmenu {
+    display: flex;
+    padding: 0;
+}
+
+ul.listmenu li {
+    display: inline-block;
+    padding: 0;
+    padding-right: .25em;
+}
+
+ul.listmenu li::after {
+    content: "  |";
+}
+
+ul.listmenu li:last-child:after {
+    content: "";
+}
+
 /* Lists */
 
 span.native {
