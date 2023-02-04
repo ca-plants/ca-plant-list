@@ -40,6 +40,7 @@ class Search {
                 }
             } else {
                 // No synonyms match; see if the scientific or common names match.
+                console.log( name )
                 const namesMatch = name.includes( value ) || ( cn && cn.includes( value ) );
                 if ( namesMatch ) {
                     matches.push( [ rawData[ 0 ], rawData[ 1 ] ] );
@@ -50,7 +51,7 @@ class Search {
 
         Search.#debounceTimer = undefined;
 
-        const value = document.getElementById( "name" ).value.toLowerCase();
+        const value = Search.#normalizeName( document.getElementById( "name" ).value );
 
         const matches = [];
         const shouldSearch = ( value.length >= MIN_LEN );
@@ -124,14 +125,14 @@ class Search {
         // eslint-disable-next-line no-undef
         for ( const taxon of NAMES ) {
             const taxonData = [ taxon ];
-            taxonData.push( taxon[ 0 ].toLowerCase().replace( / (subsp|var)\./, "" ) );
+            taxonData.push( this.#normalizeName( taxon[ 0 ] ) );
             if ( taxon[ 1 ] ) {
                 taxonData.push( taxon[ 1 ].toLowerCase() );
             }
             if ( taxon[ 2 ] ) {
                 const syns = [];
                 for ( const syn of taxon[ 2 ] ) {
-                    syns.push( syn.toLowerCase().replace( / (subsp|var)\./, "" ) );
+                    syns.push( this.#normalizeName( syn ) );
                 }
                 taxonData[ 3 ] = syns;
             }
@@ -154,6 +155,10 @@ class Search {
         eName.focus();
         eName.oninput = ( ev ) => { return this.#handleChange( ev ); };
         document.getElementById( "search_form" ).onsubmit = () => { this.#handleSubmit(); return false; };
+    }
+
+    static #normalizeName( name ) {
+        return name.toLowerCase().replace( / (subsp|var)\./, "" );
     }
 
 }
