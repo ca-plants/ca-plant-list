@@ -40,7 +40,6 @@ class Search {
                 }
             } else {
                 // No synonyms match; see if the scientific or common names match.
-                console.log( name )
                 const namesMatch = name.includes( value ) || ( cn && cn.includes( value ) );
                 if ( namesMatch ) {
                     matches.push( [ rawData[ 0 ], rawData[ 1 ] ] );
