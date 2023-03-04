@@ -1,6 +1,6 @@
 {
     "name": "@ca-plant-list/ca-plant-list",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "description": "Tools to create Jekyll files for a website listing plants in an area of California.",
     "license": "MIT",
     "repository": {
