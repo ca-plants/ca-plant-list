@@ -1,4 +1,4 @@
-taxon_name,common name,status,jepson id,calrecnum,inat id,RPI ID,CRPR,CESA,FESA
+taxon_name,common name,status,jepson id,calrecnum,inat id,RPI ID,CRPR,CESA,FESA,SRank,GRank
 Abronia latifolia,yellow sand verbena,N,11552,13,52618
 Abronia umbellata var. umbellata,beach sand verbena,N,75287,10748,53800
 Abutilon theophrasti,velvet-leaf,X,11605,26,60214
@@ -38,6 +38,8 @@ Ageratina adenophora,,X,735,117,64114
 Agoseris apargioides var. apargioides,,N,6310,122,58797
 Agoseris grandiflora var. grandiflora,,N,79217,10490,80331
 Agoseris heterophylla,,N,794,132,56856
+Agoseris heterophylla var. cryptopleura,,N,6324,10758,80333
+Agoseris heterophylla var. heterophylla,,N,6323,9654,56859
 Agoseris retrorsa,,N,797,133,57908
 Agrostis avenacea,blown grass,X,12268,138,288066
 Agrostis capillaris,colonial bent,X,12276,140,75312
@@ -1731,3 +1733,51 @@ Zeltnera davyi,conchalagua,N,81827,11122,79548
 Zeltnera muehlenbergii,,N,81829,11124,79550
 Zeltnera trichantha,,N,81830,11126,79552
 Zostera marina,eel-grass,N,48950,8392,52614
+Amsinckia douglasiana,,N,13126,321,58047,3270,4.2,,,S4,G4
+Anthoxanthum occidentale,,N,13521,11332,75474
+Aphyllon epigalium subsp. epigalium,,N,103327,13527,809377
+Aphyllon vallicolum,,N,103315,13450,938507
+Arctostaphylos glandulosa subsp. cushingiana,,N,91856,11339,79594
+Arctostaphylos glandulosa subsp. mollis,,N,49172,554,53377
+Aspidotis densa,,N,14506,761,63868
+Astragalus breweri,,N,14733,810,75628,297,4.2,,,S3,G3
+Astragalus nuttallii var. nuttallii,,N,54881,897,80423,1825,4.2,,,S4,G4T4
+Astragalus nuttallii var. virgatus,,N,54882,898,80424
+Atriplex gmelinii var. gmelinii,,N,71458,11364,75705
+Calamagrostis koelerioides,,N,16557,1240,75927
+Campanula sharsmithiae,,N,16995,1467,1342786,267,1B.2,,,S1S2,G1G2
+Carex lenticularis var. lipocarpa,,N,55773,1583,80517
+Ceanothus thyrsiflorus var. thyrsiflorus,,N,71719,11493,56616
+Cercis occidentalis,,N,18736,1877,59556
+Chaenactis glabriuscula var. megacephala,,N,6953,1902,80549
+Chenopodium berlandieri var. sinuatum,,N,56415,11500,80551
+Chenopodium berlandieri var. zschackei,,N,56416,10529,80552
+Chenopodium pratericola,,N,19195,1986,76284
+Chenopodium rubrum var. humile,,N,56454,10813,931680
+Chenopodium rubrum var. rubrum,,N,71774,10531,931836
+Cirsium occidentale var. coulteri,,N,81843,11531,80593
+Clarkia epilobioides,,N,19577,2185,58945
+Clarkia rhomboidea,,N,19595,2210,61870
+Collinsia bartsiifolia var. stricta,,N,56713,9818,80608
+Cryptantha corollata,,N,21213,2452,58853
+Cryptantha hooveri,,N,21240,2468,57701,525,1A,,,SH,GH
+Cryptantha intermedia var. intermedia,,N,71933,11568,80627
+Cryptantha muricata var. jonesii,,N,57144,11572,80631
+Delphinium californicum subsp. californicum,,N,50072,2631,51860
+Delphinium gracilentum,,N,22474,2639,76626
+Diplacus kelloggii,,N,99058,13472,771826
+Downingia ornatissima var. mirabilis,,N,84766,14563
+Ephedra californica,,N,24275,2972,57890
+Ephedra viridis,,N,24287,2979,57891
+Eremalche exilis,,N,24546,3045,58199
+Eriastrum pluriflorum subsp. pluriflorum,,N,50337,11660,79842
+Eriogonum deserticola,,N,24754,3231,76982
+Eriogonum nudum var. pauciflorum,,N,58658,3324,57225
+Eriogonum nudum var. pubiflorum,,N,58659,3325,57221
+Eryngium vaseyi var. vallicola,,N,58851,11675,80888
+Erythranthe laciniata,,N,99142,13417,546557,1093,4.3,,,S4,G4
+Garrya congdonii,,N,26463,3747,56201
+Gilia millefoliata,,N,95310,3869,57797,1923,1B.2,,,S2,G2
+Hesperolinon tehamense,,N,28047,4131,77390,1692,1B.3,,,S2,G2
+Heterotheca sessiliflora var. bolanderioides,,N,,,58834
+Hosackia oblongifolia var. oblongifolia,,N,91760,11755,60534
