@@ -117,7 +117,6 @@ Aphyllon pinorum,pinewoods broom-rape,N,13618,13445,802557
 Aphyllon purpureum,naked broom-rape,N,103312,13529,739040
 Aphyllon tuberosum,bulbous broom-rape,N,13614,13446,809373
 Aphyllon vallicola,hemp broom-rape,N,85145,14626,938507
-Aphyllon vallicolum,,N,103315,13450,938507
 Apiastrum angustifolium,,N,13619,422,58777
 Apium graveolens,celery,X,13622,423,58788
 Apium nodiflorum,,X,13623,424,75489
@@ -514,7 +513,7 @@ Cynosurus echinatus,dogtail grass,X,21767,2577,47695
 Cyperus difformis,,X,21811,2580,59051
 Cyperus eragrostis,,N,21820,2581,59055
 Cyperus erythrorhizos,,N,21822,2582,59060
-Cyperus esculentus,yellow nut sedge,NC,21824,2583,76584
+Cyperus esculentus,yellow nut sedge,N,21824,2583,76584
 Cyperus involucratus,umbrella-sedge,X,21853,2585,414284
 Cyperus niger,,N,21881,2588,76591
 Cyperus odoratus,,N,21885,2589,63329
@@ -595,7 +594,7 @@ Dysphania multifida,cut leaf pigweed,X,81841,10848,76750
 Eastwoodia elegans,yellow mock aster,N,2510,2875,57967
 Echinochloa colona,,X,23790,2881,76755
 Echinochloa crus-galli,barnyard grass,X,23791,2882,60283
-Echinochloa muricata var. microstachya,,NC,58092,9886,80690
+Echinochloa muricata var. microstachya,,N,58092,9886,80690
 Echinodorus berteroi,burhead,N,23812,2886,76761
 Echium candicans,Pride of Madeira,X,77286,2888,57723
 Eclipta prostrata,,N,2527,2892,76765
@@ -674,7 +673,7 @@ Eriodictyon californicum,yerba santa,N,24668,3182,57095
 Eriogonum angulosum,,N,24690,3194,58266
 Eriogonum covilleanum,,N,24742,3222,58269
 Eriogonum deserticola,,N,24754,3231,76982
-Eriogonum fasciculatum var. foliolosum,California buckwheat,NC,58545,3246,58980
+Eriogonum fasciculatum var. foliolosum,California buckwheat,N,58545,3246,58980
 Eriogonum fasciculatum var. polifolium,,N,58546,3247,58272
 Eriogonum gracile var. gracile,slender buckwheat,N,58563,3257,58982
 Eriogonum inerme var. inerme,unarmed buckwheat,N,58586,9110,80799
@@ -840,7 +839,7 @@ Hesperevax acaulis var. ambusticola,fire evax,N,59934,4108,80930
 Hesperevax caulescens,hogwallow starfish,N,28021,4110,60135,1931,4.2
 Hesperevax sparsiflora var. sparsiflora,,N,59937,4113,61172
 Hesperocnide tenella,black haired nettle,N,28033,4118,59036
-Hesperocyparis macrocarpa,Monterey cypress,NC,89298,11190,322545
+Hesperocyparis macrocarpa,Monterey cypress,N,89298,11190,322545
 Hesperocyparis sargentii,Sargent cypress,N,89302,10803,83149
 Hesperolinon breweri,Brewer's dwarf flax,N,28038,4121,77385,404,1B.2
 Hesperolinon californicum,California dwarf flax,N,28039,4122,77386
@@ -1102,7 +1101,7 @@ Malacothrix californica,,N,4059,5325,58026
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841
 Malacothrix coulteri,snake's-head,N,4061,5327,58027
 Malacothrix floccifera,,N,4064,5328,58842
-Malva assurgentiflora,island mallow,NC,89039,11817,77951
+Malva assurgentiflora,island mallow,N,89039,11817,77951
 Malva multiflora,Cretan mallow,X,84861,14660,501208
 Malva nicaeensis,bull mallow,X,32602,5353,61043
 Malva parviflora,cheeseweed,X,32604,5354,58202
@@ -1316,7 +1315,7 @@ Pickeringia montana var. montana,chaparral pea,N,63765,6497,58908
 Pilularia americana,pillwort,N,38232,6501,57885
 Pinus attenuata,knobcone pine,N,38257,6504,64047
 Pinus coulteri,Coulter pine,N,38266,6512,67330
-Pinus radiata,Monterey pine,NC,38300,6523,53421
+Pinus radiata,Monterey pine,N,38300,6523,53421
 Pinus sabiniana,gray or foothill pine,N,38304,6524,58772
 Piperia elegans subsp. elegans,coast piperia,N,74709,8857,840643
 Piperia elongata,wood rein-orchid,N,38354,6532,551466
@@ -1540,10 +1539,10 @@ Salpichroa origanifolia,,X,43020,7292,78954
 Salsola australis,,X,43028,12003,78955
 Salsola soda,,X,43034,7295,78960
 Salsola tragus,Russian thistle,X,43032,7296,57896
-Salvia apiana,,NC,43038,7298,64134
+Salvia apiana,,N,43038,7298,64134
 Salvia carduacea,thistle sage,N,43046,7300,58190
 Salvia columbariae,chia,N,43049,7302,53200
-Salvia leucophylla,,NC,43066,7310,58191
+Salvia leucophylla,,N,43066,7310,58191
 Salvia mellifera,black sage,N,43071,7311,50643
 Salvia spathacea,,N,43098,7316,64133
 Sambucus mexicana,blue elderberry,N,43127,7320,143799

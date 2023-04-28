@@ -21,6 +21,7 @@
         "ca-plant-list": "scripts/build-site.js"
     },
     "dependencies": {
+        "@ca-plant-list/tools": "file:../ca-tools",
         "command-line-args": "^5.2.1",
         "command-line-usage": "^6.1.3",
         "csv-parse": "^5.3.1",
