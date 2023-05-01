@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+}
+
+figure {
+    page-break-inside: avoid;
+}
+
+span.color {
+    border: solid black 1px;
+    border-radius: .25rem;
+    margin-right: .5rem;
+    padding: .25rem;
+}
+
+span.color.blue {
+    background-color: blue;
+    color: white;
+}
+
+span.color.pink {
+    background-color: pink;
+    color: white;
+}
+
+span.color.red {
+    background-color: red;
+    color: white;
+}
+
+span.color.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+span.color.white {
+    background-color: white;
+    color: black;
+}
+
+span.color.blue::after {
+    content: "Blue"
+}
+
+span.color.pink::after {
+    content: "Pink"
+}
+
+span.color.red::after {
+    content: "Red"
+}
+
+span.color.white::after {
+    content: "White"
+}
+
+span.color.yellow::after {
+    content: "Yellow"
+}

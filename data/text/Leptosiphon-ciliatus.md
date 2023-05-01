@@ -1,0 +1,1 @@
+Flowers pedicelled. Corolla tube at least twice as long as calyx. Calyx membrane at least as wide as lobes.

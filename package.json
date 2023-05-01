@@ -18,13 +18,18 @@
     },
     "types": "./lib/index.d.ts",
     "bin": {
-        "ca-plant-list": "scripts/build-site.js"
+        "ca-plant-list": "scripts/build-site.js",
+        "ca-plant-book": "scripts/build-ebook.js"
     },
     "dependencies": {
         "@ca-plant-list/tools": "file:../ca-tools",
+        "archiver": "^5.3.1",
         "command-line-args": "^5.2.1",
         "command-line-usage": "^6.1.3",
         "csv-parse": "^5.3.1",
+        "image-size": "^1.0.2",
+        "markdown-it": "^13.0.1",
+        "sharp": "^0.32.1",
         "unzipper": "^0.10.11"
     },
     "devDependencies": {

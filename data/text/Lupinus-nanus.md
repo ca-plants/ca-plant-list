@@ -1,0 +1,1 @@
+Banner as wide as or wider than long; pedicels generally > 3 mm.
