@@ -1,0 +1,1 @@
+Lemma awn 4mm or longer. 9-11 prominent veins on distal half of lemma.

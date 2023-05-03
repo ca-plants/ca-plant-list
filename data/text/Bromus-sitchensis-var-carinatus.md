@@ -1,0 +1,1 @@
+Most awns 7mm or longer. 7 lemma veins; veins obscure.
