@@ -2,6 +2,11 @@ img {
     width: 100%;
 }
 
+img.flr {
+    height: 32px;
+    width: 32px;
+}
+
 figure {
     page-break-inside: avoid;
 }
