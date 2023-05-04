@@ -1,0 +1,1 @@
+Gray-green to densely white-woolly, hairs branched.

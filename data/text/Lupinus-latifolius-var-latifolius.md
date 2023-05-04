@@ -1,0 +1,1 @@
+Perennial. Fruit densely hairy.

@@ -1,0 +1,1 @@
+Annual. Fruit not densely hairy.

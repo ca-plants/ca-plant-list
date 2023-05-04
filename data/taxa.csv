@@ -104,7 +104,7 @@ Angelica californica,,N,13406,364,75448
 Anisocarpus madioides,,N,77551,10770,53137
 Anthemis cotula,"mayweed,dog-fennel",X,1067,392,52841
 Anthoxanthum occidentale,,N,13521,11332,75474
-Anthriscus caucalis,bur-chervil,X,13523,396,52846
+Anthriscus caucalis,bur-chervil,X,13523,396,52846,white
 Antirrhinum kelloggii,,N,13568,401,165675
 Antirrhinum majus,snapdragon,X,13557,404,48969
 Antirrhinum thompsonii,Sierra snapdragon,N,108978,14286,168306
@@ -326,14 +326,14 @@ Carex tumulicola,,N,17908,1645,64183
 Carex unilateralis,lateral sedge,N,17915,1646,76123
 Carpobrotus chilensis,sea fig,X,77164,1659,56026
 Carpobrotus edulis,freeway iceplant,X,17975,1660,49322
-Castilleja affinis subsp. affinis,Indian paintbrush,N,70068,1669,50043
+Castilleja affinis subsp. affinis,Indian paintbrush,N,70068,1669,50043,red
 Castilleja ambigua subsp. ambigua,johnny-nip,N,49732,1673,61110,,3361,4.2
 Castilleja applegatei subsp. martinii,,N,76733,1679,1041230
 Castilleja attenuata,valley tassels,N,18175,1683,49341
 Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233
 Castilleja exserta subsp. exserta,purple owl's-clover,N,49744,1695,59012
 Castilleja exserta subsp. latifolia,,N,49745,1696,61109
-Castilleja foliolosa,woolly paintbrush,N,18205,1698,56760
+Castilleja foliolosa,woolly paintbrush,N,18205,1698,56760,red
 Castilleja rubicundula subsp. lithospermoides,cream sacs,N,49761,1729,57269
 Castilleja subinclusa subsp. franciscana,,N,76740,1733,53916
 Castilleja subinclusa subsp. subinclusa,,N,74693,1734,53917
@@ -430,7 +430,7 @@ Claytonia exigua subsp. glauca,,N,76949,2233,57229
 Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,pink
 Claytonia parviflora subsp. parviflora,,N,74695,2242,58296
 Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004
-Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002
+Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,white
 Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751
 Clematis lasiantha,pipestems,N,19682,2254,49876
 Clematis ligusticifolia,virgin's bower,N,19683,2255,58996
@@ -446,7 +446,7 @@ Collinsia sparsiflora var. sparsiflora,,N,56723,2291,64295
 Collinsia tinctoria,,N,20008,2293,51850
 Collomia diversifolia,serpentine collomia,N,20020,2299,62230,,126,4.3
 Collomia heterophylla,,N,20022,2301,52996
-Conium maculatum,poison hemlock,X,20136,2317,52998
+Conium maculatum,poison hemlock,X,20136,2317,52998,white
 Consolida ajacis,,X,20161,9821,401314
 Convolvulus arvensis,bindweed,X,20203,2321,53021
 Convolvulus simulans,,N,20208,2322,76433,,1636,4.2
@@ -801,7 +801,7 @@ Gilia achilleifolia subsp. achilleifolia,,N,50744,3813,51101
 Gilia achilleifolia subsp. multicaulis,,N,50745,3814,51102
 Gilia capitata subsp. capitata,,N,50764,3834,57798
 Gilia capitata subsp. staminea,,N,50769,3839,57801
-Gilia clivorum,,N,26880,3842,56630
+Gilia clivorum,purplespot gilia,N,26880,3842,56630
 Gilia millefoliata,,N,95310,3869,57797,,1923,1B.2,,,S2,G2
 Gilia tricolor subsp. diffusa,bird's-eye gilia,N,50826,3900,79920
 Gilia tricolor subsp. tricolor,bird's-eye gilia,N,50827,3901,79921
@@ -964,7 +964,7 @@ Lasthenia platycarpha,,N,3741,4595,60138
 Lathyrus jepsonii var. californicus,,N,76680,4607,81010
 Lathyrus jepsonii var. jepsonii,delta tule pea,N,76681,4608,81011,,956,1B.2
 Lathyrus latifolius,perennial sweet-pea,X,30318,4613,61009
-Lathyrus vestitus var. vestitus,Pacific pea,N,75728,4629,53109
+Lathyrus vestitus var. vestitus,Pacific pea,N,75728,4629,53109,white
 Layia chrysanthemoides,,N,3745,4636,60139
 Layia gaillardioides,,N,3748,4639,64246
 Layia glandulosa,,N,3749,4640,58003
@@ -1064,9 +1064,9 @@ Lupinus benthamii,spider lupine,N,31791,5117,59565
 Lupinus bicolor,miniature lupine,N,31793,5118,50614,blue
 Lupinus chamissonis,beach blue lupine,N,31831,5125,61011
 Lupinus concinnus,Bajada lupine,N,31835,5129,58901
-Lupinus formosus var. formosus,summer lupine,N,61315,5148,61822
+Lupinus formosus var. formosus,summer lupine,N,61315,5148,61822,blue
 Lupinus latifolius var. dudleyi,,N,76660,5161,81063
-Lupinus latifolius var. latifolius,wood lupine,N,75772,5162,64242
+Lupinus latifolius var. latifolius,wood lupine,N,75772,5162,64242,blue
 Lupinus littoralis var. variicolor,,N,80538,14304
 Lupinus luteolus,butter lupine,N,31956,5176,77875
 Lupinus microcarpus var. densiflorus,,N,76668,5184,241537
@@ -1089,11 +1089,11 @@ Lythrum hyssopifolia,grass-poly,X,32401,10626,58934
 Lythrum salicaria,,X,32407,5261,61321
 Lythrum tribracteatum,,X,32409,5262,77919
 Madia anomala,,N,4038,5279,69927
-Madia elegans,common madia,N,4044,5284,56974
+Madia elegans,common madia,N,4044,5284,56974,yellow
 Madia exigua,threadstem madia,N,4045,5289,56971
-Madia gracilis,slender tarweed,N,4047,5291,53135
+Madia gracilis,slender tarweed,N,4047,5291,53135,yellow
 Madia radiata,showy madia,N,4053,5296,77924,,1054,1B.1
-Madia sativa,coast tarweed,N,4055,5298,53143
+Madia sativa,coast tarweed,N,4055,5298,53143,yellow
 Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062
 Maianthemum stellatum,,N,32497,9629,53268
 Malacothamnus fremontii,white-coat mallow,N,32524,5312,70397
@@ -1122,9 +1122,9 @@ Medicago polymorpha,burclover,X,32938,5385,53151
 Medicago sativa,alfalfa,X,32943,5387,57057
 Melica bulbosa,,N,33073,5390,77979
 Melica californica,California melic,N,33075,5392,57186
-Melica imperfecta,,N,33080,5399,52802
+Melica imperfecta,little California melic,N,33080,5399,52802
 Melica subulata,,N,33089,5403,77986
-Melica torreyana,,N,33090,5404,52804
+Melica torreyana,Torrey's melic,N,33090,5404,52804
 Melilotus albus,white sweetclover,X,33153,10971,58907
 Melilotus indicus,sourclover,X,33149,5406,57065
 Melissa officinalis,lemon balm,X,33161,5408,59901
@@ -1280,11 +1280,11 @@ Petunia parviflora,wild petunia,N,37378,6279,159650
 Phacelia breweri,,N,37425,6292,68813
 Phacelia californica,rock phacelia,N,37426,6293,53170
 Phacelia ciliata,great valley phacelia,N,37432,6302,58180
-Phacelia distans,sordid phacelia,N,37450,6318,56631
+Phacelia distans,"sordid phacelia,distant phacelia",N,37450,6318,56631
 Phacelia divaricata,,N,37451,6319,51093
 Phacelia douglasii,,N,37452,6320,58182
 Phacelia egena,,N,37455,6322,58183
-Phacelia imbricata var. imbricata,,N,78483,13159,53172
+Phacelia imbricata var. imbricata,mountain phacelia,N,78483,13159,53172,white
 Phacelia malvifolia var. malvifolia,,N,73204,13162,58923
 Phacelia malvifolia,stinging phacelia,N,37514,6358,58923
 Phacelia nemoralis var. nemoralis,bristly phacelia,N,78488,13163,53174
@@ -1570,7 +1570,7 @@ Scirpus microcarpus,,N,43718,7398,59068
 Scoliopus bigelovii,,N,43824,7416,48990
 Scolymus hispanicus,golden thistle,X,4661,7417,79009
 Scribneria bolanderi,,N,43846,7420,57196
-Scrophularia californica,California figwort,N,43849,7422,50812
+Scrophularia californica,California figwort,N,43849,7422,50812,white
 Scutellaria californica,,N,43883,7432,59791
 Scutellaria galericulata,,N,43891,7433,79016,,1767,2B.2,,,S2,G5
 Scutellaria siphocampyloides,,N,43926,7437,59792
@@ -1588,7 +1588,7 @@ Senecio hydrophilus,water ragwort,N,4759,7501,64165
 Senecio jacobaea,tansy ragwort,X,4770,7508,62498
 Senecio minimus,Australian fireweed,X,2580,11076,60980
 Senecio sylvaticus,woodland ragwort,X,4853,7522,53210
-Senecio vulgaris,common groundsel,X,4866,7524,53211
+Senecio vulgaris,common groundsel,X,4866,7524,53211,yellow
 Sequoia sempervirens,coast redwood,N,44175,7531,47372
 Sesuvium verrucosum,sea-purslane,N,44236,7534,60112
 Setaria parviflora,marsh brittlegrass,N,44257,11079,79068
@@ -1653,7 +1653,7 @@ Stachys albens,,N,45339,7754,58192
 Stachys bullata,,N,45343,7756,58930
 Stachys pycnantha,short-spike hedge nettle,N,45389,7759,57123
 Stachys rigida var. quercetorum,,N,80610,12038,81388
-Stachys rigida var. rigida,hedge nettle,N,80611,12039,53296
+Stachys rigida var. rigida,hedge nettle,N,80611,12039,53296,pink
 Stebbinsoseris heterocarpa,,N,76210,7768,50804
 Stellaria media,common chickweed,X,45497,7776,53298
 Stellaria nitens,shining chickweed,N,45502,7777,57007
@@ -1690,7 +1690,7 @@ Tamarix ramosissima,saltcedar,X,46076,7917,56015
 Tanacetum parthenium,feverfew,X,5215,7919,54520
 Taraxacum erythrospermum,red-seeded dandelion,X,5225,12084,79317
 Taraxacum officinale,common dandelion,X,5231,7922,47602
-Taraxia ovata,sun cup,N,89233,12085,68182
+Taraxia ovata,sun cup,N,89233,12085,68182,yellow
 Tauschia hartwegii,,N,46097,7925,54948
 Taxus brevifolia,,N,46109,7929,55209
 Tellima grandiflora,fringe cups,N,46142,7931,51655
@@ -1706,8 +1706,8 @@ Tonella tenella,,N,46732,8000,79369
 Torilis arvensis,tall sock-destroyer,X,46743,8004,56846
 Torilis nodosa,short sock-destroyer,X,46747,8007,53304
 Torreyochloa pallida var. pauciflora,,N,67197,8010,81431
-Toxicodendron diversilobum,poison-oak,N,46791,8015,51080
-Toxicoscordion fremontii,zigadene,N,89163,11103,49649
+Toxicodendron diversilobum,poison-oak,N,46791,8015,51080,white
+Toxicoscordion fremontii,zigadene,N,89163,11103,49649,white
 Toxicoscordion paniculatum,,N,46802,11105,79380
 Toxicoscordion venenosum var. venenosum,death-camas,N,93851,11106,81432
 Tradescantia fluminensis,,X,77137,8017,79382
