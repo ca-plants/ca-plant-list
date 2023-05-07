@@ -1,0 +1,1 @@
+Plant glandular. Stem with purple spots or streaks. Ray flowers yellow, 1-4mm.

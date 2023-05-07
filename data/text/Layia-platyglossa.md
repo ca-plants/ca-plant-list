@@ -1,0 +1,1 @@
+Plant glandular. Stem without black dots or streaks. Anthers usually purple. Ray flowers often white-tipped.

@@ -1,0 +1,1 @@
+Plant glandular, strongly scented. Stem purple-streaked. Ray flowers often white-tipped.
