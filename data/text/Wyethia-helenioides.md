@@ -1,0 +1,1 @@
+Outer phyllaries wide, leaf-like, and usually much larger than inner phyllaries. Plant densely tomentose.

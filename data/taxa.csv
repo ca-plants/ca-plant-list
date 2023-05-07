@@ -814,9 +814,9 @@ Glyceria leptostachya,narrow mannagrass,N,27079,3929,77292
 Glycyrrhiza lepidota,wild licorice,N,27117,3933,58896
 Gnaphalium palustre,lowland cudweed,N,3082,3946,57980
 Gratiola ebracteata,bractless hedge hyssop,N,27292,3952,77300
-Grindelia camporum,,N,3099,3956,56953
-Grindelia hirsutula,,N,3107,3960,55364
-Grindelia stricta var. angustifolia,marsh gumplant,N,77358,3968,61991
+Grindelia camporum,,N,3099,3956,56953,yellow
+Grindelia hirsutula,,N,3107,3960,55364,yellow
+Grindelia stricta var. angustifolia,marsh gumplant,N,77358,3968,61991,yellow
 Gruvelia pusilla,little combseed,N,105901,14570,57694
 Gutierrezia californica,California matchweed,N,3140,3977,57978
 Hainardia cylindrica,,X,27553,3996,60285
@@ -1031,11 +1031,11 @@ Linanthus dichotomus subsp. dichotomus,evening snow,N,51286,10624,80000
 Linanthus dichotomus subsp. meridianus,,N,51287,10625,80001
 Linum bienne,,X,31144,4906,55679
 Linum lewisii var. lewisii,blue flax,N,60912,4910,60495
-Lithophragma affine,woodland star,N,31236,4922,50803
+Lithophragma affine,woodland star,N,31236,4922,50803,white
 Lithophragma bolanderi,,N,31238,4923,77787
 Lithophragma cymbalaria,,N,31241,4925,58323
-Lithophragma heterophyllum,,N,31244,4927,53124
-Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027
+Lithophragma heterophyllum,hill starflower,N,31244,4927,53124,white
+Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,white
 Lobularia maritima,sweet alyssum,X,31347,4939,56992
 Logfia filaginoides,herba impia,N,81847,10960,64254
 Logfia gallica,,X,31363,9521,56949

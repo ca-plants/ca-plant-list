@@ -1,0 +1,1 @@
+Pedicel 3-10 mm, floral tube conical at base. In open, grassy areas.

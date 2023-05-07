@@ -1,0 +1,1 @@
+Outer phyllaries narrow and roughly the same width as inner.

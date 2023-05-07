@@ -1,0 +1,1 @@
+Phyllaries flattened only at bases (rounded in cross section distally), phyllary tips often reflexed, or coiled; plants generally not hairy.

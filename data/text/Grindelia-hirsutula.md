@@ -1,0 +1,1 @@
+Phyllaries flattened, plants generally hairy.

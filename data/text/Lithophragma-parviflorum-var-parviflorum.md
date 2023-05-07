@@ -1,0 +1,1 @@
+Basal leaves either compound or deeply divided (more than half way to base of blade).
