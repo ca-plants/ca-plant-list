@@ -91,6 +91,12 @@ div.grid {
     column-gap: 2rem;
 }
 
+div.grid.borders>div.section {
+    border: solid 1px;
+    border-radius: 3%;
+    padding: .5rem;
+}
+
 div.wrapper {
     display: flex;
     flex-wrap: wrap;
