@@ -1,1 +1,43 @@
-{}
+{
+    "Castilleja ambigua subsp. ambigua": {
+        "rpi": {
+            "translation-to-rpi": "Castilleja ambigua var. ambigua"
+        }
+    },
+    "Castilleja ambigua var. ambigua": {
+        "rpi": {
+            "translation": "Castilleja ambigua subsp. ambigua"
+        }
+    },
+    "Erysimum capitatum var. angustatum": {
+        "calflora": {
+            "badjepsonid": true
+        },
+        "jepson": {
+            "allowsynonym": true
+        }
+    },
+    "Heterotheca oregona var. rudis": {
+        "inat": {
+            "notintaxondata": true
+        }
+    },
+    "Horkelia californica var. frondosa": {
+        "inat": {
+            "notintaxondata": true
+        }
+    },
+    "Myosurus minimus subsp. apus": {
+        "jepson": {
+            "notineflora": "in CNPS Rare Plant Inventory"
+        }
+    },
+    "Streptanthus albidus subsp. peramoenus": {
+        "calflora": {
+            "notintaxondata": true
+        },
+        "jepson": {
+            "allowsynonym": true
+        }
+    }
+}
