@@ -2,4 +2,4 @@
 
 rm -rf output
 npx tsc
-cat output/* > ./lib/index.d.ts
+cat output/*.d.ts > ./lib/index.d.ts
