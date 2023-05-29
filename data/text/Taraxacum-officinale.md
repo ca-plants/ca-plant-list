@@ -1,0 +1,1 @@
+Leaves basal. Stem not branched. Outer phyllaries much smaller than inner.

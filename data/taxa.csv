@@ -27,13 +27,13 @@ Acmispon parviflorus,least trefoil,N,91717,11299,57048
 Acmispon strigosus,,N,91722,11305,58152
 Acmispon wrangelianus,common trefoil,N,82483,11306,57050
 Actaea rubra,baneberry,N,11894,93,49870
-Adelinia grandis,hound's tongue,N,101954,14544,769151
+Adelinia grandis,hound's tongue,N,101954,14544,769151,blue
 Adenocaulon bicolor,American trailplant,N,721,94,56854
 Adenostoma fasciculatum,chamise,N,11939,97,47146
 Adiantum aleuticum,five-finger fern,N,11945,100,52667
 Adiantum jordanii,California maidenhair,N,11955,102,56032
 Aegilops triuncialis,barbed goatgrass,X,11997,107,60272
-Aesculus californica,California buckeye,N,12026,111,53348
+Aesculus californica,California buckeye,N,12026,111,53348,white
 Ageratina adenophora,,X,735,117,64114
 Agoseris apargioides var. apargioides,,N,6310,122,58797
 Agoseris grandiflora var. grandiflora,,N,79217,10490,80331
@@ -351,7 +351,7 @@ Ceanothus thyrsiflorus,blue blossom,N,18501,1830,56617
 Centaurea calcitrapa,purple star-thistle,X,1922,1845,56865
 Centaurea cyanus,"bachelor's button,cornflower",X,1925,1846,933404
 Centaurea iberica,Iberian starthistle,X,1931,1849,76212
-Centaurea melitensis,tocalote,X,1934,1851,57922
+Centaurea melitensis,"tocalote,Maltese start-thistle",X,1934,1851,57922
 Centaurea solstitialis,yellow star-thistle,X,1946,1853,52588
 Centranthus ruber,red valerian,X,18595,1864,57283
 Centromadia fitchii,Fitch's spikeweed,N,77593,10809,58804
@@ -1063,7 +1063,7 @@ Lupinus benthamii,spider lupine,N,31791,5117,59565
 Lupinus bicolor,miniature lupine,N,31793,5118,50614,blue
 Lupinus chamissonis,beach blue lupine,N,31831,5125,61011
 Lupinus concinnus,Bajada lupine,N,31835,5129,58901
-Lupinus formosus var. formosus,summer lupine,N,61315,5148,61822,blue
+Lupinus formosus var. formosus,"summer lupine,western lupine",N,61315,5148,61822,blue
 Lupinus latifolius var. dudleyi,,N,76660,5161,81063
 Lupinus latifolius var. latifolius,wood lupine,N,75772,5162,64242,blue
 Lupinus littoralis var. variicolor,,N,80538,14304
@@ -1420,6 +1420,7 @@ Pseudognaphalium microcephalum,,N,81265,11048,78763
 Pseudognaphalium ramosissimum,,N,80579,11959,53088
 Pseudognaphalium stramineum,,N,40045,11960,53089
 Pseudognaphalium thermale,,N,81995,11049,78765
+Pseudotsuga menziesii var. menziesii,Douglas Fir,N,64553,6907,48256
 Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159
 Psilocarphus brevissimus var. multiflorus,,N,8099,6910,60148,,1756,4.2,,,S3,G4T3
 Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158
@@ -1688,7 +1689,7 @@ Tamarix parviflora,smallflower tamarisk,X,46074,7916,56011
 Tamarix ramosissima,saltcedar,X,46076,7917,56015
 Tanacetum parthenium,feverfew,X,5215,7919,54520
 Taraxacum erythrospermum,red-seeded dandelion,X,5225,12084,79317
-Taraxacum officinale,common dandelion,X,5231,7922,47602
+Taraxacum officinale,common dandelion,X,5231,7922,47602,yellow
 Taraxia ovata,sun cup,N,89233,12085,68182,yellow
 Tauschia hartwegii,,N,46097,7925,54948
 Taxus brevifolia,,N,46109,7929,55209

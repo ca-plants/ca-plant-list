@@ -1,0 +1,1 @@
+Needles in spiral around branch (not in flat plane). Cones with many 3-pronged bracts.
