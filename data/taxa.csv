@@ -308,7 +308,7 @@ Carex gracilior,,N,17453,1555,76042
 Carex harfordii,Harford's sedge,N,17474,1558,61001
 Carex heteroneura,,N,17487,1563,76049
 Carex laeviculmis,smooth stem sedge,N,17535,1575,76062
-Carex lenticularis var. lipocarpa,,N,55773,1583,80517
+Carex lenticularis var. lipocarpa,,N,55773,1583,1091404
 Carex leporina,,N,17557,11472,76067
 Carex leptopoda,,N,17564,11473,76070
 Carex multicostata,,N,17642,1599,69929
@@ -341,7 +341,7 @@ Castilleja wightii,Wight's paintbrush,N,18332,1738,67809
 Caulanthus flavescens,,N,18399,11482,76161
 Caulanthus lasiophyllus,California mustard,N,18404,11483,76165
 Caulanthus lemmonii,,N,18406,9777,71133,,1864,1B.2
-Ceanothus cuneatus,,N,18434,,,white
+Ceanothus cuneatus,,N,18434,1770,49673,white
 Ceanothus cuneatus var. cuneatus,buck brush,N,75440,1771,49672
 Ceanothus foliosus,wavy leaved ceanothus,N,18446,1779,64077
 Ceanothus leucodermis,chaparral whitethorn,N,18466,1803,76182
@@ -361,7 +361,7 @@ Cephalanthus occidentalis,button bush,N,18612,9794,52763
 Cerastium fontanum subsp. vulgare,,X,49818,1872,1005385
 Cerastium glomeratum,mouse-ear chickweed,X,18675,1873,52973
 Ceratophyllum demersum,hornwort,N,18711,1874,60997
-Cercis occidentalis,,N,18736,1877,59556
+Cercis occidentalis,western redbud,N,18736,1877,59556
 Cercocarpus betuloides var. betuloides,mountain-mahogany,N,71734,1879,59001
 Cestrum parqui,Chilean jessamine,X,18790,8746,76226
 Chaenactis glabriuscula var. glabriuscula,yellow pincushion,N,6951,1899,57924
@@ -840,7 +840,7 @@ Hesperevax acaulis var. ambusticola,fire evax,N,59934,4108,80930
 Hesperevax caulescens,hogwallow starfish,N,28021,4110,60135,,1931,4.2
 Hesperevax sparsiflora var. sparsiflora,,N,59937,4113,61172
 Hesperocnide tenella,black haired nettle,N,28033,4118,59036
-Hesperocyparis macrocarpa,Monterey cypress,N,89298,11190,322545
+Hesperocyparis macrocarpa,Monterey cypress,N,89298,11190,322545,,536,1B.2
 Hesperocyparis sargentii,Sargent cypress,N,89302,10803,83149
 Hesperolinon breweri,Brewer's dwarf flax,N,28038,4121,77385,,404,1B.2
 Hesperolinon californicum,California dwarf flax,N,28039,4122,77386
@@ -1315,7 +1315,7 @@ Pickeringia montana var. montana,chaparral pea,N,63765,6497,58908
 Pilularia americana,pillwort,N,38232,6501,57885
 Pinus attenuata,knobcone pine,N,38257,6504,64047
 Pinus coulteri,Coulter pine,N,38266,6512,67330
-Pinus radiata,Monterey pine,N,38300,6523,53421
+Pinus radiata,Monterey pine,N,38300,6523,53421,,1378,1B.1
 Pinus sabiniana,gray or foothill pine,N,38304,6524,58772
 Piperia elegans subsp. elegans,coast piperia,N,74709,8857,840643
 Piperia elongata,wood rein-orchid,N,38354,6532,551466
@@ -1420,7 +1420,7 @@ Pseudognaphalium microcephalum,,N,81265,11048,78763
 Pseudognaphalium ramosissimum,,N,80579,11959,53088
 Pseudognaphalium stramineum,,N,40045,11960,53089
 Pseudognaphalium thermale,,N,81995,11049,78765
-Pseudotsuga menziesii var. menziesii,Douglas Fir,N,64553,6907,48256
+Pseudotsuga menziesii var. menziesii,Douglas Fir,N,64553,6907,63910
 Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159
 Psilocarphus brevissimus var. multiflorus,,N,8099,6910,60148,,1756,4.2,,,S3,G4T3
 Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158
@@ -1489,8 +1489,8 @@ Romanzoffia californica,,N,41552,7157,57856
 Romulea rosea var. australis,,X,65230,7162,68895
 Rorippa curvisiliqua,yellow cress,N,41580,7168,58866
 Rorippa palustris subsp. palustris,,N,52673,11988,64157
-Rosa californica,California rose,N,41631,7179,53437
-Rosa gymnocarpa,wood rose,N,41652,7182,53441
+Rosa californica,California rose,N,41631,7179,53437,pink
+Rosa gymnocarpa,wood rose,N,41652,7182,53441,pink
 Rosa rubiginosa,sweet-brier,X,41648,11057,78886
 Rosa spithamea,ground rose,N,41696,7187,53442
 Rubus armeniacus,Himalayan blackberry,X,87465,10319,61317

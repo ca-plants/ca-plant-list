@@ -1,0 +1,1 @@
+Sepals deciduous in fruit. Prickles generally straight, not much thicker at base.

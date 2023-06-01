@@ -1,0 +1,1 @@
+8-16 flowers per cluster. Leaves not hairy on upper surface. Only one lobe of corolla has nectar gland below.

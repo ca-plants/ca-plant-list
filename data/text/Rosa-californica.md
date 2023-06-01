@@ -1,0 +1,1 @@
+Sepals persistent in fruit. Prickles thick-based and generally curved.
