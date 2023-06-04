@@ -828,7 +828,7 @@ Hedypnois rhagadioloides,,X,99769,13134,492864
 Helenium bigelovii,,N,3201,4029,61807
 Helenium puberulum,sneezeweed,N,3223,4031,53092
 Helianthella californica var. californica,helianthella,N,7544,4033,80923
-Helianthella castanea,Diablo helianthella,N,3232,4036,64250,,238,1B.2,,,S2,G2
+Helianthella castanea,Diablo helianthella,N,3232,4036,64250,yellow,238,1B.2,,,S2,G2
 Helianthus annuus,sunflower,N,3244,4040,57983
 Helianthus californicus,California sunflower,N,3254,4042,56954
 Helianthus gracilentus,,N,3280,4047,77356
@@ -1816,9 +1816,9 @@ Viola sheltonii,fan violet,N,48311,8316,70394
 Vitis californica,California grape,N,48407,8321,63923
 Wolffia brasiliensis,,N,48587,8347,79527,,2057,2B.3,,,S2,G5
 Woodwardia fimbriata,giant chain fern,N,48619,8355,52685
-Wyethia angustifolia,narrowleaf mule-ears,N,5572,8356,56987
-Wyethia glabra,mules ears,N,5578,8359,56988
-Wyethia helenioides,woolly mules ears,N,5579,8360,50799
+Wyethia angustifolia,narrowleaf mule-ears,N,5572,8356,56987,yellow
+Wyethia glabra,mules ears,N,5578,8359,56988,yellow
+Wyethia helenioides,woolly mules ears,N,5579,8360,50799,yellow
 Xanthium spinosum,spiny cocklebur,X,5590,8366,58045
 Xanthium strumarium,cocklebur,N,5591,8367,57920
 Yabea microcarpa,California hedge parsley,N,48745,8373,56847
