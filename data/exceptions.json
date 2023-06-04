@@ -1,4 +1,14 @@
 {
+    "Campanula exigua": {
+        "rpi": {
+            "translation-to-rpi": "Ravenella exigua"
+        }
+    },
+    "Campanula sharsmithiae": {
+        "rpi": {
+            "translation-to-rpi": "Ravenella sharsmithiae"
+        }
+    },
     "Castilleja ambigua subsp. ambigua": {
         "rpi": {
             "translation-to-rpi": "Castilleja ambigua var. ambigua"
@@ -7,6 +17,11 @@
     "Castilleja ambigua var. ambigua": {
         "rpi": {
             "translation": "Castilleja ambigua subsp. ambigua"
+        }
+    },
+    "Lupinus littoralis var. variicolor": {
+        "inat": {
+            "notintaxondata": true
         }
     },
     "Erysimum capitatum var. angustatum": {
@@ -27,9 +42,24 @@
             "notintaxondata": true
         }
     },
+    "Downingia ornatissima var. mirabilis": {
+        "inat": {
+            "notintaxondata": true
+        }
+    },
     "Myosurus minimus subsp. apus": {
         "jepson": {
             "notineflora": "in CNPS Rare Plant Inventory"
+        }
+    },
+    "Ravenella exigua": {
+        "rpi": {
+            "translation": "Campanula exigua"
+        }
+    },
+    "Ravenella sharsmithiae": {
+        "rpi": {
+            "translation": "Campanula sharsmithiae"
         }
     },
     "Streptanthus albidus subsp. peramoenus": {
