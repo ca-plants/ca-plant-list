@@ -1,0 +1,1 @@
+Corolla 9-12mm, longer than calyx. Odor skunk-like. Petals dark or light blue, pinkish or whitish.

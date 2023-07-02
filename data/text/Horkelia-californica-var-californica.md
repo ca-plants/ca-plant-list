@@ -1,0 +1,1 @@
+Sepal red-mottled inside.

@@ -1,0 +1,1 @@
+Sepal not red-mottled.
