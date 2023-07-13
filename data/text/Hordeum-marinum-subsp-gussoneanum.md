@@ -1,0 +1,1 @@
+Auricles generally not present.

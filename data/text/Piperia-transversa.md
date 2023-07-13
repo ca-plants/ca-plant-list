@@ -1,0 +1,1 @@
+Spur mostly straight and perpendicular to inflorescence axis.

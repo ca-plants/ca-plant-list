@@ -1,0 +1,1 @@
+Woody. Leaves in whorls of 4. Fruit not hairy. Leaves at least 3 times as long as wide.

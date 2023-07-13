@@ -1,0 +1,1 @@
+Not woody (except sometimes at base). Leaves in whorls of 4. Fruit and plant hairy.

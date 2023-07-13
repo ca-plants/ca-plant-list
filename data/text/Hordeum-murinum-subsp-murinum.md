@@ -1,0 +1,1 @@
+Auricles of upper leaves well developed, 1–4mm.
