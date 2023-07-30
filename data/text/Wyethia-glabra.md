@@ -1,1 +1,1 @@
-Outer phyllaries wide, leaf-like, and usually much larger than inner phyllaries. Generally not hairy or with some glandular hairs.
+Outer [phyllaries](g/phyllary.html) wide, leaf-like, and usually much larger than inner phyllaries. Generally not hairy or with some glandular hairs.

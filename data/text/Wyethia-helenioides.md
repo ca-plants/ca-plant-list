@@ -1,1 +1,1 @@
-Outer phyllaries wide, leaf-like, and usually much larger than inner phyllaries. Plant densely tomentose.
+Outer [phyllaries](g/phyllary.html) wide, leaf-like, and usually much larger than inner phyllaries. Plant densely tomentose.

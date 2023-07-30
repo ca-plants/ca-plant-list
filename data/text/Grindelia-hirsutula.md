@@ -1,1 +1,1 @@
-Phyllaries flattened, plants generally hairy.
+[Phyllaries](g/phyllary.html) flattened, plants generally hairy.

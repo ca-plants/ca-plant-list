@@ -1,1 +1,1 @@
-Outer phyllaries narrow and roughly the same width as inner.
+Outer [phyllaries](g/phyllary.html) narrow and roughly the same width as inner.

@@ -1,0 +1,1 @@
+In [Asteraceae](../Asteraceae.html), a bract surrounding the flower head.

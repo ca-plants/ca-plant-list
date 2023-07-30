@@ -1,1 +1,1 @@
-Leaves basal. Stem not branched. Outer phyllaries much smaller than inner.
+Leaves basal. Stem not branched. Outer [phyllaries](g/phyllary.html) much smaller than inner.
