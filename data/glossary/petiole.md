@@ -1,0 +1,1 @@
+The stalk that attaches the leaf blade to the stem.

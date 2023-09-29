@@ -1,0 +1,1 @@
+An appendage at the base of a [petiole](./petiole.html). They are usually in pairs.

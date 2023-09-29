@@ -1,0 +1,1 @@
+Upper leaf pairs fused around stem. No [stipules](g/stipule.html), corolla not hairy.

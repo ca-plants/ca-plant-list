@@ -1,0 +1,1 @@
+Found along streams and in wet places.

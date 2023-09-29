@@ -1,0 +1,1 @@
+Upper leaf pairs not fused around stem.
