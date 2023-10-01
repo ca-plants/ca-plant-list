@@ -20,6 +20,10 @@
     background-color: var(--pl-navbar-bg);
 }
 
+p {
+    margin-bottom: .5rem;
+}
+
 span.label {
     font-weight: 600;
     padding-right: .5rem;
@@ -124,6 +128,11 @@ div.section li {
 
 div.section ul.indent {
     padding-left: 1rem;
+}
+
+img.flower-color {
+    margin-bottom: .2rem;
+    margin-right: .5rem;
 }
 
 /* Forms */
