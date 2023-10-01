@@ -412,7 +412,7 @@ Citrullus lanatus var. citroides,watermelon,X,56575,9813,841204
 Clarkia affinis,chaparral clarkia,N,19563,2159,58943
 Clarkia biloba subsp. biloba,twolobe clarkia,N,49891,2168,51857
 Clarkia breweri,Brewer's clarkia,N,19571,2174,56067,,,,159,4.2,,,S4,G4
-Clarkia concinna subsp. automixa,Santa Clara red ribbons,N,49895,2176,51856,,,,1629,4.3,,,S3,G5
+Clarkia concinna subsp. automixa,Santa Clara red ribbons,N,49895,2176,51856,,,,1629,4.3,,,S3,G5?T3
 Clarkia concinna subsp. concinna,red ribbons,N,49896,2177,51855
 Clarkia epilobioides,,N,19577,2185,58945
 Clarkia franciscana,Presidio clarkia,N,19579,2187,61899,,,,162,1B.1,CE,FE,S1,G1
@@ -710,10 +710,10 @@ Eryngium vaseyi var. vallicola,,N,58851,11675,80888
 Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,,,790,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627
 Erythranthe androsacea,,N,99088,13487,771845
-Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,,771848,yellow,4,7
+Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,yellow,4,7
 Erythranthe cardinalis,scarlet monkeyflower,N,25147,13490,319974,red,5,9
 Erythranthe floribunda,many-flowered monkeyflower,N,99122,13492,701582,yellow,4,8
-Erythranthe grandis,magnificent seep monkeyflower,N,99129,,,yellow,5,7
+Erythranthe grandis,magnificent seep monkeyflower,N,99129,13560,771876,yellow,5,7
 Erythranthe guttata,seep monkeyflower,N,99131,13493,470643,yellow,4,9
 Erythranthe inconspicua,small-flowered monkeyflower,N,99135,13416,771882,pink,4,7,1092,4.3,,,S4,G4
 Erythranthe laciniata,,N,99142,13417,546557,,,,1093,4.3,,,S4,G4
@@ -1050,7 +1050,7 @@ Lomatium macrocarpum,,N,31433,4974,56826
 Lomatium nudicaule,,N,31441,4983,77818
 Lomatium utriculatum,,N,31473,4999,56827
 Lonicera hispidula,California honeysuckle,N,31505,10075,53416,pink,5,6
-Lonicera interrupta,chaparral honeysuckle,N,31506,,60878,"yellow,white",4,5
+Lonicera interrupta,chaparral honeysuckle,N,31506,5009,60878,"yellow,white",4,5
 Lonicera involucrata var. ledebourii,black twinberry,N,61081,5012,60990
 Lonicera japonica,Japanese honeysuckle,X,31508,5013,77835
 Lonicera subspicata var. denudata,moronel,N,61089,5015,58872,yellow,6,7

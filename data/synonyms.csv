@@ -1146,6 +1146,7 @@ Milla laxa,Triteleia laxa
 Milla maritima,Muilla maritima
 Milla peduncularis,Triteleia peduncularis
 Mimulus androsaceus,Erythranthe androsacea
+Mimulus arvensis,Erythranthe arvensis
 Mimulus aurantiacus,Diplacus aurantiacus
 Mimulus bakeri,Erythranthe nasuta
 Mimulus bolanderi,Diplacus bolanderi
@@ -1164,9 +1165,15 @@ Mimulus glabratus var. adscendens,Erythranthe guttata
 Mimulus glareosus,Erythranthe microphylla
 Mimulus glutinosus,Diplacus aurantiacus
 Mimulus grandiflorus,Erythranthe guttata
+Mimulus grandis,Erythranthe grandis
+Mimulus guttatus subsp. arvensis,Erythranthe arvensis
 Mimulus guttatus subsp. haidensis,Erythranthe guttata
+Mimulus guttatus subsp. litoralis,Erythranthe grandis
+Mimulus guttatus subsp. micranthus,Erythranthe arvensis
+Mimulus guttatus var. arvensis,Erythranthe arvensis
 Mimulus guttatus var. depauperatus,Erythranthe microphylla
 Mimulus guttatus var. gracilis,Erythranthe nasuta
+Mimulus guttatus var. grandis,Erythranthe grandis
 Mimulus guttatus var. insignis,Erythranthe microphylla
 Mimulus guttatus var. microphyllus,Erythranthe microphylla
 Mimulus guttatus var. nasutus,Erythranthe nasuta
@@ -1178,7 +1185,9 @@ Mimulus inconspicuus,Erythranthe inconspicua
 Mimulus kelloggii,Diplacus kelloggii
 Mimulus laciniatus,Erythranthe laciniata
 Mimulus langsdorffii var. argutus,Erythranthe guttata
+Mimulus langsdorffii var. arvensis,Erythranthe arvensis
 Mimulus langsdorffii var. californicus,Erythranthe guttata
+Mimulus langsdorffii var. grandis,Erythranthe grandis
 Mimulus langsdorffii var. guttatus,Erythranthe guttata
 Mimulus langsdorffii var. insignis,Erythranthe microphylla
 Mimulus langsdorffii var. microphyllus,Erythranthe microphylla
@@ -1188,10 +1197,12 @@ Mimulus langsdorffii var. platyphyllus,Erythranthe guttata
 Mimulus langsdorffii,Erythranthe guttata
 Mimulus latidens,Erythranthe latidens
 Mimulus laxus,Erythranthe microphylla
+Mimulus longulus,Erythranthe arvensis
 Mimulus luteus var. depauperatus,Erythranthe microphylla
 Mimulus luteus var. gracilis,Erythranthe nasuta
 Mimulus lyratus,Erythranthe guttata
 Mimulus membranaceus,Erythranthe floribunda
+Mimulus micranthus,Erythranthe arvensis
 Mimulus microphyllus,Erythranthe microphylla
 Mimulus nasutus var. insignis,Erythranthe microphylla
 Mimulus nasutus,Erythranthe nasuta
@@ -1203,6 +1214,7 @@ Mimulus pilosus,Mimetanthe pilosa
 Mimulus platycalyx,Erythranthe microphylla
 Mimulus platylaemus,Diplacus bolanderi
 Mimulus prionophyllus,Erythranthe guttata
+Mimulus procerus,Erythranthe grandis
 Mimulus puberulus,Erythranthe guttata
 Mimulus puncticalyx,Erythranthe nasuta
 Mimulus rattanii subsp. decurtatus,Diplacus rattanii
