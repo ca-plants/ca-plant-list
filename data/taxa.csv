@@ -710,14 +710,16 @@ Eryngium vaseyi var. vallicola,,N,58851,11675,80888
 Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,,,790,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627
 Erythranthe androsacea,,N,99088,13487,771845
-Erythranthe cardinalis,,N,25147,13490,319974
-Erythranthe floribunda,,N,99122,13492,701582
-Erythranthe guttata,,N,99131,13493,470643
-Erythranthe inconspicua,small-flowered monkeyflower,N,99135,13416,771882,,,,1092,4.3,,,S4,G4
+Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,,771848,yellow,4,7
+Erythranthe cardinalis,scarlet monkeyflower,N,25147,13490,319974,red,5,9
+Erythranthe floribunda,many-flowered monkeyflower,N,99122,13492,701582,yellow,4,8
+Erythranthe grandis,magnificent seep monkeyflower,N,99129,,,yellow,5,7
+Erythranthe guttata,seep monkeyflower,N,99131,13493,470643,yellow,4,9
+Erythranthe inconspicua,small-flowered monkeyflower,N,99135,13416,771882,pink,4,7,1092,4.3,,,S4,G4
 Erythranthe laciniata,,N,99142,13417,546557,,,,1093,4.3,,,S4,G4
-Erythranthe latidens,,N,99144,13495,771886
+Erythranthe latidens,broad-tooth monkeyflower,N,99144,13495,771886,"white,pink",4,6
 Erythranthe microphylla,small leaved monkeyflower,N,99152,13498,453717
-Erythranthe nasuta,shy monkeyflower,N,99158,13637,545973
+Erythranthe nasuta,shy monkeyflower,N,99158,13637,545973,yellow,3,7
 Eschscholzia caespitosa,tufted poppy,N,25205,3511,58954
 Eschscholzia californica,California poppy,N,25206,3512,48225
 Eschscholzia rhombipetala,,N,25218,3527,77087,,,,806,1B.1,,,S1,G1

@@ -1,0 +1,1 @@
+Corolla tube extends 3–5 mm beyond calyx.
