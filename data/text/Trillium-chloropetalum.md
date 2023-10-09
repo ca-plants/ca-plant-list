@@ -1,0 +1,1 @@
+Tissue between anther sacs purple. Ovaries purple.

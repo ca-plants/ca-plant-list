@@ -69,10 +69,6 @@ span.native {
     font-weight: bold;
 }
 
-span.rare {
-    font-weight: bold;
-}
-
 span.rare::before {
     content: "\2606";
 }
