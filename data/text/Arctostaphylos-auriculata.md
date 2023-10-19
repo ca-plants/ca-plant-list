@@ -1,0 +1,1 @@
+No burl. Height 1-4.5 meters. Endemic to Mt. Diablo area.

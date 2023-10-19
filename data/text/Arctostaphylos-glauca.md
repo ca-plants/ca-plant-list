@@ -1,0 +1,1 @@
+No burl. Height 1-8 meters, erect.

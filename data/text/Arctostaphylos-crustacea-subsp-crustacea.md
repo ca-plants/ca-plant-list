@@ -1,0 +1,1 @@
+Burl prominent. Height 1-3 meters. Petiole 2-5mm.

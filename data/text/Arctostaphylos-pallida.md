@@ -1,0 +1,1 @@
+No burl. Height 2-4 meters, erect. Petiole < 2mm, clasping branches

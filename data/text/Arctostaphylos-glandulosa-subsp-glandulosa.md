@@ -1,0 +1,1 @@
+Durl hemispheric. Height 1-4 meters; shrub or erect. Petiole 5-10mm.

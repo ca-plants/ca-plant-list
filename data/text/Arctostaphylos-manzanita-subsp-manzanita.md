@@ -1,0 +1,1 @@
+No burl. Height 2-8 meters. Petiole 6-12mm.
