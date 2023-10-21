@@ -1,0 +1,1 @@
+Petals less than 8mm. Stem rooting at nodes. Often red at base of petals.

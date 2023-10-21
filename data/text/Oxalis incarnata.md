@@ -1,0 +1,1 @@
+Stems often with bulblets. Sepals less than 6 mm, tips with 2 orange tubercles.

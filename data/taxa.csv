@@ -1237,11 +1237,11 @@ Oenothera xenogaura,,X,89232,11890,545863
 Olea europaea,olive,X,35090,5912,57140
 Osmorhiza berteroi,wood cicely,N,35560,10164,53166
 Osmorhiza brachypoda,California cicely,N,35564,6000,58793
-Oxalis corniculata,creeping wood sorrel,X,35609,6010,53168
-Oxalis incarnata,crimson wood sorrel,X,35636,6012,61776
-Oxalis oregana,redwood sorrel,N,35641,6015,47757
-Oxalis pes-caprae,Bermuda-buttercup,X,35642,6016,53169
-Oxalis pilosa,hairy wood sorrel,N,35601,11895,78300
+Oxalis corniculata,creeping wood sorrel,X,35609,6010,53168,yellow,1,12
+Oxalis incarnata,crimson wood sorrel,X,35636,6012,61776,"white,pink",3,6
+Oxalis oregana,redwood sorrel,N,35641,6015,47757,"white,pink",2,8
+Oxalis pes-caprae,Bermuda-buttercup,X,35642,6016,53169,yellow,1,5
+Oxalis pilosa,hairy wood sorrel,N,35601,11895,78300,yellow,2,9
 Packera breweri,Brewer groundsel,N,77383,9613,56983
 Panicum acuminatum,Pacific panic grass,N,35923,6044,128949
 Panicum capillare,witchgrass,N,36094,6048,78337

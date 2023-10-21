@@ -1,0 +1,1 @@
+Petals 8-12mm. Stem generally not rooting at nodes.
