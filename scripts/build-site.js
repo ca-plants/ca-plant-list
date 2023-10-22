@@ -9,7 +9,6 @@ const options = commandLineArgs( DataLoader.getOptionDefs() );
 
 const OUTPUT_DIR = "./output";
 
-DataLoader.load( options );
-PageRenderer.render( OUTPUT_DIR );
+PageRenderer.render( OUTPUT_DIR, DataLoader.load( options ) );
 
 ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
