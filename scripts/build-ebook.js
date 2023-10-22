@@ -6,7 +6,5 @@ import { DataLoader } from "../lib/dataloader.js";
 
 const options = commandLineArgs( DataLoader.getOptionDefs() );
 
-DataLoader.load( options );
-
-const ebook = new PlantBook();
+const ebook = new PlantBook( DataLoader.load( options ) );
 await ebook.create();
