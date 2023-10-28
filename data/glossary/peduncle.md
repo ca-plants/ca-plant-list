@@ -1,0 +1,1 @@
+A stalk supporting an inflorescence (one or more flowers).

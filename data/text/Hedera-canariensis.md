@@ -1,0 +1,1 @@
+Leaves unlobed to shallowly 3-lobed. Hairs red-orange.

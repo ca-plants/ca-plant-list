@@ -826,8 +826,8 @@ Grindelia stricta var. angustifolia,marsh gumplant,N,77358,3968,61991,yellow
 Gruvelia pusilla,little combseed,N,105901,14570,57694
 Gutierrezia californica,California matchweed,N,3140,3977,57978
 Hainardia cylindrica,,X,27553,3996,60285
-Hedera canariensis,Algerian ivy,X,81236,8467,64113
-Hedera helix,English ivy,X,27768,4023,55882
+Hedera canariensis,Canary Islands ivy,X,81236,8467,64113,white,8,11
+Hedera helix,English ivy,X,27768,4023,55882,white,8,11
 Hedypnois rhagadioloides,,X,99769,13134,492864
 Helenium bigelovii,,N,3201,4029,61807
 Helenium puberulum,sneezeweed,N,3223,4031,53092
@@ -899,8 +899,8 @@ Hydrophyllum occidentale,western waterleaf,N,28634,4287,77471
 Hypericum androsaemum,,X,77418,8601,77480
 Hypericum perforatum subsp. perforatum,Klamath weed,X,91766,11762,79949
 Hypericum scouleri,St. John's wort,N,28801,11763,77484
-Hypochaeris glabra,smooth cat's ear,X,3623,4313,53103
-Hypochaeris radicata,rough cat's ear,X,3625,4314,53104
+Hypochaeris glabra,smooth cat's ear,X,3623,4313,53103,yellow,3,6
+Hypochaeris radicata,rough cat's ear,X,3625,4314,53104,yellow,4,7
 Idahoa scapigera,flat-pod,N,28891,4316,77486
 Ilex aquifolium,English holly,X,28898,4317,53856
 Impatiens balfourii,touch-me-not,X,28954,4320,77490
