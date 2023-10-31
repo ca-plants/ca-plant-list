@@ -2,16 +2,39 @@
 
 import { Config } from "../lib/config.js";
 import { DataLoader } from "../lib/dataloader.js";
-import { ErrorLog } from "../lib/errorlog.js";
 import { PageRenderer } from "../lib/pagerenderer.js";
-import commandLineArgs from "command-line-args";
-
-const options = commandLineArgs( DataLoader.getOptionDefs() );
-
-const dataDir = options.datadir ? options.datadir : "./data";
+import { CommandRunner } from "../lib/commandrunner.js";
+import { ErrorLog } from "../lib/errorlog.js";
 
 const OUTPUT_DIR = "./output";
 
-PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( dataDir ) );
+const OPTION_DEFS = [
+    { name: "datadir", type: String, defaultValue: "./data" },
+];
 
-ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
+const OPTION_HELP = [
+    {
+        name: "datadir",
+        type: String,
+        typeLabel: "{underline path}",
+        description: "The directory in which the data files for the local plant list are located. Defaults to {bold ./data}."
+
+    },
+];
+
+const cr = new CommandRunner(
+    "ca-plant-list",
+    "A tool to generate a website with local plant data.",
+    OPTION_DEFS,
+    OPTION_HELP,
+    undefined,
+    generateSite,
+);
+await cr.processCommandLine();
+
+function generateSite( options ) {
+    const dataDir = options.datadir;
+    PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( dataDir ) );
+    ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
+}
+
