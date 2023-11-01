@@ -3,6 +3,7 @@
 }
 
 div.flr {
+    background-color: lightgray;
     display: flex;
     align-items: center;
 }
@@ -12,8 +13,7 @@ img {
 }
 
 img.flr {
-    height: 32px;
-    width: 32px;
+    width: 1rem;
 }
 
 figure {
