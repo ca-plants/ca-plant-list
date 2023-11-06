@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-import commandLineArgs from "command-line-args";
-import { PlantBook } from "@ca-plant-list/ca-plant-list";
+import { CommandRunner, PlantBook } from "@ca-plant-list/ca-plant-list";
 import { DataLoader } from "../lib/dataloader.js";
 import { Config } from "../lib/config.js";
 import { Files } from "../lib/files.js";
@@ -10,13 +9,35 @@ import { ErrorLog } from "../lib/errorlog.js";
 const OUTPUT_DIR = "./output";
 const LOC_DIR = "./locations";
 
-const options = commandLineArgs( DataLoader.getOptionDefs() );
+const OPTION_DEFS = [
+    { name: "datadir", type: String },
+];
 
-await generateEBooks( options.datadir );
+const OPTION_HELP = [
+    {
+        name: "datadir",
+        type: String,
+        typeLabel: "{underline path}",
+        description: "The directory in which the data files for the local plant list are located. If no directory is specified:\n"
+            + "- if there is a {bold locations} subdirectory in the current directory, each subdirectory of the {bold locations} subdirectory"
+            + " will be used as the data directory from which to generate an ebook (multiple ebooks will be generated)\n"
+            + "- otherwise {bold ./data} will be used as the {bold datadir}"
+    },
+];
 
-ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
+const cr = new CommandRunner(
+    "ca-plant-book",
+    "A tool to generate an ebook with local plant data.",
+    OPTION_DEFS,
+    OPTION_HELP,
+    undefined,
+    generateEBooks,
+);
+await cr.processCommandLine();
 
-async function generateEBooks( dataDir ) {
+async function generateEBooks( options ) {
+
+    const dataDir = options.datadir;
 
     // If a data directory was specified, use it.
     if ( dataDir ) {
@@ -42,9 +63,12 @@ async function generateEBooks( dataDir ) {
     // Otherwise use the default directory.
     await generateEBook( "./data" );
 
+    ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
+
 }
 
 async function generateEBook( dataDir, outputSuffix = "" ) {
     const ebook = new PlantBook( OUTPUT_DIR + outputSuffix, new Config( dataDir ), DataLoader.load( dataDir ) );
     await ebook.create();
 }
+

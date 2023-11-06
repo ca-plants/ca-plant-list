@@ -6,3 +6,4 @@ defaults:
       layout: "html"
 
 navbar-name: SITE NAME
+bootstrap-prefix: https://cdn.jsdelivr.net/npm/bootstrap/dist

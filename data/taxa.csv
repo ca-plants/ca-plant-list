@@ -267,7 +267,7 @@ Calochortus albus,white globe lily,N,16710,1264,51315,white
 Calochortus argillosus,clay mariposa lily,N,76542,1268,64330,"white,pink"
 Calochortus clavatus var. pallidus,,N,55455,1275,58360
 Calochortus invenustus,,N,16733,1284,64432
-Calochortus leichtlinii
+Calochortus leichtlinii,,N,16735,1288,52542
 Calochortus luteus,yellow mariposa lily,N,16737,1290,51077,yellow
 Calochortus pulchellus,Mt. Diablo fairy lantern,N,16755,1303,47326,,,,50,1B.2,,,S2,G2
 Calochortus splendens,,N,16759,1306,58361
@@ -907,7 +907,7 @@ Impatiens balfourii,touch-me-not,X,28954,4320,77490
 Iris douglasiana,Douglas' iris,N,29188,4346,50854
 Iris foetidissima,stinking iris,X,29193,8604,64331
 Iris longipetala,central coast iris,N,29293,4354,67703,,,,3169,4.2,,,S3,G3
-Iris macrosiphon,,N,29289
+Iris macrosiphon,,N,29289,4355,54057
 Iris pseudacorus,yellow flag,X,29301,4358,47779
 Isocoma arguta,Carquinez goldenbush,N,3633,4369,77510,,,,1264,1B.1,,,S1,G1
 Isoetes howellii,Howell's quillwort,N,29392,4379,63823
@@ -1216,7 +1216,7 @@ Navarretia squarrosa,skunkweed,N,34475,5807,53157
 Navarretia tagetina,,N,34477,5809,60226
 Navarretia viscidula,sticky navarretia,N,34478,5810,78195
 Nemophila heterophylla,,N,34539,5834,53158
-Nemophila menziesii var. atomaria,,N,62279,,,white,2,6
+Nemophila menziesii var. atomaria,,N,62279,5837,50647,white,2,6
 Nemophila menziesii var. menziesii,baby blue-eyes,N,62285,5839,50650
 Nemophila parviflora var. parviflora,,N,62288,5842,58921
 Nemophila pedunculata,,N,34544,5844,55461
@@ -1425,7 +1425,7 @@ Prunus virginiana var. demissa,western choke-cherry,N,64546,6898,63900
 Pseudognaphalium beneolens,,N,81674,11047,64303
 Pseudognaphalium biolettii,,N,81666,11955,58829
 Pseudognaphalium californicum,,N,80569,11956,53077
-Pseudognaphalium luteoalbum,cudweed,X,101867,11957,209711
+Pseudognaphalium luteoalbum,cudweed,X,101867,11957,53083
 Pseudognaphalium microcephalum,,N,81265,11048,78763
 Pseudognaphalium ramosissimum,,N,80579,11959,53088
 Pseudognaphalium stramineum,,N,40045,11960,53089
@@ -1480,7 +1480,7 @@ Raphanus sativus,wild radish,X,40992,7064,55410
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856
 Rhamnus crocea,spiny redberry,N,41069,7075,57243
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308
-Rhaponticum repens,Russian knapweed,X,103802,13621,1061170
+Rhaponticum repens,Russian knapweed,X,103802,13621,339502
 Rhinotropis californica,California milkwort,N,107535,14636,876453
 Rhus aromatica,skunkbrush,N,41175,11056,58738
 Ribes amarum,bitter gooseberry,N,41372,7099,53433

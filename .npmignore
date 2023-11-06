@@ -4,6 +4,5 @@ _site/
 scripts/dev/
 *.cmd
 .eslintrc.json
-_config.yml
 Gemfile*
 tsconfig.json
