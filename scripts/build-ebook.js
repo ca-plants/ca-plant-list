@@ -41,7 +41,7 @@ async function generateEBooks( options ) {
 
     // If a data directory was specified, use it.
     if ( dataDir ) {
-        await generateEBook( dataDir );
+        await generateEBook( options );
         return;
     }
 
@@ -54,21 +54,23 @@ async function generateEBooks( options ) {
             const suffix = "/" + subdir;
             const path = LOC_DIR + suffix;
             if ( Files.isDir( path ) ) {
-                await generateEBook( path, suffix );
+                options.datadir = path;
+                await generateEBook( options, suffix );
             }
         }
         return;
     }
 
     // Otherwise use the default directory.
-    await generateEBook( "./data" );
+    options.datadir = "./data";
+    await generateEBook( options );
 
     ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
 
 }
 
-async function generateEBook( dataDir, outputSuffix = "" ) {
-    const ebook = new PlantBook( OUTPUT_DIR + outputSuffix, new Config( dataDir ), DataLoader.load( dataDir ) );
+async function generateEBook( options, outputSuffix = "" ) {
+    const ebook = new PlantBook( OUTPUT_DIR + outputSuffix, new Config( options.datadir ), DataLoader.load( options ) );
     await ebook.create();
 }
 

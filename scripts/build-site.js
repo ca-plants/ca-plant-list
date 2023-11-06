@@ -69,9 +69,10 @@ await cr.processCommandLine();
 
 async function generateSite( options ) {
     const dataDir = options.datadir;
-    PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( dataDir ) );
+    PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( options ) );
     ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
 
+    console.log( "generating site" );
     const r = new JekyllRenderer();
     await r.renderPages();
 }
