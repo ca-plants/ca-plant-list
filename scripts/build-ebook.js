@@ -4,7 +4,6 @@ import { CommandRunner, PlantBook } from "@ca-plant-list/ca-plant-list";
 import { DataLoader } from "../lib/dataloader.js";
 import { Config } from "../lib/config.js";
 import { Files } from "../lib/files.js";
-import { ErrorLog } from "../lib/errorlog.js";
 
 const OUTPUT_DIR = "./output";
 const LOC_DIR = "./locations";
@@ -65,12 +64,11 @@ async function generateEBooks( options ) {
     options.datadir = "./data";
     await generateEBook( options );
 
-    ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
-
 }
 
 async function generateEBook( options, outputSuffix = "" ) {
     const ebook = new PlantBook( OUTPUT_DIR + outputSuffix, new Config( options.datadir ), DataLoader.load( options ) );
     await ebook.create();
+    DataLoader.writeErrorLog();
 }
 

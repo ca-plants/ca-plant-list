@@ -7,7 +7,6 @@ import { Config } from "../lib/config.js";
 import { DataLoader } from "../lib/dataloader.js";
 import { PageRenderer } from "../lib/pagerenderer.js";
 import { CommandRunner } from "../lib/commandrunner.js";
-import { ErrorLog } from "../lib/errorlog.js";
 
 const OUTPUT_DIR = "./output";
 
@@ -70,7 +69,7 @@ await cr.processCommandLine();
 async function generateSite( options ) {
     const dataDir = options.datadir;
     PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( options ) );
-    ErrorLog.write( OUTPUT_DIR + "/errors.tsv" );
+    DataLoader.writeErrorLog();
 
     console.log( "generating site" );
     const r = new JekyllRenderer();
