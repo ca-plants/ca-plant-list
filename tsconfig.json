@@ -1,6 +1,7 @@
 {
     "files": [
         "lib/index.js",
+        "./lib/newFile.js",
     ],
     "compilerOptions": {
         "allowJs": true,
