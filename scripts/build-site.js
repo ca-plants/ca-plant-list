@@ -4,25 +4,8 @@ import * as child_process from "node:child_process";
 import * as path from "node:path";
 import { Files } from "@ca-plant-list/ca-plant-list";
 import { Config } from "../lib/config.js";
-import { DataLoader } from "../lib/dataloader.js";
 import { PageRenderer } from "../lib/pagerenderer.js";
-import { CommandRunner } from "../lib/commandrunner.js";
-
-const OUTPUT_DIR = "./output";
-
-const OPTION_DEFS = [
-    { name: "datadir", type: String, defaultValue: "./data" },
-];
-
-const OPTION_HELP = [
-    {
-        name: "datadir",
-        type: String,
-        typeLabel: "{underline path}",
-        description: "The directory in which the data files for the local plant list are located. Defaults to {bold ./data}."
-
-    },
-];
+import { CommandAndTaxaProcessor } from "../lib/commandandtaxaprocessor.js";
 
 class JekyllRenderer {
 
@@ -56,23 +39,17 @@ class JekyllRenderer {
 
 }
 
-const cr = new CommandRunner(
-    "ca-plant-list",
-    "A tool to generate a website with local plant data.",
-    OPTION_DEFS,
-    OPTION_HELP,
-    undefined,
-    generateSite,
-);
-await cr.processCommandLine();
+async function generateSite( taxaProcessor ) {
 
-async function generateSite( options ) {
-    const dataDir = options.datadir;
-    PageRenderer.render( OUTPUT_DIR, new Config( dataDir ), DataLoader.load( options ) );
-    DataLoader.writeErrorLog();
+    const options = taxaProcessor.getOptions();
+
+    PageRenderer.render( options.outputdir, new Config( options.datadir ), taxaProcessor.getTaxa() );
 
     console.log( "generating site" );
     const r = new JekyllRenderer();
     await r.renderPages();
+
 }
 
+const gen = new CommandAndTaxaProcessor( "ca-plant-list", "A tool to generate a website with local plant data.", generateSite );
+await gen.process();

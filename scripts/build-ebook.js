@@ -1,74 +1,73 @@
 #!/usr/bin/env node
 
-import { CommandRunner, PlantBook } from "@ca-plant-list/ca-plant-list";
-import { DataLoader } from "../lib/dataloader.js";
+import { PlantBook } from "@ca-plant-list/ca-plant-list";
 import { Config } from "../lib/config.js";
 import { Files } from "../lib/files.js";
-
-const OUTPUT_DIR = "./output";
-const LOC_DIR = "./locations";
+import { TaxaProcessor } from "../lib/taxaprocessor.js";
+import { CommandProcessor } from "../lib/commandprocessor.js";
 
 const OPTION_DEFS = [
-    { name: "datadir", type: String },
+    { name: "locationsdir", type: String },
 ];
 
 const OPTION_HELP = [
     {
-        name: "datadir",
+        name: "locationsdir",
         type: String,
         typeLabel: "{underline path}",
-        description: "The directory in which the data files for the local plant list are located. If no directory is specified:\n"
-            + "- if there is a {bold locations} subdirectory in the current directory, each subdirectory of the {bold locations} subdirectory"
-            + " will be used as the data directory from which to generate an ebook (multiple ebooks will be generated)\n"
-            + "- otherwise {bold ./data} will be used as the {bold datadir}"
+        description: "If this option is specified, multiple ebooks will be generated. {bold locationsdir} must be a subdirectory"
+            + " of the current directory, and each subdirectory of {bold locationsdir} is processed in turn to generate an ebook."
+            + " Each ebook is placed in a subdirectory of {bold outputdir}."
     },
 ];
 
-const cr = new CommandRunner(
-    "ca-plant-book",
-    "A tool to generate an ebook with local plant data.",
-    OPTION_DEFS,
-    OPTION_HELP,
-    undefined,
-    generateEBooks,
-);
-await cr.processCommandLine();
+class BookCommand extends CommandProcessor {
+
+    constructor() {
+        super( "ca-plant-book", "A tool to generate an ebook with local plant data.", OPTION_DEFS, OPTION_HELP );
+    }
+
+}
+
+class BookGenerator extends TaxaProcessor {
+
+    async customProcess() {
+        const options = this.getOptions();
+        const ebook = new PlantBook( options.outputdir, new Config( options.datadir ), this.getTaxa() );
+        await ebook.create();
+    }
+
+}
 
 async function generateEBooks( options ) {
-
-    const dataDir = options.datadir;
-
-    // If a data directory was specified, use it.
-    if ( dataDir ) {
-        await generateEBook( options );
-        return;
-    }
+    const locationsDir = options.locationsdir;
 
     // If there is a "locations" directory, generate a book for all subdirectories.
-    const hasLocations = Files.isDir( LOC_DIR );
-    if ( hasLocations ) {
+    if ( locationsDir ) {
         // Generate ebook for each location.
-        const subdirs = Files.getDirEntries( LOC_DIR );
+        const outputBase = options.outputdir;
+        const subdirs = Files.getDirEntries( locationsDir );
         for ( const subdir of subdirs ) {
+            console.log( "Generating " + subdir );
             const suffix = "/" + subdir;
-            const path = LOC_DIR + suffix;
+            const path = locationsDir + suffix;
             if ( Files.isDir( path ) ) {
                 options.datadir = path;
-                await generateEBook( options, suffix );
+                options.outputdir = outputBase + suffix;
+                const gen = new BookGenerator( options );
+                await gen.process( options );
             }
         }
-        return;
+    } else {
+        // Otherwise use the default directory.
+        const gen = new BookGenerator( options );
+        await gen.process( options );
     }
 
-    // Otherwise use the default directory.
-    options.datadir = "./data";
-    await generateEBook( options );
-
 }
 
-async function generateEBook( options, outputSuffix = "" ) {
-    const ebook = new PlantBook( OUTPUT_DIR + outputSuffix, new Config( options.datadir ), DataLoader.load( options ) );
-    await ebook.create();
-    DataLoader.writeErrorLog();
+const cmd = new BookCommand();
+const options = cmd.getOptions();
+if ( !options.help ) {
+    generateEBooks( options );
 }
-
