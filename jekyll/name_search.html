@@ -4,14 +4,14 @@ js: name_search.js
 ---
 
 <script>
-    const NAMES = {% include names.json%};
+    const NAMES = {% include names.json %};
 </script>
 
 <form id="search_form">
-    <input type="text" id="name"><label for="name">Search for scientific name, common name, or synonym</label>
+    <input type="text" id="name">
+    <label for="name">Search for scientific name, common name, or synonym.</label>
 </form>
 
 <div class="section" id="message"></div>
 
-<table id="results">
-</table>
+<table id="results"></table>
