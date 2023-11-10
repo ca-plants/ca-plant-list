@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.55142"
+   height="60"
+   viewBox="0 0 102.55142 60"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="peduncle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="50.625"
+     inkscape:cy="59.875"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#14140c;fill-opacity:1;stroke:#160707;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15,60 V 15"
+       id="path2" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       id="use1" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       transform="rotate(30,15,15)"
+       id="use2" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       transform="rotate(60,15,15)"
+       id="use3" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       transform="rotate(90,15,15)"
+       id="use4" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       transform="rotate(120,15,15)"
+       id="use5" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path1"
+       xlink:href="#path1"
+       transform="rotate(150,15,15)"
+       id="use6" />
+    <ellipse
+       style="fill:#ffff00;stroke-width:0"
+       id="path1"
+       cx="15"
+       cy="15"
+       rx="2.5"
+       ry="15"
+       inkscape:tile-cx="15"
+       inkscape:tile-cy="15"
+       inkscape:tile-w="5"
+       inkscape:tile-h="30"
+       inkscape:tile-x0="12.5"
+       inkscape:tile-y0="0" />
+    <path
+       style="fill:#14140c;fill-opacity:1;stroke:#160707;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+       d="M 20,45 H 45"
+       id="path3" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:0.558428;fill:#14140c;fill-opacity:1;stroke:#160707;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="50"
+       y="47.068359"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="50"
+         y="47.068359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none">peduncle</tspan></text>
+    <path
+       style="fill:#14140c;fill-opacity:1;stroke:#160707;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle)"
+       d="M 35,15 H 45"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:0.558428;fill:#14140c;fill-opacity:1;stroke:#160707;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       x="49.696735"
+       y="17.068359"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="49.696735"
+         y="17.068359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none">inflorescence</tspan></text>
+  </g>
+</svg>
