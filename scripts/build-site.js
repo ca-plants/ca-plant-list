@@ -52,4 +52,4 @@ async function generateSite( taxaProcessor ) {
 }
 
 const gen = new CommandAndTaxaProcessor( "ca-plant-list", "A tool to generate a website with local plant data.", generateSite );
-await gen.process();
+await gen.process( generateSite );

@@ -29,14 +29,10 @@ class BookCommand extends CommandProcessor {
 
 }
 
-class BookGenerator extends TaxaProcessor {
-
-    async customProcess() {
-        const options = this.getOptions();
-        const ebook = new PlantBook( options.outputdir, new Config( options.datadir ), this.getTaxa() );
-        await ebook.create();
-    }
-
+async function commandRunner( tp ) {
+    const options = tp.getOptions();
+    const ebook = new PlantBook( options.outputdir, new Config( options.datadir ), tp.getTaxa() );
+    await ebook.create();
 }
 
 async function generateEBooks( options ) {
@@ -54,14 +50,14 @@ async function generateEBooks( options ) {
             if ( Files.isDir( path ) ) {
                 options.datadir = path;
                 options.outputdir = outputBase + suffix;
-                const gen = new BookGenerator( options );
-                await gen.process( options );
+                const gen = new TaxaProcessor( options );
+                await gen.process( commandRunner );
             }
         }
     } else {
         // Otherwise use the default directory.
-        const gen = new BookGenerator( options );
-        await gen.process( options );
+        const gen = new TaxaProcessor( options );
+        await gen.process( commandRunner );
     }
 
 }
