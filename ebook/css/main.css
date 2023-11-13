@@ -19,3 +19,9 @@ img.flr {
 figure {
     page-break-inside: avoid;
 }
+
+/* Glossary */
+div.glossary img {
+    max-height: 300px;
+    width: auto;
+}

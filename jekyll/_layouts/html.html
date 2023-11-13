@@ -1,57 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="{{site.bootstrap-prefix}}/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-        <title>{{page.title}}</title>
-        <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
-    </head>
-
-    <body>
-
-        <nav class="navbar navbar-expand-md">
-            <div class="container-xxl px-5">
-                <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="{{'/' | relative_url}}">{{site.navbar-name}}</a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{site.baseurl}}/index_lists.html">Plant Lists</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{site.baseurl}}/rare_plants.html">Rare Plants</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{site.baseurl}}/name_search.html">Name Search</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{site.baseurl}}/glossary.html">Glossary</a>
-                        </li>
-                        {%include menu_extra.html %}
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container-xxl px-5">
-            <h1>{{page.title}}</h1>
-            {{content}}
-        </div>
-
-        <script src="{{site.bootstrap-prefix}}/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
-        {%if page.js%}
-            <script src="{{site.baseurl}}/assets/js/{{page.js}}" type="module"></script>{%endif%}
-
-            <script src="{{site.baseurl}}/assets/js/ui.js" type="module"></script>
-
-            {%include analytics.html%}
-        </body>
-
-    </html>
+<h1>{{page.title}}</h1>
+{{content}}

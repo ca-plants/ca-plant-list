@@ -73,6 +73,11 @@ span.rare::before {
     content: "\2606";
 }
 
+/* Glossary */
+div.glossary img {
+    max-height: 300px;
+}
+
 /* Taxon Page */
 
 .common-names {
