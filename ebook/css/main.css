@@ -8,20 +8,11 @@ div.flr {
     align-items: center;
 }
 
-img {
-    width: 100%;
-}
-
 img.flr {
     width: 1rem;
-}
-
-figure {
-    page-break-inside: avoid;
 }
 
 /* Glossary */
 div.glossary img {
     max-height: 300px;
-    width: auto;
 }
