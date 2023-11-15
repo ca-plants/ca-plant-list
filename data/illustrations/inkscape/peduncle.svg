@@ -33,7 +33,7 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g1">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -135,36 +135,40 @@
        inkscape:tile-h="30"
        inkscape:tile-x0="12.5"
        inkscape:tile-y0="0" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);stroke-dashoffset:0"
-       d="M 20,45 H 45"
-       id="path3" />
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
-       x="50"
-       y="47.068359"
-       id="text3"><tspan
-         sodipodi:role="line"
-         id="tspan3"
+    <g
+       id="g1"
+       style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);stroke-dashoffset:0"
+         d="M 20,45 H 45"
+         id="path3" />
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
          x="50"
          y="47.068359"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:none">peduncle</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);stroke-dashoffset:0"
-       d="M 35,15 H 45"
-       id="path4"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
-       x="49.696735"
-       y="17.068359"
-       id="text4"><tspan
-         sodipodi:role="line"
-         id="tspan4"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           x="50"
+           y="47.068359"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">peduncle</tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);stroke-dashoffset:0"
+         d="M 35,15 H 45"
+         id="path4"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.5px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
          x="49.696735"
          y="17.068359"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:none">inflorescence</tspan></text>
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           x="49.696735"
+           y="17.068359"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.5px;stroke-width:0.1;stroke-dasharray:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1">inflorescence</tspan></text>
+    </g>
   </g>
 </svg>
