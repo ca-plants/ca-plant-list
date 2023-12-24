@@ -201,7 +201,7 @@ Balsamorhiza deltoidea,,N,1634,1047,70383
 Balsamorhiza macrolepis,,N,1639,1051,69665,,,,350,1B.2,,,S2,G2
 Barbarea orthoceras,winter cress,N,15481,1057,52976
 Bassia hyssopifolia,,X,15511,1060,58125
-Bellardia trixago,,X,15566,1064,51286
+Bellardia trixago var. trixago,,X,8635,1064,1115038
 Bellis perennis,English daisy,X,1652,1065,55563
 Berberis aquifolium var. aquifolium,,N,71483,1068,126887
 Berberis aquifolium var. dictyota,,N,76967,1069,775436
@@ -1104,7 +1104,7 @@ Madia sativa,coast tarweed,N,4055,5298,53143,yellow
 Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062
 Maianthemum stellatum,,N,32497,9629,53268
 Malacothamnus fremontii,white-coat mallow,N,32524,5312,70397
-Malacothamnus hallii,Hall's bush mallow,N,32519,5314,1497404,,,,1065,1B.2,,,S2,G2
+Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404
 Malacothrix californica,,N,4059,5325,58026
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841
 Malacothrix coulteri,snake's-head,N,4061,5327,58027
@@ -1145,7 +1145,7 @@ Mentha spicata,spearmint,X,33209,10111,62652
 Mentha suaveolens,pineapple mint,X,33212,5417,77993
 Mentzelia affinis,,N,33219,5418,58194
 Mentzelia dispersa,,N,33236,5423,58196
-Mentzelia laevicaulis,blazingstar,N,33250,5431,62308
+Mentzelia laevicaulis var. laevicaulis,blazingstar,N,61864,5431,241687
 Mentzelia lindleyi,,N,33255,5432,53923
 Mentzelia micrantha,,N,33259,5433,58933
 Mentzelia pectinata,,N,33274,5439,58198
@@ -1186,7 +1186,6 @@ Myosotis discolor,,X,34209,5721,70265
 Myosotis latifolia,forget-me-not,X,34211,5722,49132
 Myosotis laxa,,N,34212,5723,78150
 Myosurus minimus subsp. apus,little mousetail,N,,5731,181537,,,,1159,3.1,,,S2,G5T2Q
-Myosurus minimus subsp. minimus,,N,,,58306
 Myosurus minimus,mouse-tail,N,34224,5729,58306
 Myosurus sessilis,,N,34226,5732,60235
 Myriophyllum aquaticum,parrot's feather,X,34261,5735,60202
@@ -1378,7 +1377,7 @@ Pogogyne douglasii,,N,38936,6704,63943
 Pogogyne serpylloides,,N,38939,6708,57118
 Pogogyne zizyphoroides,,N,78298,6709,60209
 Polemonium carneum,royal sky pilot,N,38971,6712,78665,,,,3345,2B.2,,,S2,G3G4
-Polycarpon tetraphyllum var. tetraphyllum,four-leaved allseed,X,81542,11032,81277
+Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,80560,11032,81277
 Polygonum argyrocoleon,persian knotweed,X,39158,6738,78676
 Polygonum aviculare subsp. aviculare,,X,80990,10667,80151
 Polygonum aviculare subsp. depressum,,X,80993,11034,63967
@@ -1728,8 +1727,7 @@ Trichostema lanceolatum,vinegar weed,N,46991,8032,54875
 Trifolium albopurpureum,Indian clover,N,47029,8043,58162
 Trifolium angustifolium,narrowleaf clover,X,47040,8051,69939
 Trifolium barbigerum,bearded clover,N,47049,8054,57074
-Trifolium bifidum var. bifidum,Pinole clover,N,73999,8059,61180
-Trifolium bifidum var. decipiens,,N,67259,8060,57075
+Trifolium bifidum,Pinole clover,N,47053,8058,60196
 Trifolium campestre,hop clover,X,47059,8064,57076
 Trifolium ciliolatum,foothill clover,N,47063,8065,60197
 Trifolium columbinum,olive clover,N,47030,13577,79425
@@ -1756,9 +1754,7 @@ Trifolium pratense,red clover,X,47160,8104,51875
 Trifolium repens,white clover,X,47164,8105,55745
 Trifolium subterraneum,subterranean clover,X,47174,8106,60201
 Trifolium tomentosum,woolly clover,X,47177,8586,61024
-Trifolium variegatum var. geminiflorum,,N,91702,12114,81436
-Trifolium variegatum var. major,,N,67348,12115,81437
-Trifolium variegatum var. variegatum,,N,74014,12116,81438
+Trifolium variegatum,,N,47179,8108,57080
 Trifolium willdenovii,tomcat clover,N,47186,8109,57081
 Trifolium wormskioldii,cow clover,N,47188,8110,71146
 Triglochin concinna var. concinna,slender arrow-grass,N,74018,8112,81439
@@ -1829,8 +1825,8 @@ Woodwardia fimbriata,giant chain fern,N,48619,8355,52685
 Wyethia angustifolia,narrowleaf mule-ears,N,5572,8356,56987,yellow
 Wyethia glabra,mules ears,N,5578,8359,56988,yellow
 Wyethia helenioides,woolly mules ears,N,5579,8360,50799,yellow
+Xanthium orientale,cocklebur,N,5618,8367,506262
 Xanthium spinosum,spiny cocklebur,X,5590,8366,58045
-Xanthium strumarium,cocklebur,N,5591,8367,57920
 Yabea microcarpa,California hedge parsley,N,48745,8373,56847
 Zannichellia palustris,horned-pondweed,N,48827,8379,79546
 Zantedeschia aethiopica,calla-lily,X,48829,8380,56006

@@ -461,6 +461,7 @@ Cordylanthus rigidus var. ferrisianus,Cordylanthus rigidus subsp. rigidus
 Coreopsis calliopsidea,Leptosyne calliopsidea
 Coreopsis hamiltonii,Leptosyne hamiltonii
 Coreopsis stillmanii,Leptosyne stillmanii
+Corethrogyne filaginifolia var. californica,Corethrogyne filaginifolia
 Cornus ×californica,Cornus sericea subsp. sericea
 Cornus californica var. nevadensis,Cornus sericea subsp. sericea
 Cornus californica,Cornus sericea subsp. sericea
@@ -904,6 +905,8 @@ Iva axillaris var. robustior,Iva axillaris
 Jacobaea vulgaris,Senecio jacobaea,INAT
 Johnstonella micromeres,Cryptantha micromeres,INAT
 Juglans californica var. californica,Juglans californica
+Juncoides comosa var. subsessilis,Luzula subsessilis
+Juncoides subsessilis,Luzula subsessilis
 Juncus amuricus,Juncus bufonius var. occidentalis,INAT
 Juncus arcticus var. balticus,Juncus balticus subsp. ater
 Juncus arcticus var. mexicanus,Juncus mexicanus
@@ -973,7 +976,6 @@ Leptosiphon luteus,Leptosiphon parviflorus
 Leptosiphon micranthus,Leptosiphon parviflorus
 Leptotaenia californica,Lomatium californicum
 Lepturus cylindricus,Hainardia cylindrica
-Lessingia filaginifolia var. californica,Corethrogyne filaginifolia
 Lessingia filaginifolia var. filaginifolia,Corethrogyne filaginifolia
 Lessingia germanorum var. parvula,Lessingia tenuis
 Lessingia germanorum var. tenuis,Lessingia tenuis
@@ -1083,8 +1085,6 @@ Lupinus subvexus var. transmontanus,Lupinus microcarpus var. microcarpus
 Lupinus subvexus,Lupinus microcarpus var. microcarpus
 Lupinus vallicola,Lupinus nanus
 Lupinus variicolor,Lupinus littoralis var. variicolor
-Luzula comosa var. congesta,Luzula comosa var. comosa
-Luzula comosa var. macrantha,Luzula subsessilis
 Luzula comosa var. subsessilis,Luzula subsessilis
 Lythrum alatum var. linearifolium,Lythrum californicum
 Lythrum sanfordii,Lythrum californicum
@@ -1102,13 +1102,12 @@ Mahonia nervosa var. mendocinensis,Berberis nervosa
 Mahonia pinnata subsp. pinnata,Berberis pinnata subsp. pinnata
 Maianthemum racemosum subsp. amplexicaule,Maianthemum racemosum
 Malacothamnus arcuatus var. elmeri,Malacothamnus hallii,INAT
-Malacothamnus fremontii subsp. cercophorus,Malacothamnus fremontii
-Malacothamnus helleri,Malacothamnus fremontii
-Malacothamnus howellii,Malacothamnus fremontii
+Malacothamnus hallii,Malacothamnus arcuatus var. elmeri
 Malacothrix coulteri var. cognata,Malacothrix coulteri
 Malacothrix senecioides,Malacothrix clevelandii
 Malva pseudolavatera,Malva multiflora
 Malvastrum exilis,Eremalche exilis
+Malvastrum hallii,Malacothamnus arcuatus var. elmeri
 Marah fabacea var. agrestis,Marah fabacea
 Maruta cotula,Anthemis cotula
 Meconella linearis,Hesperomecon linearis
@@ -1122,7 +1121,6 @@ Medicago polymorpha var. brevispina,Medicago polymorpha
 Medicago sativa subsp. falcata,Medicago sativa
 Medicago sativa subsp. sativa,Medicago sativa
 Mentha arvensis var. canadensis,Mentha canadensis
-Mentha arvensis var. villosa,Mentha canadensis
 Mentha citrata,Mentha aquatica
 Mentzelia dispersa var. compacta,Mentzelia dispersa
 Mentzelia dispersa var. dispersa,Mentzelia dispersa
@@ -1352,8 +1350,6 @@ Parvisedum pentandrum,Sedella pentandra
 Paspalum distichum var. indutum,Paspalum distichum
 Paspalum paspalodes,Paspalum distichum
 Pectocarya pusilla,Gruvelia pusilla,INAT
-Pedicularis aurantiaca,Pedicularis densiflora
-Pedicularis densiflora subsp. aurantiaca,Pedicularis densiflora
 Penstemon heterophyllus subsp. heterophyllus,Penstemon heterophyllus var. heterophyllus
 Penstemon heterophyllus subsp. purdyi,Penstemon heterophyllus var. purdyi
 Pentagramma triangularis subsp. semipallida,Pentagramma triangularis
@@ -1828,6 +1824,7 @@ Spergularia bocconei,Spergularia bocconi,INAT
 Spergularia marina var. tenuis,Spergularia marina
 Spergularia maritima,Spergularia media var. media
 Spergularia salina,Spergularia marina
+Sphaeralcea fasciculata var. elmeri,Malacothamnus arcuatus var. elmeri
 Spirodela oligorrhiza,Landoltia punctata
 Spirodela punctata,Landoltia punctata
 Sporobolus alterniflorus,Spartina alterniflora,INAT
@@ -1859,9 +1856,7 @@ Streptanthus albidus subsp. peramoenus,Streptanthus glandulosus subsp. glandulos
 Streptanthus breweri var. breweri,Streptanthus breweri
 Streptanthus coulteri var. lemmonii,Caulanthus lemmonii
 Streptanthus flavescens,Caulanthus flavescens
-Streptanthus glandulosus subsp. arkii,Streptanthus glandulosus subsp. glandulosus
 Streptanthus glandulosus subsp. glandulosus,Streptanthus albidus subsp. peramoenus,INAT
-Streptanthus glandulosus subsp. raichei,Streptanthus glandulosus subsp. glandulosus
 Streptanthus lemmonii,Caulanthus lemmonii
 Stropholirion californicum,Dichelostemma volubile
 Stylocline amphibola,Micropus amphibolus
@@ -1914,30 +1909,33 @@ Toxicodendron trilobatum,Rhus aromatica
 Trientalis borealis subsp. latifolia,Lysimachia latifolia
 Trientalis latifolia,Lysimachia latifolia
 Trifolium albopurpureum var. albopurpureum,Trifolium albopurpureum
+Trifolium albopurpureum var. columbinum,Trifolium columbinum
 Trifolium albopurpureum var. dichotomum,Trifolium dichotomum
 Trifolium albopurpureum var. olivaceum,Trifolium columbinum
 Trifolium amplectens var. hydrophilum,Trifolium hydrophilum
 Trifolium amplectens var. truncatum,Trifolium depauperatum var. truncatum
-Trifolium appendiculatum var. appendiculatum,Trifolium variegatum var. major
-Trifolium appendiculatum var. rostratum,Trifolium variegatum var. variegatum
+Trifolium appendiculatum var. rostratum,Trifolium variegatum
 Trifolium barbigerum var. andrewsii,Trifolium grayi
 Trifolium barbigerum var. barbigerum,Trifolium barbigerum
+Trifolium bifidum var. bifidum,Trifolium bifidum
+Trifolium bifidum var. decipiens,Trifolium bifidum
 Trifolium depauperatum var. hydrophilum,Trifolium hydrophilum
 Trifolium fucatum var. gambelii,Trifolium fucatum
 Trifolium fucatum var. virescens,Trifolium fucatum
-Trifolium geminiflorum,Trifolium variegatum var. geminiflorum
+Trifolium geminiflorum,Trifolium variegatum
 Trifolium gracilentum var. gracilentum,Trifolium gracilentum
 Trifolium gracilentum var. inconspicuum,Trifolium gracilentum
 Trifolium microdon var. pilosum,Trifolium microdon
 Trifolium minutissimum,Trifolium barbigerum
 Trifolium olivaceum,Trifolium columbinum,INAT
-Trifolium pauciflorum,Trifolium variegatum var. variegatum
+Trifolium pauciflorum,Trifolium variegatum
 Trifolium procumbens,Trifolium campestre
 Trifolium tomentosum var. tomentosum,Trifolium tomentosum
 Trifolium tridentatum var. aciculare,Trifolium willdenovii
 Trifolium tridentatum,Trifolium willdenovii
-Trifolium variegatum var. melananthum,Trifolium variegatum var. major
-Trifolium variegatum var. trilobatum,Trifolium variegatum var. variegatum
+Trifolium variegatum var. geminiflorum,Trifolium variegatum
+Trifolium variegatum var. pauciflorum,Trifolium variegatum
+Trifolium variegatum var. trilobatum,Trifolium variegatum
 Trillium chloropetalum var. giganteum,Trillium chloropetalum
 Trisetum cernuum var. canescens,Trisetum canescens
 Triteleia angustiflora,Triteleia laxa
@@ -2000,8 +1998,8 @@ Vulpia myuros var. myuros,Festuca myuros
 Vulpia octoflora var. hirtella,Festuca octoflora
 Vulpia octoflora,Festuca octoflora
 Woodwardia chamissoi,Woodwardia fimbriata
-Xanthium strumarium var. canadense,Xanthium strumarium
-Xanthium strumarium var. glabratum,Xanthium strumarium
+Xanthium strumarium var. canadense,Xanthium orientale
+Xanthium strumarium var. glabratum,Xanthium orientale
 Xerobotrys glaucus,Arctostaphylos glauca
 Zauschneria californica subsp. californica,Epilobium canum subsp. canum
 Zauschneria cana,Epilobium canum subsp. canum
