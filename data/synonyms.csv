@@ -25,7 +25,7 @@ Achnatherum lemmonii subsp. lemmonii,Stipa lemmonii var. lemmonii
 Acmispon strigosus var. hirtellus,Acmispon strigosus
 Acroptilon repens,Rhaponticum repens
 Actaea rubra subsp. arguta,Actaea rubra
-Adelinia grande,Adelinia grandis,INAT
+Adelinia grandis,Adelinia grandis,INAT
 Adiantum boreale,Adiantum aleuticum
 Adiantum pedatum subsp. calderi,Adiantum aleuticum
 Adiantum pedatum var. aleuticum,Adiantum aleuticum
@@ -832,6 +832,8 @@ Heracleum lanatum,Heracleum maximum
 Herniaria cinerea,Herniaria hirsuta var. cinerea,INAT
 Herniaria hirsuta subsp. cinerea,Herniaria hirsuta var. cinerea
 Herpestris pilosa,Mimetanthe pilosa
+Hesperocyparis macrocarpa,Hesperocyparis macrocarpa,INAT
+Hesperocyparis sargentii,Hesperocyparis sargentii,INAT
 Hesperomecon filiformis,Hesperomecon linearis
 Hesperoscordum hyacinthinum,Triteleia hyacinthina
 Hesperoscordum lacteum,Triteleia hyacinthina
@@ -1121,6 +1123,7 @@ Medicago polymorpha var. brevispina,Medicago polymorpha
 Medicago sativa subsp. falcata,Medicago sativa
 Medicago sativa subsp. sativa,Medicago sativa
 Mentha arvensis var. canadensis,Mentha canadensis
+Mentha arvensis var. villosa,Mentha canadensis
 Mentha citrata,Mentha aquatica
 Mentzelia dispersa var. compacta,Mentzelia dispersa
 Mentzelia dispersa var. dispersa,Mentzelia dispersa
@@ -1265,7 +1268,6 @@ Myosurus minimus subsp. major,Myosurus minimus
 Myosurus minimus var. filiformis,Myosurus minimus
 Myosurus minimus var. major,Myosurus minimus
 Myosurus minimus var. sessiliflorus,Myosurus sessilis
-Myosurus minimus,Myosurus minimus subsp. minimus,INAT
 Myrica californica,Morella californica
 Myriophyllum brasiliense,Myriophyllum aquaticum
 Myriophyllum exalbescens,Myriophyllum sibiricum
