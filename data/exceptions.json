@@ -1,73 +1,88 @@
 {
-    "Campanula exigua": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella exigua"
-        }
-    },
-    "Campanula sharsmithiae": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella sharsmithiae"
-        }
-    },
-    "Castilleja ambigua subsp. ambigua": {
-        "rpi": {
-            "translation-to-rpi": "Castilleja ambigua var. ambigua"
-        }
-    },
-    "Castilleja ambigua var. ambigua": {
-        "rpi": {
-            "translation": "Castilleja ambigua subsp. ambigua"
-        }
-    },
-    "Lupinus littoralis var. variicolor": {
-        "inat": {
-            "notintaxondata": true
-        }
-    },
-    "Erysimum capitatum var. angustatum": {
-        "calflora": {
-            "badjepsonid": true
-        },
-        "jepson": {
-            "allowsynonym": true
-        }
-    },
-    "Heterotheca oregona var. rudis": {
-        "inat": {
-            "notintaxondata": true
-        }
-    },
-    "Horkelia californica var. frondosa": {
-        "inat": {
-            "notintaxondata": true
-        }
-    },
-    "Downingia ornatissima var. mirabilis": {
-        "inat": {
-            "notintaxondata": true
-        }
-    },
-    "Myosurus minimus subsp. apus": {
-        "jepson": {
-            "notineflora": "in CNPS Rare Plant Inventory"
-        }
-    },
-    "Ravenella exigua": {
-        "rpi": {
-            "translation": "Campanula exigua"
-        }
-    },
-    "Ravenella sharsmithiae": {
-        "rpi": {
-            "translation": "Campanula sharsmithiae"
-        }
-    },
-    "Streptanthus albidus subsp. peramoenus": {
-        "calflora": {
-            "notintaxondata": true
-        },
-        "jepson": {
-            "allowsynonym": true
-        }
+  "Campanula exigua": {
+    "rpi": {
+      "translation-to-rpi": "Ravenella exigua"
     }
+  },
+  "Campanula sharsmithiae": {
+    "rpi": {
+      "translation-to-rpi": "Ravenella sharsmithiae"
+    }
+  },
+  "Castilleja ambigua subsp. ambigua": {
+    "rpi": {
+      "translation-to-rpi": "Castilleja ambigua var. ambigua"
+    }
+  },
+  "Castilleja ambigua var. ambigua": {
+    "rpi": {
+      "translation": "Castilleja ambigua subsp. ambigua"
+    }
+  },
+  "Downingia ornatissima var. mirabilis": {
+    "inat": {
+      "notintaxondata": true
+    }
+  },
+  "Erysimum capitatum var. angustatum": {
+    "calflora": {
+      "badjepsonid": true
+    },
+    "jepson": {
+      "allowsynonym": true
+    }
+  },
+  "Heterotheca oregona var. rudis": {
+    "inat": {
+      "notintaxondata": true
+    }
+  },
+  "Horkelia californica var. frondosa": {
+    "inat": {
+      "notintaxondata": true
+    }
+  },
+  "Lupinus littoralis var. variicolor": {
+    "inat": {
+      "notintaxondata": true
+    }
+  },
+  "Malacothamnus hallii": {
+    "comment": "in CNPS Rare Plant Inventory",
+    "calflora": {
+      "notintaxondata": true
+    },
+    "jepson": {
+      "allowsynonym": true
+    }
+  },
+  "Malacothamnus arcuatus var. elmeri": {
+    "calflora": {
+      "badjepsonid": true
+    }
+  },
+  "Myosurus minimus subsp. apus": {
+    "comment": "in CNPS Rare Plant Inventory",
+    "jepson": {
+      "notineflora": true
+    }
+  },
+  "Ravenella exigua": {
+    "rpi": {
+      "translation": "Campanula exigua"
+    }
+  },
+  "Ravenella sharsmithiae": {
+    "rpi": {
+      "translation": "Campanula sharsmithiae"
+    }
+  },
+  "Streptanthus albidus subsp. peramoenus": {
+    "calflora": {
+      "notintaxondata": true
+    },
+    "jepson": {
+      "allowsynonym": true
+    }
+  }
 }

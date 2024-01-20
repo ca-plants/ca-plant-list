@@ -201,7 +201,7 @@ Balsamorhiza deltoidea,,N,1634,1047,70383
 Balsamorhiza macrolepis,,N,1639,1051,69665,,,,350,1B.2,,,S2,G2
 Barbarea orthoceras,winter cress,N,15481,1057,52976
 Bassia hyssopifolia,,X,15511,1060,58125
-Bellardia trixago var. trixago,,X,8635,1064,1115038
+Bellardia trixago var. trixago,,X,8635,14706,1115038
 Bellis perennis,English daisy,X,1652,1065,55563
 Berberis aquifolium var. aquifolium,,N,71483,1068,126887
 Berberis aquifolium var. dictyota,,N,76967,1069,775436
@@ -1103,8 +1103,9 @@ Madia radiata,showy madia,N,4053,5296,77924,,,,1054,1B.1,,,S3,G3
 Madia sativa,coast tarweed,N,4055,5298,53143,yellow
 Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062
 Maianthemum stellatum,,N,32497,9629,53268
-Malacothamnus fremontii,white-coat mallow,N,32524,5312,70397
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404
+Malacothamnus fremontii,white-coat mallow,N,32524,5312,70397
+Malacothamnus hallii,,N,108345,14681,1497404,,,,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841
 Malacothrix coulteri,snake's-head,N,4061,5327,58027
@@ -1145,7 +1146,7 @@ Mentha spicata,spearmint,X,33209,10111,62652
 Mentha suaveolens,pineapple mint,X,33212,5417,77993
 Mentzelia affinis,,N,33219,5418,58194
 Mentzelia dispersa,,N,33236,5423,58196
-Mentzelia laevicaulis var. laevicaulis,blazingstar,N,61864,5431,241687
+Mentzelia laevicaulis var. laevicaulis,blazingstar,N,61864,14741,241687
 Mentzelia lindleyi,,N,33255,5432,53923
 Mentzelia micrantha,,N,33259,5433,58933
 Mentzelia pectinata,,N,33274,5439,58198
@@ -1377,7 +1378,7 @@ Pogogyne douglasii,,N,38936,6704,63943
 Pogogyne serpylloides,,N,38939,6708,57118
 Pogogyne zizyphoroides,,N,78298,6709,60209
 Polemonium carneum,royal sky pilot,N,38971,6712,78665,,,,3345,2B.2,,,S2,G3G4
-Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,80560,11032,81277
+Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,80560,14756,81277
 Polygonum argyrocoleon,persian knotweed,X,39158,6738,78676
 Polygonum aviculare subsp. aviculare,,X,80990,10667,80151
 Polygonum aviculare subsp. depressum,,X,80993,11034,63967
@@ -1825,7 +1826,7 @@ Woodwardia fimbriata,giant chain fern,N,48619,8355,52685
 Wyethia angustifolia,narrowleaf mule-ears,N,5572,8356,56987,yellow
 Wyethia glabra,mules ears,N,5578,8359,56988,yellow
 Wyethia helenioides,woolly mules ears,N,5579,8360,50799,yellow
-Xanthium orientale,cocklebur,N,5618,8367,506262
+Xanthium orientale,cocklebur,N,5618,14779,506262
 Xanthium spinosum,spiny cocklebur,X,5590,8366,58045
 Yabea microcarpa,California hedge parsley,N,48745,8373,56847
 Zannichellia palustris,horned-pondweed,N,48827,8379,79546
