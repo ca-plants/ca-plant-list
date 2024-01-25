@@ -1,1 +1,1 @@
-Tissue between anther sacs purple. Ovaries purple.
+Tissue between anther sacs purple, ovaries purple. In _T. albidum_, both ovaries and tissue between anther sacs are usually greenish.
