@@ -61,9 +61,6 @@
     },
     "Malacothamnus arcuatus var. elmeri": {
         "comment": "in CNPS Rare Plant Inventory as Malacothamnus hallii",
-        "calflora": {
-            "badjepsonid": true
-        },
         "rpi": {
             "translation-to-rpi": "Malacothamnus hallii"
         }
