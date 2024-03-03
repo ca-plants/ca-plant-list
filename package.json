@@ -10,11 +10,7 @@
     "homepage": "https://github.com/ca-plants/ca-plant-list",
     "type": "module",
     "exports": {
-        ".": "./lib/index.js",
-        "./Families": "./lib/families.js",
-        "./Files": "./lib/files.js",
-        "./HTML": "./lib/html.js",
-        "./Jekyll": "./lib/jekyll.js"
+        ".": "./lib/index.js"
     },
     "types": "./lib/index.d.ts",
     "bin": {
@@ -35,6 +31,8 @@
     },
     "devDependencies": {
         "@types/node": "^18.11.9",
+        "@types/unzipper": "^0.10.9",
+        "dts-bundle-generator": "^9.3.1",
         "eslint": "^8.26.0",
         "typescript": "^5.3.3"
     }

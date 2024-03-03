@@ -1,5 +1,6 @@
 #!/bin/bash
 
 rm -rf output
-npx tsc --skipLibCheck
-cat output/*.d.ts > ./lib/index.d.ts
+rm lib/index.d.ts
+npx tsc
+npx dts-bundle-generator -o lib/index.d.ts output/lib/index.d.ts
