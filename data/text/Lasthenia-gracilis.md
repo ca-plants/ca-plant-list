@@ -1,0 +1,1 @@
+Very similar to _L. californica_ subsp. _californica_, and indistinguishable if [pappus](./g/pappus.html) is not present. Otherwise _L. gracilis_ has 2 to 6 (usually 4) opaque, white, lance-ovate pappus scales.

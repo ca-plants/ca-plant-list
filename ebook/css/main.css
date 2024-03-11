@@ -8,7 +8,12 @@ div.flr {
     align-items: center;
 }
 
+div.section {
+    margin-bottom: .5rem;
+}
+
 img.flr {
+    padding-right: .25rem;
     width: 1rem;
 }
 

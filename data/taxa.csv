@@ -199,7 +199,7 @@ Baccharis pilularis subsp. pilularis,,N,69898,11370,79639
 Baccharis salicifolia subsp. salicifolia,"mule fat,seepwillow",N,91889,11371,79641
 Balsamorhiza deltoidea,,N,1634,1047,70383
 Balsamorhiza macrolepis,,N,1639,1051,69665,,,,350,1B.2,,,S2,G2
-Barbarea orthoceras,winter cress,N,15481,1057,52976
+Barbarea orthoceras,winter cress,N,15481,1057,52976,yellow,3,7
 Bassia hyssopifolia,,X,15511,1060,58125
 Bellardia trixago var. trixago,,X,8635,14706,1115038
 Bellis perennis,English daisy,X,1652,1065,55563
@@ -537,19 +537,19 @@ Deinandra corymbosa,,N,77598,9855,60956
 Deinandra kelloggii,,N,79196,10829,76615
 Deinandra lobbii,,N,77606,10830,58813
 Delairea odorata,German-ivy,X,80449,9623,53208
-Delphinium californicum subsp. californicum,,N,50072,2631,51860
+Delphinium californicum subsp. californicum,,N,50072,2631,51860,white,4,6
 Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,,,,551,1B.2,,,S3,G3T3
-Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,blue
+Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,"blue,purple",3,5
 Delphinium gracilentum,,N,22474,2639,76626
 Delphinium gypsophilum,gypsum-loving larkspur,N,22476,2640,56068
 Delphinium hansenii subsp. hansenii,Hansen's larkspur,N,50088,2645,79787
-Delphinium hesperium subsp. hesperium,western larkspur,N,50091,2649,57238
+Delphinium hesperium subsp. hesperium,western larkspur,N,50091,2649,57238,"blue,purple",3,6
 Delphinium hesperium subsp. pallescens,,N,50092,2650,58997
-Delphinium nudicaule,red larkspur,N,22492,2655,50642
+Delphinium nudicaule,red larkspur,N,22492,2655,50642,red,3,6S
 Delphinium parryi subsp. parryi,Parry's larkspur,N,50107,2665,58999
-Delphinium patens subsp. patens,spreading larkspur,N,50113,2670,57246
+Delphinium patens subsp. patens,spreading larkspur,N,50113,2670,57246,blue,3,6
 Delphinium recurvatum,valley larkspur,N,22516,2673,58305,,,,222,1B.2,,,S2?,G2?
-Delphinium variegatum subsp. variegatum,royal larkspur,N,50119,2682,50633
+Delphinium variegatum subsp. variegatum,royal larkspur,N,50119,2682,50633,"blue,purple",3,5
 Dendromecon rigida,bush poppy,N,22541,2686,58224
 Deschampsia cespitosa subsp. cespitosa,tufted hairgrass,N,50130,2689,61199
 Deschampsia cespitosa subsp. holciformis,tufted hairgrass,N,50133,2690,61833
@@ -584,7 +584,7 @@ Downingia insignis,,N,23278,2776,60164
 Downingia ornatissima var. mirabilis,,N,84766,14563
 Downingia pulchella,,N,23282,2782,60167
 Draba cuneifolia,,N,23332,2798,1138678
-Draba verna,spring whitlow-grass,X,23442,2816,55823
+Draba verna,spring whitlow-grass,X,23442,2816,55823,white,2,5
 Drymocallis glandulosa var. wrangelliana,sticky cinquefoil,N,82064,11612,80681
 Dryopteris arguta,coastal wood fern,N,23524,2823,52671
 Duchesnea indica var. indica,mock-strawberry,X,91747,11621,243824
@@ -710,7 +710,7 @@ Eryngium racemosum,Delta button-celery,N,25097,3467,77066,,,,787,1B.1,CE,,S1,G1
 Eryngium spinosepalum,,N,25099,3468,57894,,,,788,1B.2,,,S2,G2
 Eryngium vaseyi var. vallicola,,N,58851,11675,80888
 Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,,,790,1B.1,CE,FE,S1,G5T1
-Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627
+Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627,"orange,yellow",3,9
 Erythranthe androsacea,,N,99088,13487,771845
 Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,yellow,4,7
 Erythranthe cardinalis,scarlet monkeyflower,N,25147,13490,319974,red,5,9
@@ -774,9 +774,9 @@ Fritillaria falcata,talus fritillary,N,26145,3633,56791,,,,823,1B.2,,,S2,G2
 Fritillaria liliacea,fragrant fritillary,N,26153,3636,53054,,,,824,1B.2,,,S2,G2
 Fumaria capreolata,white ramping fumitory,X,26193,8662,57852
 Fumaria officinalis,fumitory,X,26195,3647,53785
-Galium andrewsii subsp. gatense,needle bedstraw,N,50593,3658,61865,,,,1683,4.2,,,S3,G5T3
-Galium aparine,"bedstraw,cleavers",N,26304,3669,53059
-Galium californicum subsp. californicum,California bedstraw,N,50606,3676,53061,yellow
+Galium andrewsii subsp. gatense,needle bedstraw,N,50593,3658,61865,yellow,4,6,1683,4.2,,,S3,G5T3
+Galium aparine,"bedstraw,cleavers",N,26304,3669,53059,white,3,7
+Galium californicum subsp. californicum,California bedstraw,N,50606,3676,53061,yellow,3,7
 Galium divaricatum,Lamarck's bedstraw,X,76441,3688,77193
 Galium murale,tiny bedstraw,X,26378,3716,59005
 Galium parisiense,wall bedstraw,X,26391,3723,59006
@@ -956,13 +956,13 @@ Lamium amplexicaule,henbit,X,30151,4561,55459
 Landoltia punctata,dotted duckmeat,N,81823,9632,77623
 Lapsana communis,,X,3721,4572,55981
 Lastarriaea coriacea,,N,30284,4575,58287
-Lasthenia californica subsp. californica,goldfields,N,79084,10039,79970
+Lasthenia californica subsp. californica,goldfields,N,79084,10039,79970,yellow,2,6
 Lasthenia conjugens,Contra Costa goldfields,N,3729,4579,77629,,,,951,1B.1,,FE,S1,G1
 Lasthenia ferrisiae,,N,3732,4582,57996,,,,1301,4.2,,,S3,G3
 Lasthenia fremontii,goldfields,N,3733,4583,57997
 Lasthenia glaberrima,goldfields,N,3734,4584,60137
 Lasthenia glabrata subsp. glabrata,,N,6125,4587,64193
-Lasthenia gracilis,,N,79082,9143,56761
+Lasthenia gracilis,,N,79082,9143,56761,yellow,2,6
 Lasthenia maritima,Farallon weed,N,3738,4592,64253
 Lasthenia microglossa,,N,3739,4593,58001
 Lasthenia minor,,N,3740,4594,58002
@@ -1045,13 +1045,13 @@ Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,white
 Lobularia maritima,sweet alyssum,X,31347,4939,56992
 Logfia filaginoides,herba impia,N,81847,10960,64254
 Logfia gallica,,X,31363,9521,56949
-Lomatium californicum,chu-chu-pate,N,31389,4950,56824
+Lomatium californicum,chu-chu-pate,N,31389,4950,56824,yellow,4,6
 Lomatium caruifolium var. caruifolium,,N,61026,4953,64328
 Lomatium caruifolium var. denticulatum,,N,61027,4954,60123
-Lomatium dasycarpum subsp. dasycarpum,,N,51334,4960,56829
+Lomatium dasycarpum subsp. dasycarpum,,N,51334,4960,56829,white,3,6
 Lomatium macrocarpum,,N,31433,4974,56826
 Lomatium nudicaule,,N,31441,4983,77818
-Lomatium utriculatum,,N,31473,4999,56827
+Lomatium utriculatum,,N,31473,4999,56827,yellow,2,5
 Lonicera hispidula,California honeysuckle,N,31505,10075,53416,pink,5,6
 Lonicera interrupta,chaparral honeysuckle,N,31506,5009,60878,"yellow,white",4,5
 Lonicera involucrata var. ledebourii,black twinberry,N,61081,5012,60990
@@ -1409,8 +1409,8 @@ Potentilla anserina subsp. pacifica,,N,52485,6828,524900
 Potentilla rivalis,river cinquefoil,N,39786,6868,78740
 Poterium sanguisorba,burnet,X,91917,11953,55736
 Primula clevelandii var. gracilis,,N,98403,13220,487172
-Primula clevelandii var. patula,shooting star,N,98401,13222,487173
-Primula hendersonii,shooting star,N,98398,13225,487175
+Primula clevelandii var. patula,shooting star,N,98401,13222,487173,purple,3,5
+Primula hendersonii,shooting star,N,98398,13225,487175,purple,3,7
 Proboscidea lutea,devil's claw,X,77314,6875,164032
 Prosartes hookeri,fairy bells,N,39938,10263,51071
 Prosartes smithii,,N,80335,9513,57506
@@ -1465,7 +1465,7 @@ Quercus wislizeni var. wislizeni,interior live oak,N,64777,7012,58915
 Rafinesquia californica,California chicory,N,4548,7013,53193
 Ranunculus aquatilis var. aquatilis,,N,73500,10676,81320
 Ranunculus aquatilis var. diffusus,water buttercup,N,80687,11969,486980
-Ranunculus californicus,California buttercup,N,40867,7032,52173
+Ranunculus californicus,California buttercup,N,40867,7032,52173,yellow
 Ranunculus canus var. canus,,N,73506,11972,81324
 Ranunculus hebecarpus,,N,40898,7044,57239
 Ranunculus lobbii,Lobb's buttercup,N,40925,7046,68424,,,,1414,4.2,,,S3,G4
@@ -1605,8 +1605,8 @@ Setaria parviflora,marsh brittlegrass,N,44257,11079,79068
 Setaria pumila subsp. pumila,yellow brittlegrass,X,89130,9227,80195
 Setaria viridis,green brittlegrass,X,44277,7540,79070
 Sherardia arvensis,field madder,X,44299,7542,47691
-Sidalcea diploscypha,fringed checkerbloom,N,44415,7553,57139
-Sidalcea malviflora subsp. laciniata,checker mallow,N,52986,7568,61195
+Sidalcea diploscypha,fringed checkerbloom,N,44415,7553,57139,pink,4,5
+Sidalcea malviflora subsp. laciniata,checker mallow,N,52986,7568,61195,pink,3,6
 Sidalcea malviflora subsp. malviflora,checker mallow,N,52987,7569,61041
 Silene antirrhina,sleepy catchfly,N,44491,7586,58780
 Silene gallica,windmill pink,X,44517,7597,53212
@@ -1813,11 +1813,11 @@ Vicia villosa subsp. varia,winter vetch,X,53358,8275,57316
 Vicia villosa subsp. villosa,hairy vetch,X,53359,8276,57315
 Vinca major,greater periwinkle,X,48131,8280,53326
 Viola adunca subsp. adunca,western blue violet,N,79074,11116,53339
-Viola douglasii,Douglas violet,N,48202,8288,79508
+Viola douglasii,Douglas violet,N,48202,8288,79508,yellow,2,7
 Viola glabella,stream violet,N,48214,8289,71113
-Viola pedunculata,johnny-jump-up,N,48273,8300,50825
-Viola purpurea subsp. purpurea,mountain violet,N,53409,8312,80281
-Viola purpurea subsp. quercetorum,,N,53410,8313,80282
+Viola pedunculata,johnny-jump-up,N,48273,8300,50825,yellow,2,4
+Viola purpurea subsp. purpurea,mountain violet,N,53409,8312,80281,yellow
+Viola purpurea subsp. quercetorum,,N,53410,8313,80282,yellow,2,7
 Viola sempervirens,evergreen violet,N,48307,8315,55342
 Viola sheltonii,fan violet,N,48311,8316,70394
 Vitis californica,California grape,N,48407,8321,63923
