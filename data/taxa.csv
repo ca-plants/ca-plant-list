@@ -18,10 +18,10 @@ Acer macrophyllum,big-leaf maple,N,11746,59,48227
 Acer negundo,box elder,N,11747,9644,47726
 Achillea millefolium,yarrow,N,678,61,52821,white
 Achyrachaena mollis,blow-wives,N,703,85,56852
-Acmispon americanus var. americanus,Spanish-clover,N,91832,11269,57053
+Acmispon americanus var. americanus,Spanish-clover,N,91832,11269,57053,"white,pink",5,10
 Acmispon brachycarpus,woolly trefoil,N,91705,11276,57047
 Acmispon denticulatus,meadow trefoil,N,91708,11279,60194
-Acmispon glaber var. glaber,California broom,N,91825,11282,58900
+Acmispon glaber var. glaber,California broom,N,91825,11282,58900,yellow,3,8
 Acmispon junceus var. biolettii,,N,91830,11290,80314
 Acmispon parviflorus,least trefoil,N,91717,11299,57048
 Acmispon strigosus,,N,91722,11305,58152
@@ -36,7 +36,7 @@ Aegilops triuncialis,barbed goatgrass,X,11997,107,60272
 Aesculus californica,California buckeye,N,12026,111,53348,white
 Ageratina adenophora,,X,735,117,64114
 Agoseris apargioides var. apargioides,,N,6310,122,58797
-Agoseris grandiflora var. grandiflora,,N,79217,10490,80331
+Agoseris grandiflora var. grandiflora,,N,79217,10490,80331,yellow,4,7
 Agoseris heterophylla var. cryptopleura,,N,6324,10758,80333
 Agoseris heterophylla var. heterophylla,,N,6323,9654,56859
 Agoseris heterophylla,,N,794,132,56856
@@ -58,6 +58,7 @@ Allium acuminatum,taper tipped onion,N,12504,174,59782
 Allium amplectens,,N,12506,175,60267
 Allium bolanderi var. bolanderi,Bolander's onion,N,53763,182,80339
 Allium crispum,crinkled onion,N,12555,187,58351
+Allium diabolense,serpentine onion,N,76528,,75342,white,4,6
 Allium falcifolium,sickle-leaved onion,N,12566,191,47356
 Allium neapolitanum,white garlic,X,12605,214,61475
 Allium paniculatum var. paniculatum,,X,76535,219,75355
@@ -418,10 +419,10 @@ Clarkia concinna subsp. automixa,Santa Clara red ribbons,N,49895,2176,51856,,,,1
 Clarkia concinna subsp. concinna,red ribbons,N,49896,2177,51855
 Clarkia epilobioides,,N,19577,2185,58945
 Clarkia franciscana,Presidio clarkia,N,19579,2187,61899,,,,162,1B.1,CE,FE,S1,G1
-Clarkia gracilis subsp. gracilis,slender clarkia,N,49901,2190,61896
+Clarkia gracilis subsp. gracilis,slender clarkia,N,49901,2190,61896,pink,4,7
 Clarkia modesta,,N,19588,2200,58946
 Clarkia purpurea subsp. purpurea,purple clarkia,N,49906,2207,79741
-Clarkia purpurea subsp. quadrivulnera,four-spot,N,49907,2208,57146
+Clarkia purpurea subsp. quadrivulnera,four-spot,N,49907,2208,57146,pink,4,8
 Clarkia purpurea subsp. viminea,four-spot,N,49908,2209,57147
 Clarkia rhomboidea,,N,19595,2210,61870
 Clarkia rubicunda,farewell-to-spring,N,19597,2212,57148
@@ -1201,7 +1202,7 @@ Najas marina,holly-leaved water-nymph,N,34357,5744,78164
 Narcissus pseudonarcissus,daffodil,X,34403,8637,55848
 Narcissus tazetta,daffodil,X,34404,8638,56027
 Nasturtium officinale,water cress,N,34435,9597,78174
-Navarretia atractyloides,,N,34444,5768,58251
+Navarretia atractyloides,holly-leaf navarretia,N,34444,5768,58251,purple,5,7
 Navarretia cotulifolia,cotula navarretia,N,34446,5770,60224,,,,1981,4.2,,,S4,G4
 Navarretia gowenii,Gowen's navarretia,N,88836,10741,78180,,,,3324,1B.1,,,S1,G1
 Navarretia hamata subsp. parviloba,hooked navarretia,N,51666,5780,80048
