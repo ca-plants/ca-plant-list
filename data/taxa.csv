@@ -24,7 +24,7 @@ Acmispon denticulatus,meadow trefoil,N,91708,11279,60194
 Acmispon glaber var. glaber,California broom,N,91825,11282,58900,yellow,3,8
 Acmispon junceus var. biolettii,,N,91830,11290,80314
 Acmispon parviflorus,least trefoil,N,91717,11299,57048
-Acmispon strigosus,,N,91722,11305,58152
+Acmispon strigosus,,N,91722,11305,75281
 Acmispon wrangelianus,common trefoil,N,82483,11306,57050
 Actaea rubra,baneberry,N,11894,93,49870
 Adelinia grandis,hound's tongue,N,101954,14544,1520640,blue
@@ -58,7 +58,7 @@ Allium acuminatum,taper tipped onion,N,12504,174,59782
 Allium amplectens,,N,12506,175,60267
 Allium bolanderi var. bolanderi,Bolander's onion,N,53763,182,80339
 Allium crispum,crinkled onion,N,12555,187,58351
-Allium diabolense,serpentine onion,N,76528,,75342,white,4,6
+Allium diabolense,serpentine onion,N,76528,189,75342,white,4,6
 Allium falcifolium,sickle-leaved onion,N,12566,191,47356
 Allium neapolitanum,white garlic,X,12605,214,61475
 Allium paniculatum var. paniculatum,,X,76535,219,75355
@@ -215,7 +215,7 @@ Bidens laevis,bur-marigold,N,1711,1087,75766
 Blennosperma nanum var. nanum,,N,6876,1094,64152
 Blepharizonia laxa,glandular big tarplant,N,80231,10792,58799
 Blepharizonia plumosa,big tarplant,N,1762,1098,57915,,,,1589,1B.1,,,S1S2,G1G2
-Bloomeria crocea var. aurea,,N,55181,,80476,yellow,4,6
+Bloomeria crocea var. aurea,,N,55181,11376,80476,yellow,4,6
 Boechera breweri subsp. breweri,Brewer rock cress,N,85519,11382,79644
 Bolboschoenus fluviatilis,river bulrush,N,80011,11419,64228
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,49436,10796,79646
@@ -597,7 +597,7 @@ Dysphania ambrosioides,Mexican tea,X,81840,10846,76746
 Dysphania botrys,Jerusaleum-oak,X,85274,10847,76748
 Dysphania multifida,cut leaf pigweed,X,81841,10848,76750
 Eastwoodia elegans,yellow mock aster,N,2510,2875,57967
-Echinochloa colona,,X,23790,2881,76755
+Echinochloa colona,,X,23790,2881,356462
 Echinochloa crus-galli,barnyard grass,X,23791,2882,60283
 Echinochloa muricata var. microstachya,,N,58092,9886,80690
 Echinodorus berteroi,burhead,N,23812,2886,76761
@@ -931,7 +931,7 @@ Juncus elliottii,,X,29650,13531,164261
 Juncus ensifolius,,N,29651,4464,77569
 Juncus gerardi subsp. gerardi,mud rush,X,91768,13235,320881
 Juncus lescurii,San Francisco rush,N,29675,10615,164270
-Juncus mexicanus,Mexican rush,N,29687,4481,58348
+Juncus mexicanus,Mexican rush,N,29687,4481,1482818
 Juncus occidentalis,western rush,N,76520,4484,61826
 Juncus oxymeris,pointed rush,N,29699,4486,77588
 Juncus patens,blue rush,N,29701,4488,52798
@@ -1478,7 +1478,7 @@ Ranunculus orthorhynchus var. orthorhynchus,,N,64957,7052,81338
 Ranunculus repens,,X,40965,7056,48229
 Ranunculus sceleratus,cursed crowsfoot,X,40971,7059,59301
 Raphanus raphanistrum,jointed charlock,X,40991,7063,55411
-Raphanus sativus,wild radish,X,40992,7064,55410
+Raphanus sativus,wild radish,X,40992,7064,995125
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856
 Rhamnus crocea,spiny redberry,N,41069,7075,57243
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308
@@ -1770,7 +1770,7 @@ Triodanis biflora,Venus' looking-glass,N,47267,8126,79440
 Triphysaria eriantha subsp. eriantha,butter-and-eggs,N,53279,8129,59332
 Triphysaria pusilla,,N,47296,8133,57276
 Triphysaria versicolor subsp. faucibarbata,,N,53281,8135,60737
-Trisetum canescens,,N,47326,8139,64229
+Trisetum canescens,,N,47326,8139,1538928
 Triteleia hyacinthina,white brodiaea,N,47356,8154,57132
 Triteleia laxa,Ithuriel's spear,N,47359,8160,51085
 Triteleia peduncularis,,N,47363,8164,57133
@@ -1803,7 +1803,7 @@ Veronica arvensis,,X,47950,8244,55748
 Veronica catenata,chain speedwell,X,47944,8246,79496
 Veronica peregrina subsp. xalapensis,purslane speedwell,N,53337,8252,491173
 Veronica persica,Persian speedwell,X,47976,8253,55666
-Viburnum ellipticum,western viburnum,N,48020,8259,79500,,,,2056,2B.3,,,S3?,G4G5
+Viburnum ellipticum,western viburnum,N,48020,8259,79500,,,,2056,2B.3,,,S3,G4G5
 Vicia americana subsp. americana,American vetch,N,53345,10448,53321
 Vicia benghalensis,purple vetch,X,48060,8261,53333
 Vicia disperma,,X,48066,8263,79502
