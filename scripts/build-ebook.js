@@ -31,6 +31,9 @@ class BookCommand extends CommandProcessor {
     }
 }
 
+/**
+ * @param {TaxaProcessor} tp
+ */
 async function commandRunner(tp) {
     const options = tp.getOptions();
     const ebook = new PlantBook(
