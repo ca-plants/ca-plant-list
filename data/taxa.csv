@@ -108,8 +108,8 @@ Anthoxanthum occidentale,,N,13521,11332,75474
 Anthriscus caucalis,bur-chervil,X,13523,396,52846,white
 Antirrhinum kelloggii,,N,13568,401,165675
 Antirrhinum majus,snapdragon,X,13557,404,48969
-Antirrhinum thompsonii,Sierra snapdragon,N,108978,14286,168306
-Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,88873,10499,840919
+Antirrhinum thompsonii,Sierra snapdragon,N,108978,14286,168306,pink,4,8
+Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,88873,10499,840919,purple,6,8
 Aphanes occidentalis,,N,13608,420,866483
 Aphyllon californicum subsp. jepsonii,,N,103325,13438,802459
 Aphyllon epigalium subsp. epigalium,,N,103327,13527,809377
@@ -402,13 +402,13 @@ Cicuta douglasii,water hemlock,N,19447,2109,76338
 Cicuta maculata var. bolanderi,water hemlock,N,56538,2111,60118,,,,2178,2B.1,,,S2?,G5T4T5
 Cirsium andrewsii,Franciscan thistle,N,2094,2116,55294,,,,479,1B.2,,,S3,G3
 Cirsium brevistylum,Indian thistle,N,2110,2119,52993
-Cirsium cymosum var. cymosum,peregrine thistle,N,85528,11529,80584
+Cirsium cymosum var. cymosum,peregrine thistle,N,85528,11529,80584,white,4,7
 Cirsium douglasii var. douglasii,swamp thistle,N,7046,2127,80586
 Cirsium fontinale var. campylon,Hamilton thistle,N,77400,2129,59750,,,,480,1B.2,,,S2,G2T2
 Cirsium occidentale var. californicum,California thistle,N,77401,2140,52622
 Cirsium occidentale var. coulteri,,N,81843,11531,80593
 Cirsium occidentale var. occidentale,cobweb thistle,N,7069,2143,52623
-Cirsium occidentale var. venustum,venus thistle,N,56557,2144,52624
+Cirsium occidentale var. venustum,venus thistle,N,56557,2144,52624,red,5,7
 Cirsium quercetorum,brownie thistle,N,2232,2146,60954
 Cirsium remotifolium var. odontolepis,,N,7076,11533,80596
 Cirsium vulgare,bull thistle,X,2285,2151,52989
@@ -1003,14 +1003,14 @@ Lepidospartum squamatum,California broomsage,N,3776,4718,58010
 Leptochloa fusca subsp. fascicularis,bearded sprangletop,N,80525,11795,1377298
 Leptochloa fusca subsp. uninervia,Mexican sprangletop,N,80527,11796,1377299
 Leptosiphon ambiguus,serpentine linanthus,N,80953,8945,58970,,,,1717,4.2,,,S4,G4
-Leptosiphon androsaceus,,N,81151,9556,58969
+Leptosiphon androsaceus,,N,81151,9556,58969,"white,pink",4,6
 Leptosiphon aureus,,N,84733,10055,854272,,,,1716,4.2,,,S4?,G4?
-Leptosiphon bicolor,bicolored linanthus,N,81148,9559,64245
+Leptosiphon bicolor,bicolored linanthus,N,81148,9559,64245,"pink,white",3,6
 Leptosiphon bolanderi,,N,81742,9560,77682
-Leptosiphon ciliatus,whisker brush,N,81150,10056,77684
-Leptosiphon grandiflorus,large-flowered linanthus,N,80378,8948,77688,,,,1718,4.2,,,S3S4,G3G4
+Leptosiphon ciliatus,whisker brush,N,81150,10056,77684,"pink,white",3,7
+Leptosiphon grandiflorus,large-flowered linanthus,N,80378,8948,77688,"white,pink",4,7,1718,4.2,,,S3S4,G3G4
 Leptosiphon liniflorus,,N,80375,9565,64244
-Leptosiphon parviflorus,,N,80366,9571,58965
+Leptosiphon parviflorus,,N,80366,9571,58965,"white,yellow,pink",3,6
 Leptosiphon pygmaeus subsp. continentalis,,N,80364,9572,79984
 Leptosyne calliopsidea,,N,89031,10950,77707
 Leptosyne hamiltonii,Mt. Hamilton coreopsis,N,30648,10953,77710,,,,510,1B.2,,,S2,G2
@@ -1269,8 +1269,8 @@ Pennisetum clandestinum,Kikuyu grass,X,36818,6132,60298
 Pennisetum setaceum,fountain grass,X,36827,6133,430581
 Pennisetum villosum,,X,36829,6134,430578
 Penstemon centranthifolius,scarlet bugler,N,36894,6146,56752
-Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,75906,6178,51852
-Penstemon heterophyllus var. purdyi,foothill penstemon,N,76773,6179,81205
+Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,75906,6178,51852,purple,4,7
+Penstemon heterophyllus var. purdyi,foothill penstemon,N,76773,6179,81205,purple,5,6
 Pentachaeta alsinoides,tiny pygmy daisy,N,4273,6225,58844
 Pentachaeta exilis subsp. exilis,meager pygmy daisy,N,6171,6230,58846
 Pentagramma triangularis,goldback fern,N,77119,6234,52676
@@ -1326,6 +1326,7 @@ Pickeringia montana var. montana,chaparral pea,N,63765,6497,58908
 Pilularia americana,pillwort,N,38232,6501,57885
 Pinus attenuata,knobcone pine,N,38257,6504,64047
 Pinus coulteri,Coulter pine,N,38266,6512,67330
+Pinus ponderosa var. pacifica,Ponderosa pine,N,93845,,48461
 Pinus radiata,Monterey pine,N,38300,6523,53421,,,,1378,1B.1,,,S1,G1
 Pinus sabiniana,"gray pine,foothill pine",N,38304,6524,58772
 Piperia elegans subsp. elegans,coast piperia,N,74709,8857,840643
@@ -1817,6 +1818,7 @@ Vinca major,greater periwinkle,X,48131,8280,53326
 Viola adunca subsp. adunca,western blue violet,N,79074,11116,53339
 Viola douglasii,Douglas violet,N,48202,8288,79508,yellow,2,7
 Viola glabella,stream violet,N,48214,8289,71113
+Viola ocellata,western heart's ease,N,48259,,61782,white,3,7
 Viola pedunculata,johnny-jump-up,N,48273,8300,50825,yellow,2,4
 Viola purpurea subsp. purpurea,mountain violet,N,53409,8312,80281,yellow
 Viola purpurea subsp. quercetorum,,N,53410,8313,80282,yellow,2,7
