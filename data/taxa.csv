@@ -265,16 +265,16 @@ Callitriche heterophylla var. bolanderi,,N,55448,1257,60158
 Callitriche longipedunculata,,N,16691,11443,75936
 Callitriche marginata,water-starwort,N,16692,1259,58093
 Callitriche trochlearis,,N,16702,1261,69994
-Calochortus albus,white globe lily,N,16710,1264,51315,white
-Calochortus argillosus,clay mariposa lily,N,76542,1268,64330,"white,pink"
+Calochortus albus,white globe lily,N,16710,1264,51315,white,4,6
+Calochortus argillosus,clay mariposa lily,N,76542,1268,64330,"white,pink",4,6
 Calochortus clavatus var. pallidus,,N,55455,1275,58360
 Calochortus invenustus,,N,16733,1284,64432
 Calochortus leichtlinii,,N,16735,1288,52542
-Calochortus luteus,yellow mariposa lily,N,16737,1290,51077,yellow
+Calochortus luteus,yellow mariposa lily,N,16737,1290,51077,yellow,4,6
 Calochortus pulchellus,Mt. Diablo fairy lantern,N,16755,1303,47326,,,,50,1B.2,,,S2,G2
 Calochortus splendens,,N,16759,1306,58361
-Calochortus umbellatus,Oakland star-tulip,N,16769,1311,51054,,,,55,4.2,,,S3?,G3?
-Calochortus venustus,,N,16772,1313,53902,"white,red"
+Calochortus umbellatus,Oakland star-tulip,N,16769,1311,51054,white,,,55,4.2,,,S3?,G3?
+Calochortus venustus,butterfly mariposa lily,N,16772,1313,53902,"white,red",5,7
 Caltha palustris,marsh-marigold,X,16802,8708,56224
 Calycadenia multiglandulosa,,N,1875,1324,56863
 Calycadenia truncata,rosin weed,N,1884,1328,62567
@@ -1002,7 +1002,7 @@ Lepidium strictum,,N,30566,4710,58865
 Lepidospartum squamatum,California broomsage,N,3776,4718,58010
 Leptochloa fusca subsp. fascicularis,bearded sprangletop,N,80525,11795,1377298
 Leptochloa fusca subsp. uninervia,Mexican sprangletop,N,80527,11796,1377299
-Leptosiphon ambiguus,serpentine linanthus,N,80953,8945,58970,,,,1717,4.2,,,S4,G4
+Leptosiphon ambiguus,serpentine linanthus,N,80953,8945,58970,pink,4,5,1717,4.2,,,S4,G4
 Leptosiphon androsaceus,,N,81151,9556,58969,"white,pink",4,6
 Leptosiphon aureus,,N,84733,10055,854272,,,,1716,4.2,,,S4?,G4?
 Leptosiphon bicolor,bicolored linanthus,N,81148,9559,64245,"pink,white",3,6
@@ -1470,7 +1470,7 @@ Ranunculus aquatilis var. aquatilis,,N,73500,10676,81320
 Ranunculus aquatilis var. diffusus,water buttercup,N,80687,11969,486980
 Ranunculus californicus,California buttercup,N,40867,7032,52173,yellow
 Ranunculus canus var. canus,,N,73506,11972,81324
-Ranunculus hebecarpus,,N,40898,7044,57239
+Ranunculus hebecarpus,pubescent-fruited buttercup,N,40898,7044,57239,green,3,5
 Ranunculus lobbii,Lobb's buttercup,N,40925,7046,68424,,,,1414,4.2,,,S3,G4
 Ranunculus muricatus,spiny buttercup,X,40938,7048,57240
 Ranunculus occidentalis var. occidentalis,,N,64947,11979,81335

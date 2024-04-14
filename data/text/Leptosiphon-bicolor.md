@@ -1,1 +1,1 @@
-Flowers pedicelled. Corolla tube at least twice as long as [calyx](./g/calyx.html). Corolla lobes less than 4 mm. Calyx membrane much narrower than lobes. Calyx hairs sparse or not present (except on margins).
+Flowers pedicelled. Corolla tube at least twice as long as [calyx](./g/calyx.html); threadlike - no sepals at base of lobes. Corolla lobes less than 4 mm. Calyx membrane much narrower than lobes. Calyx hairs sparse or not present (except on margins).
