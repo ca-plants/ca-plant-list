@@ -38,7 +38,7 @@ Aesculus californica,California buckeye,N,12026,111,53348,white
 Ageratina adenophora,,X,735,117,64114
 Agoseris apargioides var. apargioides,,N,6310,122,58797
 Agoseris grandiflora var. grandiflora,,N,79217,10490,80331,yellow,4,7
-Agoseris heterophylla var. cryptopleura,,N,6324,10758,80333
+Agoseris heterophylla var. cryptopleura,,N,6324,10758,80333,yellow,5,6
 Agoseris heterophylla var. heterophylla,,N,6323,9654,56859
 Agoseris heterophylla,,N,794,132,56856
 Agoseris retrorsa,,N,797,133,57908
@@ -111,7 +111,6 @@ Antirrhinum kelloggii,,N,13568,401,165675
 Antirrhinum majus,snapdragon,X,13557,404,48969
 Antirrhinum thompsonii,Sierra snapdragon,N,108978,14286,168306,pink,4,8
 Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,88873,10499,840919,purple,6,8
-Aphanes occidentalis,,N,13608,420,866483
 Aphyllon californicum subsp. jepsonii,,N,103325,13438,802459
 Aphyllon epigalium subsp. epigalium,,N,103327,13527,809377
 Aphyllon fasciculatum,clustered broom-rape,N,100018,13441,802543
@@ -369,9 +368,9 @@ Ceratophyllum demersum,hornwort,N,18711,1874,60997,,6,8
 Cercis occidentalis,western redbud,N,18736,1877,59556
 Cercocarpus betuloides var. betuloides,mountain-mahogany,N,71734,1879,59001
 Cestrum parqui,Chilean jessamine,X,18790,8746,76226
-Chaenactis glabriuscula var. glabriuscula,yellow pincushion,N,6951,1899,57924
-Chaenactis glabriuscula var. heterocarpha,yellow pincushion,N,6954,1900,80548
-Chaenactis glabriuscula var. megacephala,,N,6953,1902,80549
+Chaenactis glabriuscula var. glabriuscula,yellow pincushion,N,6951,1899,57924,yellow,2,7
+Chaenactis glabriuscula var. heterocarpha,yellow pincushion,N,6954,1900,80548,yellow,3,6
+Chaenactis glabriuscula var. megacephala,,N,6953,1902,80549,yellow,3,6
 Chasmanthe floribunda,African cornflag,X,19045,1951,56028
 Chenopodium album,lamb's quarters,X,19131,1962,58127
 Chenopodium berlandieri var. sinuatum,,N,56415,11500,80551
@@ -671,7 +670,7 @@ Erigeron bonariensis,,X,2305,11666,76904
 Erigeron canadensis,horseweed,N,2312,11667,76907
 Erigeron foliosus var. franciscensis,,N,58408,3137,80740
 Erigeron petrophilus var. petrophilus,,N,58427,3159,58825
-Erigeron philadelphicus var. philadelphicus,,N,7324,9105,80752
+Erigeron philadelphicus var. philadelphicus,,N,7324,9105,80752,white,5,6
 Erigeron reductus var. angustatus,,N,58431,3166,80754
 Erigeron sumatrensis,,X,91898,11669,76943
 Eriobotrya japonica,loquat,X,24627,8718,76949
@@ -842,7 +841,7 @@ Helianthus gracilentus,,N,3280,4047,77356
 Heliotropium curassavicum var. oculatum,heliotrope,N,59914,11723,80928
 Helminthotheca echioides,bristly ox-tongue,X,81752,10921,61906
 Hemizonia congesta subsp. lutescens,,N,80179,10922,61173
-Hemizonia congesta subsp. luzulifolia,,N,102005,4070,56956
+Hemizonia congesta subsp. luzulifolia,,N,102005,4070,56956,white,3,12
 Heracleum maximum,cow parsnip,N,27996,9546,53094
 Herniaria hirsuta var. cinerea,rupturewort,X,81545,10923,932806
 Hesperevax acaulis var. ambusticola,fire evax,N,59934,4108,80930
@@ -1022,7 +1021,7 @@ Lessingia nemaclada,,N,3785,4753,60508
 Lessingia pectinata var. tenuipes,,N,81838,11800,81020
 Lessingia ramulosa,,N,3786,4755,77716
 Lessingia tenuis,spring lessingia,N,3778,4756,58025,,,,684,4.3,,,S4,G4
-Lewisia rediviva var. rediviva,bitterroot,N,60818,10066,81025
+Lewisia rediviva var. rediviva,bitterroot,N,60818,10066,81025,"white,pink",3,6
 Ligusticum apiifolium,,N,30890,4794,59298
 Ligustrum lucidum,Chinese privet,X,30906,8656,77740
 Lilaeopsis masonii,Mason's lilaeopsis,N,30919,4798,77742,,,,974,1B.1,CR,,S2,G2
@@ -1288,20 +1287,20 @@ Persicaria punctata,,N,37303,11014,78456
 Petasites frigidus var. palmatus,coltsfoot,N,8060,6269,55778
 Petrorhagia dubia,pink grass,X,37370,6275,60602
 Petunia parviflora,wild petunia,N,37378,6279,159650
-Phacelia breweri,,N,37425,6292,68813
+Phacelia breweri,,N,37425,6292,68813,blue,3,6
 Phacelia californica,rock phacelia,N,37426,6293,53170
 Phacelia ciliata,great valley phacelia,N,37432,6302,58180
-Phacelia distans,"sordid phacelia,distant phacelia",N,37450,6318,56631
+Phacelia distans,"sordid phacelia,distant phacelia",N,37450,6318,56631,"white,blue",3,5
 Phacelia divaricata,,N,37451,6319,51093
 Phacelia douglasii,,N,37452,6320,58182
 Phacelia egena,,N,37455,6322,58183
-Phacelia imbricata var. imbricata,mountain phacelia,N,78483,13159,53172,white
+Phacelia imbricata var. imbricata,mountain phacelia,N,78483,13159,53172,white,4,8
 Phacelia malvifolia var. malvifolia,,N,73204,13162,58923
 Phacelia malvifolia,stinging phacelia,N,37514,6358,58923
 Phacelia nemoralis var. nemoralis,bristly phacelia,N,78488,13163,53174
 Phacelia phacelioides,Mt. Diablo phacelia,N,37543,6381,51088,,,,1115,1B.2,,,S2,G2
 Phacelia ramosissima,branching phacelia,N,37557,6389,50617
-Phacelia rattanii,,N,37563,6396,58925
+Phacelia rattanii,,N,37563,6396,58925,"white,blue",5,7
 Phacelia suaveolens,sweet scented phacelia,N,37577,6402,68816
 Phacelia tanacetifolia,tansy-leaf phacelia,N,37579,6405,58185
 Phalaris angusta,timothy canary grass,N,37600,6415,78534
