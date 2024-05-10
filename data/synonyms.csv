@@ -59,7 +59,6 @@ Agrostis viridis,Polypogon viridis
 Aira caryophyllea var. capillaris,Aira elegans
 Aira elegantissima,Aira elegans
 Aira pulchella,Aira elegans
-Alchemilla occidentalis,Aphanes occidentalis
 Allium acuminatum var. gracile,Allium amplectens
 Allium attenuifolium var. monospermum,Allium amplectens
 Allium attenuifolium,Allium amplectens
@@ -1037,6 +1036,7 @@ Lotus crassifolius var. crassifolius,Hosackia crassifolia var. crassifolia
 Lotus denticulatus,Acmispon denticulatus
 Lotus humistratus,Acmispon brachycarpus
 Lotus junceus var. biolettii,Acmispon junceus var. biolettii
+Lotus junceus var. junceus,Acmispon junceus var. junceus
 Lotus micranthus,Acmispon parviflorus
 Lotus oblongifolius var. nevadensis,Hosackia oblongifolia var. oblongifolia
 Lotus oblongifolius var. oblongifolius,Hosackia oblongifolia var. oblongifolia
@@ -1420,6 +1420,10 @@ Phyla nodiflora var. incisa,Phyla nodiflora
 Phyla nodiflora var. reptans,Phyla nodiflora
 Phyla nodiflora var. rosea,Phyla nodiflora
 Picris echioides,Helminthotheca echioides
+Pinus benthamiana,Pinus ponderosa var. pacifica
+Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. pacifica
+Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. pacifica,INAT
+Pinus ponderosa var. benthamiana,Pinus ponderosa var. pacifica
 Piptatherum miliaceum subsp. miliaceum,Stipa miliacea var. miliacea
 Piptatherum miliaceum,Stipa miliacea var. miliacea
 Pityrogramma triangularis var. triangularis,Pentagramma triangularis
