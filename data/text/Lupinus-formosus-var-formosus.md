@@ -1,1 +1,1 @@
-Perennial. Keel margins not hairy.
+Keel margins not hairy.

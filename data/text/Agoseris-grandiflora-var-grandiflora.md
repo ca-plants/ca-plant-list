@@ -1,1 +1,1 @@
-Perennial. Height 25-100 cm. Leaf petiole usually purple.
+Height 25-100 cm. Leaf petiole usually purple.

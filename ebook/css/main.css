@@ -12,9 +12,14 @@ div.section {
     margin-bottom: .5rem;
 }
 
-img.flr {
+img.flr-color {
     padding-right: .25rem;
     width: 1rem;
+}
+
+span.flr-time,
+span.lc {
+    font-weight: bold;
 }
 
 /* Glossary */

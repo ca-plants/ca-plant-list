@@ -131,10 +131,15 @@ div.section ul.indent {
     padding-left: 1rem;
 }
 
-img.flower-color {
+img.flr-color {
     margin-bottom: .2rem;
     margin-right: .5rem;
     width: 1rem;
+}
+
+span.flr-time,
+span.lc {
+    font-weight: bold;
 }
 
 /* Forms */
