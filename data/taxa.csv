@@ -484,7 +484,7 @@ Crepis vesicaria subsp. taraxacifolia,,X,5983,2428,56870
 Cressa truxillensis,alkali weed,N,21017,2429,58133
 Crocanthemum scoparium var. vulgare,peak rush-rose,N,95272,13180,1045000
 Crocidium multicaule,spring gold,N,2425,2430,57524
-Crocosmia �crocosmiiflora,montbretia,X,77150,2431,181465
+Crocosmia ×crocosmiiflora,montbretia,X,77150,2431,181465
 Croton californicus,,N,21120,2434,76484
 Croton setiger,turkey mullein,N,21159,13184,154156
 Crypsis schoenoides,swamp grass,X,21182,2439,773038
@@ -539,19 +539,19 @@ Deinandra corymbosa,,N,77598,9855,60956
 Deinandra kelloggii,,N,79196,10829,76615
 Deinandra lobbii,,N,77606,10830,58813
 Delairea odorata,German-ivy,X,80449,9623,53208
-Delphinium californicum subsp. californicum,,N,50072,2631,51860,,white,4,6
-Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,,,,,551,1B.2,,,S3,G3T3
-Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,,"blue,purple",3,5
-Delphinium gracilentum,,N,22474,2639,76626
-Delphinium gypsophilum,gypsum-loving larkspur,N,22476,2640,56068
-Delphinium hansenii subsp. hansenii,Hansen's larkspur,N,50088,2645,79787
-Delphinium hesperium subsp. hesperium,western larkspur,N,50091,2649,57238,,"blue,purple",3,6
-Delphinium hesperium subsp. pallescens,,N,50092,2650,58997
-Delphinium nudicaule,red larkspur,N,22492,2655,50642,,red,3,6S
-Delphinium parryi subsp. parryi,Parry's larkspur,N,50107,2665,58999
-Delphinium patens subsp. patens,spreading larkspur,N,50113,2670,57246,,blue,3,6
-Delphinium recurvatum,valley larkspur,N,22516,2673,58305,,,,,222,1B.2,,,S2?,G2?
-Delphinium variegatum subsp. variegatum,royal larkspur,N,50119,2682,50633,,"blue,purple",3,5
+Delphinium californicum subsp. californicum,,N,50072,2631,51860,perennial,white,4,6
+Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,perennial,,,,551,1B.2,,,S3,G3T3
+Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,perennial,"blue,purple",3,5
+Delphinium gracilentum,,N,22474,2639,76626,perennial
+Delphinium gypsophilum,gypsum-loving larkspur,N,22476,2640,56068,perennial
+Delphinium hansenii subsp. hansenii,Hansen's larkspur,N,50088,2645,79787,perennial
+Delphinium hesperium subsp. hesperium,western larkspur,N,50091,2649,57238,perennial,"blue,purple",3,6
+Delphinium hesperium subsp. pallescens,,N,50092,2650,58997,perennial
+Delphinium nudicaule,red larkspur,N,22492,2655,50642,perennial,red,3,6
+Delphinium parryi subsp. parryi,Parry's larkspur,N,50107,2665,58999,perennial
+Delphinium patens subsp. patens,spreading larkspur,N,50113,2670,57246,perennial,blue,3,6
+Delphinium recurvatum,valley larkspur,N,22516,2673,58305,perennial,,,,222,1B.2,,,S2?,G2?
+Delphinium variegatum subsp. variegatum,royal larkspur,N,50119,2682,50633,perennial,"blue,purple",3,5
 Dendromecon rigida,bush poppy,N,22541,2686,58224
 Deschampsia cespitosa subsp. cespitosa,tufted hairgrass,N,50130,2689,61199
 Deschampsia cespitosa subsp. holciformis,tufted hairgrass,N,50133,2690,61833
@@ -617,7 +617,7 @@ Eleocharis rostellata,,N,24012,2922,59065
 Eleusine indica,goosegrass,X,24038,2924,76790
 Elodea canadensis,common waterweed,N,24052,2926,76793
 Elodea nuttallii,,N,24057,2927,57623
-Elymus �gouldii,,N,93810,11632,170838
+Elymus ×gouldii,,N,93810,11632,170838
 Elymus caput-medusae,medusa-head rye,X,24187,11634,169522
 Elymus elymoides var. elymoides,squirreltail,N,72180,11639,58377
 Elymus glaucus subsp. glaucus,blue wildrye,N,50264,2937,57171
@@ -646,7 +646,7 @@ Epilobium minutum,,N,24377,3006,57150
 Epilobium torreyi,,N,76888,3019,58949
 Epipactis gigantea,stream orchid,N,24406,3020,50715
 Epipactis helleborine,,X,24407,3021,50717
-Equisetum �ferrissii,Ferriss' horsetail,N,24419,3027,181476
+Equisetum ×ferrissii,Ferriss' horsetail,N,24419,3027,181476
 Equisetum arvense,common horsetail,N,24416,3022,52724
 Equisetum hyemale subsp. affine,common scouring-rush,N,50315,3023,53910
 Equisetum laevigatum,smooth scouring-rush,N,24427,3024,63870
@@ -770,14 +770,14 @@ Frankenia salina,alkali heath,N,26050,3612,58168
 Fraxinus dipetala,flowering ash,N,26100,3614,58939
 Fraxinus latifolia,Oregon ash,N,26105,3615,63878
 Fremontodendron californicum,flannelbush,N,26127,3618,63609
-Fritillaria affinis,checker lily,N,76930,3623,50618
-Fritillaria agrestis,stinkbells,N,26132,3626,56794,,,,,820,4.2,,,S3,G3
-Fritillaria falcata,talus fritillary,N,26145,3633,56791,,,,,823,1B.2,,,S2,G2
-Fritillaria liliacea,fragrant fritillary,N,26153,3636,53054,,,,,824,1B.2,,,S2,G2
+Fritillaria affinis,checker lily,N,76930,3623,50618,bulb,"brown,yellow",3,6
+Fritillaria agrestis,stinkbells,N,26132,3626,56794,bulb,"yellow,green",3,6,820,4.2,,,S3,G3
+Fritillaria falcata,talus fritillary,N,26145,3633,56791,bulb,,,,823,1B.2,,,S2,G2
+Fritillaria liliacea,fragrant fritillary,N,26153,3636,53054,bulb,white,2,4,824,1B.2,,,S2,G2
 Fumaria capreolata,white ramping fumitory,X,26193,8662,57852
 Fumaria officinalis,fumitory,X,26195,3647,53785
 Galium andrewsii subsp. gatense,needle bedstraw,N,50593,3658,61865,,yellow,4,6,1683,4.2,,,S3,G5T3
-Galium aparine,"bedstraw,cleavers",N,26304,3669,53059,,white,3,7
+Galium aparine,"bedstraw,cleavers",N,26304,3669,53059,annual,white,3,7
 Galium californicum subsp. californicum,California bedstraw,N,50606,3676,53061,,yellow,3,7
 Galium divaricatum,Lamarck's bedstraw,X,76441,3688,77193
 Galium murale,tiny bedstraw,X,26378,3716,59005
@@ -1138,8 +1138,8 @@ Melica torreyana,Torrey's melic,N,33090,5404,52804
 Melilotus albus,white sweetclover,X,33153,10971,58907
 Melilotus indicus,sourclover,X,33149,5406,57065
 Melissa officinalis,lemon balm,X,33161,5408,59901
-Mentha �gracilis,Scotch spearmint,X,33199,11833,181919
-Mentha �piperita,peppermint,X,33203,5412,181525
+Mentha ×gracilis,Scotch spearmint,X,33199,11833,181919
+Mentha ×piperita,peppermint,X,33203,5412,181525
 Mentha aquatica,water mint,X,33191,10110,77990
 Mentha arvensis,field mint,X,33193,5413,58188
 Mentha canadensis,American cornmint,N,33195,10635,77991

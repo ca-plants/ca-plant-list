@@ -1,0 +1,1 @@
+Spots on flower.
