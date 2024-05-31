@@ -22,6 +22,10 @@ span.lc {
     font-weight: bold;
 }
 
+span.lcs {
+    margin-right: 1rem;
+}
+
 /* Glossary */
 div.glossary img {
     max-height: 300px;

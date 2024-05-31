@@ -142,6 +142,10 @@ span.lc {
     font-weight: bold;
 }
 
+span.lcs {
+    margin-right: 1rem;
+}
+
 /* Forms */
 input {
     margin-right: .5em;
