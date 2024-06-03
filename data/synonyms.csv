@@ -508,6 +508,7 @@ Cyperus alternifolius subsp. flabelliformis,Cyperus involucratus,INAT
 Cyperus diandrus var. castaneus,Cyperus niger
 Cyperus ferax,Cyperus odoratus
 Cyperus hansenii,Cyperus strigosus
+Cyperus melanostachyus,Cyperus niger,INAT
 Cyperus niger var. capitatus,Cyperus niger
 Cyperus niger var. castaneus,Cyperus niger
 Cytisus monspessulanus,Genista monspessulana
@@ -641,12 +642,15 @@ Eriogonella membranacea,Chorizanthe membranacea
 Eriogonum acetoselloides,Eriogonum gracile var. gracile
 Eriogonum auriculatum,Eriogonum nudum var. auriculatum
 Eriogonum caninum,Eriogonum luteolum var. caninum
+Eriogonum curvatum,Eriogonum wrightii var. subscaposum
 Eriogonum fasciculatum subsp. foliolosum,Eriogonum fasciculatum var. foliolosum
 Eriogonum fasciculatum subsp. polifolium,Eriogonum fasciculatum var. polifolium
 Eriogonum fasciculatum var. obtusiflorum,Eriogonum fasciculatum var. foliolosum
 Eriogonum fasciculatum var. revolutum,Eriogonum fasciculatum var. polifolium
 Eriogonum gracile var. acetoselloides,Eriogonum gracile var. gracile
 Eriogonum gracile var. leucocladon,Eriogonum gracile var. gracile
+Eriogonum junceum,Eriogonum wrightii var. subscaposum
+Eriogonum kennedyi subsp. pinorum,Eriogonum wrightii var. subscaposum
 Eriogonum latifolium subsp. auriculatum,Eriogonum nudum var. auriculatum
 Eriogonum latifolium subsp. pauciflorum,Eriogonum nudum var. pauciflorum
 Eriogonum latifolium var. alternans,Eriogonum nudum var. auriculatum
@@ -658,6 +662,9 @@ Eriogonum revolutum,Eriogonum fasciculatum var. polifolium
 Eriogonum roseum var. leucocladon,Eriogonum gracile var. gracile
 Eriogonum rosmarinifolium var. foliolosum,Eriogonum fasciculatum var. foliolosum
 Eriogonum stellatum var. bahiiforme,Eriogonum umbellatum var. bahiiforme
+Eriogonum suffrutescens,Eriogonum wrightii var. subscaposum
+Eriogonum trachygonum subsp. subscaposum,Eriogonum wrightii var. subscaposum
+Eriogonum trachygonum var. subscaposum,Eriogonum wrightii var. subscaposum
 Eriogonum trachygonum,Eriogonum wrightii var. trachygonum
 Eriogonum trichotomum,Eriogonum umbellatum var. bahiiforme
 Eriogonum umbellatum subsp. bahiiforme,Eriogonum umbellatum var. bahiiforme
@@ -672,7 +679,9 @@ Eriogonum vimineum var. luteolum,Eriogonum luteolum var. luteolum
 Eriogonum virgatum var. roseum,Eriogonum roseum
 Eriogonum virgatum var. rubidum,Eriogonum roseum
 Eriogonum virgatum,Eriogonum roseum
+Eriogonum wrightii subsp. subscaposum,Eriogonum wrightii var. subscaposum
 Eriogonum wrightii subsp. trachygonum,Eriogonum wrightii var. trachygonum
+Eriogonum wrightii var. curvatum,Eriogonum wrightii var. subscaposum
 Eriophyllum confertiflorum var. latum,Eriophyllum confertiflorum var. confertiflorum
 Eriophyllum idoneum,Eriophyllum lanatum var. achilleoides
 Eriophyllum staechadifolium var. artemisiifolium,Eriophyllum staechadifolium
@@ -856,7 +865,6 @@ Hibiscus lasiocarpos var. californicus,Hibiscus lasiocarpos var. occidentalis
 Hibiscus moscheutos var. occidentalis,Hibiscus lasiocarpos var. occidentalis
 Hierochloe occidentalis,Anthoxanthum occidentale
 Holocarpha obconica subsp. autumnalis,Holocarpha obconica
-Holodiscus saxicola,Holodiscus discolor
 Hookera capitata,Dipterostemon capitatus
 Hookera congesta,Dichelostemma congestum
 Hookera hyacinthina var. lactea,Triteleia hyacinthina
@@ -908,6 +916,7 @@ Iva axillaris var. robustior,Iva axillaris
 Jacobaea vulgaris,Senecio jacobaea,INAT
 Johnstonella micromeres,Cryptantha micromeres,INAT
 Juglans californica var. californica,Juglans californica
+Juglans californica var. hindsii,Juglans hindsii
 Juncoides comosa var. subsessilis,Luzula subsessilis
 Juncoides subsessilis,Luzula subsessilis
 Juncus amuricus,Juncus bufonius var. occidentalis,INAT

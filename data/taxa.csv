@@ -449,7 +449,7 @@ Collinsia sparsiflora var. collina,,N,56722,2290,57290
 Collinsia sparsiflora var. sparsiflora,,N,56723,2291,64295
 Collinsia tinctoria,,N,20008,2293,51850
 Collomia diversifolia,serpentine collomia,N,20020,2299,62230,,,,,126,4.3,,,S4,G4
-Collomia grandiflora,large-flowered collomia,N,20021,,61871,annual,orange,4,6
+Collomia grandiflora,large-flowered collomia,N,20021,2300,61871,annual,orange,4,6
 Collomia heterophylla,,N,20022,2301,52996
 Conium maculatum,poison hemlock,X,20136,2317,52998,,white
 Consolida ajacis,,X,20161,9821,401314
@@ -521,7 +521,7 @@ Cyperus eragrostis,,N,21820,2581,59055
 Cyperus erythrorhizos,,N,21822,2582,59060
 Cyperus esculentus,yellow nut sedge,N,21824,2583,76584
 Cyperus involucratus,umbrella-sedge,X,21853,2585,414284
-Cyperus niger,,N,21881,2588,76591
+Cyperus niger,,N,21881,2588,1551513
 Cyperus odoratus,,N,21885,2589,63329
 Cyperus strigosus,,N,21948,2593,59063
 Cypselea humifusa,,X,21994,2597,1355489
@@ -541,17 +541,17 @@ Deinandra kelloggii,,N,79196,10829,76615
 Deinandra lobbii,,N,77606,10830,58813
 Delairea odorata,German-ivy,X,80449,9623,53208
 Delphinium californicum subsp. californicum,,N,50072,2631,51860,perennial,white,4,6
-Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,perennial,,,,551,1B.2,,,S3,G3T3
+Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,perennial,white,4,6,551,1B.2,,,S3,G3T3
 Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,perennial,"blue,purple",3,5
 Delphinium gracilentum,,N,22474,2639,76626,perennial
 Delphinium gypsophilum,gypsum-loving larkspur,N,22476,2640,56068,perennial
 Delphinium hansenii subsp. hansenii,Hansen's larkspur,N,50088,2645,79787,perennial
 Delphinium hesperium subsp. hesperium,western larkspur,N,50091,2649,57238,perennial,"blue,purple",3,6
-Delphinium hesperium subsp. pallescens,,N,50092,2650,58997,perennial
+Delphinium hesperium subsp. pallescens,,N,50092,2650,58997,perennial,white,3,5
 Delphinium nudicaule,red larkspur,N,22492,2655,50642,perennial,red,3,6
-Delphinium parryi subsp. parryi,Parry's larkspur,N,50107,2665,58999,perennial
+Delphinium parryi subsp. parryi,Parry's larkspur,N,50107,2665,58999,perennial,blue,4,6
 Delphinium patens subsp. patens,spreading larkspur,N,50113,2670,57246,perennial,blue,3,6
-Delphinium recurvatum,valley larkspur,N,22516,2673,58305,perennial,,,,222,1B.2,,,S2?,G2?
+Delphinium recurvatum,valley larkspur,N,22516,2673,58305,perennial,,,,222,1B.2,,,S2,G2?
 Delphinium variegatum subsp. variegatum,royal larkspur,N,50119,2682,50633,perennial,"blue,purple",3,5
 Dendromecon rigida,bush poppy,N,22541,2686,58224
 Deschampsia cespitosa subsp. cespitosa,tufted hairgrass,N,50130,2689,61199
@@ -693,7 +693,7 @@ Eriogonum roseum,virgate buckwheat,N,24922,3360,58280
 Eriogonum truncatum,Mt. Diablo buckwheat,N,24957,3383,77039,,,,,766,1B.1,,,S1,G1
 Eriogonum umbellatum var. bahiiforme,sulfur flower,N,58755,3388,80851,,,,,1338,4.2,,,S3,G5T3
 Eriogonum wrightii var. trachygonum,,N,58801,3413,59244
-Eriogonum wrightii var. subscaposum,short-stemmed bastard-sage,N,58800,,,perennial,"white,pink",6,9
+Eriogonum wrightii var. subscaposum,short-stemmed bastard-sage,N,58800,3412,58985,perennial,"white,pink",6,9
 Eriophyllum confertiflorum var. confertiflorum,golden-yarrow,N,69866,3423,53397,perennial,yellow,4,8
 Eriophyllum jepsonii,Jepson's woolly-sunflower,N,2816,3426,77048,,,,,776,4.3,,,S3,G3
 Eriophyllum lanatum var. achilleoides,,N,7369,10587,80880
@@ -879,7 +879,7 @@ Holocarpha heermannii,Heermann's tarweed,N,3557,4204,62568,annual,yellow
 Holocarpha macradenia,Santa Cruz tarplant,N,3558,4205,62573,annual,,,,907,1B.1,CE,FT,S1,G1
 Holocarpha obconica,,N,3559,4206,62571,annual
 Holocarpha virgata subsp. virgata,,N,6108,4210,53102,annual,yellow,5,11
-Holodiscus discolor var. discolor,"cream bush,oceanspray",N,28344,4211,53414,perennial,white,5,8
+Holodiscus discolor var. discolor,"cream bush,oceanspray",N,75685,11727,80941,perennial,white,5,8
 Holozonia filipes,Greene's white crown,N,3561,4216,77430,perennial,white,6,10
 Hordeum brachyantherum subsp. brachyantherum,meadow barley,N,76411,4219,61834
 Hordeum brachyantherum subsp. californicum,California barley,N,76414,4220,59092
@@ -920,7 +920,7 @@ Isolepis cernua,,N,79218,9605,60257
 Iva axillaris,poverty weed,N,3654,10020,58837
 Jaumea carnosa,,N,3667,4424,60969
 Juglans californica,Southern California black walnut,N,29566,4428,54503,,,,,1704,4.2,,,S4,G4
-Juglans hindsii,Northern California black walnut,N,29568,,,perennial,,4,5
+Juglans hindsii,Northern California black walnut,N,29568,8943,54502,perennial,,4,5
 Juncus acuminatus,tapered rush,N,29592,4432,77549
 Juncus ambiguus,frog rush,X,29601,4434,436606
 Juncus articulatus subsp. articulatus,jointed rush,N,91767,11773,79958
@@ -1587,7 +1587,7 @@ Scoliopus bigelovii,,N,43824,7416,48990
 Scolymus hispanicus,golden thistle,X,4661,7417,79009
 Scribneria bolanderi,,N,43846,7420,57196
 Scrophularia californica,California figwort,N,43849,7422,50812,,white
-Scutellaria bolanderi subsp. bolanderi,Sierra skullcap,N,52896,,,perennial,"white,blue",6,7
+Scutellaria bolanderi subsp. bolanderi,Sierra skullcap,N,52896,7431,80184,perennial,"white,blue",6,7
 Scutellaria californica,,N,43883,7432,59791,perennial
 Scutellaria galericulata,,N,43891,7433,79016,perennial,,,,1767,2B.2,,,S2,G5
 Scutellaria siphocampyloides,,N,43926,7437,59792,perennial,blue,5,7
