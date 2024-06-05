@@ -1,0 +1,1 @@
+Petals usually light pink with darker flecks. Petals narrow and not overlapping. All 4 sepals attached to each other and directed to one side. 8 stamens; anthers in two series, with inner series smaller and paler.

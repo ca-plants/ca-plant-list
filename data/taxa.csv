@@ -413,15 +413,15 @@ Cirsium quercetorum,brownie thistle,N,2232,2146,60954
 Cirsium remotifolium var. odontolepis,,N,7076,11533,80596
 Cirsium vulgare,bull thistle,X,2285,2151,52989
 Citrullus lanatus var. citroides,watermelon,X,56575,9813,841204
-Clarkia affinis,chaparral clarkia,N,19563,2159,58943,annual
+Clarkia affinis,chaparral clarkia,N,19563,2159,58943,annual,pink,5,6
 Clarkia biloba subsp. biloba,twolobe clarkia,N,49891,2168,51857,annual
-Clarkia breweri,Brewer's clarkia,N,19571,2174,56067,annual,,,,159,4.2,,,S4,G4
-Clarkia concinna subsp. automixa,Santa Clara red ribbons,N,49895,2176,51856,annual,,,,1629,4.3,,,S3,G5?T3
+Clarkia breweri,Brewer's clarkia,N,19571,2174,56067,annual,pink,4,6,159,4.2,,,S4,G4
+Clarkia concinna subsp. automixa,Santa Clara red ribbons,N,49895,2176,51856,annual,pink,4,6,1629,4.3,,,S3,G5?T3
 Clarkia concinna subsp. concinna,red ribbons,N,49896,2177,51855,annual
 Clarkia epilobioides,,N,19577,2185,58945,annual
 Clarkia franciscana,Presidio clarkia,N,19579,2187,61899,annual,,,,162,1B.1,CE,FE,S1,G1
 Clarkia gracilis subsp. gracilis,slender clarkia,N,49901,2190,61896,annual,pink,4,7
-Clarkia modesta,,N,19588,2200,58946,annual
+Clarkia modesta,,N,19588,2200,58946,annual,pink,4,5
 Clarkia purpurea subsp. purpurea,purple clarkia,N,49906,2207,79741,annual
 Clarkia purpurea subsp. quadrivulnera,four-spot,N,49907,2208,57146,annual,pink,4,8
 Clarkia purpurea subsp. viminea,four-spot,N,49908,2209,57147,annual
@@ -1087,6 +1087,7 @@ Lupinus nanus,sky lupine,N,31978,5189,50612,,blue,3,6
 Lupinus pachylobus,big pod lupine,N,31998,5196,50613
 Lupinus succulentus,arroyo lupine,N,32095,5217,56759,annual,blue,2,5
 Luzula comosa var. comosa,wood rush,N,72790,11810,81079
+Luzula macrantha,prairie woodrush,N,100427,,,perennial,brown,4,7
 Luzula subsessilis,,N,32171,11815,77901
 Lychnis coronaria,rose campion,X,32177,5229,485191
 Lycopus americanus,cutleaf bugleweed,N,32313,5247,60206
