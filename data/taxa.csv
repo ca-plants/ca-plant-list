@@ -110,7 +110,7 @@ Anthriscus caucalis,bur-chervil,X,13523,396,52846,,white
 Antirrhinum kelloggii,,N,13568,401,165675
 Antirrhinum majus,snapdragon,X,13557,404,48969
 Antirrhinum thompsonii,Sierra snapdragon,N,108978,14286,168306,,pink,4,8
-Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,88873,10499,840919,,purple,6,8
+Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,88873,10499,840919,annual,purple,6,8
 Aphyllon californicum subsp. jepsonii,,N,103325,13438,802459
 Aphyllon epigalium subsp. epigalium,,N,103327,13527,809377
 Aphyllon fasciculatum,clustered broom-rape,N,100018,13441,802543
@@ -560,7 +560,7 @@ Deschampsia danthonioides,annual hairgrass,N,22598,2691,57164
 Deschampsia elongata,slender hairgrass,N,22600,2692,52722
 Descurainia pinnata subsp. brachycarpa,tansy mustard,N,50146,11596,59235
 Desmazeria rigida,,X,22633,2706,288259
-Dianthus nudiflorus,,X,85151,14658,1143003
+Dianthus nudiflorus,,X,85151,14658,1143003,annual,pink
 Dicentra formosa,bleeding heart,N,22766,2711,51048
 Dichelostemma congestum,ookow,N,22850,2721,56593
 Dichelostemma multiflorum,,N,22853,2723,62262
@@ -1048,8 +1048,8 @@ Lithophragma cymbalaria,,N,31241,4925,58323
 Lithophragma heterophyllum,hill starflower,N,31244,4927,53124,,white
 Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,,"white,pink",3,7
 Lobularia maritima,sweet alyssum,X,31347,4939,56992
-Logfia filaginoides,herba impia,N,81847,10960,64254
-Logfia gallica,,X,31363,9521,56949
+Logfia filaginoides,herba impia,N,81847,10960,64254,annual,red,2,5
+Logfia gallica,,X,31363,9521,56949,annual,"brown,yellow",3,7
 Lomatium californicum,chu-chu-pate,N,31389,4950,56824,,yellow,4,6
 Lomatium caruifolium var. caruifolium,,N,61026,4953,64328
 Lomatium caruifolium var. denticulatum,,N,61027,4954,60123
@@ -1109,8 +1109,8 @@ Madia radiata,showy madia,N,4053,5296,77924,,,,,1054,1B.1,,,S3,G3
 Madia sativa,coast tarweed,N,4055,5298,53143,,yellow
 Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062
 Maianthemum stellatum,,N,32497,9629,53268
-Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,,,,,1065,1B.2,,,S2,G2
-Malacothamnus fremontii,white-coat mallow,N,32524,5312,70397
+Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,perennial,pink,4,5,1065,1B.2,,,S2,G2
+Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,5312,70397,perennial,pink,5,6
 Malacothamnus hallii,,N,108345,14681,1497404,,,,,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841
@@ -1757,14 +1757,14 @@ Trifolium incarnatum,crimson clover,X,47100,8084,64268
 Trifolium macraei,Macrae's clover,N,47122,8094,61020
 Trifolium microcephalum,small-head clover,N,47129,8096,58911
 Trifolium microdon,thimble clover,N,47130,8097,57079
-Trifolium obtusiflorum,clammy clover,N,47144,8101,58912
+Trifolium obtusiflorum,clammy clover,N,47144,8101,58912,annual,"purple,white",4,7
 Trifolium oliganthum,few-flowered clover,N,47145,8102,71122
 Trifolium pratense,red clover,X,47160,8104,51875
 Trifolium repens,white clover,X,47164,8105,55745
 Trifolium subterraneum,subterranean clover,X,47174,8106,60201
 Trifolium tomentosum,woolly clover,X,47177,8586,61024
 Trifolium variegatum,,N,47179,8108,57080
-Trifolium willdenovii,tomcat clover,N,47186,8109,57081
+Trifolium willdenovii,tomcat clover,N,47186,8109,57081,annual,"purple,white",3,6
 Trifolium wormskioldii,cow clover,N,47188,8110,71146
 Triglochin concinna var. concinna,slender arrow-grass,N,74018,8112,81439
 Triglochin maritima,seaside arrow-grass,N,47197,8114,60264
