@@ -597,6 +597,7 @@ Ellisia torreyi var. orcuttii,Eucrypta chrysanthemifolia var. chrysanthemifolia
 Ellisia torreyi var. paniculata,Eucrypta chrysanthemifolia var. chrysanthemifolia
 Elodea brandegeeae,Elodea canadensis
 Elodea densa,Egeria densa
+Elodea densa,Egeria densa,INAT
 Elymus elongatus var. ponticus,Elymus ponticus
 Elymus elymoides subsp. elymoides,Elymus elymoides var. elymoides
 Elymus glaucus subsp. jepsonii,Elymus glaucus subsp. glaucus
@@ -917,6 +918,7 @@ Jacobaea vulgaris,Senecio jacobaea,INAT
 Johnstonella micromeres,Cryptantha micromeres,INAT
 Juglans californica var. californica,Juglans californica
 Juglans californica var. hindsii,Juglans hindsii
+Juncoides comosa var. macrantha,Luzula macrantha
 Juncoides comosa var. subsessilis,Luzula subsessilis
 Juncoides subsessilis,Luzula subsessilis
 Juncus amuricus,Juncus bufonius var. occidentalis,INAT
@@ -1099,6 +1101,8 @@ Lupinus subvexus var. transmontanus,Lupinus microcarpus var. microcarpus
 Lupinus subvexus,Lupinus microcarpus var. microcarpus
 Lupinus vallicola,Lupinus nanus
 Lupinus variicolor,Lupinus littoralis var. variicolor
+Luzula campestris var. macrantha,Luzula macrantha
+Luzula comosa var. macrantha,Luzula macrantha
 Luzula comosa var. subsessilis,Luzula subsessilis
 Lythrum alatum var. linearifolium,Lythrum californicum
 Lythrum sanfordii,Lythrum californicum
@@ -1116,12 +1120,19 @@ Mahonia nervosa var. mendocinensis,Berberis nervosa
 Mahonia pinnata subsp. pinnata,Berberis pinnata subsp. pinnata
 Maianthemum racemosum subsp. amplexicaule,Maianthemum racemosum
 Malacothamnus arcuatus var. elmeri,Malacothamnus hallii,INAT
+Malacothamnus fremontii subsp. cercophorus,Malacothamnus fremontii var. fremontii
 Malacothamnus hallii,Malacothamnus arcuatus var. elmeri
+Malacothamnus howellii,Malacothamnus fremontii var. fremontii
 Malacothrix coulteri var. cognata,Malacothrix coulteri
 Malacothrix senecioides,Malacothrix clevelandii
 Malva pseudolavatera,Malva multiflora
 Malvastrum exilis,Eremalche exilis
+Malvastrum fremontii var. cercophorum,Malacothamnus fremontii var. fremontii
+Malvastrum fremontii,Malacothamnus fremontii var. fremontii
 Malvastrum hallii,Malacothamnus arcuatus var. elmeri
+Malvastrum howellii var. cordatum,Malacothamnus fremontii var. fremontii
+Malvastrum howellii,Malacothamnus fremontii var. fremontii
+Malveopsis fremontii,Malacothamnus fremontii var. fremontii
 Marah fabacea var. agrestis,Marah fabacea
 Maruta cotula,Anthemis cotula
 Meconella linearis,Hesperomecon linearis
@@ -1359,6 +1370,7 @@ Oxybasis rubra var. rubra,Chenopodium rubrum var. rubrum,INAT
 Oxybasis rubra,Chenopodium rubrum,INAT
 Oxytheca inermis,Eriogonum inerme var. inerme
 Papaver lemmonii,Papaver californicum
+Parapholis cylindrica,Hainardia cylindrica,INAT
 Paronychia pusilla,Herniaria hirsuta var. cinerea
 Parvisedum pentandrum,Sedella pentandra
 Paspalum distichum var. indutum,Paspalum distichum
@@ -1844,6 +1856,8 @@ Spergularia marina var. tenuis,Spergularia marina
 Spergularia maritima,Spergularia media var. media
 Spergularia salina,Spergularia marina
 Sphaeralcea fasciculata var. elmeri,Malacothamnus arcuatus var. elmeri
+Sphaeralcea fremontii var. cercophora,Malacothamnus fremontii var. fremontii
+Sphaeralcea fremontii,Malacothamnus fremontii var. fremontii
 Spirodela oligorrhiza,Landoltia punctata
 Spirodela punctata,Landoltia punctata
 Sporobolus alterniflorus,Spartina alterniflora,INAT

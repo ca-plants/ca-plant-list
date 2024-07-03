@@ -604,7 +604,7 @@ Echinochloa muricata var. microstachya,,N,58092,9886,80690
 Echinodorus berteroi,burhead,N,23812,2886,76761
 Echium candicans,Pride of Madeira,X,77286,2888,57723
 Eclipta prostrata,,N,2527,2892,76765
-Egeria densa,Brazilian waterweed,X,23849,2893,60465
+Egeria densa,Brazilian waterweed,X,23849,2893,1555600
 Ehrendorferia chrysantha,golden ear-drops,N,88966,9511,58952
 Ehrharta erecta,Stebbins' grass,X,23854,2895,64140
 Eichhornia crassipes,water-hyacinth,X,23856,2896,962637
@@ -829,7 +829,7 @@ Grindelia hirsutula,,N,3107,3960,55364,,yellow
 Grindelia stricta var. angustifolia,marsh gumplant,N,77358,3968,61991,,yellow
 Gruvelia pusilla,little combseed,N,105901,14570,57694
 Gutierrezia californica,California matchweed,N,3140,3977,57978
-Hainardia cylindrica,,X,27553,3996,60285
+Hainardia cylindrica,,X,27553,3996,1477514
 Hedera canariensis,Canary Islands ivy,X,81236,8467,64113,,white,8,11
 Hedera helix,English ivy,X,27768,4023,55882,,white,8,11
 Hedypnois rhagadioloides,,X,99769,13134,492864
@@ -1087,7 +1087,7 @@ Lupinus nanus,sky lupine,N,31978,5189,50612,,blue,3,6
 Lupinus pachylobus,big pod lupine,N,31998,5196,50613
 Lupinus succulentus,arroyo lupine,N,32095,5217,56759,annual,blue,2,5
 Luzula comosa var. comosa,wood rush,N,72790,11810,81079
-Luzula macrantha,prairie woodrush,N,100427,,,perennial,brown,4,7
+Luzula macrantha,prairie woodrush,N,100427,14739,890625,perennial,brown,4,7
 Luzula subsessilis,,N,32171,11815,77901
 Lychnis coronaria,rose campion,X,32177,5229,485191
 Lycopus americanus,cutleaf bugleweed,N,32313,5247,60206
@@ -1110,7 +1110,7 @@ Madia sativa,coast tarweed,N,4055,5298,53143,,yellow
 Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062
 Maianthemum stellatum,,N,32497,9629,53268
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,perennial,pink,4,5,1065,1B.2,,,S2,G2
-Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,5312,70397,perennial,pink,5,6
+Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,perennial,pink,5,6
 Malacothamnus hallii,,N,108345,14681,1497404,,,,,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841
@@ -1215,7 +1215,7 @@ Navarretia heterandra,Tehama navarretia,N,34453,5781,78181,,,,,1162,4.3,,,S4,G4
 Navarretia intertexta,needleleaf navarretia,N,34455,5783,60225
 Navarretia mellita,,N,34465,5794,58975
 Navarretia nigelliformis subsp. nigelliformis,,N,51676,5797,78186,,,,,3233,4.2,,,S3,G4T3
-Navarretia nigelliformis subsp. radians,adobe navarretia,N,51677,5798,80060,,,,,1738,1B.2,,,S2,G4T2
+Navarretia nigelliformis subsp. radians,adobe navarretia,N,51677,5798,80060,,,,,1738,1B.2,,,S2S3,G4T2
 Navarretia prostrata,,N,34470,5803,78190,,,,,1983,1B.2,,,S2,G2
 Navarretia pubescens,downy pincushion,N,34471,5804,58976
 Navarretia squarrosa,skunkweed,N,34475,5807,53157
