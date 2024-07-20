@@ -4,11 +4,12 @@
         "checkJs": true,
         "declaration": true,
         "declarationMap": true,
-        "emitDeclarationOnly": true,
         "module": "nodenext",
         "newLine": "lf",
         "outDir": "output",
         "rootDir": ".",
+        "skipLibCheck": true,
         "strict": true
-    }
+    },
+    "include": ["lib", "types"]
 }

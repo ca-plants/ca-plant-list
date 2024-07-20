@@ -158,6 +158,7 @@ Arundo donax,giant reed,X,14319,732,64017
 Asarum caudatum,wild-ginger,N,14334,733,52858
 Asclepias californica,California milkweed,N,14357,739,51272,perennial,purple,4,7
 Asclepias cordifolia,purple milkweed,N,14360,741,62248
+Asclepias eriocarpa,kotolo,N,14369,,,perennial,white,5,10
 Asclepias fascicularis,narrow-leaf milkweed,N,14375,747,56851,perennial,white,5,10
 Asclepias speciosa,milkweed,N,14422,751,62292
 Asparagus asparagoides,,X,14480,755,64107
@@ -720,7 +721,9 @@ Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627,,"orange,yellow",3,9
 Erythranthe androsacea,,N,99088,13487,771845
 Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,,yellow,4,7
+Erythranthe breweri,Brewer's monkeyflower,N,,,,annual,pink,6,8
 Erythranthe cardinalis,scarlet monkeyflower,N,25147,13490,319974,,red,5,9
+Erythranthe erubescens,blushing monkeyflower,N,100565,,771871,perennial,pink,6,8
 Erythranthe floribunda,many-flowered monkeyflower,N,99122,13492,701582,,yellow,4,8
 Erythranthe grandis,magnificent seep monkeyflower,N,99129,13560,771876,,yellow,5,7
 Erythranthe guttata,seep monkeyflower,N,99131,13493,470643,,yellow,4,9
@@ -728,7 +731,10 @@ Erythranthe inconspicua,small-flowered monkeyflower,N,99135,13416,771882,,pink,4
 Erythranthe laciniata,,N,99142,13417,546557,,,,,1093,4.3,,,S4,G4
 Erythranthe latidens,broad-tooth monkeyflower,N,99144,13495,771886,,"white,pink",4,6
 Erythranthe microphylla,small leaved monkeyflower,N,99152,13498,453717
+Erythranthe moschata,musk monkeyflower,N,99156,,453644,perennial,yellow,6,8
 Erythranthe nasuta,shy monkeyflower,N,99158,13637,545973,,yellow,3,7
+Erythranthe primuloides,primrose monkeyflower,N,99174,,635401,perennial,yellow,6,8
+Erythranthe tilingii,Tiling's monkeyflower,N,99191,,,perennial,yellow,6,9
 Eschscholzia caespitosa,tufted poppy,N,25205,3511,58954
 Eschscholzia californica,California poppy,N,25206,3512,48225
 Eschscholzia rhombipetala,,N,25218,3527,77087,,,,,806,1B.1,,,S1,G1

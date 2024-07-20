@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import { PlantBook } from "@ca-plant-list/ca-plant-list";
 import { Config } from "../lib/config.js";
 import { Files } from "../lib/files.js";
+import { PlantBook } from "../lib/ebook/plantbook.js";
 import { TaxaProcessor } from "../lib/taxaprocessor.js";
 import { CommandProcessor } from "../lib/commandprocessor.js";
 
