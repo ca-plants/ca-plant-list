@@ -290,6 +290,8 @@ Calystegia sepium subsp. limnophila,hedge bindweed,N,49568,1374,60182
 Calystegia silvatica subsp. disjuncta,shortstalk false bindweed,X,78991,8524,79658
 Calystegia soldanella,beach morning-glory,N,16876,1375,60880
 Calystegia subacaulis subsp. subacaulis,hill morning-glory,N,49576,1379,57014
+Camassia leichtlinii subsp. suksdorfii,great camas,N,49578,,,bulb,blue,5,8
+Camassia quamash subsp. breviflora,small camas,N,49580,,,bulb,blue,5,7
 Camissonia campestris subsp. campestris,Mojave suncup,N,49602,1401,56781
 Camissonia contorta,,N,16910,1420,58216
 Camissonia strigulosa,,N,16947,1453,56779
@@ -547,6 +549,7 @@ Delairea odorata,German-ivy,X,80449,9623,53208
 Delphinium californicum subsp. californicum,,N,50072,2631,51860,perennial,white,4,6
 Delphinium californicum subsp. interius,California larkspur,N,50073,2632,51859,perennial,white,4,6,551,1B.2,,,S3,G3T3
 Delphinium decorum subsp. decorum,coast larkspur,N,50079,2635,79784,perennial,"blue,purple",3,5
+Delphinium glaucum,Sierra larkspur,N,22471,,,perennial,"purple,blue",7,9
 Delphinium gracilentum,,N,22474,2639,76626,perennial
 Delphinium gypsophilum,gypsum-loving larkspur,N,22476,2640,56068,perennial
 Delphinium hansenii subsp. hansenii,Hansen's larkspur,N,50088,2645,79787,perennial
@@ -592,7 +595,9 @@ Downingia ornatissima var. mirabilis,,N,84766,14563
 Downingia pulchella,,N,23282,2782,60167
 Draba cuneifolia,,N,23332,2798,1138678
 Draba verna,spring whitlow-grass,X,23442,2816,55823,,white,2,5
+Drymocallis glandulosa var. glandulosa,sticky cinquefoil,N,82059,,,perennial,"yellow,white",5,7
 Drymocallis glandulosa var. wrangelliana,sticky cinquefoil,N,82064,11612,80681
+Drymocallis lactea var. austiniae,Austin's woodbeauty,N,82054,,,perennial,yellow,5,9
 Dryopteris arguta,coastal wood fern,N,23524,2823,52671
 Duchesnea indica var. indica,mock-strawberry,X,91747,11621,243824
 Dudleya cymosa subsp. cymosa,,N,50235,2845,64259
@@ -673,7 +678,9 @@ Ericameria linearifolia,interior goldenbush,N,2598,3085,57971
 Ericameria nauseosa var. mohavensis,rabbitbrush,N,80505,11665,57936
 Erigeron bonariensis,,X,2305,11666,76904
 Erigeron canadensis,horseweed,N,2312,11667,76907
+Erigeron compositus,cut-leaf fleabane,N,2650,,,perennial,white,5,9
 Erigeron foliosus var. franciscensis,,N,58408,3137,80740
+Erigeron glacialis var. glacialis,subalpine fleabane,N,82188,,,perennial,"white,purple",7,9
 Erigeron petrophilus var. petrophilus,,N,58427,3159,58825
 Erigeron philadelphicus var. philadelphicus,,N,7324,9105,80752,,white,5,6
 Erigeron reductus var. angustatus,,N,58431,3166,80754
@@ -1053,6 +1060,7 @@ Limosella aquatica,,N,31028,4844,59016
 Limosella australis,delta mudwort,X,31029,10069,60248,,,,,1715,2B.1,,,S2,G4G5
 Linanthus dichotomus subsp. dichotomus,evening snow,N,51286,10624,80000
 Linanthus dichotomus subsp. meridianus,,N,51287,10625,80001
+Linanthus pungens subsp. pulchriflorus,granite prickly phlox,N,98684,,,perennial,"white,pink",5,8
 Linum bienne,,X,31144,4906,55679
 Linum lewisii var. lewisii,blue flax,N,60912,4910,60495
 Lithophragma affine,woodland star,N,31236,4922,50803,,white,3,4
@@ -1286,8 +1294,11 @@ Pennisetum clandestinum,Kikuyu grass,X,36818,6132,60298
 Pennisetum setaceum,fountain grass,X,36827,6133,430581
 Pennisetum villosum,,X,36829,6134,430578
 Penstemon centranthifolius,scarlet bugler,N,36894,6146,56752
+Penstemon deustus var. deustus,hot rock penstemon,N,63245,,,perennial,white,5,7
+Penstemon heterodoxus var. heterodoxus,Sierra penstemon,N,76771,,,perennial,purple,7,8
 Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,75906,6178,51852,perennial,purple,4,7
 Penstemon heterophyllus var. purdyi,foothill penstemon,N,76773,6179,81205,perennial,purple,5,6
+Penstemon newberryi var. newberryi,mountain pride,N,76776,,,perennial,pink,6,8
 Pentachaeta alsinoides,tiny pygmy daisy,N,4273,6225,58844
 Pentachaeta exilis subsp. exilis,meager pygmy daisy,N,6171,6230,58846
 Pentagramma triangularis,goldback fern,N,77119,6234,52676
@@ -1397,7 +1408,9 @@ Poa secunda subsp. secunda,one-sided bluegrass,N,70516,6694,58383
 Pogogyne douglasii,,N,38936,6704,63943
 Pogogyne serpylloides,,N,38939,6708,57118
 Pogogyne zizyphoroides,,N,78298,6709,60209
+Polemonium californicum,California Jacob's-ladder,N,38969,,,perennial,"blue,purple",6,8
 Polemonium carneum,royal sky pilot,N,38971,6712,78665,,,,,3345,2B.2,,,S2,G3G4
+Polemonium pulcherrimum var. pulcherrimum,pretty Jacob's-ladder,N,75974,,,perennial,"blue,purple",6,9
 Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,80560,14756,81277
 Polygonum argyrocoleon,persian knotweed,X,39158,6738,78676
 Polygonum aviculare subsp. aviculare,,X,80990,10667,80151
@@ -1431,6 +1444,8 @@ Poterium sanguisorba,burnet,X,91917,11953,55736
 Primula clevelandii var. gracilis,,N,98403,13220,487172
 Primula clevelandii var. patula,shooting star,N,98401,13222,487173,,purple,3,5
 Primula hendersonii,shooting star,N,98398,13225,487175,,purple,3,7
+Primula jeffreyi,Sierra shooting star,N,98397,,,perennial,purple,6,8
+Primula tetrandra,alpine shooting star,N,98394,,,perennial,purple,6,8
 Proboscidea lutea,devil's claw,X,77314,6875,164032
 Prosartes hookeri,fairy bells,N,39938,10263,51071
 Prosartes smithii,,N,80335,9513,57506

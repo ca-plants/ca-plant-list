@@ -1,0 +1,1 @@
+Stem hairy and glandular.
