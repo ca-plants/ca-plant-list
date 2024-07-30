@@ -44,6 +44,9 @@ async function commandRunner(tp) {
     await ebook.create();
 }
 
+/**
+ * @param {import("command-line-args").CommandLineOptions} options
+ */
 async function generateEBooks(options) {
     const locationsDir = options.locationsdir;
 

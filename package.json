@@ -29,6 +29,8 @@
         "unzipper": "^0.10.11"
     },
     "devDependencies": {
+        "@types/command-line-args": "^5.2.3",
+        "@types/command-line-usage": "^5.0.4",
         "@types/node": "^18.11.9",
         "@types/unzipper": "^0.10.9",
         "dts-bundle-generator": "^9.3.1",
