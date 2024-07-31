@@ -1,3 +1,9 @@
+declare class CommandLineOptions {
+    datadir: string;
+    outputdir: string;
+    "show-flower-errors": boolean;
+}
+
 declare class Config {
     getConfigValue(
         prefix: string,
