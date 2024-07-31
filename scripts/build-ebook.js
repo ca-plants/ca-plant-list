@@ -36,11 +36,8 @@ class BookCommand extends CommandProcessor {
  */
 async function commandRunner(tp) {
     const options = tp.getOptions();
-    const ebook = new PlantBook(
-        options.outputdir,
-        new Config(options.datadir),
-        tp.getTaxa()
-    );
+    const config = new Config(options.datadir);
+    const ebook = new PlantBook(options.outputdir, config, tp.getTaxa());
     await ebook.create();
 }
 

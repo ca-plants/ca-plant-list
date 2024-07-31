@@ -12,6 +12,11 @@ class JekyllRenderer {
     #destDir = "./public";
 
     async renderPages() {
+        /**
+         * @param {string[]} configFiles
+         * @param {string} dir
+         * @param {string} name
+         */
         function addConfigFile(configFiles, dir, name) {
             const fullPath = path.join(dir, name);
             if (Files.exists(fullPath)) {
@@ -30,6 +35,7 @@ class JekyllRenderer {
         ];
 
         // Find out what config files are available.
+        /** @type {string[]} */
         const configFiles = [];
         addConfigFile(configFiles, this.#srcDir, "_config.yml");
         addConfigFile(configFiles, this.#srcDir, "_config-local.yml");
@@ -43,6 +49,9 @@ class JekyllRenderer {
     }
 }
 
+/**
+ * @param {TaxaProcessor} taxaProcessor
+ */
 async function generateSite(taxaProcessor) {
     const options = taxaProcessor.getOptions();
 
@@ -59,7 +68,6 @@ async function generateSite(taxaProcessor) {
 
 const gen = new CommandAndTaxaProcessor(
     "ca-plant-list",
-    "A tool to generate a website with local plant data.",
-    generateSite
+    "A tool to generate a website with local plant data."
 );
 await gen.process(generateSite);
