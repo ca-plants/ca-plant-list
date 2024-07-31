@@ -1,0 +1,57 @@
+{
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "properties": {
+            "calflora": {
+                "type": "object",
+                "properties": {
+                    "badjepsonid": {
+                        "const": true
+                    },
+                    "notintaxondata": {
+                        "const": true
+                    }
+                },
+                "additionalProperties": false
+            },
+            "comment": {
+                "type": "string"
+            },
+            "inat": {
+                "type": "object",
+                "properties": {
+                    "notintaxondata": {
+                        "const": true
+                    }
+                },
+                "additionalProperties": false
+            },
+            "jepson": {
+                "type": "object",
+                "properties": {
+                    "allowsynonym": {
+                        "const": true
+                    },
+                    "notineflora": {
+                        "const": true
+                    }
+                },
+                "additionalProperties": false
+            },
+            "rpi": {
+                "type": "object",
+                "properties": {
+                    "translation": {
+                        "type": "string"
+                    },
+                    "translation-to-rpi": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "additionalProperties": false
+    }
+}
