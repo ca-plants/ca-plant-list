@@ -1,50 +1,31 @@
 #!/usr/bin/env node
 
+import { Command } from "commander";
 import { Config } from "../lib/config.js";
-import { Files } from "../lib/files.js";
-import { PlantBook } from "../lib/ebook/plantbook.js";
-import { TaxaProcessor } from "../lib/taxaprocessor.js";
-import { CommandProcessor } from "../lib/commandprocessor.js";
+import { CSV, ErrorLog, Files, PlantBook, Taxa } from "../lib/index.js";
 
-const OPTION_DEFS = [{ name: "locationsdir", type: String }];
+const program = new Command();
 
-const OPTION_HELP = [
-    {
-        name: "locationsdir",
-        type: String,
-        typeLabel: "{underline path}",
-        description:
-            "If this option is specified, multiple ebooks will be generated. {bold locationsdir} must be a subdirectory" +
-            " of the current directory, and each subdirectory of {bold locationsdir} is processed in turn to generate an ebook." +
-            " Each ebook is placed in a subdirectory of {bold outputdir}.",
-    },
-];
+program
+    .option("-d, --datadir <dir>", "directory containing plant data", "./data")
+    .option(
+        "-f, --show-flower-errors",
+        "include missing flower color/flowering time in error log"
+    )
+    .option("-l, --locationsdir <dir>", "directory containing location data")
+    .option(
+        "-o, --outputdir <dir>",
+        "directory to which output should be written",
+        "./output"
+    )
+    .action(build);
 
-class BookCommand extends CommandProcessor {
-    constructor() {
-        super(
-            "ca-plant-book",
-            "A tool to generate an ebook with local plant data.",
-            OPTION_DEFS,
-            OPTION_HELP
-        );
-    }
-}
+await program.parseAsync();
 
 /**
- * @param {TaxaProcessor} tp
+ * @param {import("commander").OptionValues} options
  */
-async function commandRunner(tp) {
-    const options = tp.getOptions();
-    const config = new Config(options.datadir);
-    const ebook = new PlantBook(options.outputdir, config, tp.getTaxa());
-    await ebook.create();
-}
-
-/**
- * @param {import("command-line-args").CommandLineOptions} options
- */
-async function generateEBooks(options) {
+async function build(options) {
     const locationsDir = options.locationsdir;
 
     // If there is a "locations" directory, generate a book for all subdirectories.
@@ -57,21 +38,55 @@ async function generateEBooks(options) {
             const suffix = "/" + subdir;
             const path = locationsDir + suffix;
             if (Files.isDir(path)) {
-                options.datadir = path;
-                options.outputdir = outputBase + suffix;
-                const gen = new TaxaProcessor(options);
-                await gen.process(commandRunner);
+                await buildBook(
+                    outputBase + suffix,
+                    path,
+                    options.showFlowerErrors
+                );
             }
         }
     } else {
         // Otherwise use the default directory.
-        const gen = new TaxaProcessor(options);
-        await gen.process(commandRunner);
+        await buildBook(
+            options.outputdir,
+            options.datadir,
+            options.showFlowerErrors
+        );
     }
 }
 
-const cmd = new BookCommand();
-const options = cmd.getOptions();
-if (!options.help) {
-    await generateEBooks(options);
+/**
+ * @param {string} outputDir
+ * @param {string} dataDir
+ * @param {boolean} showFlowerErrors
+ */
+async function buildBook(outputDir, dataDir, showFlowerErrors) {
+    /**
+     * @param {string} dataDir
+     */
+    function getIncludeList(dataDir) {
+        // Read inclusion list.
+        const includeFileName = "taxa_include.csv";
+        const includeFilePath = dataDir + "/" + includeFileName;
+        if (!Files.exists(includeFilePath)) {
+            console.log(includeFilePath + " not found; loading all taxa");
+            return true;
+        }
+        const includeCSV = CSV.parseFile(dataDir, includeFileName);
+        /** @type {Object<string,TaxonData>} */
+        const include = {};
+        for (const row of includeCSV) {
+            include[row["taxon_name"]] = row;
+        }
+        return include;
+    }
+
+    const errorLog = new ErrorLog(outputDir + "/errors.tsv");
+
+    const taxa = new Taxa(getIncludeList(dataDir), errorLog, showFlowerErrors);
+
+    const config = new Config(dataDir);
+    const ebook = new PlantBook(outputDir, config, taxa);
+    await ebook.create();
+    errorLog.write();
 }

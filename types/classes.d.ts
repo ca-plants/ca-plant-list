@@ -17,6 +17,7 @@ declare class Config {
 
 declare class ErrorLog {
     log(...args: string[]): void;
+    write();
 }
 
 declare class Families {
@@ -104,16 +105,16 @@ declare class TaxaProcessor {
 declare class Taxon {
     constructor(data: TaxonData, genera: Genera, meta: any);
     getBaseFileName(): string;
-    getBloomEnd(): number;
-    getBloomStart(): number;
+    getBloomEnd(): number | undefined;
+    getBloomStart(): number | undefined;
     getCalfloraName(): string;
-    getCalfloraTaxonLink(): string;
-    getCESA(): string;
+    getCalfloraTaxonLink(): string | undefined;
+    getCESA(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
-    getFESA(): string;
+    getFESA(): string | undefined;
     getFileName(): string;
-    getFlowerColors(): string[];
+    getFlowerColors(): string[] | undefined;
     getGenus(): Genus;
     getGenusName(): string;
     getHTMLLink(
