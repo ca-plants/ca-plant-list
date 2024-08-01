@@ -4,8 +4,10 @@ import * as child_process from "node:child_process";
 import * as path from "node:path";
 import { Config } from "../lib/config.js";
 import { PageRenderer } from "../lib/pagerenderer.js";
-import { CommandAndTaxaProcessor } from "../lib/commandandtaxaprocessor.js";
 import { Files } from "../lib/files.js";
+import { Program } from "../lib/program.js";
+import { Taxa } from "../lib/taxa.js";
+import { ErrorLog } from "../lib/errorlog.js";
 
 class JekyllRenderer {
     #srcDir = "./output";
@@ -50,24 +52,24 @@ class JekyllRenderer {
 }
 
 /**
- * @param {TaxaProcessor} taxaProcessor
+ * @param {import("commander").OptionValues} options
  */
-async function generateSite(taxaProcessor) {
-    const options = taxaProcessor.getOptions();
-
-    PageRenderer.render(
-        options.outputdir,
-        new Config(options.datadir),
-        taxaProcessor.getTaxa()
+async function build(options) {
+    const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
+    const taxa = new Taxa(
+        Program.getIncludeList(options.datadir),
+        errorLog,
+        options.showFlowerErrors
     );
+    PageRenderer.render(options.outputdir, new Config(options.datadir), taxa);
+    errorLog.write();
 
     console.log("generating site");
     const r = new JekyllRenderer();
     await r.renderPages();
 }
 
-const gen = new CommandAndTaxaProcessor(
-    "ca-plant-list",
-    "A tool to generate a website with local plant data."
-);
-await gen.process(generateSite);
+const program = Program.getProgram();
+program.action(build);
+
+await program.parseAsync();
