@@ -17,7 +17,7 @@ export class CSV {
 }
 
 export class ErrorLog {
-    constructor(fileName: string);
+    constructor(fileName: string, echo?: boolean);
     log(...msg: string[]);
     write(): void;
 }
@@ -28,12 +28,15 @@ export class Exceptions {
 }
 
 export class Files {
+    static exists(fileName: string): boolean;
     static async fetch(url: string | URL, targetFileName: string | undefined);
     static mkdir(dir: string);
     static rmDir(dir: string);
+    static write(fileName: string, data: string, overwrite: boolean);
 }
 
 export class Program {
+    static getIncludeList(dataDir: string): string[];
     static getProgram(): Command;
 }
 
@@ -42,9 +45,9 @@ export class Taxa {
         inclusionList: Object<string, TaxonData> | true,
         errorLog: ErrorLog,
         showFlowerErrors: boolean,
-        taxonFactory: (td: TaxonData, g: Genera) => Taxon,
-        extraTaxa: TaxonData[],
-        extraSynonyms: SynonymData[]
+        taxonFactory?: (td: TaxonData, g: Genera) => Taxon,
+        extraTaxa?: TaxonData[],
+        extraSynonyms?: SynonymData[]
     );
     getTaxon(string): Taxon;
     getTaxonList(): Taxon[];

@@ -55,6 +55,7 @@ class JekyllRenderer {
  * @param {import("commander").OptionValues} options
  */
 async function build(options) {
+    Files.rmDir(options.outputdir);
     const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
     const taxa = new Taxa(
         Program.getIncludeList(options.datadir),
