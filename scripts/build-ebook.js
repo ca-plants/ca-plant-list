@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 
 import { Config } from "../lib/config.js";
-import { ErrorLog, Files, PlantBook, Taxa } from "../lib/index.js";
+import { ErrorLog } from "../lib/errorlog.js";
+import { Files } from "../lib/files.js";
+import { PlantBook } from "../lib/ebook/plantbook.js";
 import { Program } from "../lib/program.js";
+import { Taxa } from "../lib/taxa.js";
 
 const program = Program.getProgram();
 program
