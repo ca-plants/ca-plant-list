@@ -95,13 +95,6 @@ declare class TaxaCol {
     title: string;
 }
 
-declare class TaxaLoader {}
-
-declare class TaxaProcessor {
-    getOptions(): CommandLineOptions;
-    getTaxa(): Taxa;
-}
-
 declare class Taxon {
     constructor(data: TaxonData, genera: Genera, meta: any);
     getBaseFileName(): string;
