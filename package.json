@@ -18,7 +18,6 @@
         "ca-plant-book": "scripts/build-ebook.js"
     },
     "dependencies": {
-        "@ca-plant-list/tools": "file:../ca-tools",
         "archiver": "^5.3.1",
         "commander": "^12.1.0",
         "csv-parse": "^5.3.1",
@@ -31,7 +30,7 @@
     "devDependencies": {
         "@types/archiver": "^6.0.2",
         "@types/markdown-it": "^14.1.2",
-        "@types/node": "^18.11.9",
+        "@types/node": "^22.5.5",
         "@types/unzipper": "^0.10.9",
         "ajv-cli": "^5.0.0",
         "eslint": "^8.26.0",

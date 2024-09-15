@@ -688,12 +688,17 @@ Eriogonum latifolium subsp. auriculatum,Eriogonum nudum var. auriculatum
 Eriogonum latifolium subsp. pauciflorum,Eriogonum nudum var. pauciflorum
 Eriogonum latifolium var. alternans,Eriogonum nudum var. auriculatum
 Eriogonum leucocladon,Eriogonum gracile var. gracile
+Eriogonum lobbii var. lobbii,Eriogonum lobbii
+Eriogonum lobbii var. minus,Eriogonum lobbii
+Eriogonum marifolium var. incanum,Eriogonum incanum
+Eriogonum nivale,Eriogonum ovalifolium var. nivale
 Eriogonum nudum subsp. pauciflorum,Eriogonum nudum var. pauciflorum
 Eriogonum polifolium,Eriogonum fasciculatum var. polifolium
 Eriogonum polyanthum var. bahiiforme,Eriogonum umbellatum var. bahiiforme
 Eriogonum revolutum,Eriogonum fasciculatum var. polifolium
 Eriogonum roseum var. leucocladon,Eriogonum gracile var. gracile
 Eriogonum rosmarinifolium var. foliolosum,Eriogonum fasciculatum var. foliolosum
+Eriogonum rosulatum,Eriogonum incanum
 Eriogonum stellatum var. bahiiforme,Eriogonum umbellatum var. bahiiforme
 Eriogonum suffrutescens,Eriogonum wrightii var. subscaposum
 Eriogonum trachygonum subsp. subscaposum,Eriogonum wrightii var. subscaposum
@@ -701,6 +706,7 @@ Eriogonum trachygonum var. subscaposum,Eriogonum wrightii var. subscaposum
 Eriogonum trachygonum,Eriogonum wrightii var. trachygonum
 Eriogonum trichotomum,Eriogonum umbellatum var. bahiiforme
 Eriogonum umbellatum subsp. bahiiforme,Eriogonum umbellatum var. bahiiforme
+Eriogonum ursinum var. rosulatum,Eriogonum incanum
 Eriogonum vagans,Eriogonum inerme var. inerme
 Eriogonum verticillatum,Eriogonum gracile var. gracile
 Eriogonum vimineum subsp. gracile,Eriogonum gracile var. gracile
@@ -803,6 +809,7 @@ Garrya flavescens,Garrya congdonii,INAT
 Gaura decorticans,Eremothera boothii subsp. decorticans
 Gaura drummondii,Oenothera xenogaura
 Gaura sinuata,Oenothera sinuosa
+Gentiana tiogana,Gentiana newberryi var. tiogana
 Geranium carolinianum var. carolinianum,Geranium carolinianum
 Geranium carolinianum var. sphaerospermum,Geranium carolinianum
 Geranium microphyllum,Geranium potentilloides
@@ -1562,6 +1569,7 @@ Plectritis macrocera var. collina,Plectritis macrocera
 Plectritis macrocera var. grayi,Plectritis macrocera
 Plectritis macrocera var. mamillata,Plectritis macrocera
 Plectritis magna var. nitida,Plectritis congesta subsp. brachystemon
+Pneumonanthe newberryi var. tiogana,Gentiana newberryi var. tiogana
 Poa bolanderi var. howellii,Poa howellii
 Poa canbyi,Poa secunda subsp. secunda
 Poa gracillima,Poa secunda subsp. secunda
@@ -1575,6 +1583,7 @@ Polygonum amphibium var. emersum,Persicaria amphibia
 Polygonum amphibium var. stipulaceum,Persicaria amphibia
 Polygonum amphibium,Persicaria amphibia
 Polygonum arenastrum,Polygonum aviculare subsp. depressum
+Polygonum arenastrum,Polygonum aviculare subsp. depressum,INAT
 Polygonum aviculare subsp. rectum,Polygonum aviculare subsp. neglectum
 Polygonum calcatum,Polygonum aviculare subsp. depressum
 Polygonum cuspidatum,Fallopia japonica
@@ -1892,6 +1901,7 @@ Sida leprosa var. hederacea,Malvella leprosa
 Sidalcea delphiniifolia,Sidalcea malviflora subsp. malviflora
 Silene californica,Silene laciniata subsp. californica
 Silene coronaria,Lychnis coronaria,INAT
+Silene douglasii var. monantha,Silene douglasii var. douglasii
 Silene verecunda subsp. andersonii,Silene verecunda
 Silene verecunda subsp. platyota,Silene verecunda
 Silene verecunda subsp. verecunda,Silene verecunda
