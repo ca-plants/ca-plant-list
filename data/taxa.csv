@@ -339,7 +339,7 @@ Carex unilateralis,lateral sedge,N,17915,1646,76123
 Carpobrotus chilensis,sea fig,X,77164,1659,56026
 Carpobrotus edulis,freeway iceplant,X,17975,1660,49322
 Castilleja affinis subsp. affinis,Indian paintbrush,N,70068,1669,50043,,red
-Castilleja ambigua subsp. ambigua,johnny-nip,N,49732,1673,61110,,,,,3361,4.2,,,S3S4,G4T4
+Castilleja ambigua subsp. ambigua,johnny-nip,N,49732,1673,61110,,,,,3361,4.2,,,S3S4,G5T4
 Castilleja applegatei subsp. martinii,,N,76733,1679,1041230
 Castilleja attenuata,valley tassels,N,18175,1683,49341
 Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233
@@ -696,20 +696,20 @@ Eriogonum deserticola,,N,24754,3231,76982
 Eriogonum fasciculatum var. foliolosum,California buckwheat,N,58545,3246,58980
 Eriogonum fasciculatum var. polifolium,,N,58546,3247,58272
 Eriogonum gracile var. gracile,slender buckwheat,N,58563,3257,58982
-Eriogonum incanum,frosted buckwheat,N,24809,,,perennial,yellow,6,9
+Eriogonum incanum,frosted buckwheat,N,24809,3279,62680,perennial,yellow,6,9
 Eriogonum inerme var. inerme,unarmed buckwheat,N,58586,9110,80799
-Eriogonum lobbii,granite buckwheat,N,24839,,,perennial,"white,pink",6,8
+Eriogonum lobbii,granite buckwheat,N,24839,9935,77005,perennial,"white,pink",6,8
 Eriogonum luteolum var. caninum,Tiburon buckwheat,N,58623,3297,61205,,,,,733,1B.2,,,S2,G5T2
 Eriogonum luteolum var. luteolum,,N,58624,3298,64226
-Eriogonum nudum,naked buckwheat,N,24878,,,perennial
+Eriogonum nudum,naked buckwheat,N,24878,3315,53046,perennial
 Eriogonum nudum var. auriculatum,eared buckwheat,N,58650,3316,57220
 Eriogonum nudum var. pauciflorum,,N,58658,3324,57225
 Eriogonum nudum var. psychicola,Antioch Dunes buckwheat,N,80051,11183,80823,,,,,3401,1B.1,,,S1,G5T1
 Eriogonum nudum var. pubiflorum,,N,58659,3325,57221
-Eriogonum ovalifolium var. nivale,Sierran cushion wild buckwheat,N,58678,,,perennial,"white,pink,red",6,9
+Eriogonum ovalifolium var. nivale,Sierran cushion wild buckwheat,N,58678,3338,80833,perennial,"white,pink,red",6,9
 Eriogonum roseum,virgate buckwheat,N,24922,3360,58280
 Eriogonum truncatum,Mt. Diablo buckwheat,N,24957,3383,77039,,,,,766,1B.1,,,S1,G1
-Eriogonum umbellatum,sulfur buckwheat,N,24960,,,perennial,yellow
+Eriogonum umbellatum,sulfur buckwheat,N,24960,3385,77040,perennial,yellow
 Eriogonum umbellatum var. bahiiforme,sulfur flower,N,58755,3388,80851,,,,,1338,4.2,,,S3,G5T3
 Eriogonum wrightii var. trachygonum,,N,58801,3413,59244
 Eriogonum wrightii var. subscaposum,short-stemmed bastard-sage,N,58800,3412,58985,perennial,"white,pink",6,9
@@ -822,8 +822,8 @@ Garrya fremontii,silk tassel bush,N,26464,3750,56202
 Gastridium phleoides,nit grass,X,81267,9978,77225
 Gaultheria shallon,salal,N,26490,3755,48441
 Genista monspessulana,French broom,X,26558,3774,53403
-Gentiana calycosa,"explorers' gentian,mountain bog gentian",N,26579,,,perennial,"blue,purple",7,9
-Gentiana newberryi var. tiogana,Tioga gentian,N,59443,,,perennial,"white,blue",7,9
+Gentiana calycosa,"explorers' gentian,mountain bog gentian",N,26579,3779,56350,perennial,"blue,purple",7,9
+Gentiana newberryi var. tiogana,Tioga gentian,N,59443,3783,80907,perennial,"white,blue",7,9
 Geranium carolinianum,Carolina geranium,N,26710,3797,58917
 Geranium core-core,,X,81114,10601,77254
 Geranium dissectum,cut-leaved geranium,X,26715,3799,53075
@@ -1067,7 +1067,7 @@ Limonium californicum,sea-lavender,N,31014,4839,63364
 Limonium ramosissimum,Algerian sea-lavender,X,80703,9147,77757
 Limosella acaulis,,N,31027,4843,61107
 Limosella aquatica,,N,31028,4844,59016
-Limosella australis,delta mudwort,X,31029,10069,60248,,,,,1715,2B.1,,,S2,G4G5
+Limosella australis,delta mudwort,X,31029,10069,60248,,,,,1715,2B.1,,,S2,G5
 Linanthus dichotomus subsp. dichotomus,evening snow,N,51286,10624,80000
 Linanthus dichotomus subsp. meridianus,,N,51287,10625,80001
 Linanthus pungens subsp. pulchriflorus,granite prickly phlox,N,98684,14586,861790,perennial,"white,pink",5,8
@@ -1160,7 +1160,7 @@ Matricaria discoidea,pineapple weed,N,4103,11825,52992
 Matricaria occidentalis,western chamomile,N,4113,9500,57929
 Maytenus boaria,mayten,X,77417,8519,77969
 Meconella californica,,N,32919,5378,60849
-Meconella oregana,,N,32923,8817,77970,,,,,1960,1B.1,,,S2,G2G3
+Meconella oregana,,N,32923,8817,77970,,,,,1960,1B.1,,,S2,G2
 Medicago arabica,spotted burclover,X,32928,5381,61012
 Medicago lupulina,black medick,X,32933,5382,57056
 Medicago polymorpha,burclover,X,32938,5385,53151
@@ -1248,7 +1248,7 @@ Navarretia leptalea subsp. bicolor,Bridges' gilia,N,81098,9528,80051,annual,purp
 Navarretia leptalea subsp. leptalea,Bridges' pincushionplant,N,81096,9529,80052,annual,purple,6,8
 Navarretia mellita,,N,34465,5794,58975
 Navarretia nigelliformis subsp. nigelliformis,,N,51676,5797,78186,,,,,3233,4.2,,,S3,G4T3
-Navarretia nigelliformis subsp. radians,adobe navarretia,N,51677,5798,80060,,,,,1738,1B.2,,,S2S3,G4T2
+Navarretia nigelliformis subsp. radians,adobe navarretia,N,51677,5798,80060,,,,,1738,1B.2,,,S2S3,G4T2T3
 Navarretia prostrata,,N,34470,5803,78190,,,,,1983,1B.2,,,S2,G2
 Navarretia pubescens,downy pincushion,N,34471,5804,58976
 Navarretia squarrosa,skunkweed,N,34475,5807,53157
@@ -1426,7 +1426,7 @@ Polemonium pulcherrimum var. pulcherrimum,pretty Jacob's-ladder,N,75974,6719,812
 Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,80560,14756,81277
 Polygonum argyrocoleon,persian knotweed,X,39158,6738,78676
 Polygonum aviculare subsp. aviculare,,X,80990,10667,80151
-Polygonum aviculare subsp. depressum,,X,80993,11034,63967
+Polygonum aviculare subsp. depressum,,X,80993,11034,53179
 Polygonum aviculare subsp. neglectum,,X,80992,10669,80154
 Polygonum aviculare subsp. rurivagum,,X,80991,10670,915229
 Polygonum marinense,Marin knotweed,N,39235,6757,61073,,,,,1396,3.1,,,S2,G2Q
@@ -1659,11 +1659,11 @@ Sidalcea diploscypha,fringed checkerbloom,N,44415,7553,57139,annual,pink,4,5
 Sidalcea malviflora subsp. laciniata,checker mallow,N,52986,7568,61195,,pink,3,6
 Sidalcea malviflora subsp. malviflora,checker mallow,N,52987,7569,61041
 Silene antirrhina,sleepy catchfly,N,44491,7586,58780
-Silene douglasii var. douglasii,Douglas' catchfly,N,66384,,,perennial,white,6,9
+Silene douglasii var. douglasii,Douglas' catchfly,N,66384,10373,81371,perennial,white,6,9
 Silene gallica,windmill pink,X,44517,7597,53212
 Silene laciniata subsp. californica,,N,82538,11084,62222
 Silene lemmonii,Lemmon's catchfly,N,44533,7603,60523,perennial,white,4,9
-Silene sargentii,Sargent's catchfly,N,44566,,,perennial,white,7,8
+Silene sargentii,Sargent's catchfly,N,44566,7614,62697,perennial,white,7,8
 Silene verecunda,,N,44589,7617,60581
 Silybum marianum,milk-thistle,X,4918,7622,52586
 Sinapis arvensis,charlock,X,44609,7625,1562069
