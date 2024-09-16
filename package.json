@@ -24,7 +24,7 @@
         "image-size": "^1.1.1",
         "markdown-it": "^13.0.1",
         "sharp": "^0.32.1",
-        "svgo": "^3.0.3",
+        "svgo-ll": "^5.0.0",
         "unzipper": "^0.10.11"
     },
     "devDependencies": {
