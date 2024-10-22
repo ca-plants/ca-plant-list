@@ -10,20 +10,20 @@ declare class Config {
         name: string,
         subcategory?: string,
         defaultValue?: string
-    ): string;
+    ): string | undefined;
     getCountyCodes(): string[];
     getLabel(name: string, dflt: string): string;
 }
 
 declare class ErrorLog {
     log(...args: string[]): void;
-    write();
+    write(): void;
 }
 
 declare class Families {
     getFamilies(): Family[];
     getFamily(name: string): Family;
-    renderPages(outputDir: string, cols?: TaxaCol[]);
+    renderPages(outputDir: string, cols?: TaxaCol[]): void;
 }
 
 declare class Family {
@@ -41,7 +41,7 @@ declare class FlowerColor {
 }
 
 declare class Genera {
-    addTaxon(Taxon);
+    addTaxon(taxon: Taxon): void;
     getGenus(name: string): Genus;
 }
 
@@ -67,13 +67,13 @@ declare class InatObsOptions {
 }
 
 declare class SiteGenerator {
-    copyIllustrations(flowerColors: FlowerColor[]);
-    mkdir(path: string);
+    copyIllustrations(flowerColors: FlowerColor[]): void;
+    mkdir(path: string): void;
     writeTemplate(
         content: string,
-        attributes: Object<string, string>,
+        attributes: Record<string, string>,
         filename: string
-    );
+    ): void;
 }
 
 declare class SynonymData {
@@ -91,7 +91,7 @@ declare class Taxa {
 
 declare class TaxaCol {
     class?: string;
-    data: Object<string, Taxon>;
+    data: function (Taxon):string;
     title: string;
 }
 
