@@ -1,5 +1,7 @@
+.DS_Store
 external_data/
 node_modules/
+public/
 output/
 _site/
 /*.cmd
