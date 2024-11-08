@@ -25,7 +25,7 @@ async function getTaxonPhotos( options = {} ) {
         errorLog,
         options.showFlowerErrors
     );
-    const targetTaxa = taxa.getTaxonList( ); //.filter( t => t.getName().startsWith( "A" ) );
+    const targetTaxa = taxa.getTaxonList( );
 
     const filename = path.join( "data", "inattaxonphotos.csv" );
     const writableStream = fs.createWriteStream( filename );
@@ -49,14 +49,12 @@ async function getTaxonPhotos( options = {} ) {
     for ( const batch of chunk( targetTaxa, 30 ) ) {
         const inatTaxonIDs = batch.map( taxon => taxon.getINatID( ) ).filter( Boolean );
         const url = `https://api.inaturalist.org/v2/taxa/${inatTaxonIDs.join( "," )}?fields=(taxon_photos:(photo:(medium_url:!t,attribution:!t,license_code:!t)))`;
-        // console.log('[taxaloader.js] fetching url: ', url);
         const resp = await fetch( url );
         if (!resp.ok) {
             const error = await resp.text();
             throw new Error(`Failed to fetch taxa from iNat: ${error}`);
         }
         const json = await resp.json();
-        // console.log('[taxaloader.js] json', json);
         for ( const taxon of batch ) {
             prog.increment( );
             const iNatTaxon = json.results.find( result => result.id === Number( taxon.getINatID() ) );
@@ -83,6 +81,8 @@ async function getTaxonPhotos( options = {} ) {
                 stringifier.write( row );
             }
         }
+        // iNat will throttle you if you make more than 1 request a second.
+        // See https://www.inaturalist.org/pages/api+recommended+practices
         await sleep( 1_100 );
     }
     prog.stop();
