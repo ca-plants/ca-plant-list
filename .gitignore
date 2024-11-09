@@ -1,6 +1,7 @@
+/*.cmd
+/Gemfile*
+_site/
 external_data/
 node_modules/
 output/
-_site/
-/*.cmd
-/Gemfile*
+public/
