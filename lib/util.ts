@@ -1,6 +1,6 @@
 // Break an array into chunks of a desired size
 // https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore?tab=readme-ov-file#_chunk
-export function chunk( input, size ) {
+export function chunk( input: any[], size: number ) {
     return input.reduce((arr, item, idx) => {
         return idx % size === 0
             ? [...arr, [item]]
@@ -9,6 +9,6 @@ export function chunk( input, size ) {
 }
 
 // Basic ol' sleep function
-export async function sleep( time ) {
+export async function sleep( time: number ) {
     return new Promise( resolve => setTimeout( resolve, time ) );
 }

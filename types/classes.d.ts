@@ -120,6 +120,7 @@ declare class Taxon {
     getJepsonID(): string;
     getLifeCycle(): string;
     getName(): string;
+    getPhotos(): InatPhoto[];
     getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;
@@ -151,4 +152,12 @@ declare class TaxonData {
 declare class TaxonImage {
     getCaption(): string | undefined;
     getSrc(): string;
+}
+
+declare class InatPhoto {
+    name: string;
+    id: number;
+    ext: string;
+    licenseCode: "cc0" | "cc-by" | "cc-by-nc";
+    attrName: string;
 }
