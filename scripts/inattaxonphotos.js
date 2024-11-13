@@ -8,7 +8,7 @@ import path from "path";
 import { ErrorLog } from "../lib/errorlog.js";
 import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxa.js";
-import { chunk, sleep } from "../lib/util.ts";
+import { chunk, sleep } from "../lib/util.js";
 
 // While I'm guessing the products of this data will be non-commercial, it's
 // not clear how they'll be licensed so the ShareAlike clause is out, and
@@ -18,19 +18,26 @@ const ALLOWED_LICENSE_CODES = [
     "cc0", "cc-by", "cc-by-nc"
 ];
 
-interface InatApiTaxon {
-    id: number;
-    taxon_photos: {
-        photo: {
-            attribution: string;
-            id: number;
-            license_code: string;
-            medium_url: string;
-        }
-    }[];
+/**
+ * @param {Taxon[]} taxa
+ * @return {Promise<InatApiTaxon[]>}
+ */
+async function fetchInatTaxa( taxa ) {
+    const inatTaxonIDs = taxa.map( taxon => taxon.getINatID( ) ).filter( Boolean );
+    const url = `https://api.inaturalist.org/v2/taxa/${inatTaxonIDs.join( "," )}?fields=(taxon_photos:(photo:(medium_url:!t,attribution:!t,license_code:!t)))`;
+    const resp = await fetch( url );
+    if (!resp.ok) {
+        const error = await resp.text();
+        throw new Error(`Failed to fetch taxa from iNat: ${error}`);
+    }
+    const json = await resp.json();
+    return json.results;
 }
 
-async function getTaxonPhotos( options: CommandLineOptions ) {
+/**
+ * @param {CommandLineOptions} options
+ */
+async function getTaxonPhotos( options ) {
     const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
     const taxa = new Taxa(
         Program.getIncludeList(options.datadir),
@@ -59,17 +66,10 @@ async function getTaxonPhotos( options: CommandLineOptions ) {
 
     // Fetch endpoint can load multiple taxa, but it will created some long URLs so best to keep this smallish
     for ( const batch of chunk( targetTaxa, 30 ) ) {
-        const inatTaxonIDs = batch.map( ( taxon: Taxon ) => taxon.getINatID( ) ).filter( Boolean );
-        const url = `https://api.inaturalist.org/v2/taxa/${inatTaxonIDs.join( "," )}?fields=(taxon_photos:(photo:(medium_url:!t,attribution:!t,license_code:!t)))`;
-        const resp = await fetch( url );
-        if (!resp.ok) {
-            const error = await resp.text();
-            throw new Error(`Failed to fetch taxa from iNat: ${error}`);
-        }
-        const json = await resp.json();
+        const inatTaxa = await fetchInatTaxa( batch );
         for ( const taxon of batch ) {
             prog.increment( );
-            const iNatTaxon: InatApiTaxon = json.results.find( ( result: InatApiTaxon ) => result.id === Number( taxon.getINatID() ) );
+            const iNatTaxon = inatTaxa.find( it => it.id === Number( taxon.getINatID() ) );
             if ( !iNatTaxon ) continue;
             // Just get the CC-licensed ones, 5 per taxon should be fine (max is 20 on iNat). Whether or not 
             const taxonPhotos = iNatTaxon.taxon_photos

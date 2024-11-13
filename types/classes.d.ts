@@ -161,3 +161,25 @@ declare class InatPhoto {
     licenseCode: "cc0" | "cc-by" | "cc-by-nc";
     attrName: string;
 }
+
+type InatLicenseCode = "cc-by-nc-sa"
+    | "cc-by-nc"
+    | "cc-by-nc-nd"
+    | "cc-by"
+    | "cc-by-sa"
+    | "cc-by-nd"
+    | "pd"
+    | "gdfl"
+    | "cc0";
+
+declare class InatApiTaxon {
+    id: number;
+    taxon_photos: {
+        photo: {
+            id: number;
+            attribution: string;
+            license_code: InatLicenseCode
+            medium_url: string;
+        }
+    }[]
+}
