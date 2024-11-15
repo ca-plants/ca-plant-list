@@ -120,7 +120,7 @@ declare class Taxon {
     getJepsonID(): string;
     getLifeCycle(): string;
     getName(): string;
-    getPhotos(): InatPhoto[];
+    getPhotos(): Photo[];
     getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;
@@ -154,12 +154,19 @@ declare class TaxonImage {
     getSrc(): string;
 }
 
-declare class InatPhoto {
-    name: string;
-    id: number;
+type PhotoRights = typeof COPYRIGHT | typeof CC_BY | typeof CC_BY_NC | typeof CC0;
+
+declare class Photo {
+    url?: string;
+    rightsHolder: null | string;
+    rights?: PhotoRights;
+    getUrl: ( ) => string;
+    getSourceUrl: ( ) => string;
+}
+
+declare class InatPhoto extends Photo {
+    inatPhotoId: number;
     ext: string;
-    licenseCode: "cc0" | "cc-by" | "cc-by-nc";
-    attrName: string;
 }
 
 type InatLicenseCode = "cc-by-nc-sa"
@@ -171,6 +178,14 @@ type InatLicenseCode = "cc-by-nc-sa"
     | "pd"
     | "gdfl"
     | "cc0";
+
+declare class InatCsvPhoto {
+    name: string;
+    id: number;
+    ext: string;
+    licenseCode: InatLicenseCode;
+    attrName: string;
+}
 
 declare class InatApiTaxon {
     id: number;
