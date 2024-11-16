@@ -10,7 +10,7 @@
         "newLine": "lf",
         "outDir": "output",
         "rootDir": ".",
-        "skipLibCheck": true,
+        "skipLibCheck": false,
         "strict": true
     },
     "include": ["lib", "scripts", "types"]

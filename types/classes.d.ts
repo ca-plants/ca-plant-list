@@ -91,7 +91,7 @@ declare class Taxa {
 
 declare class TaxaCol {
     class?: string;
-    data: function (Taxon):string;
+    data:  (taxon:Taxon)=>string
     title: string;
 }
 
@@ -154,7 +154,7 @@ declare class TaxonImage {
     getSrc(): string;
 }
 
-type PhotoRights = typeof COPYRIGHT | typeof CC_BY | typeof CC_BY_NC | typeof CC0;
+type PhotoRights = "CC0"| "CC BY"| "CC BY-NC"| "C"|null;
 
 declare class Photo {
     url?: string;
