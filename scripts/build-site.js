@@ -42,7 +42,7 @@ class JekyllRenderer {
         addConfigFile(configFiles, this.#srcDir, "_config.yml");
         addConfigFile(configFiles, this.#srcDir, "_config-local.yml");
         addConfigFile(configFiles, ".", "_config-dev.yml");
-        options.push("--config", '"' + configFiles.join() + '"');
+        options.push("--config", `"${configFiles.join()}"`);
 
         const result = child_process.execSync(
             "bundle exec jekyll build " + options.join(" ")

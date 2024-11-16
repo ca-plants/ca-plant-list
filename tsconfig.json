@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
         "allowJs": true,
+        "allowImportingTsExtensions": true,
         "checkJs": true,
         "declaration": true,
         "declarationMap": true,
+        "emitDeclarationOnly": true,
         "module": "nodenext",
         "newLine": "lf",
         "outDir": "output",
