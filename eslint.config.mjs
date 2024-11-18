@@ -1,13 +1,13 @@
-export default [
-    {
-        rules: {
-            indent: ["error", 4, {
-                SwitchCase: 1,
-            }],
+import globals from "globals";
+import pluginJs from "@eslint/js";
 
-            "linebreak-style": ["error", "unix"],
-            quotes: ["error", "double"],
-            semi: ["error", "always"],
+/** @type {import('eslint').Linter.Config[]} */
+export default [
+    { files: ["**/*.{js,mjs,cjs}"], ignores: ["output/**"] },
+    {
+        languageOptions: {
+            globals: { ...globals.browser, ...globals.node, bootstrap: false },
         },
-    }
+    },
+    pluginJs.configs.recommended,
 ];
