@@ -9,7 +9,7 @@ declare class Config {
         prefix: string,
         name: string,
         subcategory?: string,
-        defaultValue?: string
+        defaultValue?: string,
     ): string | undefined;
     getCountyCodes(): string[];
     getLabel(name: string, dflt: string): string;
@@ -55,10 +55,6 @@ declare class GlossaryEntry {
     getTermName(): string;
 }
 
-declare class Images {
-    getTaxonImages(name: string): TaxonImage[];
-}
-
 declare class InatObsOptions {
     coords?: [number, number];
     project_id?: string;
@@ -72,7 +68,7 @@ declare class SiteGenerator {
     writeTemplate(
         content: string,
         attributes: Record<string, string>,
-        filename: string
+        filename: string,
     ): void;
 }
 
@@ -91,7 +87,7 @@ declare class Taxa {
 
 declare class TaxaCol {
     class?: string;
-    data:  (taxon:Taxon)=>string
+    data: (taxon: Taxon) => string;
     title: string;
 }
 
@@ -112,7 +108,7 @@ declare class Taxon {
     getGenusName(): string;
     getHTMLLink(
         href: boolean | string | undefined,
-        includeRPI?: boolean
+        includeRPI?: boolean,
     ): string;
     getINatID(): string;
     getINatName(): string;
@@ -154,14 +150,16 @@ declare class TaxonImage {
     getSrc(): string;
 }
 
-type PhotoRights = "CC0"| "CC BY"| "CC BY-NC"| "C"|null;
+type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 declare class Photo {
     url?: string;
     rightsHolder: null | string;
     rights?: PhotoRights;
-    getUrl: ( ) => string;
-    getSourceUrl: ( ) => string;
+    getExt(): string;
+    getId(): string;
+    getUrl: () => string;
+    getSourceUrl: () => string;
 }
 
 declare class InatPhoto extends Photo {
@@ -169,7 +167,8 @@ declare class InatPhoto extends Photo {
     ext: string;
 }
 
-type InatLicenseCode = "cc-by-nc-sa"
+type InatLicenseCode =
+    | "cc-by-nc-sa"
     | "cc-by-nc"
     | "cc-by-nc-nd"
     | "cc-by"
@@ -193,8 +192,8 @@ declare class InatApiTaxon {
         photo: {
             id: number;
             attribution: string;
-            license_code: InatLicenseCode
+            license_code: InatLicenseCode;
             medium_url: string;
-        }
-    }[]
+        };
+    }[];
 }
