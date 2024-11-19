@@ -145,11 +145,6 @@ declare class TaxonData {
     taxon_name: string;
 }
 
-declare class TaxonImage {
-    getCaption(): string | undefined;
-    getSrc(): string;
-}
-
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 declare class Photo {
@@ -157,9 +152,9 @@ declare class Photo {
     rightsHolder: null | string;
     rights?: PhotoRights;
     getExt(): string;
-    getId(): string;
-    getUrl: () => string;
-    getSourceUrl: () => string;
+    getId(): number;
+    getUrl(): string;
+    getSourceUrl(): string;
 }
 
 declare class InatPhoto extends Photo {
