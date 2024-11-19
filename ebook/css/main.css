@@ -12,6 +12,14 @@ div.section {
     margin-bottom: .5rem;
 }
 
+div.photos {
+    display: flex;
+}
+
+figure {
+    margin: auto;
+}
+
 img.flr-color {
     padding-right: .25rem;
     width: 1rem;
