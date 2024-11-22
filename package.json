@@ -15,7 +15,8 @@
     "types": "./lib/index.d.ts",
     "bin": {
         "ca-plant-list": "scripts/build-site.js",
-        "ca-plant-book": "scripts/build-ebook.js"
+        "ca-plant-book": "scripts/build-ebook.js",
+        "photo-tools": "scripts/photos.js"
     },
     "dependencies": {
         "archiver": "^5.3.1",
