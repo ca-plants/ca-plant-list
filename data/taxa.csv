@@ -1771,9 +1771,9 @@ Torilis arvensis,tall sock-destroyer,X,46743,8004,56846
 Torilis nodosa,short sock-destroyer,X,46747,8007,53304
 Torreyochloa pallida var. pauciflora,,N,67197,8010,81431
 Toxicodendron diversilobum,poison-oak,N,46791,8015,51080,,white
-Toxicoscordion fremontii,zigadene,N,89163,11103,49649,,white
-Toxicoscordion paniculatum,,N,46802,11105,79380
-Toxicoscordion venenosum var. venenosum,death-camas,N,93851,11106,81432
+Toxicoscordion fremontii,zigadene,N,89163,11103,49649,bulb,white,2,6
+Toxicoscordion paniculatum,,N,46802,11105,79380,bulb,white,5,6
+Toxicoscordion venenosum var. venenosum,death-camas,N,93851,11106,81432,bulb,white,5,7
 Tradescantia fluminensis,,X,77137,8017,79382
 Tragopogon porrifolius,salsify,X,5449,8020,54141
 Trianthema portulacastrum,,N,46920,8023,79390
