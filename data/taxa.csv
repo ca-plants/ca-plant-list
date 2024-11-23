@@ -1255,6 +1255,8 @@ Navarretia pubescens,downy pincushion,N,34471,5804,58976
 Navarretia squarrosa,skunkweed,N,34475,5807,53157
 Navarretia tagetina,,N,34477,5809,60226
 Navarretia viscidula,sticky navarretia,N,34478,5810,78195
+Nemacladus capillaris,common threadplant,N,34503,5815,78199,annual,white,5,7
+Nemacladus montanus,mountain threadplant,N,34508,5824,78203,annual,white,5,7
 Nemophila heterophylla,,N,34539,5834,53158,,white,2,6
 Nemophila menziesii var. atomaria,,N,62279,5837,50647,,white,2,6
 Nemophila menziesii var. menziesii,baby blue-eyes,N,62285,5839,50650
@@ -1771,9 +1773,9 @@ Torilis arvensis,tall sock-destroyer,X,46743,8004,56846
 Torilis nodosa,short sock-destroyer,X,46747,8007,53304
 Torreyochloa pallida var. pauciflora,,N,67197,8010,81431
 Toxicodendron diversilobum,poison-oak,N,46791,8015,51080,,white
-Toxicoscordion fremontii,zigadene,N,89163,11103,49649,,white
-Toxicoscordion paniculatum,,N,46802,11105,79380
-Toxicoscordion venenosum var. venenosum,death-camas,N,93851,11106,81432
+Toxicoscordion fremontii,zigadene,N,89163,11103,49649,bulb,white,2,6
+Toxicoscordion paniculatum,,N,46802,11105,79380,bulb,white,5,6
+Toxicoscordion venenosum var. venenosum,death-camas,N,93851,11106,81432,bulb,white,5,7
 Tradescantia fluminensis,,X,77137,8017,79382
 Tragopogon porrifolius,salsify,X,5449,8020,54141
 Trianthema portulacastrum,,N,46920,8023,79390
