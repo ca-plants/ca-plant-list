@@ -4,20 +4,28 @@ import path from "path";
 import { ErrorLog } from "../lib/errorlog.js";
 import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxa.js";
+import { Argument } from "commander";
 
 const OPT_LOADER = "loader";
 
 const MAX_PHOTOS = 5;
 
 /**
- * @param {import("commander").Command} program
  * @param {import("commander").OptionValues} options
+ * @param {string} type
+ * @param {import("commander").OptionValues} cmdOptions
  */
-async function photos(program, options) {
+async function check(options, type, cmdOptions) {
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
 
-    auditTaxaWithoutMaxPhotos(errorLog, taxa);
+    switch (type) {
+        case "numphotos":
+            checkNumPhotos(errorLog, taxa, cmdOptions.minphotos);
+            break;
+        default:
+            throw new Error(`invalid check type: ${type}`);
+    }
 
     errorLog.write();
 }
@@ -25,11 +33,16 @@ async function photos(program, options) {
 /**
  * @param {ErrorLog} errorLog
  * @param {Taxa} taxa
+ * @param {number|undefined} minPhotos
  */
-function auditTaxaWithoutMaxPhotos(errorLog, taxa) {
+function checkNumPhotos(errorLog, taxa, minPhotos) {
     for (const taxon of taxa.getTaxonList()) {
         const photos = taxon.getPhotos();
-        if (photos.length !== MAX_PHOTOS) {
+        if (
+            minPhotos === undefined
+                ? photos.length !== MAX_PHOTOS
+                : photos.length < minPhotos
+        ) {
             errorLog.log(taxon.getName(), photos.length.toString());
         }
     }
@@ -59,10 +72,37 @@ async function getTaxa(options) {
     return taxa;
 }
 
+/**
+ * @param {import("commander").OptionValues} options
+ * @param {string} type
+ */
+async function update(options, type) {
+    console.log(options);
+    console.log(type);
+}
+
 const program = Program.getProgram();
+program
+    .command("check")
+    .description("Check photo file for problems.")
+    .addArgument(
+        new Argument("<type>", "Type of check to perform.").choices([
+            "numphotos",
+        ]),
+    )
+    .option(
+        "--minphotos <number>",
+        "Minimum number of photos. Taxa with fewer than this number will be listed.",
+    )
+    .action((type, options) => check(program.opts(), type, options));
+if (process.env.npm_package_name === "@ca-plant-list/ca-plant-list") {
+    // Only allow updates in ca-plant-list.
+    program
+        .command("update <type>")
+        .action((type) => update(program.opts(), type));
+}
 program.option(
     "--loader <path>",
     "The path (relative to the current directory) of the JavaScript file containing the TaxaLoader class. If not provided, the default TaxaLoader will be used.",
 );
-program.action((options) => photos(program, options));
 await program.parseAsync();
