@@ -162,6 +162,13 @@ declare class InatPhoto extends Photo {
     ext: string;
 }
 
+type InatPhotoInfo = {
+    id: string;
+    ext: string;
+    licenseCode: string;
+    attrName: string | undefined;
+};
+
 type InatLicenseCode =
     | "cc-by-nc-sa"
     | "cc-by-nc"
