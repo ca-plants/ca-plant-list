@@ -1,1 +1,1 @@
-Leaves not compound.
+Leaves not compound, usually not tinted purple on lower side.
