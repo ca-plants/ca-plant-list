@@ -1534,14 +1534,15 @@ Rhaponticum repens,Russian knapweed,X,103802,13621,339502
 Rhinotropis californica,California milkwort,N,107535,14636,876453
 Rhus aromatica,skunkbrush,N,41175,11056,58738
 Ribes amarum,bitter gooseberry,N,41372,7099,53433
-Ribes aureum var. gracillimum,golden currant,N,65126,7104,55547
-Ribes californicum var. californicum,hillside gooseberry,N,65128,7108,47128
-Ribes divaricatum var. pubiflorum,straggly gooseberry,N,65143,7117,53434
-Ribes malvaceum var. malvaceum,pink-flowering currant,N,65160,7128,54947
+Ribes aureum var. gracillimum,golden currant,N,65126,7104,55547,perennial,yellow,2,5
+Ribes californicum var. californicum,hillside gooseberry,N,65128,7108,47128,perennial,white,2,3
+Ribes divaricatum var. pubiflorum,straggly gooseberry,N,65143,7117,53434,perennial,white,3,5
+Ribes malvaceum var. malvaceum,pink-flowering currant,N,65160,7128,54947,perennial,pink,10,4
 Ribes menziesii,canyon gooseberry,N,41423,7131,52687
-Ribes quercetorum,oak gooseberry,N,41449,7136,55548
-Ribes sanguineum var. glutinosum,red-flowering currant,N,65190,7142,53436
-Ribes speciosum,fuchsia-flowered gooseberry,N,41466,7145,50824
+Ribes menziesii var. menziesii,canyon gooseberry,N,65168,,53114,perennial,perennial,white,2,4
+Ribes quercetorum,oak gooseberry,N,41449,7136,55548,perennial,yellow,3,5
+Ribes sanguineum var. glutinosum,red-flowering currant,N,65190,7142,53436,perennial,pink,2,4
+Ribes speciosum,fuchsia-flowered gooseberry,N,41466,7145,50824,perennial,red,1,5
 Ricinus communis,castor-bean,X,41486,7153,56739
 Rigiopappus leptocladus,,N,4579,7154,56981
 Robinia pseudoacacia,black locust,X,41521,7156,56088
