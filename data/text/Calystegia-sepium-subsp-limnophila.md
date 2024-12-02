@@ -1,1 +1,1 @@
-Bracts at least 4mm wide, just below [calyx](./calyx.html), mostly hiding calyx. Bracts not sac-like at base. Bracts not stronly overlapping. Corolla 30-60 mm (usually smaller than _C. silvatica_). Leaves 4-8 cm (generally smaller than _C. silvatica_).
+Bracts at least 4mm wide, just below [calyx](./g/calyx.html), mostly hiding calyx. Bracts not sac-like at base. Bracts not stronly overlapping. Corolla 30-60 mm (usually smaller than _C. silvatica_). Leaves 4-8 cm (generally smaller than _C. silvatica_).

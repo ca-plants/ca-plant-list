@@ -1,1 +1,1 @@
-No spines on stem. [Styles](./style.html) hairy at base.
+No spines on stem. [Styles](./g/style.html) hairy at base.

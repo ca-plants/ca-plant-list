@@ -1,1 +1,1 @@
-Bracts at least 4mm wide, just below [calyx](./calyx.html), mostly hiding calyx. Bracts sac-like at base. Bracts strongly overlapping. Corolla 55-75 mm (usually larger than _C. sepium_). Leaves 5-12 cm (generally larger than _C. sepium_).
+Bracts at least 4mm wide, just below [calyx](./g/calyx.html), mostly hiding calyx. Bracts sac-like at base. Bracts strongly overlapping. Corolla 55-75 mm (usually larger than _C. sepium_). Leaves 5-12 cm (generally larger than _C. sepium_).
