@@ -160,10 +160,10 @@ Arum italicum,,X,14303,730,61168
 Arundo donax,giant reed,X,14319,732,64017
 Asarum caudatum,wild-ginger,N,14334,733,52858
 Asclepias californica,California milkweed,N,14357,739,51272,perennial,purple,4,7
-Asclepias cordifolia,purple milkweed,N,14360,741,62248
+Asclepias cordifolia,purple milkweed,N,14360,741,62248,perennial,purple,5,7
 Asclepias eriocarpa,kotolo,N,14369,745,58796,perennial,white,5,10
 Asclepias fascicularis,narrow-leaf milkweed,N,14375,747,56851,perennial,white,5,10
-Asclepias speciosa,milkweed,N,14422,751,62292
+Asclepias speciosa,milkweed,N,14422,751,62292,perennial,purple,5,9
 Asparagus asparagoides,,X,14480,755,64107
 Asparagus officinalis subsp. officinalis,asparagus,X,77139,756,60265
 Asphodelus fistulosus,onionweed,X,14494,758,75606
@@ -285,14 +285,14 @@ Calycadenia multiglandulosa,,N,1875,1324,56863
 Calycadenia truncata,rosin weed,N,1884,1328,62567
 Calyptridium monospermum,one-seeded pussypaws,N,16846,1335,75958,perennial,"pink,white",4,9
 Calyptridium umbellatum,Mount Hood pussypaws,N,16852,1344,127100,perennial,white,5,10
-Calystegia malacophylla subsp. pedicellata,woolly morning-glory,N,76596,1364,79655
-Calystegia occidentalis subsp. occidentalis,,N,49559,1368,56086
-Calystegia purpurata subsp. purpurata,,N,49560,1371,58882
+Calystegia malacophylla subsp. pedicellata,woolly morning-glory,N,76596,1364,79655,perennial,white,4,7
+Calystegia occidentalis subsp. occidentalis,,N,49559,1368,56086,perennial,white,5,7
+Calystegia purpurata subsp. purpurata,Pacific false bindweed,N,49560,1371,58882,perennial,white,5,6
 Calystegia purpurata subsp. saxicola,,N,49561,1372,79656,,,,,1843,1B.2,,,S2S3,G4T2T3
-Calystegia sepium subsp. limnophila,hedge bindweed,N,49568,1374,60182
-Calystegia silvatica subsp. disjuncta,shortstalk false bindweed,X,78991,8524,79658
+Calystegia sepium subsp. limnophila,hedge bindweed,N,49568,1374,60182,perennial,white,5,7
+Calystegia silvatica subsp. disjuncta,shortstalk false bindweed,X,78991,8524,79658,perennial,white,5,8
 Calystegia soldanella,beach morning-glory,N,16876,1375,60880
-Calystegia subacaulis subsp. subacaulis,hill morning-glory,N,49576,1379,57014
+Calystegia subacaulis subsp. subacaulis,hill morning-glory,N,49576,1379,57014,perennial,white,4,6
 Camassia leichtlinii subsp. suksdorfii,great camas,N,49578,9754,79659,bulb,blue,5,8
 Camassia quamash subsp. breviflora,small camas,N,49580,1381,79660,bulb,blue,5,7
 Camissonia campestris subsp. campestris,Mojave suncup,N,49602,1401,56781
@@ -868,7 +868,7 @@ Helianthus annuus,sunflower,N,3244,4040,57983
 Helianthus californicus,California sunflower,N,3254,4042,56954
 Helianthus gracilentus,,N,3280,4047,77356
 Heliotropium curassavicum var. oculatum,heliotrope,N,59914,11723,80928
-Helminthotheca echioides,bristly ox-tongue,X,81752,10921,61906
+Helminthotheca echioides,bristly ox-tongue,X,81752,10921,61906,"annual,biennial",yellow,1,12
 Hemizonia congesta subsp. lutescens,,N,80179,10922,61173
 Hemizonia congesta subsp. luzulifolia,,N,102005,4070,56956,,white,3,12
 Heracleum maximum,cow parsnip,N,27996,9546,53094
@@ -1534,14 +1534,15 @@ Rhaponticum repens,Russian knapweed,X,103802,13621,339502
 Rhinotropis californica,California milkwort,N,107535,14636,876453
 Rhus aromatica,skunkbrush,N,41175,11056,58738
 Ribes amarum,bitter gooseberry,N,41372,7099,53433
-Ribes aureum var. gracillimum,golden currant,N,65126,7104,55547
-Ribes californicum var. californicum,hillside gooseberry,N,65128,7108,47128
-Ribes divaricatum var. pubiflorum,straggly gooseberry,N,65143,7117,53434
-Ribes malvaceum var. malvaceum,pink-flowering currant,N,65160,7128,54947
+Ribes aureum var. gracillimum,golden currant,N,65126,7104,55547,perennial,yellow,2,5
+Ribes californicum var. californicum,hillside gooseberry,N,65128,7108,47128,perennial,white,2,3
+Ribes divaricatum var. pubiflorum,straggly gooseberry,N,65143,7117,53434,perennial,white,3,5
+Ribes malvaceum var. malvaceum,pink-flowering currant,N,65160,7128,54947,perennial,pink,10,4
 Ribes menziesii,canyon gooseberry,N,41423,7131,52687
-Ribes quercetorum,oak gooseberry,N,41449,7136,55548
-Ribes sanguineum var. glutinosum,red-flowering currant,N,65190,7142,53436
-Ribes speciosum,fuchsia-flowered gooseberry,N,41466,7145,50824
+Ribes menziesii var. menziesii,canyon gooseberry,N,65168,10307,53114,perennial,white,2,4
+Ribes quercetorum,oak gooseberry,N,41449,7136,55548,perennial,yellow,3,5
+Ribes sanguineum var. glutinosum,red-flowering currant,N,65190,7142,53436,perennial,pink,2,4
+Ribes speciosum,fuchsia-flowered gooseberry,N,41466,7145,50824,perennial,red,1,5
 Ricinus communis,castor-bean,X,41486,7153,56739
 Rigiopappus leptocladus,,N,4579,7154,56981
 Robinia pseudoacacia,black locust,X,41521,7156,56088
@@ -1620,7 +1621,7 @@ Sanicula saxatilis,rock sanicle,N,43186,7339,57783,,,,,1435,1B.2,CR,,S2,G2
 Sanicula tuberosa,,N,43190,7341,56842
 Scabiosa atropurpurea,pincushion flower,X,43445,7374,372376
 Scandix pecten-veneris,Venus' needle,X,43465,7376,56843
-Schinus molle,peruvian pepper-tree,X,43505,7378,57354
+Schinus molle,Peruvian pepper-tree,X,43505,7378,57354
 Schismus arabicus,Mediterranean grass,X,43510,7380,58384
 Schoenoplectus acutus var. occidentalis,common tule,N,79929,9602,59209
 Schoenoplectus americanus,Olney's three-square bulrush,N,80328,9603,59066
@@ -1630,7 +1631,7 @@ Schoenoplectus tabernaemontani,,N,80321,9611,78998
 Scirpus microcarpus,,N,43718,7398,59068
 Scoliopus bigelovii,,N,43824,7416,48990
 Scolymus hispanicus,golden thistle,X,4661,7417,79009
-Scribneria bolanderi,,N,43846,7420,57196
+Scribneria bolanderi,,N,43846,7420,1586235
 Scrophularia californica,California figwort,N,43849,7422,50812,,white
 Scutellaria bolanderi subsp. bolanderi,Sierra skullcap,N,52896,7431,80184,perennial,"white,blue",6,7
 Scutellaria californica,,N,43883,7432,59791,perennial
@@ -1829,8 +1830,8 @@ Triteleia hyacinthina,white brodiaea,N,47356,8154,57132
 Triteleia laxa,Ithuriel's spear,N,47359,8160,51085
 Triteleia peduncularis,,N,47363,8164,57133
 Tropaeolum majus,garden nasturtium,X,47408,8167,54329
-Tropidocarpum capparideum,caper-fruited tropidocarpum,N,47411,8168,79456,,,,,1255,1B.1,,,S1,G1
-Tropidocarpum gracile,,N,47412,8169,58091
+Tropidocarpum capparideum,caper-fruited tropidocarpum,N,47411,8168,79456,annual,yellow,3,4,1255,1B.1,,,S1,G1
+Tropidocarpum gracile,dobie pod,N,47412,8169,58091,annual,yellow,3,5
 Turritis glabra,tower mustard,N,47457,12119,79460
 Typha angustifolia,narrow-leaved cattail,X,47462,8176,60316
 Typha domingensis,southern cattail,N,47463,8177,58392
@@ -1873,8 +1874,8 @@ Viola douglasii,Douglas violet,N,48202,8288,79508,,yellow,2,7
 Viola glabella,stream violet,N,48214,8289,71113
 Viola ocellata,western heart's ease,N,48259,8297,61782,,white,3,7
 Viola pedunculata,johnny-jump-up,N,48273,8300,50825,,yellow,2,4
-Viola purpurea subsp. purpurea,mountain violet,N,53409,8312,80281,,yellow
-Viola purpurea subsp. quercetorum,,N,53410,8313,80282,,yellow,2,7
+Viola purpurea subsp. purpurea,mountain violet,N,53409,8312,80281,perennial,yellow,3,7
+Viola purpurea subsp. quercetorum,oakwoods violet,N,53410,8313,80282,perennial,yellow,2,7
 Viola sempervirens,evergreen violet,N,48307,8315,55342
 Viola sheltonii,fan violet,N,48311,8316,70394
 Vitis californica,California grape,N,48407,8321,63923
