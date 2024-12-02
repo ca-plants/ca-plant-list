@@ -19,6 +19,7 @@
             "translation": "Castilleja ambigua subsp. ambigua"
         }
     },
+    "Delphinium gypsophilum": { "calflora": { "notintaxondata": true } },
     "Downingia ornatissima var. mirabilis": {
         "inat": {
             "notintaxondata": true
@@ -82,6 +83,7 @@
             "translation": "Campanula sharsmithiae"
         }
     },
+    "Salvia apiana": { "calflora": { "notintaxondata": true } },
     "Streptanthus albidus subsp. peramoenus": {
         "calflora": {
             "notintaxondata": true

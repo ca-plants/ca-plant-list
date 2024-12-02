@@ -971,7 +971,7 @@ Juncus phaeocephalus var. phaeocephalus,brown-headed rush,N,60393,4491,61036
 Juncus tenuis,poverty rush,N,29725,4496,69930
 Juncus xiphioides,iris-leaved rush,N,29743,4502,57110
 Juniperus californica,California juniper,N,29749,4503,57889
-Juniperus communis var. saxatilis,mountain juniper,N,60424
+Juniperus communis var. saxatilis,mountain juniper,N,60424,10933
 Keckiella breviflora var. breviflora,,N,75718,4520,59015
 Keckiella corymbosa,,N,29883,4523,62043
 Kickxia elatine,fluellin,X,29898,4532,64332
@@ -1603,12 +1603,12 @@ Salpichroa origanifolia,,X,43020,7292,78954
 Salsola australis,,X,43028,12003,78955
 Salsola soda,,X,43034,7295,78960
 Salsola tragus,Russian thistle,X,43032,7296,57896
-Salvia apiana,,N,43038,7298,64134
+Salvia apiana,white sage,N,43038,7298,64134
 Salvia carduacea,thistle sage,N,43046,7300,58190
 Salvia columbariae,chia,N,43049,7302,53200
-Salvia leucophylla,,N,43066,7310,58191
+Salvia leucophylla,purple sage,N,43066,7310,58191
 Salvia mellifera,black sage,N,43071,7311,50643
-Salvia spathacea,,N,43098,7316,64133
+Salvia spathacea,California hummingbird sage,N,43098,7316,64133
 Sambucus mexicana,blue elderberry,N,43127,7320,143799
 Sambucus racemosa var. racemosa,red elderberry,N,76057,7323,57826
 Samolus parviflorus,water-pimpernel,N,43144,7324,60234
