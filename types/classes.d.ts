@@ -83,6 +83,7 @@ declare class Taxa {
     getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
+    isSubset(): boolean;
 }
 
 declare class TaxaCol {
@@ -96,6 +97,7 @@ declare class Taxon {
     getBaseFileName(): string;
     getBloomEnd(): number | undefined;
     getBloomStart(): number | undefined;
+    getCalfloraID(): string;
     getCalfloraName(): string;
     getCalfloraTaxonLink(): string | undefined;
     getCESA(): string | undefined;
@@ -123,6 +125,7 @@ declare class Taxon {
     getRPITaxonLink(): string;
     getStatusDescription(config: Config): string;
     getSynonyms(): string[];
+    isCANative(): boolean;
     isNative(): boolean;
 }
 

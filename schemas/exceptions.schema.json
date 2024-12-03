@@ -9,6 +9,7 @@
                     "badjepsonid": {
                         "const": true
                     },
+                    "native": { "type": "boolean" },
                     "notintaxondata": {
                         "const": true
                     }
