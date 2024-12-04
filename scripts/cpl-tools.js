@@ -62,7 +62,12 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.CALSCAPE:
-                await Calscape.analyze(TOOLS_DATA_DIR, taxa, errorLog);
+                await Calscape.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
+                    errorLog,
+                );
                 break;
             case TOOLS.INAT:
                 // await INat.analyze(
