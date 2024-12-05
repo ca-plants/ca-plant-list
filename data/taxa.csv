@@ -1178,7 +1178,7 @@ Melissa officinalis,lemon balm,X,33161,5408,59901
 Mentha ×gracilis,Scotch spearmint,X,33199,11833,181919
 Mentha ×piperita,peppermint,X,33203,5412,181525
 Mentha aquatica,water mint,X,33191,10110,77990
-Mentha arvensis,field mint,X,33193,5413,58188,Field Mint
+Mentha arvensis,field mint,X,33193,5413,58188
 Mentha canadensis,American cornmint,N,33195,10635,77991,American Cornmint
 Mentha pulegium,pennyroyal,X,33206,5414,57116
 Mentha spicata,spearmint,X,33209,10111,62652
@@ -1525,7 +1525,8 @@ Ranunculus occidentalis var. occidentalis,,N,64947,11979,81335,Western Buttercup
 Ranunculus orthorhynchus var. bloomeri,,N,64956,7051,81337,Bloomer's Buttercup
 Ranunculus orthorhynchus var. orthorhynchus,,N,64957,7052,81338,Straightbeak Buttercup
 Ranunculus repens,,X,40965,7056,48229
-Ranunculus sceleratus,cursed crowsfoot,X,40971,7059,59301,Cursed Buttercup
+Ranunculus sceleratus,cursed crowsfoot,N,40971,7059,59301,Cursed Buttercup
+Ranunculus sceleratus var. sceleratus,,X,64987,11983,,,annual,yellow,4,6
 Raphanus raphanistrum,jointed charlock,X,40991,7063,55411
 Raphanus sativus,wild radish,X,40992,7064,995125
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856
