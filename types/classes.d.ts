@@ -135,7 +135,7 @@ declare class TaxonData {
     bloom_end: string;
     bloom_start: string;
     calrecnum: string;
-    calscape_cn: string;
+    calscape_cn?: string;
     CESA: string;
     "common name": string;
     CRPR: string;
