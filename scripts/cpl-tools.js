@@ -67,6 +67,7 @@ async function build(program, options) {
                     options.datadir,
                     taxa,
                     errorLog,
+                    !!options.update,
                 );
                 break;
             case TOOLS.INAT:
@@ -155,6 +156,7 @@ program.option(
     "--loader <path>",
     "The path (relative to the current directory) of the JavaScript file containing the TaxaLoader class. If not provided, the default TaxaLoader will be used.",
 );
+program.option("--update", "Update taxa.csv to remove errors if possible.");
 program.addHelpText(
     "after",
     `
