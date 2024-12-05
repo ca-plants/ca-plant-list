@@ -74,7 +74,11 @@ async function addMissingPhotos(options) {
         }
     }
 
-    CSV.writeFile(`${options.outputdir}/${PHOTO_FILE_NAME}`, data, headers);
+    CSV.writeFileArray(
+        `${options.outputdir}/${PHOTO_FILE_NAME}`,
+        data,
+        headers,
+    );
 }
 
 /**

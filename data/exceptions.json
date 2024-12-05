@@ -68,11 +68,18 @@
             "translation-to-rpi": "Malacothamnus hallii"
         }
     },
+    "Mentha arvensis": {
+        "calflora": { "native": false },
+        "calscape": { "notnative": true }
+    },
     "Myosurus minimus subsp. apus": {
         "comment": "in CNPS Rare Plant Inventory",
         "jepson": {
             "notineflora": true
         }
+    },
+    "Ranunculus sceleratus var. sceleratus": {
+        "calflora": { "native": false }
     },
     "Ravenella exigua": {
         "comment": "in CNPS Rare Plant Inventory as Ravenella",
@@ -94,5 +101,8 @@
         "jepson": {
             "allowsynonym": true
         }
+    },
+    "Typha angustifolia": {
+        "calscape": { "notnative": true }
     }
 }

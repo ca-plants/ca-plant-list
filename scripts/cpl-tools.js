@@ -7,9 +7,11 @@ import { Program } from "../lib/program.js";
 import { Calflora } from "../lib/tools/calflora.js";
 import { Exceptions } from "../lib/exceptions.js";
 import { ErrorLog } from "../lib/errorlog.js";
+import { Calscape } from "../lib/tools/calscape.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
+    CALSCAPE: "calscape",
     INAT: "inat",
     JEPSON_EFLORA: "jepson-eflora",
     JEPSON_FAM: "jepson-families",
@@ -19,6 +21,7 @@ const TOOLS = {
 
 const ALL_TOOLS = [
     TOOLS.CALFLORA,
+    TOOLS.CALSCAPE,
     TOOLS.INAT,
     TOOLS.JEPSON_EFLORA,
     TOOLS.RPI,
@@ -56,6 +59,16 @@ async function build(program, options) {
                     taxa,
                     exceptions,
                     errorLog,
+                );
+                break;
+            case TOOLS.CALSCAPE:
+                await Calscape.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
+                    exceptions,
+                    errorLog,
+                    !!options.update,
                 );
                 break;
             case TOOLS.INAT:
@@ -144,12 +157,14 @@ program.option(
     "--loader <path>",
     "The path (relative to the current directory) of the JavaScript file containing the TaxaLoader class. If not provided, the default TaxaLoader will be used.",
 );
+program.option("--update", "Update taxa.csv to remove errors if possible.");
 program.addHelpText(
     "after",
     `
 Tools:
     'all' runs the 'calflora', 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
     '${TOOLS.CALFLORA}' retrieves data from Calflora and compares with local data.
+    '${TOOLS.CALSCAPE}' retrieves data from Calscape and compares with local data.
     '${TOOLS.INAT}' retrieves data from iNaturalist and compares with local data.
     '${TOOLS.JEPSON_EFLORA}' retrieves data from Jepson eFlora indexes and compares with local data.
     '${TOOLS.JEPSON_FAM}' retrieves section, family and genus data from Jepson eFlora and creates data files for use by ca-plant-list.

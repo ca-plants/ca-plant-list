@@ -100,6 +100,8 @@ declare class Taxon {
     getCalfloraID(): string;
     getCalfloraName(): string;
     getCalfloraTaxonLink(): string | undefined;
+    getCalscapeCommonName(): string | undefined;
+    getCalscapeName(): string;
     getCESA(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
@@ -133,6 +135,7 @@ declare class TaxonData {
     bloom_end: string;
     bloom_start: string;
     calrecnum: string;
+    calscape_cn?: string;
     CESA: string;
     "common name": string;
     CRPR: string;
