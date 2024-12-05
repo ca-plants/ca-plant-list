@@ -16,6 +16,10 @@
                 },
                 "additionalProperties": false
             },
+            "calscape": {
+                "type": "object",
+                "properties": { "notnative": { "const": true } }
+            },
             "comment": {
                 "type": "string"
             },

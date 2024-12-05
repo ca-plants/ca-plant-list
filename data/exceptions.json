@@ -94,5 +94,8 @@
         "jepson": {
             "allowsynonym": true
         }
+    },
+    "Typha angustifolia": {
+        "calscape": { "notnative": true }
     }
 }

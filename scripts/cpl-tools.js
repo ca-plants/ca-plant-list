@@ -66,6 +66,7 @@ async function build(program, options) {
                     TOOLS_DATA_DIR,
                     options.datadir,
                     taxa,
+                    exceptions,
                     errorLog,
                     !!options.update,
                 );
