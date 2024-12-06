@@ -6,14 +6,14 @@ export class Config {
         prefix: string,
         name: string,
         subcategory?: string,
-        defaultValue?: string
+        defaultValue?: string,
     ): string;
     getCountyCodes(): string[];
     getLabel(name: string, dflt: string): string;
 }
 
 export class CSV {
-    static parseFile(dir: string, fileName: string): void;
+    static parseFile(dir: string, fileName: string): Object[];
 }
 
 export class ErrorLog {
@@ -31,7 +31,7 @@ export class Files {
     static exists(fileName: string): boolean;
     static fetch(
         url: string | URL,
-        targetFileName: string | undefined
+        targetFileName: string | undefined,
     ): Promise<Headers>;
     static mkdir(dir: string): void;
     static rmDir(dir: string): void;
@@ -50,7 +50,7 @@ export class Taxa {
         showFlowerErrors: boolean,
         taxonFactory?: (td: TaxonData, g: Genera) => Taxon,
         extraTaxa?: TaxonData[],
-        extraSynonyms?: SynonymData[]
+        extraSynonyms?: SynonymData[],
     );
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
