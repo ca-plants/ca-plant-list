@@ -13,7 +13,7 @@ export class Config {
 }
 
 export class CSV {
-    static parseFile(dir: string, fileName: string): Object[];
+    static parseFile(dir: string, fileName: string): Record<string, string>[];
 }
 
 export class ErrorLog {
