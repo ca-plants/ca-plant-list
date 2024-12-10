@@ -971,7 +971,7 @@ Juncus phaeocephalus var. phaeocephalus,brown-headed rush,N,60393,4491,61036,Bro
 Juncus tenuis,poverty rush,N,29725,4496,69930,Poverty Rush
 Juncus xiphioides,iris-leaved rush,N,29743,4502,57110,Irisleaf Rush
 Juniperus californica,California juniper,N,29749,4503,57889,California Juniper
-Juniperus communis var. saxatilis,mountain juniper,N,60424,10933,,Common Juniper
+Juniperus communis var. saxatilis,mountain juniper,N,60424,10933,81001,Common Juniper
 Keckiella breviflora var. breviflora,,N,75718,4520,59015,Gaping Keckiella
 Keckiella corymbosa,,N,29883,4523,62043,Keckiella
 Kickxia elatine,fluellin,X,29898,4532,64332
@@ -1360,7 +1360,7 @@ Phoenix canariensis,Canary Island date palm,X,37878,6449,78554
 Pholistoma auritum var. auritum,fiesta flower,N,63599,6455,58926,Fiesta Flower
 Pholistoma membranaceum,white fiesta flower,N,37886,6456,57352,White Fiesta Flower
 Phoradendron leucarpum subsp. macrophyllum,big leaf mistletoe,N,98417,13230,166732,Colorado Desert Mistletoe
-Phoradendron leucarpum subsp. tomentosum,oak mistletoe,N,98416,13231,545020,Pacific Mistletoe
+Phoradendron leucarpum subsp. tomentosum,oak mistletoe,N,98416,13231,343310,Pacific Mistletoe
 Phragmites australis,common reed,N,37931,6465,64237,Common Reed
 Phyla lanceolata,,N,37942,6466,59042,Lanceleaf Fogfruit
 Phyla nodiflora,,N,37943,6467,59040,Common Lippia,perennial,white,5,11
@@ -1526,7 +1526,7 @@ Ranunculus orthorhynchus var. bloomeri,,N,64956,7051,81337,Bloomer's Buttercup
 Ranunculus orthorhynchus var. orthorhynchus,,N,64957,7052,81338,Straightbeak Buttercup
 Ranunculus repens,,X,40965,7056,48229
 Ranunculus sceleratus,cursed crowsfoot,N,40971,7059,59301,Cursed Buttercup
-Ranunculus sceleratus var. sceleratus,,X,64987,11983,,,annual,yellow,4,6
+Ranunculus sceleratus var. sceleratus,,X,64987,11983,81341,,annual,yellow,4,6
 Raphanus raphanistrum,jointed charlock,X,40991,7063,55411
 Raphanus sativus,wild radish,X,40992,7064,995125
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856

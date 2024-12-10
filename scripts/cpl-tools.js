@@ -8,6 +8,7 @@ import { Calflora } from "../lib/tools/calflora.js";
 import { Exceptions } from "../lib/exceptions.js";
 import { ErrorLog } from "../lib/errorlog.js";
 import { Calscape } from "../lib/tools/calscape.js";
+import { INat } from "../lib/tools/inat.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -72,13 +73,15 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.INAT:
-                // await INat.analyze(
-                //     TOOLS_DATA_DIR,
-                //     taxa,
-                //     exceptions,
-                //     errorLog,
-                //     options.inTaxafile,
-                // );
+                await INat.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
+                    exceptions,
+                    errorLog,
+                    options.inTaxafile,
+                    !!options.update,
+                );
                 break;
             case TOOLS.JEPSON_EFLORA: {
                 // const eflora = new JepsonEFlora(
