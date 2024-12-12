@@ -58,6 +58,15 @@ export class HTML {
     ): string;
 }
 
+export class HTMLTaxon {
+    static getListSectionHTML(
+        list: string[],
+        header: string,
+        className?: string,
+    ): string;
+    static getMarkdownSection(filePath: string): string;
+}
+
 export class Jekyll {
     static include(fileName: string): string;
 }
