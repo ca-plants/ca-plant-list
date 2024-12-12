@@ -38,6 +38,30 @@ export class Files {
     static write(fileName: string, data: string, overwrite: boolean): void;
 }
 
+export class HTML {
+    static arrayToLI(items: string[]): string;
+    static getLink(
+        href: string | undefined,
+        linkText: string,
+        attrs?: Record<string, string> | string,
+        openInNewWindow?: boolean,
+    ): string;
+    static textElement(
+        elName: string,
+        text: string,
+        attrs?: Record<string, string>,
+    ): string;
+    static wrap(
+        elName: string,
+        text: string,
+        attrs?: string | Record<string, string> | undefined,
+    ): string;
+}
+
+export class Jekyll {
+    static include(fileName: string): string;
+}
+
 export class Program {
     static getIncludeList(dataDir: string): string[];
     static getProgram(): Command;
@@ -54,4 +78,17 @@ export class Taxa {
     );
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
+}
+
+export class Taxon {
+    getBaseFileName(): string;
+    getCalfloraTaxonLink(): string;
+    getCommonNames(): string[];
+    getFamily(): Family;
+    getGenus(): Genus;
+    getGenusName(): string;
+    getINatTaxonLink(): string;
+    getName(): string;
+    getRPITaxonLink(): string;
+    getSynonyms(): string[];
 }
