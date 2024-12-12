@@ -1,0 +1,1 @@
+In a grass [spikelet](./spikelet.html), the glume is a bract below all the individual flowers. Each spikelet generally has 2 glumes, one slightly below the other; the lower glume is usually shorter than the upper.
