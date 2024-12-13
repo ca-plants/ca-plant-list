@@ -1347,8 +1347,8 @@ Phacelia ramosissima,branching phacelia,N,37557,6389,50617,Branching Phacelia
 Phacelia rattanii,,N,37563,6396,58925,Rattan's Phacelia,,"white,blue",5,7
 Phacelia suaveolens,sweet scented phacelia,N,37577,6402,68816,Sweetscented Phacelia
 Phacelia tanacetifolia,tansy-leaf phacelia,N,37579,6405,58185,Lacy Phacelia
-Phalaris angusta,timothy canary grass,N,37600,6415,78534,Timothy Canary Grass
-Phalaris aquatica,Harding grass,X,37601,6416,57188
+Phalaris angusta,timothy canary grass,N,37600,6415,78534,Timothy Canary Grass,annual,,5,6
+Phalaris aquatica,Harding grass,X,37601,6416,57188,,annual,,4,8
 Phalaris arundinacea,reed canary grass,N,37604,6417,63337,Reed Canarygrass
 Phalaris brachystachys,short-spiked canary grass,X,37605,6418,78535
 Phalaris californica,California canary grass,N,37606,6419,57192,California Canarygrass

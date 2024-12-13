@@ -1,152 +1,152 @@
 /* Defaults */
 
 :root {
-  /* See https://visme.co/blog/website-color-schemes/ theme 4 */
-  --bs-body-bg: #5cdb95;
-  --bs-link-color: #05386b;
-  --pl-navbar-bg: #379683;
+    /* See https://visme.co/blog/website-color-schemes/ theme 4 */
+    --bs-body-bg: #5cdb95;
+    --bs-link-color: #05386b;
+    --pl-navbar-bg: #379683;
 }
 
 .navbar-nav {
-  --bs-nav-link-hover-color: rgba(255, 255, 255, .5);
+    --bs-nav-link-hover-color: rgba(255, 255, 255, .5);
 }
 
 .navbar {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --bs-navbar-color: white;
-  --bs-navbar-brand-hover-color: rgba(255, 255, 255, .5);
-  --bs-navbar-brand-color: white;
-  --bs-navbar-nav-link-padding-x: 1rem;
-  background-color: var(--pl-navbar-bg);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-color: white;
+    --bs-navbar-brand-hover-color: rgba(255, 255, 255, .5);
+    --bs-navbar-brand-color: white;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    background-color: var(--pl-navbar-bg);
 }
 
 p {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 span.label {
-  font-weight: 600;
-  padding-right: .5rem;
+    font-weight: 600;
+    padding-right: .5rem;
 }
 
 td {
-  border: solid 1px;
-  padding: 0 .5rem;
-  vertical-align: top;
+    border: solid 1px;
+    padding: 0 .5rem;
+    vertical-align: top;
 }
 
 th {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 ul.listmenu {
-  display: flex;
-  padding: 0;
+    display: flex;
+    padding: 0;
 }
 
 ul.listmenu li {
-  display: inline-block;
-  padding: 0;
-  padding-right: .25em;
+    display: inline-block;
+    padding: 0;
+    padding-right: .25em;
 }
 
 ul.listmenu li::after {
-  content: "  |";
+    content: "  |";
 }
 
 ul.listmenu li:last-child:after {
-  content: "";
+    content: "";
 }
 
 /* Utilities */
 .right {
-  text-align: right;
+    text-align: right;
 }
 
 /* Lists */
 
 span.native {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 span.rare::before {
-  content: "\2606";
+    content: "\2606";
 }
 
 /* Glossary */
 div.glossary img {
-  max-height: 300px;
+    max-height: 300px;
 }
 
 /* Taxon Page */
 
 .common-names {
-  font-size: larger;
-  font-weight: bold;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .native-status {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 div.grid {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  column-gap: 2rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    column-gap: 2rem;
 }
 
 div.grid.borders>div.section {
-  border: solid 1px;
-  border-radius: 3%;
-  padding: .5rem;
+    border: solid 1px;
+    border-radius: 3%;
+    padding: .5rem;
 }
 
 div.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4rem;
 }
 
 div.section {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 div.section h2 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 div.section.nobullet ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 div.section.nobullet li {
-  display: block;
-  margin-left: 1rem;
-  text-indent: -1rem;
+    display: block;
+    padding-left: .5rem;
+    text-indent: -.5rem;
 }
 
 div.section ul.indent {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 img.flr-color {
-  margin-bottom: .2rem;
-  margin-right: .5rem;
-  width: 1rem;
+    margin-bottom: .2rem;
+    margin-right: .5rem;
+    width: 1rem;
 }
 
 span.flr-time,
 span.lc {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 span.lcs {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 /* Forms */
 input {
-  margin-right: .5em;
+    margin-right: .5em;
 }
