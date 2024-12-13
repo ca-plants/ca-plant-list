@@ -91,11 +91,13 @@ export class Taxa {
 
 export class Taxon {
     getBaseFileName(): string;
+    getCalfloraID(): string;
     getCalfloraTaxonLink(): string;
     getCommonNames(): string[];
     getFamily(): Family;
     getGenus(): Genus;
     getGenusName(): string;
+    getINatID(): string;
     getINatTaxonLink(): string;
     getName(): string;
     getRPITaxonLink(): string;
