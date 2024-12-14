@@ -59,6 +59,7 @@ export class HTML {
 }
 
 export class HTMLTaxon {
+    static getFooterHTML(taxon: Taxon): string;
     static getListSectionHTML(
         list: string[],
         header: string,
