@@ -80,7 +80,7 @@ async function getTaxonPhotos( options ) {
                 const row = [
                     taxon.getName(),
                     taxonPhoto.photo.id,
-                    taxonPhoto.photo.medium_url.split( "." ).at( -1 ),
+                    String( taxonPhoto.photo.medium_url ).split( "." ).at( -1 ),
                     // Need the license code to do attribution properly
                     taxonPhoto.photo.license_code,
                     // Photographers retain copyright for most CC licenses,

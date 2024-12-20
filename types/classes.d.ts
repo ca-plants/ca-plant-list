@@ -194,14 +194,27 @@ declare class InatCsvPhoto {
     attrName: string;
 }
 
+declare class InatApiPhoto {
+    id: number;
+    attribution: string;
+    license_code: InatLicenseCode;
+    medium_url?: string;
+    url?: string;
+}
+
 declare class InatApiTaxon {
     id: number;
     taxon_photos: {
-        photo: {
-            id: number;
-            attribution: string;
-            license_code: InatLicenseCode;
-            medium_url: string;
-        };
+        photo: InatApiPhoto;
     }[];
+}
+
+declare class InatApiObservation {
+    observation_photos: {
+        photo: InatApiPhoto;
+    }[]
+}
+
+declare class InatObsPhotosCommandLineOptions extends CommandLineOptions {
+    inatObsQuery?: string;
 }
