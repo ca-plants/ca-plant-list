@@ -118,7 +118,7 @@ declare class Taxon {
     ): string;
     getINatID(): string;
     getINatName(): string;
-    getINatSyn(): string;
+    getINatSyn(): string | undefined;
     getINatTaxonLink(): string;
     getJepsonID(): string;
     getLifeCycle(): string;
@@ -151,7 +151,7 @@ declare class TaxonData {
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
-    status: string;
+    status: StatusCode;
     taxon_name: string;
 }
 
