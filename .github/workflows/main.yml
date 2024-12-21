@@ -16,5 +16,4 @@ jobs:
                   node-version: latest
                   cache: "npm"
             - run: npm update
-            - run: npx eslint
-            - run: npx tsc
+            - run: npm run check
