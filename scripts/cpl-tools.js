@@ -9,6 +9,7 @@ import { Exceptions } from "../lib/exceptions.js";
 import { ErrorLog } from "../lib/errorlog.js";
 import { Calscape } from "../lib/tools/calscape.js";
 import { INat } from "../lib/tools/inat.js";
+import { JepsonEFlora } from "../lib/tools/jepsoneflora.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -84,13 +85,13 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.JEPSON_EFLORA: {
-                // const eflora = new JepsonEFlora(
-                //     TOOLS_DATA_DIR,
-                //     taxa,
-                //     errorLog,
-                //     options.efLognotes,
-                // );
-                // await eflora.analyze(exceptions);
+                const eflora = new JepsonEFlora(
+                    TOOLS_DATA_DIR,
+                    taxa,
+                    errorLog,
+                    options.efLognotes,
+                );
+                await eflora.analyze(exceptions);
                 break;
             }
             case TOOLS.JEPSON_FAM:

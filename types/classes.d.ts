@@ -83,6 +83,7 @@ declare class Taxa {
     getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
+    hasSynonym(name: string): boolean;
     isSubset(): boolean;
 }
 
@@ -92,6 +93,7 @@ declare class TaxaCol {
     title: string;
 }
 
+type StatusCode = "N" | "NC" | "U" | "X";
 declare class Taxon {
     constructor(data: TaxonData, genera: Genera, meta: any);
     getBaseFileName(): string;
@@ -116,6 +118,7 @@ declare class Taxon {
     ): string;
     getINatID(): string;
     getINatName(): string;
+    getINatSyn(): string | undefined;
     getINatTaxonLink(): string;
     getJepsonID(): string;
     getLifeCycle(): string;
@@ -125,6 +128,7 @@ declare class Taxon {
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;
     getRPITaxonLink(): string;
+    getStatus(): StatusCode;
     getStatusDescription(config: Config): string;
     getSynonyms(): string[];
     isCANative(): boolean;
@@ -147,7 +151,7 @@ declare class TaxonData {
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
-    status: string;
+    status: StatusCode;
     taxon_name: string;
 }
 
