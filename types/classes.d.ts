@@ -16,7 +16,7 @@ declare class Config {
 }
 
 declare class ErrorLog {
-    log(...args: string[]): void;
+    log(...args: any[]): void;
     write(): void;
 }
 
@@ -105,6 +105,7 @@ declare class Taxon {
     getCalscapeCommonName(): string | undefined;
     getCalscapeName(): string;
     getCESA(): string | undefined;
+    getCNDDBRank(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
     getFESA(): string | undefined;
@@ -112,6 +113,7 @@ declare class Taxon {
     getFlowerColors(): string[] | undefined;
     getGenus(): Genus;
     getGenusName(): string;
+    getGlobalRank(): string | undefined;
     getHTMLLink(
         href: boolean | string | undefined,
         includeRPI?: boolean,
@@ -124,6 +126,7 @@ declare class Taxon {
     getLifeCycle(): string;
     getName(): string;
     getPhotos(): Photo[];
+    getRPIID(): string | undefined;
     getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;

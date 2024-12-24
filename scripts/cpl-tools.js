@@ -10,6 +10,8 @@ import { ErrorLog } from "../lib/errorlog.js";
 import { Calscape } from "../lib/tools/calscape.js";
 import { INat } from "../lib/tools/inat.js";
 import { JepsonEFlora } from "../lib/tools/jepsoneflora.js";
+import { RPI } from "../lib/tools/rpi.js";
+import { Config } from "../lib/config.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -49,7 +51,7 @@ async function build(program, options) {
     }
 
     const exceptions = new Exceptions(options.datadir);
-    // const config = new Config(options.datadir);
+    const config = new Config(options.datadir);
     const taxa = await getTaxa(options);
 
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
@@ -98,13 +100,13 @@ async function build(program, options) {
                 // await JepsonFamilies.build(TOOLS_DATA_DIR, options.outputdir);
                 break;
             case TOOLS.RPI:
-                // await RPI.analyze(
-                //     TOOLS_DATA_DIR,
-                //     taxa,
-                //     config,
-                //     exceptions,
-                //     errorLog,
-                // );
+                await RPI.analyze(
+                    TOOLS_DATA_DIR,
+                    taxa,
+                    config,
+                    exceptions,
+                    errorLog,
+                );
                 break;
             case TOOLS.TEXT:
                 // SupplementalText.analyze(taxa, errorLog);

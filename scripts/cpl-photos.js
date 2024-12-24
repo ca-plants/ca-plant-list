@@ -141,6 +141,7 @@ function readPhotos() {
     const taxonPhotos = new Map();
 
     /** @type {InatCsvPhoto[]} */
+    // @ts-ignore
     const csvPhotos = CSV.readFile(photosFileName);
     for (const csvPhoto of csvPhotos) {
         const taxonName = csvPhoto.name;
