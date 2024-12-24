@@ -168,7 +168,7 @@ program.addHelpText(
     "after",
     `
 Tools:
-    'all' runs the 'calflora', 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
+    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
     '${TOOLS.CALFLORA}' retrieves data from Calflora and compares with local data.
     '${TOOLS.CALSCAPE}' retrieves data from Calscape and compares with local data.
     '${TOOLS.INAT}' retrieves data from iNaturalist and compares with local data.
