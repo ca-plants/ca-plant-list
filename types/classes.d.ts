@@ -16,7 +16,7 @@ declare class Config {
 }
 
 declare class ErrorLog {
-    log(...args: string[]): void;
+    log(...args: any[]): void;
     write(): void;
 }
 
@@ -83,6 +83,7 @@ declare class Taxa {
     getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
+    hasSynonym(name: string): boolean;
     isSubset(): boolean;
 }
 
@@ -92,6 +93,7 @@ declare class TaxaCol {
     title: string;
 }
 
+type StatusCode = "N" | "NC" | "U" | "X";
 declare class Taxon {
     constructor(data: TaxonData, genera: Genera, meta: any);
     getBaseFileName(): string;
@@ -103,6 +105,7 @@ declare class Taxon {
     getCalscapeCommonName(): string | undefined;
     getCalscapeName(): string;
     getCESA(): string | undefined;
+    getCNDDBRank(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
     getFESA(): string | undefined;
@@ -110,21 +113,25 @@ declare class Taxon {
     getFlowerColors(): string[] | undefined;
     getGenus(): Genus;
     getGenusName(): string;
+    getGlobalRank(): string | undefined;
     getHTMLLink(
         href: boolean | string | undefined,
         includeRPI?: boolean,
     ): string;
     getINatID(): string;
     getINatName(): string;
+    getINatSyn(): string | undefined;
     getINatTaxonLink(): string;
     getJepsonID(): string;
     getLifeCycle(): string;
     getName(): string;
     getPhotos(): Photo[];
+    getRPIID(): string | undefined;
     getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;
     getRPITaxonLink(): string;
+    getStatus(): StatusCode;
     getStatusDescription(config: Config): string;
     getSynonyms(): string[];
     isCANative(): boolean;
@@ -147,7 +154,7 @@ declare class TaxonData {
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
-    status: string;
+    status: StatusCode;
     taxon_name: string;
 }
 

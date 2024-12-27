@@ -1,8 +1,0 @@
-external_data/
-output/
-_site/
-scripts/dev/
-*.cmd
-.eslintrc.json
-Gemfile*
-tsconfig.json
