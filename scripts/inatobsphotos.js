@@ -18,6 +18,8 @@ const ALLOWED_LICENSE_CODES = [
     "cc0", "cc-by", "cc-by-nc"
 ];
 
+const DEFAULT_FILENAME = "inatobsphotos.csv";
+
 /**
  * @param {Taxon} taxon
  * @param {InatObsPhotosCommandLineOptions} options
@@ -57,7 +59,7 @@ async function getObsPhotos( options ) {
     );
     const targetTaxa = taxa.getTaxonList( );
 
-    const filename = path.join( "data", "inatobsphotos.csv" );
+    const filename = path.join("data", options.filename || DEFAULT_FILENAME);
     const writableStream = fs.createWriteStream( filename );
     const columns = [
         "name",
@@ -108,6 +110,10 @@ program.action(getObsPhotos).description( "Write a CSV to datadir with iNaturali
     .option(
         "-q, --inat-obs-query <query>",
         "Additional iNat observations API query terms to add, e.g. place_id=1234&d1=2020-01-01"
+    )
+    .option(
+        "-fn, --filename <filename>",
+        "Name of file to write to the data dir"
     )
 
 await program.parseAsync();

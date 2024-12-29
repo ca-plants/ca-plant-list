@@ -223,5 +223,10 @@ declare class InatApiObservation {
 }
 
 declare class InatObsPhotosCommandLineOptions extends CommandLineOptions {
+    filename?: string;
     inatObsQuery?: string;
+}
+
+declare class InatTaxonPhotosCommandLineOptions extends CommandLineOptions {
+    filename?: string;
 }
