@@ -18,6 +18,8 @@ const ALLOWED_LICENSE_CODES = [
     "cc0", "cc-by", "cc-by-nc"
 ];
 
+const DEFAULT_FILENAME = "inattaxonphotos.csv";
+
 /**
  * @param {Taxon[]} taxa
  * @return {Promise<InatApiTaxon[]>}
@@ -35,7 +37,7 @@ async function fetchInatTaxa( taxa ) {
 }
 
 /**
- * @param {CommandLineOptions} options
+ * @param {InatTaxonPhotosCommandLineOptions} options
  */
 async function getTaxonPhotos( options ) {
     const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
@@ -46,7 +48,7 @@ async function getTaxonPhotos( options ) {
     );
     const targetTaxa = taxa.getTaxonList( );
 
-    const filename = path.join( "data", "inattaxonphotos.csv" );
+    const filename = path.join("data", options.filename || DEFAULT_FILENAME);
     const writableStream = fs.createWriteStream( filename );
     const columns = [
         "name",
@@ -80,7 +82,7 @@ async function getTaxonPhotos( options ) {
                 const row = [
                     taxon.getName(),
                     taxonPhoto.photo.id,
-                    taxonPhoto.photo.medium_url.split( "." ).at( -1 ),
+                    String( taxonPhoto.photo.medium_url ).split( "." ).at( -1 ),
                     // Need the license code to do attribution properly
                     taxonPhoto.photo.license_code,
                     // Photographers retain copyright for most CC licenses,
@@ -101,6 +103,10 @@ async function getTaxonPhotos( options ) {
 }
 
 const program = Program.getProgram();
-program.action(getTaxonPhotos).description( "Write a CSV to datadir with iNaturalist taxon photos" );
+program.action(getTaxonPhotos).description( "Write a CSV to datadir with iNaturalist taxon photos" )
+    .option(
+        "-fn, --filename <filename>",
+        "Name of file to write to the data dir"
+    );
 
 await program.parseAsync();
