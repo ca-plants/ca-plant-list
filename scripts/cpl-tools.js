@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-import * as path from "node:path";
 import { Option } from "commander";
-import { Taxa } from "../lib/taxa.js";
 import { Program } from "../lib/program.js";
 import { Calflora } from "../lib/tools/calflora.js";
 import { Exceptions } from "../lib/exceptions.js";
@@ -12,6 +10,7 @@ import { INat } from "../lib/tools/inat.js";
 import { JepsonEFlora } from "../lib/tools/jepsoneflora.js";
 import { RPI } from "../lib/tools/rpi.js";
 import { Config } from "../lib/config.js";
+import { Taxa } from "../lib/taxa.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -32,7 +31,6 @@ const ALL_TOOLS = [
     TOOLS.TEXT,
 ];
 
-const OPT_LOADER = "loader";
 const OPT_TOOL = "tool";
 
 const TOOLS_DATA_DIR = "./external_data";
@@ -52,7 +50,7 @@ async function build(program, options) {
 
     const exceptions = new Exceptions(options.datadir);
     const config = new Config(options.datadir);
-    const taxa = await getTaxa(options);
+    const taxa = await Taxa.loadTaxa(options);
 
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
     for (const tool of tools) {
@@ -120,29 +118,6 @@ async function build(program, options) {
     errorLog.write();
 }
 
-/**
- * @param {import("commander").OptionValues} options
- */
-async function getTaxa(options) {
-    const errorLog = new ErrorLog(options.outputdir + "/errors.tsv", true);
-
-    const loader = options[OPT_LOADER];
-    let taxa;
-    if (loader) {
-        const taxaLoaderClass = await import("file:" + path.resolve(loader));
-        taxa = await taxaLoaderClass.TaxaLoader.loadTaxa(options, errorLog);
-    } else {
-        taxa = new Taxa(
-            Program.getIncludeList(options.datadir),
-            errorLog,
-            options.showFlowerErrors,
-        );
-    }
-
-    errorLog.write();
-    return taxa;
-}
-
 const program = Program.getProgram();
 program.addOption(
     new Option(
@@ -158,10 +133,6 @@ program.option(
 program.option(
     "--ef-lognotes",
     "When running the jepson-eflora tool, include eFlora notes, invalid names, etc. in the log file.",
-);
-program.option(
-    "--loader <path>",
-    "The path (relative to the current directory) of the JavaScript file containing the TaxaLoader class. If not provided, the default TaxaLoader will be used.",
 );
 program.option("--update", "Update taxa.csv to remove errors if possible.");
 program.addHelpText(

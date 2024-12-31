@@ -1331,10 +1331,10 @@ Persicaria punctata,,N,37303,11014,78456,Water Smartweed
 Petasites frigidus var. palmatus,coltsfoot,N,8060,6269,55778,Arctic Sweet Coltsfoot
 Petrorhagia dubia,pink grass,X,37370,6275,60602
 Petunia parviflora,wild petunia,N,37378,6279,159650,Seaside Petunia
-Phacelia breweri,,N,37425,6292,68813,Brewer's Phacelia,,blue,3,6
-Phacelia californica,rock phacelia,N,37426,6293,53170,Rock Phacelia
-Phacelia ciliata,great valley phacelia,N,37432,6302,58180,Great Valley Phacelia
-Phacelia distans,"sordid phacelia,distant phacelia",N,37450,6318,56631,Wild Heliotrope,,"white,blue",3,5
+Phacelia breweri,Brewer's phacelia,N,37425,6292,68813,Brewer's Phacelia,annual,blue,3,6
+Phacelia californica,rock phacelia,N,37426,6293,53170,Rock Phacelia,perennial,blue,3,9
+Phacelia ciliata,great valley phacelia,N,37432,6302,58180,Great Valley Phacelia,annual,blue,3,6
+Phacelia distans,"sordid phacelia,distant phacelia",N,37450,6318,56631,Wild Heliotrope,annual,"white,blue",3,5
 Phacelia divaricata,,N,37451,6319,51093,Divaricate Phacelia
 Phacelia douglasii,,N,37452,6320,58182,Douglas' Phacelia
 Phacelia egena,,N,37455,6322,58183,Kaweah River Phacelia
