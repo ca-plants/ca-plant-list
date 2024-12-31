@@ -31,7 +31,8 @@
         "ca-plant-list": "scripts/build-site.js",
         "ca-plant-book": "scripts/build-ebook.js",
         "cpl-photos": "scripts/cpl-photos.js",
-        "cpl-tools": "scripts/cpl-tools.js"
+        "cpl-tools": "scripts/cpl-tools.js",
+        "inatobsphotos": "scripts/inatobsphotos.js"
     },
     "dependencies": {
         "archiver": "^5.3.1",
