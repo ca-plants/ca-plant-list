@@ -249,7 +249,7 @@ Bromus madritensis,Spanish brome,X,16263,1207,52707
 Bromus pseudolaevipes,woodland brome,N,16275,1211,75908,Coast Range Brome
 Bromus racemosus,smooth brome,X,16278,11440,75909
 Bromus rubens,foxtail chess,X,16281,13634,59210
-Bromus sitchensis var. carinatus,California brome,N,108589,13623,52700
+Bromus sitchensis var. carinatus,California brome,N,108589,13623,52700,Sitka Brome
 Bromus sitchensis var. marginatus,mountain brome,N,108590,13624,159467
 Bromus sitchensis var. maritimus,maritime brome,N,108591,13625,71142
 Bromus sterilis,poverty brome,X,16288,1216,57163
@@ -644,7 +644,7 @@ Elymus stebbinsii,,N,101964,2944,63331,Stebbins' Wheat Grass
 Elymus trachycaulus subsp. trachycaulus,slender wheatgrass,N,50280,2947,636557,Slender Wheatgrass
 Elymus triticoides,,N,24181,11648,57184,Creeping Wild Rye
 Emmenanthe penduliflora,whispering bells,N,24223,2956,58173,Whispering Bells,annual,"white,yellow",4,7
-Emmenanthe rosea,,N,24224,14564,58919
+Emmenanthe rosea,,N,24224,14564,1597339
 Enemion occidentale,,N,24250,9551,76818,Western Rue-anemone
 Enemion stipitatum,,N,24252,9552,76819,Siskiyou Rue-anemone
 Ephedra californica,,N,24275,2972,57890,California Jointfir
@@ -1534,7 +1534,7 @@ Rhamnus crocea,spiny redberry,N,41069,7075,57243,Spiny Redberry
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308,Hollyleaf Redberry
 Rhaponticum repens,Russian knapweed,X,103802,13621,339502
 Rhinotropis californica,California milkwort,N,107535,14636,876453
-Rhus aromatica,skunkbrush,N,41175,11056,58738,Sourberry
+Rhus aromatica,skunkbrush,N,41175,11056,58738,Fragrant Sumac
 Ribes amarum,bitter gooseberry,N,41372,7099,53433,Bitter Gooseberry
 Ribes aureum var. gracillimum,golden currant,N,65126,7104,55547,Golden Currant,perennial,yellow,2,5
 Ribes californicum var. californicum,hillside gooseberry,N,65128,7108,47128,Hillside Gooseberry,perennial,white,2,3
@@ -1765,7 +1765,7 @@ Taxus brevifolia,,N,46109,7929,55209,Pacific Yew
 Tellima grandiflora,fringe cups,N,46142,7931,51655,Bigflower Tellima
 Tetragonia tetragonoides,New Zealand spinach,X,99693,13131,418653
 Tetrapteron graciliflorum,hill suncup,N,89236,12088,79338,Hill Sun Cup
-Thalictrum fendleri var. polycarpum,meadow-rue,N,67038,7951,53301,Torrey's Meadow Rue
+Thalictrum fendleri var. polycarpum,meadow-rue,N,67038,7951,1597704,Torrey's Meadow Rue
 Thermopsis californica var. californica,,N,80225,9256,81420,California Goldenbanner,perennial,yellow,5,6
 Thysanocarpus curvipes,fringepod,N,46552,7984,58088,Hairy Lacepod,,white,2,6
 Thysanocarpus laciniatus,lacepod,N,46555,7985,58090,Narrowleaf Fringe Pod,,white,3,5
