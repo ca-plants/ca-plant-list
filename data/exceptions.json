@@ -28,11 +28,12 @@
         }
     },
     "Erysimum capitatum var. angustatum": {
+        "comment": "in CNPS Rare Plant Inventory",
         "calflora": {
             "badjepsonid": true
         },
         "jepson": {
-            "allowsynonym": true
+            "notineflora": true
         }
     },
     "Heterotheca oregona var. rudis": {
@@ -56,7 +57,7 @@
             "notintaxondata": true
         },
         "jepson": {
-            "allowsynonym": true
+            "notineflora": true
         },
         "rpi": {
             "translation": "Malacothamnus arcuatus var. elmeri"
@@ -95,11 +96,12 @@
     "Sagina procumbens": { "calflora": { "native": false } },
     "Salvia apiana": { "calflora": { "notintaxondata": true } },
     "Streptanthus albidus subsp. peramoenus": {
+        "comment": "in CNPS Rare Plant Inventory",
         "calflora": {
             "notintaxondata": true
         },
         "jepson": {
-            "allowsynonym": true
+            "notineflora": true
         }
     },
     "Typha angustifolia": {

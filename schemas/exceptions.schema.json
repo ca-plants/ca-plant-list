@@ -35,9 +35,6 @@
             "jepson": {
                 "type": "object",
                 "properties": {
-                    "allowsynonym": {
-                        "const": true
-                    },
                     "notineflora": {
                         "const": true
                     }
