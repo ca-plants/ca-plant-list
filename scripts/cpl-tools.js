@@ -85,13 +85,8 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.JEPSON_EFLORA: {
-                const eflora = new JepsonEFlora(
-                    TOOLS_DATA_DIR,
-                    taxa,
-                    errorLog,
-                    options.efLognotes,
-                );
-                await eflora.analyze(exceptions);
+                const eflora = new JepsonEFlora(TOOLS_DATA_DIR, taxa, errorLog);
+                await eflora.analyze(exceptions, !!options.update);
                 break;
             }
             case TOOLS.JEPSON_FAM:
@@ -129,10 +124,6 @@ program.option(
     "--in-taxafile <file>",
     "The name of the file containing the iNaturalist taxa. Can be used for testing on a smaller subset of the iNaturalist data.",
     "inat_taxa.csv",
-);
-program.option(
-    "--ef-lognotes",
-    "When running the jepson-eflora tool, include eFlora notes, invalid names, etc. in the log file.",
 );
 program.option("--update", "Update taxa.csv to remove errors if possible.");
 program.addHelpText(

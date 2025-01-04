@@ -35,6 +35,7 @@
         "inatobsphotos": "scripts/inatobsphotos.js"
     },
     "dependencies": {
+        "@htmltools/scrape": "^0.1.0",
         "archiver": "^5.3.1",
         "cli-progress": "^3.12.0",
         "commander": "^12.1.0",
@@ -48,7 +49,6 @@
         "unzipper": "^0.12.3"
     },
     "devDependencies": {
-        "@htmltools/scrape": "^0.1.0",
         "@types/archiver": "^6.0.2",
         "@types/cli-progress": "^3.11.6",
         "@types/markdown-it": "^14.1.2",
