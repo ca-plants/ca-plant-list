@@ -227,10 +227,10 @@ Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,49436,10796,79646,P
 Bolboschoenus robustus,seacoast bulrush,N,77450,10798,75840,Big Bulrush
 Bowlesia incana,,N,15999,1133,56822,Hoary Bowlesia
 Brachypodium distachyon,false-brome,X,16042,1137,57158
-Brassica juncea,India mustard,X,16072,1142,64241
-Brassica nigra,black mustard,X,16079,1144,1555489,,,yellow
-Brassica oleracea,cabbage,X,16080,9040,54516
-Brassica rapa,field mustard,X,16081,1145,53271,,,yellow
+Brassica juncea,India mustard,X,16072,1142,64241,,"annual,perennial",yellow,5,9
+Brassica nigra,black mustard,X,16079,1144,1555489,,annual,yellow,4,9
+Brassica oleracea,cabbage,X,16080,9040,54516,,"biennial,perennial",yellow,5,8
+Brassica rapa,field mustard,X,16081,1145,53271,,"annual,biennial",yellow,1,5
 Brickellia californica,California brickelbush,N,1794,1152,58803,Brickell Bush
 Briza maxima,quaking grass,X,16135,1165,57157
 Briza minor,little quaking grass,X,16137,1166,57162
