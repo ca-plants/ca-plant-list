@@ -1,1 +1,1 @@
-Upper leaves not clasping stem.
+Upper leaves not clasping stem. Usually hairy.
