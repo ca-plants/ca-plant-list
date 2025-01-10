@@ -24,6 +24,13 @@ export class ErrorLog {
 
 export class Exceptions {
     constructor(dataDir: string);
+    getExceptions(): [string, Record<string, Record<string, string>>][];
+    getValue(
+        name: string,
+        cat: string,
+        subcat: string,
+        defaultValue?: string | undefined,
+    ): string | undefined;
     hasException(name: string, cat: string, subcat: string): boolean;
 }
 
@@ -100,7 +107,9 @@ export class Taxon {
     getGenusName(): string;
     getINatID(): string;
     getINatTaxonLink(): string;
+    getJepsonID(): string;
     getName(): string;
+    getRPIRankAndThreat(): string;
     getRPITaxonLink(): string;
     getSynonyms(): string[];
 }
