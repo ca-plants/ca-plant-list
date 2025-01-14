@@ -1563,17 +1563,17 @@ Rubus pensilvanicus,,X,42114,7202,78894
 Rubus spectabilis,,N,42231,7203,47543,Salmon Berry
 Rubus ulmifolius var. anoplothyrsus,,X,91783,11997,81352
 Rubus ursinus,California blackberry,N,42267,7206,53445,California Blackberry
-Rumex acetosella,sheep sorrel,X,42362,7213,53195
-Rumex californicus,,N,42423,11058,78901,California Dock
-Rumex conglomeratus,green dock,X,42385,7214,57215
-Rumex crassus,,N,42422,11059,61087,Willow Dock
-Rumex crispus,curly dock,X,42386,7215,53197
-Rumex fueginus,golden dock,N,42405,10679,78903,Golden Dock
-Rumex obtusifolius,bitter dock,X,42409,7220,63371
-Rumex occidentalis,western dock,N,42376,7221,61086,Western Dock
-Rumex pulcher,fiddle dock,X,42419,7224,60232
-Rumex salicifolius,willow dock,N,42421,7225,60233,Willow Dock
-Rumex transitorius,,N,42429,11999,78910
+Rumex acetosella,sheep sorrel,X,42362,7213,53195,,perennial,,4,7
+Rumex californicus,,N,42423,11058,78901,California Dock,perennial,,5,9
+Rumex conglomeratus,green dock,X,42385,7214,57215,,perennial,,5,8
+Rumex crassus,,N,42422,11059,61087,Willow Dock,perennial,,2,7
+Rumex crispus,curly dock,X,42386,7215,53197,,perennial,,1,12
+Rumex fueginus,golden dock,N,42405,10679,78903,Golden Dock,annual,,5,8
+Rumex obtusifolius,bitter dock,X,42409,7220,63371,,perennial,,5,9
+Rumex occidentalis,western dock,N,42376,7221,61086,Western Dock,perennial,,5,8
+Rumex pulcher,fiddle dock,X,42419,7224,60232,,perennial,,5,9
+Rumex salicifolius,willow dock,N,42421,7225,60233,Willow Dock,perennial,,5,7
+Rumex transitorius,,N,42429,11999,78910,,perennial,,4,6
 Rupertia physodes,California tea,N,42446,7236,53198,Common Rupertia
 Ruppia cirrhosa,ditch-grass,N,42449,7238,61089,Spiral Ditchgrass
 Ruppia maritima,ditch-grass,N,42451,7239,61090,Beaked Tasselweed
