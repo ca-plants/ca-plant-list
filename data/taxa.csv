@@ -227,10 +227,10 @@ Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,49436,10796,79646,P
 Bolboschoenus robustus,seacoast bulrush,N,77450,10798,75840,Big Bulrush
 Bowlesia incana,,N,15999,1133,56822,Hoary Bowlesia
 Brachypodium distachyon,false-brome,X,16042,1137,57158
-Brassica juncea,India mustard,X,16072,1142,64241
-Brassica nigra,black mustard,X,16079,1144,1555489,,,yellow
-Brassica oleracea,cabbage,X,16080,9040,54516
-Brassica rapa,field mustard,X,16081,1145,53271,,,yellow
+Brassica juncea,India mustard,X,16072,1142,64241,,"annual,perennial",yellow,5,9
+Brassica nigra,black mustard,X,16079,1144,1555489,,annual,yellow,4,9
+Brassica oleracea,cabbage,X,16080,9040,54516,,"biennial,perennial",yellow,5,8
+Brassica rapa,field mustard,X,16081,1145,53271,,"annual,biennial",yellow,1,5
 Brickellia californica,California brickelbush,N,1794,1152,58803,Brickell Bush
 Briza maxima,quaking grass,X,16135,1165,57157
 Briza minor,little quaking grass,X,16137,1166,57162
@@ -1075,11 +1075,11 @@ Linanthus dichotomus subsp. meridianus,,N,51287,10625,80001
 Linanthus pungens subsp. pulchriflorus,granite prickly phlox,N,98684,14586,861790,,perennial,"white,pink",5,8
 Linum bienne,,X,31144,4906,55679
 Linum lewisii var. lewisii,blue flax,N,60912,4910,60495,Prairie Flax
-Lithophragma affine,woodland star,N,31236,4922,50803,San Francisco Woodland Star,,white,3,4
-Lithophragma bolanderi,,N,31238,4923,77787,Bolander's Woodland Star
-Lithophragma cymbalaria,,N,31241,4925,58323,Mission Woodland Star
-Lithophragma heterophyllum,hill starflower,N,31244,4927,53124,Hillside Woodland Star,,white
-Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,Smallflower Woodland-star,,"white,pink",3,7
+Lithophragma affine,woodland star,N,31236,4922,50803,San Francisco Woodland Star,perennial,white,3,4
+Lithophragma bolanderi,,N,31238,4923,77787,Bolander's Woodland Star,perennial,white,2,7
+Lithophragma cymbalaria,,N,31241,4925,58323,Mission Woodland Star,perennial,white,3,5
+Lithophragma heterophyllum,hill starflower,N,31244,4927,53124,Hillside Woodland Star,perennial,white,2,6
+Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,Smallflower Woodland-star,perennial,"white,pink",3,7
 Lobularia maritima,sweet alyssum,X,31347,4939,56992
 Logfia filaginoides,herba impia,N,81847,10960,64254,California Cottonrose,annual,red,2,5
 Logfia gallica,,X,31363,9521,56949,,annual,"brown,yellow",3,7
@@ -1285,9 +1285,10 @@ Osmorhiza berteroi,wood cicely,N,35560,10164,53166,Sweet Cicely
 Osmorhiza brachypoda,California cicely,N,35564,6000,58793,California Sweetcicely
 Oxalis corniculata,creeping wood sorrel,X,35609,6010,53168,,,yellow,1,12
 Oxalis incarnata,crimson wood sorrel,X,35636,6012,61776,,,"white,pink",3,6
-Oxalis oregana,redwood sorrel,N,35641,6015,47757,Redwood Sorrel,,"white,pink",2,8
+Oxalis oregana,Oregon wood sorrel,N,35641,6015,47757,Redwood Sorrel,perennial,white,2,10
 Oxalis pes-caprae,Bermuda-buttercup,X,35642,6016,53169,,,yellow,1,5
 Oxalis pilosa,hairy wood sorrel,N,35601,11895,78300,Radishroot Woodsorrel,,yellow,2,9
+Oxalis smalliana,redwood sorrel,N,8615,14752,1464017,,perennial,"white,pink,blue",1,8
 Packera breweri,Brewer groundsel,N,77383,9613,56983,Groundsel
 Panicum acuminatum,Pacific panic grass,N,35923,6044,128949,Western Panicgrass
 Panicum capillare,witchgrass,N,36094,6048,78337,Witch Grass
@@ -1563,17 +1564,17 @@ Rubus pensilvanicus,,X,42114,7202,78894
 Rubus spectabilis,,N,42231,7203,47543,Salmon Berry
 Rubus ulmifolius var. anoplothyrsus,,X,91783,11997,81352
 Rubus ursinus,California blackberry,N,42267,7206,53445,California Blackberry
-Rumex acetosella,sheep sorrel,X,42362,7213,53195
-Rumex californicus,,N,42423,11058,78901,California Dock
-Rumex conglomeratus,green dock,X,42385,7214,57215
-Rumex crassus,,N,42422,11059,61087,Willow Dock
-Rumex crispus,curly dock,X,42386,7215,53197
-Rumex fueginus,golden dock,N,42405,10679,78903,Golden Dock
-Rumex obtusifolius,bitter dock,X,42409,7220,63371
-Rumex occidentalis,western dock,N,42376,7221,61086,Western Dock
-Rumex pulcher,fiddle dock,X,42419,7224,60232
-Rumex salicifolius,willow dock,N,42421,7225,60233,Willow Dock
-Rumex transitorius,,N,42429,11999,78910
+Rumex acetosella,sheep sorrel,X,42362,7213,53195,,perennial,,4,7
+Rumex californicus,,N,42423,11058,78901,California Dock,perennial,,5,9
+Rumex conglomeratus,green dock,X,42385,7214,57215,,perennial,,5,8
+Rumex crassus,,N,42422,11059,61087,Willow Dock,perennial,,2,7
+Rumex crispus,curly dock,X,42386,7215,53197,,perennial,,1,12
+Rumex fueginus,golden dock,N,42405,10679,78903,Golden Dock,annual,,5,8
+Rumex obtusifolius,bitter dock,X,42409,7220,63371,,perennial,,5,9
+Rumex occidentalis,western dock,N,42376,7221,61086,Western Dock,perennial,,5,8
+Rumex pulcher,fiddle dock,X,42419,7224,60232,,perennial,,5,9
+Rumex salicifolius,willow dock,N,42421,7225,60233,Willow Dock,perennial,,5,7
+Rumex transitorius,,N,42429,11999,78910,,perennial,,4,6
 Rupertia physodes,California tea,N,42446,7236,53198,Common Rupertia
 Ruppia cirrhosa,ditch-grass,N,42449,7238,61089,Spiral Ditchgrass
 Ruppia maritima,ditch-grass,N,42451,7239,61090,Beaked Tasselweed
