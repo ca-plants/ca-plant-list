@@ -161,9 +161,7 @@ declare class TaxonData {
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 declare class Photo {
-    url?: string;
-    rightsHolder: null | string;
-    rights?: PhotoRights;
+    getAttribution(): string;
     getExt(): string;
     getId(): number;
     getUrl(): string;
@@ -219,7 +217,7 @@ declare class InatApiTaxon {
 declare class InatApiObservation {
     observation_photos: {
         photo: InatApiPhoto;
-    }[]
+    }[];
 }
 
 declare class InatObsPhotosCommandLineOptions extends CommandLineOptions {
