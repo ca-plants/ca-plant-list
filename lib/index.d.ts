@@ -79,6 +79,16 @@ export class Jekyll {
     static include(fileName: string): string;
 }
 
+type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
+
+export class Photo {
+    getAttribution(): string;
+    getExt(): string;
+    getId(): number;
+    getSourceUrl(): string;
+    getUrl(): string;
+}
+
 export class Program {
     static getIncludeList(dataDir: string): string[];
     static getProgram(): Command;
@@ -101,14 +111,19 @@ export class Taxon {
     getBaseFileName(): string;
     getCalfloraID(): string;
     getCalfloraTaxonLink(): string;
+    getCESA(): string | undefined;
+    getCNDDBRank(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
+    getFESA(): string | undefined;
     getGenus(): Genus;
     getGenusName(): string;
+    getGlobalRank(): string | undefined;
     getINatID(): string;
     getINatTaxonLink(): string;
     getJepsonID(): string;
     getName(): string;
+    getPhotos(): Photo[];
     getRPIRankAndThreat(): string;
     getRPITaxonLink(): string;
     getSynonyms(): string[];

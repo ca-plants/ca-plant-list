@@ -6,7 +6,12 @@ export default [
     { files: ["**/*.{js,mjs,cjs}"], ignores: ["output/**"] },
     {
         languageOptions: {
-            globals: { ...globals.browser, ...globals.node, bootstrap: false },
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+                ...globals.jest,
+                bootstrap: false,
+            },
         },
     },
     pluginJs.configs.recommended,
