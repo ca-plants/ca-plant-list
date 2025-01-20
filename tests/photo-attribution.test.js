@@ -1,19 +1,19 @@
 import { Photo } from "../lib/photo.js";
 
 /**
- * @param {PhotoRights} rights
+ * @param {InatLicenseCode} licenseCode
  * @param {string} rightsHolder
  * @param {string} expected
  */
-function testAtt(rights, rightsHolder, expected) {
+function testAtt(licenseCode, rightsHolder, expected) {
     it(expected, () => {
-        const photo = new Photo(null, rightsHolder, rights);
+        const photo = new Photo(0, "", licenseCode, rightsHolder);
         const result = photo.getAttribution();
         expect(result).toEqual(expected);
     });
 }
 
-testAtt("CC BY-NC", "S H", "(c) S H (CC BY-NC)");
-testAtt("CC0", "", "CC0");
-testAtt("CC0", "abc", "By abc (CC0)");
-testAtt("CC BY", "", "(c) (CC BY)");
+testAtt("cc-by-nc", "S H", "(c) S H (CC BY-NC)");
+testAtt("cc0", "", "CC0");
+testAtt("cc0", "abc", "By abc (CC0)");
+testAtt("cc-by", "", "(c) (CC BY)");

@@ -23,7 +23,6 @@ declare class ErrorLog {
 declare class Families {
     getFamilies(): Family[];
     getFamily(name: string): Family;
-    renderPages(outputDir: string, cols?: TaxaCol[]): void;
 }
 
 declare class Family {
@@ -41,7 +40,6 @@ declare class FlowerColor {
 }
 
 declare class Genera {
-    addTaxon(taxon: Taxon): void;
     getGenus(name: string): Genus;
 }
 
@@ -87,15 +85,8 @@ declare class Taxa {
     isSubset(): boolean;
 }
 
-declare class TaxaCol {
-    class?: string;
-    data: (taxon: Taxon) => string;
-    title: string;
-}
-
 type StatusCode = "N" | "NC" | "U" | "X";
 declare class Taxon {
-    constructor(data: TaxonData, genera: Genera, meta: any);
     getBaseFileName(): string;
     getBloomEnd(): number | undefined;
     getBloomStart(): number | undefined;
@@ -104,8 +95,6 @@ declare class Taxon {
     getCalfloraTaxonLink(): string | undefined;
     getCalscapeCommonName(): string | undefined;
     getCalscapeName(): string;
-    getCESA(): string | undefined;
-    getCNDDBRank(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
     getFESA(): string | undefined;
@@ -125,7 +114,6 @@ declare class Taxon {
     getJepsonID(): string;
     getLifeCycle(): string;
     getName(): string;
-    getPhotos(): Photo[];
     getRPIID(): string | undefined;
     getRPIRank(): string;
     getRPIRankAndThreat(): string;
@@ -159,19 +147,6 @@ declare class TaxonData {
 }
 
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
-
-declare class Photo {
-    getAttribution(): string;
-    getExt(): string;
-    getId(): number;
-    getUrl(): string;
-    getSourceUrl(): string;
-}
-
-declare class InatPhoto extends Photo {
-    inatPhotoId: number;
-    ext: string;
-}
 
 type InatPhotoInfo = {
     id: string;
