@@ -11,6 +11,7 @@ import { JepsonEFlora } from "../lib/tools/jepsoneflora.js";
 import { RPI } from "../lib/tools/rpi.js";
 import { Config } from "../lib/config.js";
 import { Taxa } from "../lib/taxa.js";
+import { SupplementalText } from "../lib/tools/supplementaltext.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -102,7 +103,7 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.TEXT:
-                // SupplementalText.analyze(taxa, errorLog);
+                SupplementalText.analyze(taxa, errorLog);
                 break;
             default:
                 console.log("unrecognized tool: " + tool);
