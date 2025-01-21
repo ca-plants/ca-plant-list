@@ -20,11 +20,6 @@ declare class ErrorLog {
     write(): void;
 }
 
-declare class Families {
-    getFamilies(): Family[];
-    getFamily(name: string): Family;
-}
-
 declare class Family {
     getFileName(): string;
     getName(): string;
@@ -45,7 +40,6 @@ declare class GlossaryEntry {
 }
 
 declare class Taxa {
-    getFamilies(): Families;
     getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
