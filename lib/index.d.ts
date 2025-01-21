@@ -94,6 +94,8 @@ export class Program {
     static getProgram(): Command;
 }
 
+export class Family {}
+
 export class Genera {}
 
 export class Genus {}

@@ -20,13 +20,6 @@ declare class ErrorLog {
     write(): void;
 }
 
-declare class Family {
-    getFileName(): string;
-    getName(): string;
-    getSectionName(): string;
-    getTaxa(): Taxon[];
-}
-
 declare class FlowerColor {
     getColorCode(): string;
     getColorName(upperCase?: boolean): string;
@@ -57,7 +50,6 @@ declare class Taxon {
     getCalscapeCommonName(): string | undefined;
     getCalscapeName(): string;
     getCommonNames(): string[];
-    getFamily(): Family;
     getFESA(): string | undefined;
     getFileName(): string;
     getFlowerColors(): string[] | undefined;
