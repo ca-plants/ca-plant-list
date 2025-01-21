@@ -101,7 +101,7 @@ export class Taxa {
         showFlowerErrors: boolean,
         taxonFactory?: (td: TaxonData, g: Genera) => Taxon,
         extraTaxa?: TaxonData[],
-        extraSynonyms?: SynonymData[],
+        extraSynonyms?: Record<string, string>[],
     );
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];

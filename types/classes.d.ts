@@ -70,12 +70,6 @@ declare class SiteGenerator {
     ): void;
 }
 
-declare class SynonymData {
-    Current: string;
-    Former: string;
-    Type: string;
-}
-
 declare class Taxa {
     getFamilies(): Families;
     getFlowerColors(): FlowerColor[];
