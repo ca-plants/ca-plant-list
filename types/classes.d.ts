@@ -95,27 +95,6 @@ type InatLicenseCode =
     | "gdfl"
     | "cc0";
 
-declare class InatApiPhoto {
-    id: number;
-    attribution: string;
-    license_code: InatLicenseCode;
-    medium_url?: string;
-    url?: string;
-}
-
-declare class InatApiTaxon {
-    id: number;
-    taxon_photos: {
-        photo: InatApiPhoto;
-    }[];
-}
-
-declare class InatApiObservation {
-    observation_photos: {
-        photo: InatApiPhoto;
-    }[];
-}
-
 declare class InatObsPhotosCommandLineOptions extends CommandLineOptions {
     filename?: string;
     inatObsQuery?: string;

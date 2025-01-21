@@ -9,6 +9,14 @@ import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxa.js";
 import { sleep } from "../lib/util.js";
 
+/**
+ * @typedef {{
+    observation_photos: {
+        photo: import("../lib/utils/inat-tools.js").InatApiPhoto;
+    }[];
+}} InatApiObservation
+ */
+
 // While I'm guessing the products of this data will be non-commercial, it's
 // not clear how they'll be licensed so the ShareAlike clause is out, and
 // they'll probably be derivative works so the "No Derivatives" clause should
