@@ -53,13 +53,6 @@ declare class GlossaryEntry {
     getTermName(): string;
 }
 
-declare class InatObsOptions {
-    coords?: [number, number];
-    project_id?: string;
-    subview?: "grid" | "list" | "map";
-    taxon_id?: string;
-}
-
 declare class Taxa {
     getFamilies(): Families;
     getFlowerColors(): FlowerColor[];
