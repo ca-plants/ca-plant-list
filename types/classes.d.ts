@@ -27,11 +27,6 @@ declare class FlowerColor {
     getTaxa(): Taxon[];
 }
 
-declare class GlossaryEntry {
-    getMarkdown(): string;
-    getTermName(): string;
-}
-
 declare class Taxa {
     getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
