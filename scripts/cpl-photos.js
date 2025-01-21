@@ -140,7 +140,7 @@ function readPhotos() {
     /** @type {Map<string,{id:string,ext:string,licenseCode:string,attrName:string}[]>} */
     const taxonPhotos = new Map();
 
-    /** @type {InatCsvPhoto[]} */
+    /** @type {import("../lib/taxa.js").InatCsvPhoto[]} */
     // @ts-ignore
     const csvPhotos = CSV.readFile(photosFileName);
     for (const csvPhoto of csvPhotos) {

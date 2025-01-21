@@ -95,14 +95,6 @@ type InatLicenseCode =
     | "gdfl"
     | "cc0";
 
-declare class InatCsvPhoto {
-    name: string;
-    id: number;
-    ext: string;
-    licenseCode: InatLicenseCode;
-    attrName: string;
-}
-
 declare class InatApiPhoto {
     id: number;
     attribution: string;
