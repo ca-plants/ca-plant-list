@@ -60,16 +60,6 @@ declare class InatObsOptions {
     taxon_id?: string;
 }
 
-declare class SiteGenerator {
-    copyIllustrations(flowerColors: FlowerColor[]): void;
-    mkdir(path: string): void;
-    writeTemplate(
-        content: string,
-        attributes: Record<string, string>,
-        filename: string,
-    ): void;
-}
-
 declare class Taxa {
     getFamilies(): Families;
     getFlowerColors(): FlowerColor[];
@@ -79,7 +69,6 @@ declare class Taxa {
     isSubset(): boolean;
 }
 
-// type StatusCode = "N" | "NC" | "U" | "X";
 declare class Taxon {
     getBaseFileName(): string;
     getBloomEnd(): number | undefined;
@@ -138,8 +127,6 @@ declare class TaxonData {
     status: "N" | "NC" | "U" | "X";
     taxon_name: string;
 }
-
-type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 type InatPhotoInfo = {
     id: string;
