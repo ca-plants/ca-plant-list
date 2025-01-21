@@ -84,13 +84,6 @@ declare class TaxonData {
     taxon_name: string;
 }
 
-type InatPhotoInfo = {
-    id: string;
-    ext: string;
-    licenseCode: string;
-    attrName: string | undefined;
-};
-
 type InatLicenseCode =
     | "cc-by-nc-sa"
     | "cc-by-nc"

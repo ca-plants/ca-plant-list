@@ -129,7 +129,7 @@ async function getTaxa(options) {
 }
 
 /**
- * @returns {Map<string,InatPhotoInfo[]>}
+ * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
 function readPhotos() {
     const photosFileName = `./data/${PHOTO_FILE_NAME}`;
