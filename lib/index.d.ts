@@ -96,6 +96,8 @@ export class Program {
 
 export class Genera {}
 
+export class Genus {}
+
 export class Taxa {
     constructor(
         inclusionList: Record<string, TaxonData> | true,

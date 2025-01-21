@@ -39,11 +39,6 @@ declare class FlowerColor {
     getTaxa(): Taxon[];
 }
 
-declare class Genus {
-    getFamily(): Family;
-    getTaxa(): Taxon[];
-}
-
 declare class GlossaryEntry {
     getMarkdown(): string;
     getTermName(): string;
@@ -72,7 +67,6 @@ declare class Taxon {
     getFESA(): string | undefined;
     getFileName(): string;
     getFlowerColors(): string[] | undefined;
-    getGenus(): Genus;
     getGenusName(): string;
     getGlobalRank(): string | undefined;
     getHTMLLink(
