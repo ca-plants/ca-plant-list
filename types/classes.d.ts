@@ -39,10 +39,6 @@ declare class FlowerColor {
     getTaxa(): Taxon[];
 }
 
-declare class Genera {
-    getGenus(name: string): Genus;
-}
-
 declare class Genus {
     getFamily(): Family;
     getTaxa(): Taxon[];

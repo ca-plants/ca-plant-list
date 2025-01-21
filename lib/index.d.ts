@@ -94,6 +94,8 @@ export class Program {
     static getProgram(): Command;
 }
 
+export class Genera {}
+
 export class Taxa {
     constructor(
         inclusionList: Record<string, TaxonData> | true,
