@@ -79,7 +79,7 @@ declare class Taxa {
     isSubset(): boolean;
 }
 
-type StatusCode = "N" | "NC" | "U" | "X";
+// type StatusCode = "N" | "NC" | "U" | "X";
 declare class Taxon {
     getBaseFileName(): string;
     getBloomEnd(): number | undefined;
@@ -113,7 +113,6 @@ declare class Taxon {
     getRPIRankAndThreat(): string;
     getRPIRankAndThreatTooltip(): string;
     getRPITaxonLink(): string;
-    getStatus(): StatusCode;
     getStatusDescription(config: Config): string;
     getSynonyms(): string[];
     isCANative(): boolean;
@@ -136,7 +135,7 @@ declare class TaxonData {
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
-    status: StatusCode;
+    status: "N" | "NC" | "U" | "X";
     taxon_name: string;
 }
 
