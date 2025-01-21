@@ -12,6 +12,7 @@ import { RPI } from "../lib/tools/rpi.js";
 import { Config } from "../lib/config.js";
 import { Taxa } from "../lib/taxa.js";
 import { SupplementalText } from "../lib/tools/supplementaltext.js";
+import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -91,7 +92,7 @@ async function build(program, options) {
                 break;
             }
             case TOOLS.JEPSON_FAM:
-                // await JepsonFamilies.build(TOOLS_DATA_DIR, options.outputdir);
+                await JepsonFamilies.build(TOOLS_DATA_DIR, "./data");
                 break;
             case TOOLS.RPI:
                 await RPI.analyze(
