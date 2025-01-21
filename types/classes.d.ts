@@ -20,15 +20,7 @@ declare class ErrorLog {
     write(): void;
 }
 
-declare class FlowerColor {
-    getColorCode(): string;
-    getColorName(upperCase?: boolean): string;
-    getFileName(): string;
-    getTaxa(): Taxon[];
-}
-
 declare class Taxa {
-    getFlowerColors(): FlowerColor[];
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
     hasSynonym(name: string): boolean;
