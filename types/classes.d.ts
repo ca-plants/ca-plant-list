@@ -57,23 +57,3 @@ declare class Taxon {
     isCANative(): boolean;
     isNative(): boolean;
 }
-
-declare class TaxonData {
-    bloom_end: string;
-    bloom_start: string;
-    calrecnum: string;
-    calscape_cn?: string;
-    CESA: string;
-    "common name": string;
-    CRPR: string;
-    FESA: string;
-    flower_color: string;
-    GRank: string;
-    "inat id": string;
-    "jepson id": string;
-    life_cycle: string;
-    "RPI ID": string;
-    SRank: string;
-    status: "N" | "NC" | "U" | "X";
-    taxon_name: string;
-}
