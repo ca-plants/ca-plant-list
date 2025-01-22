@@ -15,6 +15,7 @@ import { sleep } from "../lib/util.js";
         photo: import("../lib/utils/inat-tools.js").InatApiPhoto;
     }[];
 }} InatApiObservation
+ @typedef {import("../lib/program.js").CommandLineOptions &{filename?:string,inatObsQuery?:string}} InatObsPhotosCommandLineOptions
  */
 
 // While I'm guessing the products of this data will be non-commercial, it's

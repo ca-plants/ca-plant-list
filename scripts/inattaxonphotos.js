@@ -10,6 +10,10 @@ import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxa.js";
 import { chunk, sleep } from "../lib/util.js";
 
+/**
+ * @typedef {import("../lib/program.js").CommandLineOptions & {filename?:string}} InatTaxonPhotosCommandLineOptions
+ */
+
 // While I'm guessing the products of this data will be non-commercial, it's
 // not clear how they'll be licensed so the ShareAlike clause is out, and
 // they'll probably be derivative works so the "No Derivatives" clause should
