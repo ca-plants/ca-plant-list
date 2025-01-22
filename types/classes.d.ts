@@ -9,13 +9,6 @@ declare class Config {
     getLabel(name: string, dflt: string): string;
 }
 
-declare class Taxa {
-    getTaxon(name: string): Taxon;
-    getTaxonList(): Taxon[];
-    hasSynonym(name: string): boolean;
-    isSubset(): boolean;
-}
-
 declare class Taxon {
     getBaseFileName(): string;
     getBloomEnd(): number | undefined;
