@@ -1,5 +1,29 @@
 import { Command } from "commander";
 
+// Types
+
+export type TaxonData = {
+    bloom_end: string;
+    bloom_start: string;
+    calrecnum: string;
+    calscape_cn?: string;
+    CESA: string;
+    "common name": string;
+    CRPR: string;
+    FESA: string;
+    flower_color: string;
+    GRank: string;
+    "inat id": string;
+    "jepson id": string;
+    life_cycle: string;
+    "RPI ID": string;
+    SRank: string;
+    status: "N" | "NC" | "U" | "X";
+    taxon_name: string;
+};
+
+// Classes
+
 export class Config {
     constructor(dataDir: string);
     getConfigValue(
@@ -94,6 +118,12 @@ export class Program {
     static getProgram(): Command;
 }
 
+export class Family {}
+
+export class Genera {}
+
+export class Genus {}
+
 export class Taxa {
     constructor(
         inclusionList: Record<string, TaxonData> | true,
@@ -101,7 +131,7 @@ export class Taxa {
         showFlowerErrors: boolean,
         taxonFactory?: (td: TaxonData, g: Genera) => Taxon,
         extraTaxa?: TaxonData[],
-        extraSynonyms?: SynonymData[],
+        extraSynonyms?: Record<string, string>[],
     );
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];

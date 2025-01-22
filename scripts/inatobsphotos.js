@@ -9,6 +9,15 @@ import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxa.js";
 import { sleep } from "../lib/util.js";
 
+/**
+ * @typedef {{
+    observation_photos: {
+        photo: import("../lib/utils/inat-tools.js").InatApiPhoto;
+    }[];
+}} InatApiObservation
+ @typedef {import("../lib/program.js").CommandLineOptions &{filename?:string,inatObsQuery?:string}} InatObsPhotosCommandLineOptions
+ */
+
 // While I'm guessing the products of this data will be non-commercial, it's
 // not clear how they'll be licensed so the ShareAlike clause is out, and
 // they'll probably be derivative works so the "No Derivatives" clause should
@@ -18,7 +27,7 @@ const ALLOWED_LICENSE_CODES = ["cc0", "cc-by", "cc-by-nc"];
 const DEFAULT_FILENAME = "inatobsphotos.csv";
 
 /**
- * @param {Taxon} taxon
+ * @param {import("../lib/taxon.js").Taxon} taxon
  * @param {InatObsPhotosCommandLineOptions} options
  * @return {Promise<InatApiObservation[]>}
  */

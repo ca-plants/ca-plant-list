@@ -129,7 +129,7 @@ async function getTaxa(options) {
 }
 
 /**
- * @returns {Map<string,InatPhotoInfo[]>}
+ * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
 function readPhotos() {
     const photosFileName = `./data/${PHOTO_FILE_NAME}`;
@@ -140,7 +140,7 @@ function readPhotos() {
     /** @type {Map<string,{id:string,ext:string,licenseCode:string,attrName:string}[]>} */
     const taxonPhotos = new Map();
 
-    /** @type {InatCsvPhoto[]} */
+    /** @type {import("../lib/utils/inat-tools.js").InatCsvPhoto[]} */
     // @ts-ignore
     const csvPhotos = CSV.readFile(photosFileName);
     for (const csvPhoto of csvPhotos) {

@@ -14,8 +14,7 @@
         "ebook",
         "jekyll",
         "lib",
-        "scripts",
-        "types"
+        "scripts"
     ],
     "exports": {
         ".": "./lib/index.js"
