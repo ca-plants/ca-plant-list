@@ -9,11 +9,6 @@ declare class Config {
     getLabel(name: string, dflt: string): string;
 }
 
-declare class ErrorLog {
-    log(...args: any[]): void;
-    write(): void;
-}
-
 declare class Taxa {
     getTaxon(name: string): Taxon;
     getTaxonList(): Taxon[];
