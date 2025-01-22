@@ -84,17 +84,6 @@ declare class TaxonData {
     taxon_name: string;
 }
 
-type InatLicenseCode =
-    | "cc-by-nc-sa"
-    | "cc-by-nc"
-    | "cc-by-nc-nd"
-    | "cc-by"
-    | "cc-by-sa"
-    | "cc-by-nd"
-    | "pd"
-    | "gdfl"
-    | "cc0";
-
 declare class InatObsPhotosCommandLineOptions extends CommandLineOptions {
     filename?: string;
     inatObsQuery?: string;

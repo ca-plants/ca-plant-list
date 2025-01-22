@@ -1,7 +1,7 @@
 import { Photo } from "../lib/photo.js";
 
 /**
- * @param {InatLicenseCode} licenseCode
+ * @param {import("../lib/utils/inat-tools.js").InatLicenseCode} licenseCode
  * @param {string} rightsHolder
  * @param {string} expected
  */
