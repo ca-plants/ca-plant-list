@@ -27,7 +27,7 @@ const ALLOWED_LICENSE_CODES = ["cc0", "cc-by", "cc-by-nc"];
 const DEFAULT_FILENAME = "inatobsphotos.csv";
 
 /**
- * @param {Taxon} taxon
+ * @param {import("../lib/taxon.js").Taxon} taxon
  * @param {InatObsPhotosCommandLineOptions} options
  * @return {Promise<InatApiObservation[]>}
  */

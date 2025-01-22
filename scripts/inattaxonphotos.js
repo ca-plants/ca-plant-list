@@ -23,7 +23,7 @@ const ALLOWED_LICENSE_CODES = ["cc0", "cc-by", "cc-by-nc"];
 const DEFAULT_FILENAME = "inattaxonphotos.csv";
 
 /**
- * @param {Taxon[]} taxa
+ * @param {import("../lib/taxon.js").Taxon[]} taxa
  * @return {Promise<import("../lib/utils/inat-tools.js").InatApiTaxon[]>}
  */
 async function fetchInatTaxa(taxa) {
