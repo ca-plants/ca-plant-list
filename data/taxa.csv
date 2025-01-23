@@ -592,11 +592,12 @@ Dipterostemon capitatus,blue dicks,N,108599,13632,1196784,Blue Dicks
 Dirca occidentalis,western leatherwood,N,23143,2739,50315,Western Leatherwood,,,,,567,1B.2,,,S2,G2
 Distichlis spicata,saltgrass,N,23161,2743,58372,Saltgrass
 Dittrichia graveolens,stinkwort,X,2454,8482,58822
-Downingia bella,,N,23273,2766,60160,Hoover's Downingia
-Downingia cuspidata,,N,101864,2773,60163,Toothed Calicoflower
-Downingia insignis,,N,23278,2776,60164,Harlequin Calicoflower
-Downingia ornatissima var. mirabilis,,N,84766,14563
-Downingia pulchella,,N,23282,2782,60167,Flatface Calicoflower
+Downingia bella,,N,23273,2766,60160,Hoover's Downingia,annual,blue,3,5
+Downingia concolor var. concolor,maroonspot calicoflower,N,57811,2772,80674,Maroonspot Calicoflower,annual,blue,4,7
+Downingia cuspidata,,N,101864,2773,60163,Toothed Calicoflower,annual,blue,3,6
+Downingia insignis,,N,23278,2776,60164,Harlequin Calicoflower,annual,blue,3,5
+Downingia ornatissima var. mirabilis,,N,84766,14563,,,annual,blue,4,5
+Downingia pulchella,,N,23282,2782,60167,Flatface Calicoflower,annual,blue,4,6
 Draba cuneifolia,,N,23332,2798,1138678,Wedgeleaf Draba
 Draba verna,spring whitlow-grass,X,23442,2816,55823,,,white,2,5
 Drymocallis glandulosa var. glandulosa,sticky cinquefoil,N,82059,11609,80678,Sticky Cinquefoil,perennial,"yellow,white",5,7
