@@ -60,9 +60,11 @@ async function build(program, options) {
             case TOOLS.CALFLORA:
                 await Calflora.analyze(
                     TOOLS_DATA_DIR,
+                    options.datadir,
                     taxa,
                     exceptions,
                     errorLog,
+                    !!options.update,
                 );
                 break;
             case TOOLS.CALSCAPE:
@@ -88,7 +90,11 @@ async function build(program, options) {
                 break;
             case TOOLS.JEPSON_EFLORA: {
                 const eflora = new JepsonEFlora(TOOLS_DATA_DIR, taxa, errorLog);
-                await eflora.analyze(exceptions, !!options.update);
+                await eflora.analyze(
+                    options.datadir,
+                    exceptions,
+                    !!options.update,
+                );
                 break;
             }
             case TOOLS.JEPSON_FAM:
