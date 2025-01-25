@@ -81,7 +81,7 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.CCH2:
-                await CCH2.analyze();
+                await CCH2.analyze(TOOLS_DATA_DIR, taxa);
                 break;
             case TOOLS.INAT:
                 await INat.analyze(
