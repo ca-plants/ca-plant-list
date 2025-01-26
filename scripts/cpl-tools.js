@@ -13,10 +13,12 @@ import { Config } from "../lib/config.js";
 import { Taxa } from "../lib/taxa.js";
 import { SupplementalText } from "../lib/tools/supplementaltext.js";
 import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
+import { CCH2 } from "../lib/tools/cch2.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
     CALSCAPE: "calscape",
+    CCH2: "cch",
     INAT: "inat",
     JEPSON_EFLORA: "jepson-eflora",
     JEPSON_FAM: "jepson-families",
@@ -27,6 +29,7 @@ const TOOLS = {
 const ALL_TOOLS = [
     TOOLS.CALFLORA,
     TOOLS.CALSCAPE,
+    TOOLS.CCH2,
     TOOLS.INAT,
     TOOLS.JEPSON_EFLORA,
     TOOLS.RPI,
@@ -73,6 +76,15 @@ async function build(program, options) {
                     options.datadir,
                     taxa,
                     exceptions,
+                    errorLog,
+                    !!options.update,
+                );
+                break;
+            case TOOLS.CCH2:
+                await CCH2.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
                     errorLog,
                     !!options.update,
                 );

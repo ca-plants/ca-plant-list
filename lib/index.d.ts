@@ -2,11 +2,14 @@ import { Command } from "commander";
 
 // Types
 
+export type NativeStatusCode = "N" | "NC" | "U" | "X";
+
 export type TaxonData = {
     bloom_end: string;
     bloom_start: string;
     calrecnum: string;
     calscape_cn?: string;
+    cch2_id: string;
     CESA: string;
     "common name": string;
     CRPR: string;
@@ -18,7 +21,7 @@ export type TaxonData = {
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
-    status: "N" | "NC" | "U" | "X";
+    status: NativeStatusCode;
     taxon_name: string;
 };
 
@@ -58,6 +61,15 @@ export class Exceptions {
     hasException(name: string, cat: string, subcat: string): boolean;
 }
 
+export class ExternalSites {
+    static getCCH2ObsLink(taxon: Taxon, config: Config): URL | undefined;
+    static getCCH2RefLink(taxon: Taxon): URL | undefined;
+}
+
+export class Family {
+    getName(): string;
+}
+
 export class Files {
     static exists(fileName: string): boolean;
     static fetch(
@@ -67,6 +79,12 @@ export class Files {
     static mkdir(dir: string): void;
     static rmDir(dir: string): void;
     static write(fileName: string, data: string, overwrite: boolean): void;
+}
+
+export class Genera {}
+
+export class Genus {
+    getTaxa(): Taxon[];
 }
 
 export class HTML {
@@ -90,6 +108,11 @@ export class HTML {
 }
 
 export class HTMLTaxon {
+    static addLink(
+        links: string[],
+        href: URL | string | undefined,
+        label: string,
+    ): void;
     static getFooterHTML(taxon: Taxon): string;
     static getListSectionHTML(
         list: string[],
@@ -118,12 +141,6 @@ export class Program {
     static getProgram(): Command;
 }
 
-export class Family {}
-
-export class Genera {}
-
-export class Genus {}
-
 export class Taxa {
     constructor(
         inclusionList: Record<string, TaxonData> | true,
@@ -145,6 +162,7 @@ export class Taxon {
     getCNDDBRank(): string | undefined;
     getCommonNames(): string[];
     getFamily(): Family;
+    getFileName(): string;
     getFESA(): string | undefined;
     getGenus(): Genus;
     getGenusName(): string;
