@@ -7,6 +7,7 @@ export type TaxonData = {
     bloom_start: string;
     calrecnum: string;
     calscape_cn?: string;
+    cch2_id: string;
     CESA: string;
     "common name": string;
     CRPR: string;
