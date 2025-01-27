@@ -4,6 +4,8 @@ import { Command } from "commander";
 
 export type NativeStatusCode = "N" | "NC" | "U" | "X";
 
+type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
+
 export type TaxonData = {
     bloom_end: string;
     bloom_start: string;
@@ -78,7 +80,7 @@ export class Files {
     ): Promise<Headers>;
     static mkdir(dir: string): void;
     static rmDir(dir: string): void;
-    static write(fileName: string, data: string, overwrite: boolean): void;
+    static write(fileName: string, data: string, overwrite?: boolean): void;
 }
 
 export class Genera {}
@@ -89,6 +91,7 @@ export class Genus {
 
 export class HTML {
     static arrayToLI(items: string[]): string;
+    static escapeText(text: string): string;
     static getLink(
         href: string | undefined,
         linkText: string,
@@ -123,10 +126,9 @@ export class HTMLTaxon {
 }
 
 export class Jekyll {
+    static hasInclude(baseDir: string, path: string): boolean;
     static include(fileName: string): string;
 }
-
-type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 export class Photo {
     getAttribution(): string;
@@ -141,32 +143,33 @@ export class Program {
     static getProgram(): Command;
 }
 
-export class Taxa {
+export class Taxa<T> {
     constructor(
         inclusionList: Record<string, TaxonData> | true,
         errorLog: ErrorLog,
         showFlowerErrors: boolean,
-        taxonFactory?: (td: TaxonData, g: Genera) => Taxon,
+        taxonFactory?: (td: TaxonData, g: Genera) => T,
         extraTaxa?: TaxonData[],
         extraSynonyms?: Record<string, string>[],
     );
-    getTaxon(name: string): Taxon;
-    getTaxonList(): Taxon[];
+    getTaxon(name: string): T;
+    getTaxonList(): T[];
 }
 
 export class Taxon {
+    constructor(data: TaxonData, genera: Genera);
     getBaseFileName(): string;
     getCalfloraID(): string;
     getCalfloraTaxonLink(): string;
-    getCESA(): string | undefined;
-    getCNDDBRank(): string | undefined;
+    getCESA(): string;
+    getCNDDBRank(): string;
     getCommonNames(): string[];
     getFamily(): Family;
     getFileName(): string;
-    getFESA(): string | undefined;
+    getFESA(): string;
     getGenus(): Genus;
     getGenusName(): string;
-    getGlobalRank(): string | undefined;
+    getGlobalRank(): string;
     getINatID(): string;
     getINatTaxonLink(): string;
     getJepsonID(): string;
