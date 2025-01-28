@@ -150,9 +150,10 @@ program.addHelpText(
     "after",
     `
 Tools:
-    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
+    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', '${TOOLS.CCH2}, 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
     '${TOOLS.CALFLORA}' retrieves data from Calflora and compares with local data.
     '${TOOLS.CALSCAPE}' retrieves data from Calscape and compares with local data.
+    '${TOOLS.CCH2}' retrieves data from CCH2 and compares with local data.
     '${TOOLS.INAT}' retrieves data from iNaturalist and compares with local data.
     '${TOOLS.JEPSON_EFLORA}' retrieves data from Jepson eFlora indexes and compares with local data.
     '${TOOLS.JEPSON_FAM}' retrieves section, family and genus data from Jepson eFlora and creates data files for use by ca-plant-list.
