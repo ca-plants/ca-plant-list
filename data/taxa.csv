@@ -438,13 +438,13 @@ Clarkia rhomboidea,,N,19595,2210,61870,13686,Diamond Clarkia,annual
 Clarkia rubicunda,farewell-to-spring,N,19597,2212,57148,13688,Ruby Chalice Clarkia,annual,pink,5,8
 Clarkia tembloriensis subsp. tembloriensis,temblor range clarkia,N,49915,2223,79746,42016,Temblor Range Clarkia,annual
 Clarkia unguiculata,elegant clarkia,N,19605,2224,51735,13696,Elegant Clarkia,annual,pink,4,9
-Claytonia exigua subsp. exigua,little spring beauty,N,76950,2232,57234,127854,Serpentine Springbeauty
-Claytonia exigua subsp. glauca,,N,76949,2233,57229,127855,Serpentine Springbeauty
-Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,112597,Gypsum Springbeauty,,pink
-Claytonia parviflora subsp. parviflora,,N,74695,2242,58296,127861,Utah Miner's Lettuce
-Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004,127866,Southern Miner's Lettuce
-Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,127867,Miner's Lettuce,,white
-Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751,127869,Miner's Lettuce
+Claytonia exigua subsp. exigua,little spring beauty,N,76950,2232,57234,127854,Serpentine Springbeauty,annual,white,4,7
+Claytonia exigua subsp. glauca,,N,76949,2233,57229,127855,Serpentine Springbeauty,annual,white,4,7
+Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,112597,Gypsum Springbeauty,,pink,annual,pink,3,5
+Claytonia parviflora subsp. parviflora,,N,74695,2242,58296,127861,Utah Miner's Lettuce,"annual,perennial",white,3,6
+Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004,127866,Southern Miner's Lettuce,annual,white,2,4
+Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,127867,Miner's Lettuce,annual,white,1,5
+Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751,127869,Miner's Lettuce,annual,white,2,4
 Clematis lasiantha,pipestems,N,19682,2254,49876,13749,Chaparral Clematis,,white,1,6
 Clematis ligusticifolia,virgin's bower,N,19683,2255,58996,13750,Virgin's Bower,,white,6,9
 Clinopodium douglasii,yerba buena,N,80483,11541,53203,65180,Yerba Buena
@@ -1027,7 +1027,7 @@ Lepidium didymum,wart cress,X,30511,10940,60987,24162
 Lepidium draba,hoary cress,X,30510,10943,63352,24164
 Lepidium latifolium,perennial pepperweed,X,30544,4691,60153,24179
 Lepidium latipes,dwarf peppergrass,N,30545,4692,60154,24180,San Diego Pepperweed
-Lepidium nitidum,shining peppergrass,N,30549,4699,47202,24187,Peppergrass
+Lepidium nitidum,shining peppergrass,N,30549,4699,47202,24187,Peppergrass,annual,white,2,3
 Lepidium oblongum,,N,30550,4703,77671,24188,Veiny Pepperweed
 Lepidium oxycarpum,,N,30553,4706,60155,24192,Forked Pepperweed
 Lepidium pinnatifidum,,X,30556,4708,77673,24196
