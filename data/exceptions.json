@@ -19,6 +19,8 @@
             "translation": "Castilleja ambigua subsp. ambigua"
         }
     },
+    "Chenopodium rubrum var. humile": { "calflora": { "native": true } },
+    "Chenopodium rubrum var. rubrum": { "calflora": { "native": false } },
     "Delphinium gypsophilum": {
         "calflora": { "notintaxondata": true }
     },
