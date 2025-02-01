@@ -734,7 +734,7 @@ Eryngium jepsonii,,N,78144,11674,77062,264168,Jepson's Eryngo,,,,,3927,1B.2,,,S2
 Eryngium racemosum,Delta button-celery,N,25097,3467,77066,206800,Delta Button-celery,,,,,787,1B.1,CE,,S1,G1
 Eryngium spinosepalum,,N,25099,3468,57894,203769,Spiny-sepaled Button-celery,,,,,788,1B.2,,,S2,G2
 Eryngium vaseyi var. vallicola,,N,58851,11675,80888,211709
-Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,,,,,,790,1B.1,CE,FE,S1,G5T1
+Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,47096,,,,,,790,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627,47096,Sanddune Wallflower,,"orange,yellow",3,9
 Erythranthe androsacea,,N,99088,13487,771845,203774
 Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,206807,,,yellow,4,7
@@ -1145,7 +1145,7 @@ Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062,204837,Large Fals
 Maianthemum stellatum,,N,32497,9629,53268,204838,False Solomon Seal
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,412621,Eastern Bewildering Bushmallow,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,400947,,perennial,pink,5,6
-Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
+Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,412621,,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026,204841,California Desertdandelion
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841,204842,Cleveland's Desertdandelion
 Malacothrix coulteri,snake's-head,N,4061,5327,58027,204843,Snake's Head
@@ -1411,7 +1411,7 @@ Plantago subnuda,naked plantain,N,38605,6626,60223,74567,Naked Plantain
 Platanthera dilatata var. leucostachys,white-flowered bog orchid,N,63974,9593,81271,205521,White Bog Orchid
 Platanus racemosa,western sycamore,N,38655,6633,58231,28255,Western Sycamore,perennial,red,2,4
 Platystemon californicus,cream cups,N,38664,6635,51288,28269,Creamcups
-Plectritis ciliosa,,N,38677,6639,57284,,Longspur Seablush,,pink,3,6
+Plectritis ciliosa,,N,38677,6639,57284,205525,Longspur Seablush,,pink,3,6
 Plectritis congesta subsp. brachystemon,,N,52336,11937,57787,205537,Small-flowered Plectritis
 Plectritis congesta subsp. congesta,,N,52337,11938,59253,205535,Sea Blush
 Plectritis macrocera,,N,38684,6643,57287,205540,Longhorn Seablush,,white,3,6
@@ -1738,7 +1738,7 @@ Stipa lemmonii var. lemmonii,Lemmon's needlegrass,N,73899,12053,1220756,173006
 Stipa lepida,foothill needlegrass,N,45641,12054,165656,149399,Foothill Needlegrass
 Stipa miliacea var. miliacea,smilo grass,X,91920,12058,524183,206097
 Stipa pulchra,purple needlegrass,N,45644,12067,165659,149498,Purple Needlegrass
-Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,,,,,,,1490,1B.2,,,S2,G2T2
+Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,43881,,,,,,1490,1B.2,,,S2,G2T2
 Streptanthus breweri,,N,45725,7822,79258,32606,Brewer's Jewelflower
 Streptanthus glandulosus subsp. glandulosus,jewelflower,N,53142,7837,58783,43881,Most Beautiful Jewel Flower
 Streptanthus hispidus,Mt. Diablo jewelflower,N,45741,7842,50620,32624,Mount Diablo Jewelflower,,,,,1502,1B.3,,,S2,G2

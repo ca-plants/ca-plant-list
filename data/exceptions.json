@@ -34,7 +34,6 @@
         "calflora": {
             "badjepsonid": true
         },
-        "cch": { "notincch": true },
         "jepson": {
             "notineflora": true
         }
@@ -94,6 +93,7 @@
     },
     "Myosurus minimus subsp. apus": {
         "comment": "in CNPS Rare Plant Inventory",
+        "cch": { "notincch": true },
         "jepson": {
             "notineflora": true
         }
