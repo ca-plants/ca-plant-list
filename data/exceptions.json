@@ -34,6 +34,7 @@
         "calflora": {
             "badjepsonid": true
         },
+        "cch": { "notincch": true },
         "jepson": {
             "notineflora": true
         }
@@ -47,6 +48,17 @@
         "inat": {
             "notintaxondata": true
         }
+    },
+    "Juncus ambiguus": {
+        "comment": "Jepson: Presumed introduced. Taxonomy, relationship to Eurasian Juncus bufonius complex needs study.",
+        "calflora": { "native": false }
+    },
+    "Juncus elliottii": {
+        "calflora": { "native": false }
+    },
+    "Juncus gerardi subsp. gerardi": {
+        "comment": "Jepson: Possibly native, needs study",
+        "calflora": { "native": false }
     },
     "Lupinus littoralis var. variicolor": {
         "inat": {

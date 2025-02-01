@@ -84,6 +84,7 @@ async function build(program, options) {
                 await CCH2.analyze(
                     TOOLS_DATA_DIR,
                     options.datadir,
+                    exceptions,
                     taxa,
                     errorLog,
                     !!options.update,
