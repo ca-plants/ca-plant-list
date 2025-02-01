@@ -98,6 +98,7 @@
             "notineflora": true
         }
     },
+    "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
@@ -125,5 +126,6 @@
     },
     "Typha angustifolia": {
         "calscape": { "notnative": true }
-    }
+    },
+    "Veronica catenata": { "calflora": { "native": true } }
 }

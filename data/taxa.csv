@@ -1440,7 +1440,7 @@ Polygonum ramosissimum subsp. ramosissimum,bushy knotweed,N,82468,11037,80161,12
 Polypodium calirhiza,polypody,N,39352,6776,52678,199631,Nested Polypody
 Polypodium scouleri,leather-leaf fern,N,39364,6779,64288,199683,Leathery Polypody
 Polypogon imberbis,beard grass,X,89096,8696,78695,147782
-Polypogon interruptus,ditch beard grass,X,39375,6782,59099,147785
+Polypogon interruptus,ditch beard grass,N,39375,6782,59099,147785
 Polypogon monspeliensis,rabbitfoot grass,X,39378,6784,57197,147792
 Polypogon viridis,water bentgrass,X,39379,11945,64144,147805
 Polystichum californicum,sword fern,N,39407,6785,63867,199711,California Sword Fern
@@ -1837,7 +1837,7 @@ Tropaeolum majus,garden nasturtium,X,47408,8167,54329,34321
 Tropidocarpum capparideum,caper-fruited tropidocarpum,N,47411,8168,79456,34327,Caper-fruited Tropidocarpum,annual,yellow,3,4,1255,1B.1,,,S1,G1
 Tropidocarpum gracile,dobie pod,N,47412,8169,58091,34328,Dobie Pod,annual,yellow,3,5
 Turritis glabra,tower mustard,N,47457,12119,79460,34347,Tower Mustard
-Typha angustifolia,narrow-leaved cattail,X,47462,8176,60316,174863
+Typha angustifolia,narrow-leaved cattail,U,47462,8176,60316,174863
 Typha domingensis,southern cattail,N,47463,8177,58392,174864,Southern Cattail
 Typha latifolia,cattail,N,47466,8178,48685,174865,Broadleaf Cattail
 Ulmus minor,English elm,X,47478,8180,79461,34372
@@ -1859,7 +1859,7 @@ Verbesina encelioides subsp. exauriculata,golden crownbeard,X,6252,8241,79495,20
 Veronica americana,American brooklime,N,47941,8242,57277,78627,Brooklime
 Veronica anagallis-aquatica,water speedwell,X,47942,8243,57858,78628
 Veronica arvensis,,X,47950,8244,55748,78630
-Veronica catenata,chain speedwell,X,47944,8246,79496,78637
+Veronica catenata,chain speedwell,N,47944,8246,79496,78637
 Veronica peregrina subsp. xalapensis,purslane speedwell,N,53337,8252,491173,206335,Purslane Speedwell
 Veronica persica,Persian speedwell,X,47976,8253,55666,78667
 Viburnum ellipticum,western viburnum,N,48020,8259,79500,211467,Common Viburnum,,,,,2056,2B.3,,,S3,G4G5
