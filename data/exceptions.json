@@ -60,6 +60,11 @@
         "comment": "Jepson: Possibly native, needs study",
         "calflora": { "native": false }
     },
+    "Lepidium strictum": {
+        "calflora": { "native": false },
+        "calscape": { "notnative": true }
+    },
+    "Limosella australis": { "jepson": { "native": true } },
     "Lupinus littoralis var. variicolor": {
         "inat": {
             "notintaxondata": true

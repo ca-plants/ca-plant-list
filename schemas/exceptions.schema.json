@@ -39,6 +39,7 @@
             "jepson": {
                 "type": "object",
                 "properties": {
+                    "native": { "type": "boolean" },
                     "notineflora": {
                         "const": true
                     }
