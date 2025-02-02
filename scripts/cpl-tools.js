@@ -14,11 +14,13 @@ import { Taxa } from "../lib/taxa.js";
 import { SupplementalText } from "../lib/tools/supplementaltext.js";
 import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
 import { CCH2 } from "../lib/tools/cch2.js";
+import { FNA } from "../lib/tools/fna.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
     CALSCAPE: "calscape",
     CCH2: "cch",
+    FNA: "fna",
     INAT: "inat",
     JEPSON_EFLORA: "jepson-eflora",
     JEPSON_FAM: "jepson-families",
@@ -30,6 +32,7 @@ const ALL_TOOLS = [
     TOOLS.CALFLORA,
     TOOLS.CALSCAPE,
     TOOLS.CCH2,
+    TOOLS.FNA,
     TOOLS.INAT,
     TOOLS.JEPSON_EFLORA,
     TOOLS.RPI,
@@ -90,6 +93,16 @@ async function build(program, options) {
                     !!options.update,
                 );
                 break;
+            case TOOLS.FNA:
+                await FNA.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
+                    errorLog,
+                    !!options.update,
+                );
+                break;
+
             case TOOLS.INAT:
                 await INat.analyze(
                     TOOLS_DATA_DIR,
@@ -151,10 +164,11 @@ program.addHelpText(
     "after",
     `
 Tools:
-    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', '${TOOLS.CCH2}, 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
+    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', '${TOOLS.CCH2}, '${TOOLS.FNA}, 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
     '${TOOLS.CALFLORA}' retrieves data from Calflora and compares with local data.
     '${TOOLS.CALSCAPE}' retrieves data from Calscape and compares with local data.
     '${TOOLS.CCH2}' retrieves data from CCH2 and compares with local data.
+    '${TOOLS.FNA}' retrieves data from Flora of North America and compares with local data.
     '${TOOLS.INAT}' retrieves data from iNaturalist and compares with local data.
     '${TOOLS.JEPSON_EFLORA}' retrieves data from Jepson eFlora indexes and compares with local data.
     '${TOOLS.JEPSON_FAM}' retrieves section, family and genus data from Jepson eFlora and creates data files for use by ca-plant-list.
