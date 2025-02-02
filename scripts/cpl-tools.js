@@ -94,7 +94,7 @@ async function build(program, options) {
                 );
                 break;
             case TOOLS.FNA:
-                await FNA.analyze(TOOLS_DATA_DIR, taxa);
+                await FNA.analyze(TOOLS_DATA_DIR, taxa, errorLog);
                 break;
 
             case TOOLS.INAT:

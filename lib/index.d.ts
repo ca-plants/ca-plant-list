@@ -16,6 +16,7 @@ export type TaxonData = {
     "common name": string;
     CRPR: string;
     FESA: string;
+    fna: string;
     flower_color: string;
     GRank: string;
     "inat id": string;
