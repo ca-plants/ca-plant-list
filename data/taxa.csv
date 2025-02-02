@@ -390,7 +390,7 @@ Chenopodium macrospermum,coast goosefoot,X,19179,9069,76280,112467
 Chenopodium murale,sowbane,X,19182,1983,514012,112470
 Chenopodium pratericola,,N,19195,1986,76284,112486,Desert Goosefoot
 Chenopodium rubrum var. humile,,N,56454,10813,931680,129567
-Chenopodium rubrum var. rubrum,,N,71774,10531,931836,129568
+Chenopodium rubrum var. rubrum,,X,71774,10531,931836,129568
 Chenopodium rubrum,red goosefoot,N,19200,1988,931679,112490,Red Goosefoot
 Chenopodium vulvaria,stinking goosefoot,X,19212,1991,76288,112502
 Chlorogalum pomeridianum var. minus,dwarf soaproot,N,56470,2005,80562,202860,,,,,,1618,1B.2,,,S3,G5T3
@@ -438,13 +438,13 @@ Clarkia rhomboidea,,N,19595,2210,61870,13686,Diamond Clarkia,annual
 Clarkia rubicunda,farewell-to-spring,N,19597,2212,57148,13688,Ruby Chalice Clarkia,annual,pink,5,8
 Clarkia tembloriensis subsp. tembloriensis,temblor range clarkia,N,49915,2223,79746,42016,Temblor Range Clarkia,annual
 Clarkia unguiculata,elegant clarkia,N,19605,2224,51735,13696,Elegant Clarkia,annual,pink,4,9
-Claytonia exigua subsp. exigua,little spring beauty,N,76950,2232,57234,127854,Serpentine Springbeauty
-Claytonia exigua subsp. glauca,,N,76949,2233,57229,127855,Serpentine Springbeauty
-Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,112597,Gypsum Springbeauty,,pink
-Claytonia parviflora subsp. parviflora,,N,74695,2242,58296,127861,Utah Miner's Lettuce
-Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004,127866,Southern Miner's Lettuce
-Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,127867,Miner's Lettuce,,white
-Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751,127869,Miner's Lettuce
+Claytonia exigua subsp. exigua,little spring beauty,N,76950,2232,57234,127854,Serpentine Springbeauty,annual,white,4,7
+Claytonia exigua subsp. glauca,,N,76949,2233,57229,127855,Serpentine Springbeauty,annual,white,4,7
+Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,112597,Gypsum Springbeauty,annual,pink,3,5
+Claytonia parviflora subsp. parviflora,,N,74695,2242,58296,127861,Utah Miner's Lettuce,"annual,perennial",white,3,6
+Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004,127866,Southern Miner's Lettuce,annual,white,2,4
+Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,127867,Miner's Lettuce,annual,white,1,5
+Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751,127869,Miner's Lettuce,annual,white,2,4
 Clematis lasiantha,pipestems,N,19682,2254,49876,13749,Chaparral Clematis,,white,1,6
 Clematis ligusticifolia,virgin's bower,N,19683,2255,58996,13750,Virgin's Bower,,white,6,9
 Clinopodium douglasii,yerba buena,N,80483,11541,53203,65180,Yerba Buena
@@ -634,6 +634,7 @@ Elodea canadensis,common waterweed,N,24052,2926,76793,203519,Elodea
 Elodea nuttallii,,N,24057,2927,57623,206753,Nuttall's Waterweed
 Elymus ×gouldii,,N,93810,11632,170838,389951
 Elymus caput-medusae,medusa-head rye,X,24187,11634,169522,140047
+Elymus condensatus,giant wild-rye,N,24165,11636,164673,140055,Giant Wildrye
 Elymus elymoides var. elymoides,squirreltail,N,72180,11639,58377,211223,Squirreltail
 Elymus glaucus subsp. glaucus,blue wildrye,N,50264,2937,57171,167143,Western Rye Grass
 Elymus glaucus subsp. virescens,,N,50266,2939,61203,206754,Blue Wildrye
@@ -734,7 +735,7 @@ Eryngium jepsonii,,N,78144,11674,77062,264168,Jepson's Eryngo,,,,,3927,1B.2,,,S2
 Eryngium racemosum,Delta button-celery,N,25097,3467,77066,206800,Delta Button-celery,,,,,787,1B.1,CE,,S1,G1
 Eryngium spinosepalum,,N,25099,3468,57894,203769,Spiny-sepaled Button-celery,,,,,788,1B.2,,,S2,G2
 Eryngium vaseyi var. vallicola,,N,58851,11675,80888,211709
-Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,,,,,,,790,1B.1,CE,FE,S1,G5T1
+Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,47096,,,,,,790,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627,47096,Sanddune Wallflower,,"orange,yellow",3,9
 Erythranthe androsacea,,N,99088,13487,771845,203774
 Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,206807,,,yellow,4,7
@@ -1027,11 +1028,11 @@ Lepidium didymum,wart cress,X,30511,10940,60987,24162
 Lepidium draba,hoary cress,X,30510,10943,63352,24164
 Lepidium latifolium,perennial pepperweed,X,30544,4691,60153,24179
 Lepidium latipes,dwarf peppergrass,N,30545,4692,60154,24180,San Diego Pepperweed
-Lepidium nitidum,shining peppergrass,N,30549,4699,47202,24187,Peppergrass
+Lepidium nitidum,shining peppergrass,N,30549,4699,47202,24187,Peppergrass,annual,white,2,3
 Lepidium oblongum,,N,30550,4703,77671,24188,Veiny Pepperweed
 Lepidium oxycarpum,,N,30553,4706,60155,24192,Forked Pepperweed
 Lepidium pinnatifidum,,X,30556,4708,77673,24196
-Lepidium strictum,,N,30566,4710,58865,24211,Upright Pepperweed
+Lepidium strictum,,X,30566,4710,58865,24211
 Lepidospartum squamatum,California broomsage,N,3776,4718,58010,204598,Scale Broom
 Leptochloa fusca subsp. fascicularis,bearded sprangletop,N,80525,11795,1377298,167408,Bearded Sprangletop
 Leptochloa fusca subsp. uninervia,Mexican sprangletop,N,80527,11796,1377299,167410,Mexican Sprangletop
@@ -1070,7 +1071,7 @@ Limonium californicum,sea-lavender,N,31014,4839,63364,115150,Western Marsh Rosem
 Limonium ramosissimum,Algerian sea-lavender,X,80703,9147,77757,115163
 Limosella acaulis,,N,31027,4843,61107,71439,Owyhee Mudwort
 Limosella aquatica,,N,31028,4844,59016,71440,Water Mudwort
-Limosella australis,delta mudwort,X,31029,10069,60248,71441,,,,,,1715,2B.1,,,S2,G5
+Limosella australis,delta mudwort,N,31029,10069,60248,71441,,,,,,1715,2B.1,,,S2,G5
 Linanthus dichotomus subsp. dichotomus,evening snow,N,51286,10624,80000,95800,Evening Snow
 Linanthus dichotomus subsp. meridianus,,N,51287,10625,80001,95801
 Linanthus pungens subsp. pulchriflorus,granite prickly phlox,N,98684,14586,861790,204699,,perennial,"white,pink",5,8
@@ -1145,7 +1146,7 @@ Maianthemum racemosum,false Solomon's seal,N,32495,10096,51062,204837,Large Fals
 Maianthemum stellatum,,N,32497,9629,53268,204838,False Solomon Seal
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,412621,Eastern Bewildering Bushmallow,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,400947,,perennial,pink,5,6
-Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
+Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,412621,,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026,204841,California Desertdandelion
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841,204842,Cleveland's Desertdandelion
 Malacothrix coulteri,snake's-head,N,4061,5327,58027,204843,Snake's Head
@@ -1411,7 +1412,7 @@ Plantago subnuda,naked plantain,N,38605,6626,60223,74567,Naked Plantain
 Platanthera dilatata var. leucostachys,white-flowered bog orchid,N,63974,9593,81271,205521,White Bog Orchid
 Platanus racemosa,western sycamore,N,38655,6633,58231,28255,Western Sycamore,perennial,red,2,4
 Platystemon californicus,cream cups,N,38664,6635,51288,28269,Creamcups
-Plectritis ciliosa,,N,38677,6639,57284,,Longspur Seablush,,pink,3,6
+Plectritis ciliosa,,N,38677,6639,57284,205525,Longspur Seablush,,pink,3,6
 Plectritis congesta subsp. brachystemon,,N,52336,11937,57787,205537,Small-flowered Plectritis
 Plectritis congesta subsp. congesta,,N,52337,11938,59253,205535,Sea Blush
 Plectritis macrocera,,N,38684,6643,57287,205540,Longhorn Seablush,,white,3,6
@@ -1440,7 +1441,7 @@ Polygonum ramosissimum subsp. ramosissimum,bushy knotweed,N,82468,11037,80161,12
 Polypodium calirhiza,polypody,N,39352,6776,52678,199631,Nested Polypody
 Polypodium scouleri,leather-leaf fern,N,39364,6779,64288,199683,Leathery Polypody
 Polypogon imberbis,beard grass,X,89096,8696,78695,147782
-Polypogon interruptus,ditch beard grass,X,39375,6782,59099,147785
+Polypogon interruptus,ditch beard grass,N,39375,6782,59099,147785
 Polypogon monspeliensis,rabbitfoot grass,X,39378,6784,57197,147792
 Polypogon viridis,water bentgrass,X,39379,11945,64144,147805
 Polystichum californicum,sword fern,N,39407,6785,63867,199711,California Sword Fern
@@ -1700,7 +1701,7 @@ Sonchus tenerrimus,,X,5119,7683,79157,206034
 Sorghum bicolor,sorghum,X,45003,7690,58389,148856
 Sorghum halepense,Johnson-grass,X,45017,7691,58387,148887
 Sparganium eurycarpum var. eurycarpum,bur-reed,N,73845,12031,63347,207940,Bur Reed
-Sparganium eurycarpum var. greenei,,N,66594,12032,63349,174978,Simplestem Bur Reed
+Sparganium eurycarpum var. greenei,,N,66594,12032,842663,174978,Simplestem Bur Reed
 Spartina alterniflora,saltwater cordgrass,X,45038,7699,772903,148951
 Spartina densiflora,dense-flowered cordgrass,X,45043,7700,772990,148961
 Spartina foliosa,California cordgrass,N,45044,7701,772992,148963,California Cord Grass
@@ -1738,7 +1739,7 @@ Stipa lemmonii var. lemmonii,Lemmon's needlegrass,N,73899,12053,1220756,173006
 Stipa lepida,foothill needlegrass,N,45641,12054,165656,149399,Foothill Needlegrass
 Stipa miliacea var. miliacea,smilo grass,X,91920,12058,524183,206097
 Stipa pulchra,purple needlegrass,N,45644,12067,165659,149498,Purple Needlegrass
-Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,,,,,,,1490,1B.2,,,S2,G2T2
+Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,43881,,,,,,1490,1B.2,,,S2,G2T2
 Streptanthus breweri,,N,45725,7822,79258,32606,Brewer's Jewelflower
 Streptanthus glandulosus subsp. glandulosus,jewelflower,N,53142,7837,58783,43881,Most Beautiful Jewel Flower
 Streptanthus hispidus,Mt. Diablo jewelflower,N,45741,7842,50620,32624,Mount Diablo Jewelflower,,,,,1502,1B.3,,,S2,G2
@@ -1837,7 +1838,7 @@ Tropaeolum majus,garden nasturtium,X,47408,8167,54329,34321
 Tropidocarpum capparideum,caper-fruited tropidocarpum,N,47411,8168,79456,34327,Caper-fruited Tropidocarpum,annual,yellow,3,4,1255,1B.1,,,S1,G1
 Tropidocarpum gracile,dobie pod,N,47412,8169,58091,34328,Dobie Pod,annual,yellow,3,5
 Turritis glabra,tower mustard,N,47457,12119,79460,34347,Tower Mustard
-Typha angustifolia,narrow-leaved cattail,X,47462,8176,60316,174863
+Typha angustifolia,narrow-leaved cattail,U,47462,8176,60316,174863
 Typha domingensis,southern cattail,N,47463,8177,58392,174864,Southern Cattail
 Typha latifolia,cattail,N,47466,8178,48685,174865,Broadleaf Cattail
 Ulmus minor,English elm,X,47478,8180,79461,34372
@@ -1859,7 +1860,7 @@ Verbesina encelioides subsp. exauriculata,golden crownbeard,X,6252,8241,79495,20
 Veronica americana,American brooklime,N,47941,8242,57277,78627,Brooklime
 Veronica anagallis-aquatica,water speedwell,X,47942,8243,57858,78628
 Veronica arvensis,,X,47950,8244,55748,78630
-Veronica catenata,chain speedwell,X,47944,8246,79496,78637
+Veronica catenata,chain speedwell,N,47944,8246,79496,78637
 Veronica peregrina subsp. xalapensis,purslane speedwell,N,53337,8252,491173,206335,Purslane Speedwell
 Veronica persica,Persian speedwell,X,47976,8253,55666,78667
 Viburnum ellipticum,western viburnum,N,48020,8259,79500,211467,Common Viburnum,,,,,2056,2B.3,,,S3,G4G5

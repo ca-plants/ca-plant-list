@@ -19,6 +19,8 @@
             "translation": "Castilleja ambigua subsp. ambigua"
         }
     },
+    "Chenopodium rubrum var. humile": { "calflora": { "native": true } },
+    "Chenopodium rubrum var. rubrum": { "calflora": { "native": false } },
     "Delphinium gypsophilum": {
         "calflora": { "notintaxondata": true }
     },
@@ -46,6 +48,22 @@
             "notintaxondata": true
         }
     },
+    "Juncus ambiguus": {
+        "comment": "Jepson: Presumed introduced. Taxonomy, relationship to Eurasian Juncus bufonius complex needs study.",
+        "calflora": { "native": false }
+    },
+    "Juncus elliottii": {
+        "calflora": { "native": false }
+    },
+    "Juncus gerardi subsp. gerardi": {
+        "comment": "Jepson: Possibly native, needs study",
+        "calflora": { "native": false }
+    },
+    "Lepidium strictum": {
+        "calflora": { "native": false },
+        "calscape": { "notnative": true }
+    },
+    "Limosella australis": { "jepson": { "native": true } },
     "Lupinus littoralis var. variicolor": {
         "inat": {
             "notintaxondata": true
@@ -75,10 +93,12 @@
     },
     "Myosurus minimus subsp. apus": {
         "comment": "in CNPS Rare Plant Inventory",
+        "cch": { "notincch": true },
         "jepson": {
             "notineflora": true
         }
     },
+    "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
@@ -106,5 +126,6 @@
     },
     "Typha angustifolia": {
         "calscape": { "notnative": true }
-    }
+    },
+    "Veronica catenata": { "calflora": { "native": true } }
 }

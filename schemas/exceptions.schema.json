@@ -20,6 +20,10 @@
                 "type": "object",
                 "properties": { "notnative": { "const": true } }
             },
+            "cch": {
+                "type": "object",
+                "properties": { "notincch": { "const": true } }
+            },
             "comment": {
                 "type": "string"
             },
@@ -35,6 +39,7 @@
             "jepson": {
                 "type": "object",
                 "properties": {
+                    "native": { "type": "boolean" },
                     "notineflora": {
                         "const": true
                     }
