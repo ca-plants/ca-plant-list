@@ -6,6 +6,8 @@ export type NativeStatusCode = "N" | "NC" | "U" | "X";
 
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
+type RefSourceCode = "calscape" | "cch" | "fna";
+
 export type TaxonData = {
     bloom_end: string;
     bloom_start: string;
@@ -66,7 +68,6 @@ export class Exceptions {
 
 export class ExternalSites {
     static getCCH2ObsLink(taxon: Taxon, config: Config): URL | undefined;
-    static getCCH2RefLink(taxon: Taxon): URL | undefined;
 }
 
 export class Family {
@@ -116,6 +117,11 @@ export class HTMLTaxon {
         links: string[],
         href: URL | string | undefined,
         label: string,
+    ): void;
+    static addRefLink(
+        links: string[],
+        taxon: Taxon,
+        sourceCode: RefSourceCode,
     ): void;
     static getFooterHTML(taxon: Taxon): string;
     static getListSectionHTML(
