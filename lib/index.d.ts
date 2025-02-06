@@ -6,7 +6,7 @@ export type NativeStatusCode = "N" | "NC" | "U" | "X";
 
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
-type RefSourceCode = "calscape" | "cch" | "fna";
+type RefSourceCode = "calflora" | "calscape" | "cch" | "fna";
 
 export type TaxonData = {
     bloom_end: string;
@@ -167,7 +167,6 @@ export class Taxon {
     constructor(data: TaxonData, genera: Genera);
     getBaseFileName(): string;
     getCalfloraID(): string;
-    getCalfloraTaxonLink(): string;
     getCESA(): string;
     getCNDDBRank(): string;
     getCommonNames(): string[];
