@@ -6,7 +6,7 @@ export type NativeStatusCode = "N" | "NC" | "U" | "X";
 
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
-type RefSourceCode = "calflora" | "calscape" | "cch" | "fna" | "inat";
+type RefSourceCode = "calflora" | "calscape" | "cch" | "fna" | "inat" | "rpi";
 
 export type TaxonData = {
     bloom_end: string;
@@ -181,6 +181,5 @@ export class Taxon {
     getName(): string;
     getPhotos(): Photo[];
     getRPIRankAndThreat(): string;
-    getRPITaxonLink(): string;
     getSynonyms(): string[];
 }
