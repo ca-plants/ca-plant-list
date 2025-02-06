@@ -6,9 +6,20 @@ export type NativeStatusCode = "N" | "NC" | "U" | "X";
 
 type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
-type RefSourceCode = "calscape" | "cch" | "fna";
+type RefSourceCode =
+    | "calflora"
+    | "calscape"
+    | "cch"
+    | "fna"
+    | "inat"
+    | "jepson"
+    | "rpi";
 
-export type TaxonData = {
+type TaxonomyData = {
+    "jepson id": string;
+};
+
+export type TaxonData = TaxonomyData & {
     bloom_end: string;
     bloom_start: string;
     calrecnum: string;
@@ -22,7 +33,6 @@ export type TaxonData = {
     flower_color: string;
     GRank: string;
     "inat id": string;
-    "jepson id": string;
     life_cycle: string;
     "RPI ID": string;
     SRank: string;
@@ -167,7 +177,6 @@ export class Taxon {
     constructor(data: TaxonData, genera: Genera);
     getBaseFileName(): string;
     getCalfloraID(): string;
-    getCalfloraTaxonLink(): string;
     getCESA(): string;
     getCNDDBRank(): string;
     getCommonNames(): string[];
@@ -178,11 +187,9 @@ export class Taxon {
     getGenusName(): string;
     getGlobalRank(): string;
     getINatID(): string;
-    getINatTaxonLink(): string;
     getJepsonID(): string;
     getName(): string;
     getPhotos(): Photo[];
     getRPIRankAndThreat(): string;
-    getRPITaxonLink(): string;
     getSynonyms(): string[];
 }
