@@ -76,10 +76,6 @@ export class Exceptions {
     hasException(name: string, cat: string, subcat: string): boolean;
 }
 
-export class ExternalSites {
-    static getCCH2ObsLink(taxon: Taxon, config: Config): URL | undefined;
-}
-
 export class Family {
     getName(): string;
 }
@@ -97,8 +93,8 @@ export class Files {
 
 export class Genera {}
 
-export class Genus {
-    getTaxa(): Taxon[];
+export class Genus<T extends Taxon> {
+    getTaxa(): T[];
 }
 
 export class HTML {
@@ -127,6 +123,13 @@ export class HTMLTaxon {
         links: string[],
         href: URL | string | undefined,
         label: string,
+    ): void;
+    static addObsLink(
+        links: string[],
+        taxon: Taxon,
+        config: Config,
+        sourceCode: RefSourceCode,
+        label?: string,
     ): void;
     static addRefLink(
         links: string[],
@@ -183,7 +186,7 @@ export class Taxon {
     getFamily(): Family;
     getFileName(): string;
     getFESA(): string;
-    getGenus(): Genus;
+    getGenus<T extends Taxon>(): Genus<T>;
     getGenusName(): string;
     getGlobalRank(): string;
     getINatID(): string;
