@@ -15,6 +15,12 @@ type RefSourceCode =
     | "jepson"
     | "rpi";
 
+type TaxaColDef<T> = {
+    title: string;
+    class?: string;
+    data: (taxon: T) => string | number;
+};
+
 type TaxonomyData = {
     "jepson id": string;
 };
@@ -41,6 +47,14 @@ export type TaxonData = TaxonomyData & {
 };
 
 // Classes
+
+export class BasePageRenderer {
+    static renderBasePages<T extends Taxon>(
+        outputDir: string,
+        taxa: Taxa<T>,
+        familyCols?: TaxaColDef<T>[],
+    ): void;
+}
 
 export class Config {
     constructor(dataDir: string);
@@ -193,6 +207,7 @@ export class Taxon {
     getJepsonID(): string;
     getName(): string;
     getPhotos(): Photo[];
+    getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getSynonyms(): string[];
 }
