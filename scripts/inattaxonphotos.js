@@ -7,7 +7,7 @@ import path from "path";
 
 import { ErrorLog } from "../lib/errorlog.js";
 import { Program } from "../lib/program.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 import { chunk, sleep } from "../lib/util.js";
 
 /**

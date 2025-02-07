@@ -5,7 +5,7 @@ import { ErrorLog } from "../lib/errorlog.js";
 import { Files } from "../lib/files.js";
 import { PlantBook } from "../lib/ebook/plantbook.js";
 import { Program } from "../lib/program.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 
 const program = Program.getProgram();
 program
@@ -33,7 +33,7 @@ async function build(options) {
                 await buildBook(
                     outputBase + suffix,
                     path,
-                    options.showFlowerErrors
+                    options.showFlowerErrors,
                 );
             }
         }
@@ -42,7 +42,7 @@ async function build(options) {
         await buildBook(
             options.outputdir,
             options.datadir,
-            options.showFlowerErrors
+            options.showFlowerErrors,
         );
     }
 }
@@ -58,7 +58,7 @@ async function buildBook(outputDir, dataDir, showFlowerErrors) {
     const taxa = new Taxa(
         Program.getIncludeList(dataDir),
         errorLog,
-        showFlowerErrors
+        showFlowerErrors,
     );
 
     const config = new Config(dataDir);

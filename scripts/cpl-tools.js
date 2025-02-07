@@ -10,7 +10,7 @@ import { INat } from "../lib/tools/inat.js";
 import { JepsonEFlora } from "../lib/tools/jepsoneflora.js";
 import { RPI } from "../lib/tools/rpi.js";
 import { Config } from "../lib/config.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 import { SupplementalText } from "../lib/tools/supplementaltext.js";
 import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
 import { CCH2 } from "../lib/tools/cch2.js";
