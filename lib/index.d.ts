@@ -97,8 +97,8 @@ export class Files {
 
 export class Genera {}
 
-export class Genus {
-    getTaxa(): Taxon[];
+export class Genus<T extends Taxon> {
+    getTaxa(): T[];
 }
 
 export class HTML {
@@ -183,7 +183,7 @@ export class Taxon {
     getFamily(): Family;
     getFileName(): string;
     getFESA(): string;
-    getGenus(): Genus;
+    getGenus<T extends Taxon>(): Genus<T>;
     getGenusName(): string;
     getGlobalRank(): string;
     getINatID(): string;
