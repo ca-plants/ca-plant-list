@@ -69,7 +69,10 @@ export class Config {
 }
 
 export class CSV {
-    static parseFile(dir: string, fileName: string): Record<string, string>[];
+    static readFile(
+        fileName: string,
+        delimeter?: string,
+    ): Record<string, string>[];
 }
 
 export class ErrorLog {
