@@ -125,7 +125,7 @@ export class HTML {
     ): string;
     static textElement(
         elName: string,
-        text: string,
+        text: string | number,
         attrs?: Record<string, string>,
     ): string;
     static wrap(
