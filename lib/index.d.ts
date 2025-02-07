@@ -76,10 +76,6 @@ export class Exceptions {
     hasException(name: string, cat: string, subcat: string): boolean;
 }
 
-export class ExternalSites {
-    static getCCH2ObsLink(taxon: Taxon, config: Config): URL | undefined;
-}
-
 export class Family {
     getName(): string;
 }
@@ -127,6 +123,12 @@ export class HTMLTaxon {
         links: string[],
         href: URL | string | undefined,
         label: string,
+    ): void;
+    static addObsLink(
+        links: string[],
+        taxon: Taxon,
+        config: Config,
+        sourceCode: RefSourceCode,
     ): void;
     static addRefLink(
         links: string[],
