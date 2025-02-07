@@ -129,6 +129,7 @@ export class HTMLTaxon {
         taxon: Taxon,
         config: Config,
         sourceCode: RefSourceCode,
+        label?: string,
     ): void;
     static addRefLink(
         links: string[],
