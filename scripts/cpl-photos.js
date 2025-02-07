@@ -3,7 +3,7 @@
 import path from "path";
 import { ErrorLog } from "../lib/errorlog.js";
 import { Program } from "../lib/program.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 import { getTaxonPhotos } from "../lib/utils/inat-tools.js";
 import { existsSync } from "fs";
 import { CSV } from "../lib/csv.js";

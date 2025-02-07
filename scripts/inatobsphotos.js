@@ -6,7 +6,7 @@ import { stringify } from "csv-stringify";
 import path from "path";
 
 import { Program } from "../lib/program.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 import { sleep } from "../lib/util.js";
 
 /**

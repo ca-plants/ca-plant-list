@@ -6,7 +6,7 @@ import { Config } from "../lib/config.js";
 import { PageRenderer } from "../lib/pagerenderer.js";
 import { Files } from "../lib/files.js";
 import { Program } from "../lib/program.js";
-import { Taxa } from "../lib/taxa.js";
+import { Taxa } from "../lib/taxonomy/taxa.js";
 import { ErrorLog } from "../lib/errorlog.js";
 
 class JekyllRenderer {
@@ -45,7 +45,7 @@ class JekyllRenderer {
         options.push("--config", `"${configFiles.join()}"`);
 
         const result = child_process.execSync(
-            "bundle exec jekyll build " + options.join(" ")
+            "bundle exec jekyll build " + options.join(" "),
         );
         console.log(result.toString());
     }
@@ -60,7 +60,7 @@ async function build(options) {
     const taxa = new Taxa(
         Program.getIncludeList(options.datadir),
         errorLog,
-        options.showFlowerErrors
+        options.showFlowerErrors,
     );
     PageRenderer.render(options.outputdir, new Config(options.datadir), taxa);
     errorLog.write();
