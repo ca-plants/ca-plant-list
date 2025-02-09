@@ -170,6 +170,7 @@ export class HTMLTaxon {
 export class Jekyll {
     static hasInclude(baseDir: string, path: string): boolean;
     static include(fileName: string): string;
+    static writeInclude(baseDir: string, path: string, data: string): void;
 }
 
 export class Photo {
