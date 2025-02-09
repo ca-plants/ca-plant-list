@@ -1,10 +1,10 @@
 class UI {
-
     static init() {
-        const tooltips = document.querySelectorAll( "span[title]" );
-        [ ...tooltips ].map( tooltipTriggerEl => new bootstrap.Tooltip( tooltipTriggerEl ) );
+        const tooltips = document.querySelectorAll("span[title]");
+        [...tooltips].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
+        );
     }
-
 }
 
 UI.init();
