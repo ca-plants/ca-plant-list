@@ -15,6 +15,12 @@ type RefSourceCode =
     | "jepson"
     | "rpi";
 
+type TaxaColDef<T> = {
+    title: string;
+    class?: string;
+    data: (taxon: T) => string | number;
+};
+
 type TaxonomyData = {
     "jepson id": string;
 };
@@ -42,6 +48,14 @@ export type TaxonData = TaxonomyData & {
 
 // Classes
 
+export class BasePageRenderer {
+    static renderBasePages<T extends Taxon>(
+        outputDir: string,
+        taxa: Taxa<T>,
+        familyCols?: TaxaColDef<T>[],
+    ): void;
+}
+
 export class Config {
     constructor(dataDir: string);
     getConfigValue(
@@ -55,7 +69,10 @@ export class Config {
 }
 
 export class CSV {
-    static parseFile(dir: string, fileName: string): Record<string, string>[];
+    static readFile(
+        fileName: string,
+        delimeter?: string,
+    ): Record<string, string>[];
 }
 
 export class ErrorLog {
@@ -106,14 +123,19 @@ export class HTML {
         attrs?: Record<string, string> | string,
         openInNewWindow?: boolean,
     ): string;
+    static getToolTip(
+        text: string,
+        tooltip: string,
+        options?: { icon: boolean },
+    ): string;
     static textElement(
         elName: string,
-        text: string,
+        text: string | number,
         attrs?: Record<string, string>,
     ): string;
     static wrap(
         elName: string,
-        text: string,
+        text: string | number,
         attrs?: string | Record<string, string> | undefined,
     ): string;
 }
@@ -180,6 +202,7 @@ export class Taxon {
     constructor(data: TaxonData, genera: Genera);
     getBaseFileName(): string;
     getCalfloraID(): string;
+    getCalfloraName(): string;
     getCESA(): string;
     getCNDDBRank(): string;
     getCommonNames(): string[];
@@ -190,9 +213,11 @@ export class Taxon {
     getGenusName(): string;
     getGlobalRank(): string;
     getINatID(): string;
+    getINatName(): string;
     getJepsonID(): string;
     getName(): string;
     getPhotos(): Photo[];
+    getRPIRank(): string;
     getRPIRankAndThreat(): string;
     getSynonyms(): string[];
 }
