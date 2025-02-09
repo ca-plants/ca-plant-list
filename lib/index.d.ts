@@ -123,6 +123,11 @@ export class HTML {
         attrs?: Record<string, string> | string,
         openInNewWindow?: boolean,
     ): string;
+    static getToolTip(
+        text: string,
+        tooltip: string,
+        options?: { icon: boolean },
+    ): string;
     static textElement(
         elName: string,
         text: string | number,
@@ -130,7 +135,7 @@ export class HTML {
     ): string;
     static wrap(
         elName: string,
-        text: string,
+        text: string | number,
         attrs?: string | Record<string, string> | undefined,
     ): string;
 }
@@ -197,6 +202,7 @@ export class Taxon {
     constructor(data: TaxonData, genera: Genera);
     getBaseFileName(): string;
     getCalfloraID(): string;
+    getCalfloraName(): string;
     getCESA(): string;
     getCNDDBRank(): string;
     getCommonNames(): string[];
@@ -207,6 +213,7 @@ export class Taxon {
     getGenusName(): string;
     getGlobalRank(): string;
     getINatID(): string;
+    getINatName(): string;
     getJepsonID(): string;
     getName(): string;
     getPhotos(): Photo[];
