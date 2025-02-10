@@ -46,6 +46,10 @@ export type TaxonData = TaxonomyData & {
     taxon_name: string;
 };
 
+export type TaxonOverrides = {
+    status?: NativeStatusCode;
+};
+
 // Classes
 
 export class BasePageRenderer {
@@ -104,6 +108,7 @@ export class Files {
         targetFileName: string | undefined,
     ): Promise<Headers>;
     static mkdir(dir: string): void;
+    static read(path: string): string;
     static rmDir(dir: string): void;
     static write(fileName: string, data: string, overwrite?: boolean): void;
 }
@@ -188,11 +193,11 @@ export class Program {
 
 export class Taxa<T> {
     constructor(
-        inclusionList: Record<string, TaxonData> | true,
+        inclusionList: Record<string, TaxonOverrides> | true,
         errorLog: ErrorLog,
         showFlowerErrors: boolean,
         taxonFactory?: (td: TaxonData, g: Genera) => T,
-        extraTaxa?: TaxonData[],
+        extraTaxa?: TaxonOverrides[],
         extraSynonyms?: Record<string, string>[],
     );
     getTaxon(name: string): T;
