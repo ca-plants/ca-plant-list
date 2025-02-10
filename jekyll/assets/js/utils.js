@@ -41,4 +41,16 @@ export class Utils {
             name,
         );
     }
+
+    /**
+     * @param {string} id
+     * @returns {HTMLElement}
+     */
+    static getElement(id) {
+        const e = document.getElementById(id);
+        if (e === null) {
+            throw new Error();
+        }
+        return e;
+    }
 }
