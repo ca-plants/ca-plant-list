@@ -77,6 +77,11 @@ export class CSV {
         fileName: string,
         delimeter?: string,
     ): Record<string, string>[];
+    static writeFileObject(
+        fileName: string,
+        data: Record<string, any>[],
+        headerData: string[],
+    ): void;
 }
 
 export class ErrorLog {
