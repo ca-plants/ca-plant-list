@@ -1,0 +1,1 @@
+Petals with purple streaks.
