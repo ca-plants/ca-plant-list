@@ -46,6 +46,10 @@ export type TaxonData = TaxonomyData & {
     taxon_name: string;
 };
 
+export type TaxonOverrides = {
+    status?: NativeStatusCode;
+};
+
 // Classes
 
 export class BasePageRenderer {
@@ -73,6 +77,11 @@ export class CSV {
         fileName: string,
         delimeter?: string,
     ): Record<string, string>[];
+    static writeFileObject(
+        fileName: string,
+        data: Record<string, any>[],
+        headerData: string[],
+    ): void;
 }
 
 export class ErrorLog {
@@ -104,6 +113,7 @@ export class Files {
         targetFileName: string | undefined,
     ): Promise<Headers>;
     static mkdir(dir: string): void;
+    static read(path: string): string;
     static rmDir(dir: string): void;
     static write(fileName: string, data: string, overwrite?: boolean): void;
 }
@@ -170,6 +180,7 @@ export class HTMLTaxon {
 export class Jekyll {
     static hasInclude(baseDir: string, path: string): boolean;
     static include(fileName: string): string;
+    static writeInclude(baseDir: string, path: string, data: string): void;
 }
 
 export class Photo {
@@ -187,11 +198,11 @@ export class Program {
 
 export class Taxa<T> {
     constructor(
-        inclusionList: Record<string, TaxonData> | true,
+        inclusionList: Record<string, TaxonOverrides> | true,
         errorLog: ErrorLog,
         showFlowerErrors: boolean,
         taxonFactory?: (td: TaxonData, g: Genera) => T,
-        extraTaxa?: TaxonData[],
+        extraTaxa?: TaxonOverrides[],
         extraSynonyms?: Record<string, string>[],
     );
     getTaxon(name: string): T;

@@ -720,11 +720,11 @@ Eriophyllum confertiflorum var. confertiflorum,golden-yarrow,N,69866,3423,53397,
 Eriophyllum jepsonii,Jepson's woolly-sunflower,N,2816,3426,77048,203742,true,Jepson's Woolly Sunflower,,,,,776,4.3,,,S3,G3
 Eriophyllum lanatum var. achilleoides,,N,7369,10587,80880,260847,true,Common Woollysunflower
 Eriophyllum staechadifolium,seaside woolly-sunflower,N,2825,3444,60963,203755,true,Seaside Woolly Sunflower
-Erodium botrys,long-beaked filaree,X,25037,3446,57090,17986,,,,pink,3,7
-Erodium brachycarpum,,X,25038,3447,58171,17987
-Erodium cicutarium,red-stemmed filaree,X,25041,3448,47687,17989
+Erodium botrys,long-beaked filaree,X,25037,3446,57090,17986,,,annual,pink,3,7
+Erodium brachycarpum,,X,25038,3447,58171,17987,,,annual,pink,3,7
+Erodium cicutarium,red-stemmed filaree,X,25041,3448,47687,17989,,,annual,pink,3,9
 Erodium malacoides,,X,76818,3451,77056,17994
-Erodium moschatum,white-stem filaree,X,25048,3452,57092,17995
+Erodium moschatum,white-stem filaree,X,25048,3452,57092,17995,,,"annual,biennial",pink,2,9
 Eryngium aristulatum var. aristulatum,coyote-thistle,N,58845,3458,64189,211707,,California Eryngo
 Eryngium aristulatum var. hooveri,,N,58846,3459,57904,203761,,Hoover's Button-celery,,,,,783,1B.1,,,S1,G5T1
 Eryngium aristulatum,Jepson's button celery,N,25070,3457,57901,203759,,Jepson's Button Celery
@@ -1599,7 +1599,7 @@ Salix exigua var. hindsiana,Hind's willow,N,81242,11063,64195,51553,true,Sandbar
 Salix gooddingii,Goodding's black willow,N,42825,7272,60240,31274,true,Goodding's Black Willow
 Salix laevigata,red willow,N,42850,7276,58319,31302,true,Red Willow
 Salix lasiandra var. lasiandra,Pacific willow,N,76043,11065,81358,51640,true,Yellow Willow
-Salix lasiolepis,arroyo willow,N,42855,7277,53452,31307,true,Arroyo Willow
+Salix lasiolepis,arroyo willow,N,42855,7277,53452,31307,true,Arroyo Willow,perennial,,1,6
 Salix melanopsis,dusky willow,N,42881,7284,78947,31332,true,Dusky Willow
 Salix scouleriana,Scouler's willow,N,42973,7289,71076,31425,true,Scouler's Willow
 Salix sitchensis,Sitka willow,N,42994,7291,61100,31435,true,Sitka Willow
@@ -1676,7 +1676,7 @@ Silene lemmonii,Lemmon's catchfly,N,44533,7603,60523,119295,true,Lemmon's Catchf
 Silene sargentii,Sargent's catchfly,N,44566,7614,62697,119340,true,Sargent's Catchfly,perennial,white,7,8
 Silene verecunda,,N,44589,7617,60581,119364,true,San Francisco Campion
 Silybum marianum,milk-thistle,X,4918,7622,52586,205950,true
-Sinapis arvensis,charlock,X,44609,7625,1562069,32232,true
+Sinapis arvensis,charlock,X,44609,7625,1562069,32232,true,,annual,yellow,3,10
 Sisymbrium irio,London rocket,X,44651,7628,58085,32256,true
 Sisymbrium officinale,hedge mustard,X,44653,7630,53266,32267,true
 Sisymbrium orientale,,X,44654,7631,58086,32268,true
