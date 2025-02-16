@@ -150,6 +150,10 @@ export class HTML {
     ): string;
 }
 
+export class HTMLFragments {
+    static getMarkdownSection(filePath: string): string;
+}
+
 export class HTMLTaxon {
     static addLink(
         links: string[],
@@ -174,7 +178,6 @@ export class HTMLTaxon {
         header: string,
         className?: string,
     ): string;
-    static getMarkdownSection(filePath: string): string;
 }
 
 export class Jekyll {

@@ -55,6 +55,7 @@ class JekyllRenderer {
  * @param {import("commander").OptionValues} options
  */
 async function build(options) {
+    console.info("generating templates");
     Files.rmDir(options.outputdir);
     const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
     const taxa = new Taxa(
@@ -65,12 +66,19 @@ async function build(options) {
     PageRenderer.render(options.outputdir, new Config(options.datadir), taxa);
     errorLog.write();
 
-    console.log("generating site");
-    const r = new JekyllRenderer();
-    await r.renderPages();
+    if (options.render) {
+        console.info("generating site");
+        const r = new JekyllRenderer();
+        await r.renderPages();
+    }
 }
 
 const program = Program.getProgram();
+program.option(
+    "--no-render",
+    "Do not render full HTML output (only build the templates)",
+);
+
 program.action(build);
 
 await program.parseAsync();
