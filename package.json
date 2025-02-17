@@ -12,9 +12,10 @@
     "files": [
         "data",
         "ebook",
-        "jekyll",
+        "generators",
         "lib",
-        "scripts"
+        "scripts",
+        "static"
     ],
     "exports": {
         ".": "./lib/index.js"
@@ -22,10 +23,10 @@
     "types": "./lib/index.d.ts",
     "scripts": {
         "check": "npm run eslint && npm run tsc && npm run jest",
-        "eslint": "npx eslint",
+        "eslint": "eslint",
         "jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests",
-        "prettier": "npx prettier -l .",
-        "tsc": "npx tsc"
+        "prettier": "prettier -l .",
+        "tsc": "tsc"
     },
     "bin": {
         "ca-plant-list": "scripts/build-site.js",
