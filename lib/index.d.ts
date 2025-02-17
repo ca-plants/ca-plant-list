@@ -53,6 +53,7 @@ export type TaxonOverrides = {
 // Classes
 
 export class BasePageRenderer {
+    static newSiteGenerator(outputDir: string): SiteGenerator;
     static renderBasePages<T extends Taxon>(
         siteGenerator: SiteGenerator,
         taxa: Taxa<T>,
@@ -178,10 +179,6 @@ export class HTMLTaxon {
         header: string,
         className?: string,
     ): string;
-}
-
-export class Jekyll extends SiteGenerator {
-    constructor(outputDir: string);
 }
 
 export class Photo {

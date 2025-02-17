@@ -8,7 +8,6 @@ import { Files } from "../lib/files.js";
 import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxonomy/taxa.js";
 import { ErrorLog } from "../lib/errorlog.js";
-import { Jekyll } from "../lib/jekyll.js";
 
 class JekyllRenderer {
     #srcDir = "./output";
@@ -67,7 +66,7 @@ async function build(options) {
         options.showFlowerErrors,
     );
     PageRenderer.renderAll(
-        new Jekyll(outputDir),
+        PageRenderer.newSiteGenerator(outputDir),
         new Config(options.datadir),
         taxa,
     );
