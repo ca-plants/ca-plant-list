@@ -3,11 +3,12 @@
 import * as child_process from "node:child_process";
 import * as path from "node:path";
 import { Config } from "../lib/config.js";
-import { PageRenderer } from "../lib/pagerenderer.js";
+import { PageRenderer } from "../lib/web/renderAllPages.js";
 import { Files } from "../lib/files.js";
 import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxonomy/taxa.js";
 import { ErrorLog } from "../lib/errorlog.js";
+import { Jekyll } from "../lib/jekyll.js";
 
 class JekyllRenderer {
     #srcDir = "./output";
@@ -56,14 +57,20 @@ class JekyllRenderer {
  */
 async function build(options) {
     console.info("generating templates");
-    Files.rmDir(options.outputdir);
-    const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
+    /** @type {string} */
+    const outputDir = options.outputdir;
+    Files.rmDir(outputDir);
+    const errorLog = new ErrorLog(outputDir + "/errors.tsv");
     const taxa = new Taxa(
         Program.getIncludeList(options.datadir),
         errorLog,
         options.showFlowerErrors,
     );
-    PageRenderer.render(options.outputdir, new Config(options.datadir), taxa);
+    PageRenderer.renderAll(
+        new Jekyll(outputDir),
+        new Config(options.datadir),
+        taxa,
+    );
     errorLog.write();
 
     if (options.render) {

@@ -54,7 +54,7 @@ export type TaxonOverrides = {
 
 export class BasePageRenderer {
     static renderBasePages<T extends Taxon>(
-        outputDir: string,
+        siteGenerator: SiteGenerator,
         taxa: Taxa<T>,
         familyCols?: TaxaColDef<T>[],
     ): void;
@@ -180,7 +180,8 @@ export class HTMLTaxon {
     ): string;
 }
 
-export class Jekyll {
+export class Jekyll extends SiteGenerator {
+    constructor(outputDir: string);
     static writeInclude(baseDir: string, path: string, data: string): void;
 }
 
@@ -195,6 +196,11 @@ export class Photo {
 export class Program {
     static getIncludeList(dataDir: string): string[];
     static getProgram(): Command;
+}
+
+export class SiteGenerator {
+    getBaseDir(): string;
+    getFrontMatter(atts: Record<string, string | undefined>): string;
 }
 
 export class Taxa<T> {
