@@ -182,7 +182,6 @@ export class HTMLTaxon {
 
 export class Jekyll extends SiteGenerator {
     constructor(outputDir: string);
-    static writeInclude(baseDir: string, path: string, data: string): void;
 }
 
 export class Photo {
