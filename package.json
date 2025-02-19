@@ -36,6 +36,7 @@
         "inatobsphotos": "scripts/inatobsphotos.js"
     },
     "dependencies": {
+        "@11ty/eleventy": "^3.0.0",
         "@htmltools/scrape": "^0.1.1",
         "archiver": "^5.3.1",
         "cli-progress": "^3.12.0",
