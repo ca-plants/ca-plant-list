@@ -15,6 +15,10 @@ type RefSourceCode =
     | "jepson"
     | "rpi";
 
+type SiteGeneratorOptions = {
+    passThroughPatterns?: string[];
+};
+
 type TaxaColDef<T> = {
     title: string;
     class?: string;
@@ -53,7 +57,11 @@ export type TaxonOverrides = {
 // Classes
 
 export class BasePageRenderer {
-    static newSiteGenerator(outputDir: string): SiteGenerator;
+    static newSiteGenerator(
+        config: Config,
+        outputDir: string,
+        options?: SiteGeneratorOptions,
+    ): SiteGenerator;
     static renderBasePages<T extends Taxon>(
         siteGenerator: SiteGenerator,
         taxa: Taxa<T>,
@@ -195,6 +203,7 @@ export class Program {
 }
 
 export class SiteGenerator {
+    generate(outputDir: string): Promise<void>;
     getBaseDir(): string;
     getFrontMatter(atts: Record<string, string | undefined>): string;
 }
