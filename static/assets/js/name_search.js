@@ -1,8 +1,8 @@
+import { NAMES } from "./nameSearchData.js";
 import { Utils } from "./utils.js";
 
 /**
- * @typedef {[string]|[string,string]|[string,string|undefined,string[]]} RawSearchData
- * @typedef {{raw:RawSearchData,searchSci:string,searchCommon?:string,synonyms?:string[]}} SearchData
+ * @typedef {{raw:import("../../../lib/types.js").NameSearchData,searchSci:string,searchCommon?:string,synonyms?:string[]}} SearchData
  */
 
 const MIN_LEN = 2;
@@ -52,9 +52,9 @@ class Search {
                 // Include any matching synonyms.
                 for (const index of syns) {
                     matches.push([
-                        taxon.raw[0],
-                        taxon.raw[1],
-                        taxon.raw[2] ? taxon.raw[2][index] : undefined,
+                        taxon.raw.t,
+                        taxon.raw.c,
+                        taxon.raw.s ? taxon.raw.s[index] : undefined,
                     ]);
                 }
             } else {
@@ -62,7 +62,7 @@ class Search {
                 const namesMatch =
                     name.includes(value) || (cn && cn.includes(value));
                 if (namesMatch) {
-                    matches.push([taxon.raw[0], taxon.raw[1]]);
+                    matches.push([taxon.raw.t, taxon.raw.c]);
                 }
             }
         }
@@ -146,23 +146,21 @@ class Search {
         /** @type {SearchData[]} */
         const searchData = [];
 
-        /** @type {RawSearchData[]} */
-        // @ts-ignore
-        // eslint-disable-next-line no-undef
+        /** @type {import("../../../lib/types.js").NameSearchData[]} */
         const names = NAMES;
 
         for (const taxon of names) {
             /** @type {SearchData} */
             const taxonData = {
                 raw: taxon,
-                searchSci: this.#normalizeName(taxon[0]),
+                searchSci: this.#normalizeName(taxon.t),
             };
-            if (taxon[1]) {
-                taxonData.searchCommon = taxon[1].toLowerCase();
+            if (taxon.c) {
+                taxonData.searchCommon = taxon.c.toLowerCase();
             }
-            if (taxon[2]) {
+            if (taxon.s) {
                 const syns = [];
-                for (const syn of taxon[2]) {
+                for (const syn of taxon.s) {
                     syns.push(this.#normalizeName(syn));
                 }
                 taxonData.synonyms = syns;

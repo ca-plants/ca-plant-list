@@ -15,6 +15,10 @@ type RefSourceCode =
     | "jepson"
     | "rpi";
 
+type SiteGeneratorOptions = {
+    passThroughPatterns?: string[];
+};
+
 type TaxaColDef<T> = {
     title: string;
     class?: string;
@@ -53,8 +57,13 @@ export type TaxonOverrides = {
 // Classes
 
 export class BasePageRenderer {
-    static renderBasePages<T extends Taxon>(
+    static newSiteGenerator(
+        config: Config,
         outputDir: string,
+        options?: SiteGeneratorOptions,
+    ): SiteGenerator;
+    static renderBasePages<T extends Taxon>(
+        siteGenerator: SiteGenerator,
         taxa: Taxa<T>,
         familyCols?: TaxaColDef<T>[],
     ): void;
@@ -150,6 +159,10 @@ export class HTML {
     ): string;
 }
 
+export class HTMLFragments {
+    static getMarkdownSection(filePath: string): string;
+}
+
 export class HTMLTaxon {
     static addLink(
         links: string[],
@@ -174,13 +187,6 @@ export class HTMLTaxon {
         header: string,
         className?: string,
     ): string;
-    static getMarkdownSection(filePath: string): string;
-}
-
-export class Jekyll {
-    static hasInclude(baseDir: string, path: string): boolean;
-    static include(fileName: string): string;
-    static writeInclude(baseDir: string, path: string, data: string): void;
 }
 
 export class Photo {
@@ -194,6 +200,12 @@ export class Photo {
 export class Program {
     static getIncludeList(dataDir: string): string[];
     static getProgram(): Command;
+}
+
+export class SiteGenerator {
+    generate(outputDir: string): Promise<void>;
+    getBaseDir(): string;
+    getFrontMatter(atts: Record<string, string | undefined>): string;
 }
 
 export class Taxa<T> {
