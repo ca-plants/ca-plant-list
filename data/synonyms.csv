@@ -251,6 +251,7 @@ Brickellia californica var. tenera,Brickellia californica
 Brickellia tenera,Brickellia californica
 Brickellia wrightii var. tenera,Brickellia californica
 Brodiaea candida,Triteleia laxa
+Brodiaea capitata var. insularis,Dipterostemon capitatus subsp. capitatus
 Brodiaea congesta,Dichelostemma congestum
 Brodiaea coronaria var. macropoda,Brodiaea terrestris subsp. terrestris
 Brodiaea coronaria var. mundula,Brodiaea elegans subsp. elegans
@@ -261,6 +262,7 @@ Brodiaea grandiflora var. macropoda,Brodiaea terrestris subsp. terrestris
 Brodiaea hyacinthina,Triteleia hyacinthina
 Brodiaea hyacinthina var. lactea,Triteleia hyacinthina
 Brodiaea hyacinthina var. lilacina,Triteleia hyacinthina
+Brodiaea insularis,Dipterostemon capitatus subsp. capitatus
 Brodiaea lactea,Triteleia hyacinthina
 Brodiaea lactea var. lilacina,Triteleia hyacinthina
 Brodiaea laxa,Triteleia laxa
@@ -269,7 +271,6 @@ Brodiaea laxa var. tracyi,Triteleia laxa
 Brodiaea multiflora,Dichelostemma multiflorum
 Brodiaea parviflora,Dichelostemma multiflorum
 Brodiaea peduncularis,Triteleia peduncularis
-Brodiaea pulchella,Dipterostemon capitatus
 Brodiaea torreyi,Brodiaea terrestris subsp. terrestris
 Brodiaea volubilis,Dichelostemma volubile
 Bromus breviaristatus,Bromus sitchensis var. marginatus
@@ -566,11 +567,11 @@ Deschampsia holciformis,Deschampsia cespitosa subsp. holciformis
 Dicentra chrysantha,Ehrendorferia chrysantha
 Dichanthelium acuminatum,Panicum acuminatum,INAT
 Dichelostemma californicum,Dichelostemma volubile
-Dichelostemma capitatum,Dipterostemon capitatus
+Dichelostemma insulare,Dipterostemon capitatus subsp. capitatus
 Dichelostemma parviflorum,Dichelostemma multiflorum
-Dichelostemma pulchellum,Dipterostemon capitatus
 Diplachne fusca subsp. fascicularis,Leptochloa fusca subsp. fascicularis,INAT
 Diplachne fusca subsp. uninervia,Leptochloa fusca subsp. uninervia,INAT
+Dipterostemon insularis,Dipterostemon capitatus subsp. capitatus
 Disporum hookeri,Prosartes hookeri
 Disporum hookeri var. trachyandrum,Prosartes hookeri
 Disporum smithii,Prosartes smithii
@@ -919,7 +920,6 @@ Hibiscus lasiocarpos var. californicus,Hibiscus lasiocarpos var. occidentalis
 Hibiscus moscheutos var. occidentalis,Hibiscus lasiocarpos var. occidentalis
 Hierochloe occidentalis,Anthoxanthum occidentale
 Holocarpha obconica subsp. autumnalis,Holocarpha obconica
-Hookera capitata,Dipterostemon capitatus
 Hookera congesta,Dichelostemma congestum
 Hookera hyacinthina,Triteleia hyacinthina
 Hookera hyacinthina var. lactea,Triteleia hyacinthina
@@ -1226,7 +1226,6 @@ Microsteris gracilis subsp. gracilis,Microsteris gracilis
 Microsteris gracilis subsp. humilis,Microsteris gracilis
 Microsteris gracilis var. gracilis,Microsteris gracilis
 Microsteris gracilis var. humilior,Microsteris gracilis
-Milla capitata,Dipterostemon capitatus
 Milla hyacinthina,Triteleia hyacinthina
 Milla hyacinthina var. lactea,Triteleia hyacinthina
 Milla laxa,Triteleia laxa
