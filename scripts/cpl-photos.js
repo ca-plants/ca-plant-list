@@ -9,6 +9,7 @@ import { existsSync } from "fs";
 import { CSV } from "../lib/csv.js";
 
 const PHOTO_FILE_NAME = "inattaxonphotos.csv";
+const PHOTO_FILE_PATH = `./data/${PHOTO_FILE_NAME}`;
 
 const OPT_LOADER = "loader";
 
@@ -74,11 +75,7 @@ async function addMissingPhotos(options) {
         }
     }
 
-    CSV.writeFileArray(
-        `${options.outputdir}/${PHOTO_FILE_NAME}`,
-        data,
-        headers,
-    );
+    CSV.writeFileArray(PHOTO_FILE_PATH, data, headers);
 }
 
 /**
@@ -132,8 +129,7 @@ async function getTaxa(options) {
  * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
 function readPhotos() {
-    const photosFileName = `./data/${PHOTO_FILE_NAME}`;
-    if (!existsSync(photosFileName)) {
+    if (!existsSync(PHOTO_FILE_PATH)) {
         return new Map();
     }
 
@@ -142,7 +138,7 @@ function readPhotos() {
 
     /** @type {import("../lib/utils/inat-tools.js").InatCsvPhoto[]} */
     // @ts-ignore
-    const csvPhotos = CSV.readFile(photosFileName);
+    const csvPhotos = CSV.readFile(PHOTO_FILE_PATH);
     for (const csvPhoto of csvPhotos) {
         const taxonName = csvPhoto.name;
         let photos = taxonPhotos.get(taxonName);
