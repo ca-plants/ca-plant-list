@@ -59,23 +59,7 @@ async function addMissingPhotos(options) {
     errorLog.write();
 
     // Write updated photo file.
-    const headers = ["name", "id", "ext", "licenseCode", "attrName"];
-    /** @type {string[][]} */
-    const data = [];
-    for (const taxonName of [...currentTaxaPhotos.keys()].sort()) {
-        // @ts-ignore
-        for (const photo of currentTaxaPhotos.get(taxonName)) {
-            data.push([
-                taxonName,
-                photo.id,
-                photo.ext,
-                photo.licenseCode,
-                photo.attrName ?? "",
-            ]);
-        }
-    }
-
-    CSV.writeFileArray(PHOTO_FILE_PATH, data, headers);
+    writePhotos(currentTaxaPhotos);
 }
 
 /**
@@ -126,6 +110,34 @@ async function getTaxa(options) {
 }
 
 /**
+ * @param {{outputdir:string,update:boolean}} options
+ */
+async function prune(options) {
+    const taxa = await getTaxa(options);
+    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
+    const currentTaxaPhotos = readPhotos();
+
+    const invalidNames = new Set();
+
+    for (const name of currentTaxaPhotos.keys()) {
+        const taxon = taxa.getTaxon(name);
+        if (!taxon) {
+            errorLog.log(name, `is in ${PHOTO_FILE_NAME} but not in taxa list`);
+            invalidNames.add(name);
+        }
+    }
+
+    if (options.update) {
+        for (const name of invalidNames) {
+            currentTaxaPhotos.delete(name);
+        }
+        writePhotos(currentTaxaPhotos);
+    }
+
+    errorLog.write();
+}
+
+/**
  * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
 function readPhotos() {
@@ -157,6 +169,30 @@ function readPhotos() {
     return taxonPhotos;
 }
 
+/**
+ * @param {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>} currentTaxaPhotos
+ */
+function writePhotos(currentTaxaPhotos) {
+    // Write updated photo file.
+    const headers = ["name", "id", "ext", "licenseCode", "attrName"];
+    /** @type {string[][]} */
+    const data = [];
+    for (const taxonName of [...currentTaxaPhotos.keys()].sort()) {
+        // @ts-ignore - should always be defined at this point
+        for (const photo of currentTaxaPhotos.get(taxonName)) {
+            data.push([
+                taxonName,
+                photo.id,
+                photo.ext,
+                photo.licenseCode,
+                photo.attrName ?? "",
+            ]);
+        }
+    }
+
+    CSV.writeFileArray(PHOTO_FILE_PATH, data, headers);
+}
+
 const program = Program.getProgram();
 program
     .command("checkmissing")
@@ -172,9 +208,14 @@ if (process.env.npm_package_name === "@ca-plant-list/ca-plant-list") {
         .command("addmissing")
         .description("Add photos to taxa with fewer than the maximum")
         .action(() => addMissingPhotos(program.opts()));
+    program
+        .command("prune")
+        .description("Remove photos without valid taxon names")
+        .action(() => prune(program.opts()));
 }
 program.option(
     "--loader <path>",
     "The path (relative to the current directory) of the JavaScript file containing the TaxaLoader class. If not provided, the default TaxaLoader will be used.",
 );
+program.option("--update", "Update the file if possible.");
 await program.parseAsync();
