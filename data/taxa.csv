@@ -302,9 +302,9 @@ Camissoniopsis cheiranthifolia subsp. cheiranthifolia,dune suncup,N,89240,11448,
 Camissoniopsis hirtella,,N,89201,11453,75980,12187,true,Santa Cruz Island Suncup
 Camissoniopsis intermedia,,N,89203,11455,75982,12189,true,Intermediate Suncup
 Camissoniopsis micrantha,,N,89206,11458,75985,12192,true,Small Flowered Evening Primrose
-Campanula exigua,chaparral harebell,N,16965,1461,1342787,202687,,Chaparral Harebell,,,,,265,1B.2,,,S2,G2
-Campanula griffinii,,N,16970,1462,1342789,202688,,Griffin's Bellflower
-Campanula sharsmithiae,,N,16995,1467,1342786,208086,,Sharsmith's Harebell,,,,,267,1B.2,,,S1S2,G1G2
+Ravenella exigua,chaparral harebell,N,16965,1461,1342787,202687,,Chaparral Harebell,,,,,265,1B.2,,,S2,G2
+Ravenella griffinii,,N,16970,1462,1342789,202688,,Griffin's Bellflower
+Ravenella sharsmithiae,,N,16995,1467,1342786,208086,,Sharsmith's Harebell,,,,,267,1B.2,,,S1S2,G1G2
 Capsella bursa-pastoris,shepherd's purse,X,17109,1472,56121,12296,true
 Cardamine californica,"milkmaids,tooth wort",N,76456,1479,49651,12325,true,Milk Maids
 Cardamine hirsuta,,X,17158,1486,55829,12347,true
@@ -497,8 +497,8 @@ Crocidium multicaule,spring gold,N,2425,2430,57524,203127,true,Spring Gold
 Crocosmia ×crocosmiiflora,montbretia,X,77150,2431,181465,389870,true
 Croton californicus,,N,21120,2434,76484,15234,true,California Croton
 Croton setiger,turkey mullein,N,21159,13184,154156,16346,,Turkey Mullein
-Crypsis schoenoides,swamp grass,X,21182,2439,773038,138716,true
-Crypsis vaginiflora,,X,21183,2440,773022,138720,true
+Sporobolus schoenoides,swamp grass,X,21182,2439,773038,138716,true
+Sporobolus vaginiflora,,X,21183,2440,773022,138720,true
 Cryptantha clevelandii var. florosa,,N,57120,11565,1045003,203153,,Coastal Cryptantha
 Cryptantha corollata,,N,21213,2452,58853,203157,,Coast Range Cryptantha
 Cryptantha flaccida,,N,21228,2460,56989,203167,,Flaccid Cryptantha
@@ -1334,7 +1334,7 @@ Persicaria maculosa,lady's thumb,X,82466,11011,56166,117853,true
 Persicaria punctata,,N,37303,11014,78456,117874,true,Water Smartweed
 Petasites frigidus var. palmatus,coltsfoot,N,8060,6269,55778,205301,true,Arctic Sweet Coltsfoot
 Petrorhagia dubia,pink grass,X,37370,6275,60602,117891,true
-Petunia parviflora,wild petunia,N,37378,6279,159650,74142,,Seaside Petunia
+Calibrachoa parviflora,wild petunia,N,37378,6279,159650,74142,,Seaside Petunia
 Phacelia breweri,Brewer's phacelia,N,37425,6292,68813,205312,,Brewer's Phacelia,annual,blue,3,6
 Phacelia californica,rock phacelia,N,37426,6293,53170,205313,,Rock Phacelia,perennial,blue,3,9
 Phacelia ciliata,great valley phacelia,N,37432,6302,58180,205324,,Great Valley Phacelia,annual,blue,3,6
@@ -1637,7 +1637,7 @@ Schoenoplectus tabernaemontani,,N,80321,9611,78998,105209,true,Tule
 Scirpus microcarpus,,N,43718,7398,59068,105310,true,Panicled Bulrush
 Scoliopus bigelovii,,N,43824,7416,48990,205840,true,Fetid Adderstongue
 Scolymus hispanicus,golden thistle,X,4661,7417,79009,207280,true
-Scribneria bolanderi,,N,43846,7420,1586235,148492,true,Scribner's Grass
+Deschampsia bolanderi,,N,43846,7420,1586235,148492,true,Scribner's Grass
 Scrophularia californica,California figwort,N,43849,7422,50812,75853,true,Bee Plant,,white
 Scutellaria bolanderi subsp. bolanderi,Sierra skullcap,N,52896,7431,80184,96443,,Sierra Skullcap,perennial,"white,blue",6,7
 Scutellaria californica,,N,43883,7432,59791,75893,,California Skullcap,perennial
@@ -1691,7 +1691,6 @@ Solanum lanceolatum,lanceleaf nightshade,X,44872,7656,79139,76689
 Solanum nigrum,black nightshade,X,44883,7658,79141,76840
 Solanum physalifolium var. nitidibaccatum,nightshade,X,66519,11086,406080,99842
 Solanum umbelliferum,blue witch,N,44919,7664,50639,77221,,Bluewitch Nightshade
-Solanum xanti,,N,77308,7666,79146,77288,,Purple Nightshade
 Soleirolia soleirolii,baby's tears,X,44928,7667,79147,32304,true
 Solidago elongata,Canada goldenrod,N,4956,12025,79150,206005,true,Canadian Goldenrod
 Solidago velutina subsp. californica,California goldenrod,N,85830,11088,80217,205992,true,California Goldenrod
@@ -1703,10 +1702,10 @@ Sorghum bicolor,sorghum,X,45003,7690,58389,148856,true
 Sorghum halepense,Johnson-grass,X,45017,7691,58387,148887,true
 Sparganium eurycarpum var. eurycarpum,bur-reed,N,73845,12031,63347,207940,Sparganium eurycarpum,Bur Reed
 Sparganium eurycarpum var. greenei,,N,66594,12032,842663,174978,,Simplestem Bur Reed
-Spartina alterniflora,saltwater cordgrass,X,45038,7699,772903,148951,true
-Spartina densiflora,dense-flowered cordgrass,X,45043,7700,772990,148961,true
-Spartina foliosa,California cordgrass,N,45044,7701,772992,148963,true,California Cord Grass
-Spartina patens,saltmeadow cordgrass,X,45048,7703,773004,148979,true
+Sporobolus alterniflorus,saltwater cordgrass,X,45038,7699,772903,148951,true
+Sporobolus densiflorus,dense-flowered cordgrass,X,45043,7700,772990,148961,true
+Sporobolus foliosus,California cordgrass,N,45044,7701,772992,148963,true,California Cord Grass
+Sporobolus patens,saltmeadow cordgrass,X,45048,7703,773004,148979,true
 Spartium junceum,Spanish broom,X,45053,7704,47406,32391
 Spergula arvensis,spurrey,X,45074,9630,57005,119398,true
 Spergularia bocconi,,X,45079,10693,594639,119404,true
@@ -1826,7 +1825,7 @@ Triglochin maritima,seaside arrow-grass,N,47197,8114,60264,206250,true,Arrowgras
 Triglochin scilloides,flowering quillwort,N,91083,12117,79437,204660,Lilaea scilloides,Flowering-quillwort
 Triglochin striata,,N,47201,8116,79438,206252,true,Three-ribbed Arrow-grass
 Trillium chloropetalum,giant trillium,N,47218,8119,50823,206256,true,Giant Wakerobin,,"yellow,pink,purple,white",4,5
-Trillium ovatum subsp. ovatum,white trillium,N,53276,8122,63972,207392,Trillium ovatum var. ovatum,Western Wakerobin
+Trillium ovatum,white trillium,N,53276,8122,63972,207392,Trillium ovatum var. ovatum,Western Wakerobin
 Triodanis biflora,Venus' looking-glass,N,47267,8126,79440,206266,,Small Venus' Looking-glass
 Triphysaria eriantha subsp. eriantha,butter-and-eggs,N,53279,8129,59332,96567,true,Butter'n Eggs
 Triphysaria pusilla,,N,47296,8133,57276,78297,true,Dwarf Owl's-clover
@@ -1846,8 +1845,8 @@ Ulmus minor,English elm,X,47478,8180,79461,34372,Ulmus procera
 Umbellularia californica,California bay,N,47489,8183,48807,34384,true,California Laurel,perennial,yellow,11,5
 Uropappus lindleyi,silver puffs,N,76212,8184,50806,206299,true,Uropappus
 Urospermum picroides,false hawkbit,X,5477,8185,59361,206301,true
-Urtica dioica subsp. gracilis,American stinging nettle,N,53302,8186,141854,44054,true,California Nettle
-Urtica dioica subsp. holosericea,hoary nettle,N,53303,8187,141851,44055,true,Hoary Nettle
+Urtica gracilis subsp. gracilis,American stinging nettle,N,53302,8186,141854,44054,true,California Nettle
+Urtica gracilis subsp. holosericea,hoary nettle,N,53303,8187,141851,44055,true,Hoary Nettle
 Urtica urens,dwarf nettle,X,47589,8188,53315,34426,true
 Vaccinium ovatum,"California huckleberry,evergreen huckleberry",N,47685,8200,48349,78452,true,Evergreen Huckleberry
 Vancouveria planipetala,inside-out flower,N,47786,8215,63938,34467,true,Insideout Flower

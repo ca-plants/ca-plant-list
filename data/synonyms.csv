@@ -321,7 +321,6 @@ Camissonia hirtella,Camissoniopsis hirtella
 Camissonia intermedia,Camissoniopsis intermedia
 Camissonia micrantha,Camissoniopsis micrantha
 Camissonia ovata,Taraxia ovata
-Campanula angustiflora var. exilis,Campanula griffinii
 Cardamine californica var. californica,Cardamine californica
 Cardamine californica var. cardiophylla,Cardamine californica
 Cardamine californica var. cuneata,Cardamine californica
@@ -483,7 +482,6 @@ Corylus cornuta var. californica,Corylus cornuta subsp. californica
 Corylus rostrata var. tracyi,Corylus cornuta subsp. californica
 Cotoneaster coriaceus,Cotoneaster lacteus,INAT
 Cotyledon burnhamii,Sedum obtusatum
-Cotyledon caespitosa var. paniculata,Dudleya cymosa subsp. paniculata
 Cotyledon obtusata,Sedum obtusatum
 Cotyledon yosemitensis,Sedum obtusatum
 Crassula connata var. connata,Crassula connata
@@ -496,7 +494,6 @@ Crepis geisseana,Malacothrix clevelandii
 Cressa truxillensis var. vallicola,Cressa truxillensis
 Croton californicus var. mohavensis,Croton californicus
 Croton californicus var. tenuis,Croton californicus
-Crypsis niliaca,Crypsis vaginiflora
 Cryptantha decipiens,Cryptantha corollata,INAT
 Cryptantha decipiens var. corollata,Cryptantha corollata
 Cryptantha hanseni,Cryptantha intermedia var. intermedia
@@ -530,7 +527,6 @@ Cytisus scoparius var. scoparius,Cytisus scoparius
 Danthonia californica var. americana,Danthonia californica
 Danthonia californica var. californica,Danthonia californica
 Danthonia racemosa,Rytidosperma racemosum
-Datura meteloides,Datura wrightii
 Datura stramonium var. tatula,Datura stramonium
 Deinandra corymbosa subsp. macrocephala,Deinandra corymbosa
 Delphinium ajacis,Consolida ajacis,INAT
@@ -870,7 +866,6 @@ Helenium decurrens,Helenium puberulum
 Helenium pubescens,Helenium puberulum
 Helenium rivulare,Helenium bigelovii
 Helenium rosilla,Helenium puberulum
-Heleochloa schoenoides,Crypsis schoenoides
 Helianthella californica subsp. californica,Helianthella californica var. californica
 Helianthemum scoparium var. vulgare,Crocanthemum scoparium var. vulgare
 Helianthus annuus subsp. jaegeri,Helianthus annuus
@@ -1011,9 +1006,6 @@ Lathyrus laetiflorus subsp. barbarae,Lathyrus vestitus var. vestitus
 Lathyrus vestitus subsp. laetiflorus,Lathyrus vestitus var. vestitus
 Lathyrus vestitus subsp. laevicarpus,Lathyrus vestitus var. vestitus
 Lathyrus vestitus subsp. puberulus,Lathyrus vestitus var. vestitus
-Lavatera assurgentiflora,Malva assurgentiflora
-Lavatera assurgentiflora subsp. assurgentiflora,Malva assurgentiflora
-Lavatera assurgentiflora subsp. glabra,Malva assurgentiflora
 Lavatera cretica,Malva multiflora
 Layia chrysanthemoides subsp. maritima,Layia chrysanthemoides
 Layia glandulosa subsp. lutea,Layia glandulosa
@@ -1179,7 +1171,6 @@ Madia madioides,Anisocarpus madioides
 Mahonia dictyota,Berberis aquifolium var. dictyota
 Mahonia nervosa var. mendocinensis,Berberis nervosa
 Mahonia pinnata subsp. pinnata,Berberis pinnata subsp. pinnata
-Maianthemum racemosum subsp. amplexicaule,Maianthemum racemosum
 Malacothamnus arcuatus var. elmeri,Malacothamnus hallii,INAT
 Malacothamnus fremontii subsp. cercophorus,Malacothamnus fremontii var. fremontii
 Malacothamnus hallii,Malacothamnus arcuatus var. elmeri
@@ -1355,7 +1346,6 @@ Montia fontana subsp. variabilis,Montia fontana
 Montia funstonii,Montia fontana
 Montia gypsophiloides,Claytonia gypsophiloides
 Montia hallii,Montia fontana
-Montia perfoliata,Claytonia perfoliata subsp. perfoliata
 Montia perfoliata f. glauca,Claytonia exigua subsp. glauca
 Montia perfoliata f. parvifolia,Claytonia parviflora subsp. parviflora
 Montia perfoliata var. depressa,Claytonia rubra subsp. depressa
@@ -1580,11 +1570,6 @@ Plectritis macrocera var. mamillata,Plectritis macrocera
 Plectritis magna var. nitida,Plectritis congesta subsp. brachystemon
 Pneumonanthe newberryi var. tiogana,Gentiana newberryi var. tiogana
 Poa bolanderi var. howellii,Poa howellii
-Poa canbyi,Poa secunda subsp. secunda
-Poa gracillima,Poa secunda subsp. secunda
-Poa incurva,Poa secunda subsp. secunda
-Poa sandbergii,Poa secunda subsp. secunda
-Poa scabrella,Poa secunda subsp. secunda
 Pogogyne serpylloides subsp. intermedia,Pogogyne serpylloides
 Polygala californica,Rhinotropis californica
 Polygonum aequale,Polygonum aviculare subsp. depressum
@@ -1839,9 +1824,6 @@ Sanguisorba minor subsp. muricata,Poterium sanguisorba
 Santolina suaveolens,Matricaria discoidea
 Sarcocornia pacifica,Salicornia pacifica
 Satureja douglasii,Clinopodium douglasii
-Saviniona assurgentiflora,Malva assurgentiflora
-Saviniona clementina,Malva assurgentiflora
-Saviniona reticulata,Malva assurgentiflora
 Saxifraga californica,Micranthes californica
 Schedonorus arundinaceus,Festuca arundinacea
 Schedonorus phoenix,Festuca arundinacea
@@ -1936,20 +1918,10 @@ Sisyrinchium lineatum,Sisyrinchium californicum
 Sisyrinchium maritimum,Sisyrinchium bellum
 Sitanion jubatum,Elymus multisetus
 Sixalix atropurpurea,Scabiosa atropurpurea,INAT
-Smilacina racemosa,Maianthemum racemosum
-Smilacina racemosa var. amplexicaulis,Maianthemum racemosum
-Smilacina racemosa var. glabra,Maianthemum racemosum
 Smilacina stellata,Maianthemum stellatum
 Smilacina stellata var. sessilifolia,Maianthemum stellatum
 Solanum nitidibaccatum,Solanum physalifolium var. nitidibaccatum,INAT
 Solanum nodiflorum,Solanum americanum
-Solanum tenuilobatum,Solanum xanti
-Solanum umbelliferum var. glabrescens,Solanum umbelliferum
-Solanum umbelliferum var. incanum,Solanum umbelliferum
-Solanum xanti var. hoffmannii,Solanum xanti
-Solanum xanti var. intermedium,Solanum xanti
-Solanum xanti var. montanum,Solanum xanti
-Solanum xanti var. obispoense,Solanum xanti
 Solidago californica,Solidago velutina subsp. californica
 Solidago canadensis subsp. elongata,Solidago elongata
 Solidago canadensis var. elongata,Solidago elongata
@@ -1972,14 +1944,6 @@ Sphaeralcea fremontii,Malacothamnus fremontii var. fremontii
 Sphaeralcea fremontii var. cercophora,Malacothamnus fremontii var. fremontii
 Spirodela oligorrhiza,Landoltia punctata
 Spirodela punctata,Landoltia punctata
-Sporobolus alterniflorus,Spartina alterniflora,INAT
-Sporobolus creber,Sporobolus indicus
-Sporobolus foliosus,Spartina foliosa,INAT
-Sporobolus indicus var. creber,Sporobolus indicus
-Sporobolus montevidensis,Spartina densiflora,INAT
-Sporobolus niliacus,Crypsis vaginiflora,INAT
-Sporobolus pumilus,Spartina patens,INAT
-Sporobolus schoenoides,Crypsis schoenoides,INAT
 Stachys ajugoides var. cymosa,Stachys pycnantha
 Stachys ajugoides var. quercetorum,Stachys rigida var. quercetorum
 Stachys ajugoides var. rigida,Stachys rigida var. rigida
@@ -2090,12 +2054,6 @@ Tropidocarpum gracile var. dubium,Tropidocarpum gracile
 Ulmus carpinifolia,Ulmus minor
 Ulmus procera,Ulmus minor
 Umbellularia californica var. fresnensis,Umbellularia californica
-Urtica californica,Urtica dioica subsp. gracilis
-Urtica gracilis,Urtica dioica subsp. gracilis
-Urtica gracilis,Urtica dioica subsp. gracilis,INAT
-Urtica gracilis subsp. holosericea,Urtica dioica subsp. holosericea,INAT
-Urtica holosericea,Urtica dioica subsp. holosericea
-Urtica lyallii,Urtica dioica subsp. gracilis
 Vaccinium ovatum var. saporosum,Vaccinium ovatum
 Vancouveria parviflora,Vancouveria planipetala
 Veatchia crystallina,Triteleia hyacinthina
