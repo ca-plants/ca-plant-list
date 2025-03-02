@@ -265,7 +265,7 @@ Calandrinia breweri,,N,16614,1249,68636,112280,true,Brewer's Calandrinia,,,,,180
 Calandrinia menziesii,red maids,N,95066,13205,400267,202564,,Red Maids
 Calendula arvensis,field-marigold,X,1862,1252,59260,202566,true
 Calendula officinalis,pot-marigold,X,1863,1253,75931,202567,true
-Calibrachoa parviflora,wild petunia,U,16635,6279,159650,74142,,Seaside Petunia
+Calibrachoa parviflora,wild petunia,U,16635,6279,159650,64106,,Seaside Petunia
 California macrophylla,,N,80427,10468,60554,11982,,Round-leaved Filaree
 Callitriche heterophylla var. bolanderi,,N,55448,1257,60158,96979,,Bolander's Water-starwort
 Callitriche longipedunculata,,N,16691,11443,75936,64127,true,Longstock Water-starwort
@@ -733,7 +733,7 @@ Eryngium jepsonii,,N,78144,11674,77062,264168,,Jepson's Eryngo,,,,,3927,1B.2,,,S
 Eryngium racemosum,Delta button-celery,N,25097,3467,77066,206800,,Delta Button-celery,,,,,787,1B.1,CE,,S1,G1
 Eryngium spinosepalum,,N,25099,3468,57894,203769,,Spiny-sepaled Button-celery,,,,,788,1B.2,,,S2,G2
 Eryngium vaseyi var. vallicola,,N,58851,11675,80888,211709
-Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,47096,,,,,,,790,1B.1,CE,FE,S1,G5T1
+Erysimum capitatum var. angustatum,Contra Costa wallflower,N,58866,9942,119564,47093,,,,,,,790,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,58866,9943,50627,47096,true,Sanddune Wallflower,,"orange,yellow",3,9
 Erythranthe androsacea,,N,99088,13487,771845,203774,true
 Erythranthe arvensis,"villous-bracted monkeyflower,field monkeyflower",N,99091,13552,771848,206807,true,,,yellow,4,7
@@ -1141,11 +1141,11 @@ Madia exigua,threadstem madia,N,4045,5289,56971,204827,true,Meager Tarweed
 Madia gracilis,slender tarweed,N,4047,5291,53135,204829,true,Gumweed,,yellow
 Madia radiata,showy madia,N,4053,5296,77924,204832,true,Showy Golden Madia,,,,,1054,1B.1,,,S3,G3
 Madia sativa,coast tarweed,N,4055,5298,53143,204833,true,Coast Tarweed,,yellow
-Maianthemum racemosum subsp. amplexicaule,false Solomon's seal,N,51514,10096,53012,204837,true,Large False Solomon's Seal
+Maianthemum racemosum subsp. amplexicaule,false Solomon's seal,N,51514,10096,53012,207757,true,Large False Solomon's Seal
 Maianthemum stellatum,,N,32497,9629,53268,204838,true,False Solomon Seal
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,412621,,Eastern Bewildering Bushmallow,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,400947,Malacothamnus fremontii,,perennial,pink,5,6
-Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,412621,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
+Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,25364,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026,204841,true,California Desertdandelion
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841,204842,true,Cleveland's Desertdandelion
 Malacothrix coulteri,snake's-head,N,4061,5327,58027,204843,true,Snake's Head
@@ -1410,7 +1410,7 @@ Plantago subnuda,naked plantain,N,38605,6626,60223,74567,true,Naked Plantain
 Platanthera dilatata var. leucostachys,white-flowered bog orchid,N,63974,9593,81271,205521,true,White Bog Orchid
 Platanus racemosa,western sycamore,N,38655,6633,58231,28255,true,Western Sycamore,perennial,red,2,4
 Platystemon californicus,cream cups,N,38664,6635,51288,28269,true,Creamcups
-Plectritis ciliosa,,N,38677,6639,57284,205525,,Longspur Seablush,,pink,3,6
+Plectritis ciliosa,,N,38677,6639,57284,205528,,Longspur Seablush,,pink,3,6
 Plectritis congesta subsp. brachystemon,,N,52336,11937,57787,205537,,Small-flowered Plectritis
 Plectritis congesta subsp. congesta,,N,52337,11938,59253,205535,,Sea Blush
 Plectritis macrocera,,N,38684,6643,57287,205540,,Longhorn Seablush,,white,3,6
@@ -1687,7 +1687,7 @@ Solanum elaeagnifolium,white horse-nettle,X,44852,7654,79137,76470
 Solanum furcatum,,X,44856,7655,79138,76521
 Solanum lanceolatum,lanceleaf nightshade,X,44872,7656,79139,76689
 Solanum nigrum,black nightshade,X,44883,7658,79141,76840
-Solanum nitidibaccatum,nightshade,N,103838,11086,406080,99842,,,annual,white,5,10
+Solanum nitidibaccatum,nightshade,N,103838,11086,406080,211825,,,annual,white,5,10
 Solanum umbelliferum,blue witch,N,44919,7664,50639,77221,,Bluewitch Nightshade
 Soleirolia soleirolii,baby's tears,X,44928,7667,79147,32304,true
 Solidago elongata,Canada goldenrod,N,4956,12025,79150,206005,true,Canadian Goldenrod
@@ -1739,7 +1739,7 @@ Stipa lemmonii var. lemmonii,Lemmon's needlegrass,N,73899,12053,1220756,173006,A
 Stipa lepida,foothill needlegrass,N,45641,12054,165656,149399,Nassella lepida,Foothill Needlegrass
 Stipa miliacea var. miliacea,smilo grass,X,91920,12058,524183,206097,Piptatherum miliaceum subsp. miliaceum
 Stipa pulchra,purple needlegrass,N,45644,12067,165659,149498,Nassella pulchra,Purple Needlegrass
-Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,43881,Streptanthus glandulosus subsp. glandulosus,,,,,,1490,1B.2,,,S2,G2T2
+Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,258754,Streptanthus glandulosus subsp. glandulosus,,,,,,1490,1B.2,,,S2,G2T2
 Streptanthus breweri,,N,45725,7822,79258,32606,true,Brewer's Jewelflower
 Streptanthus glandulosus subsp. glandulosus,jewelflower,N,53142,7837,58783,43881,true,Most Beautiful Jewel Flower
 Streptanthus hispidus,Mt. Diablo jewelflower,N,45741,7842,50620,32624,true,Mount Diablo Jewelflower,,,,,1502,1B.3,,,S2,G2
