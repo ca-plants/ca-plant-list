@@ -610,7 +610,7 @@ Dysphania ambrosioides,Mexican tea,X,81840,10846,76746,113335,true
 Dysphania botrys,Jerusaleum-oak,X,85274,10847,76748,113338,true
 Dysphania multifida,cut leaf pigweed,X,81841,10848,76750,113343,true
 Eastwoodia elegans,yellow mock aster,N,2510,2875,57967,203499,true,Yellow Mock Aster
-Echinochloa colona,,X,23790,2881,356462,139859,true
+Echinochloa colona,,X,23790,2881,76755,139859,true
 Echinochloa crus-galli,barnyard grass,X,23791,2882,60283,139863,true
 Echinochloa muricata var. microstachya,,N,58092,9886,80690,169996,true
 Echinodorus berteroi,burhead,N,23812,2886,76761,203504,true,Upright Burhead
@@ -946,7 +946,7 @@ Isoetes howellii,Howell's quillwort,N,29392,4379,63823,199150,,Howell's Quillwor
 Isolepis carinata,,N,80405,9608,77515,104671,true,Keeled Bulrush
 Isolepis cernua,,N,79218,9605,60257,104672,true,Annual Tule
 Iva axillaris,poverty weed,N,3654,10020,58837,204449,true,Poverty Weed
-Jacobaea vulgaris subsp. vulgaris,tansy ragwort,X,82779,7508,62498,205894,true
+Jacobaea vulgaris subsp. vulgaris,tansy ragwort,X,82779,7508,487101,205894,true
 Jaumea carnosa,,N,3667,4424,60969,204476,true,Fleshy Jaumea
 Juglans californica,Southern California black walnut,N,29566,4428,54503,23676,true,Southern California Black Walnut,,,,,1704,4.2,,,S4,G4
 Juglans hindsii,Northern California black walnut,N,29568,8943,54502,23680,true,Northern California Black Walnut,perennial,,4,5
@@ -1141,7 +1141,7 @@ Madia exigua,threadstem madia,N,4045,5289,56971,204827,true,Meager Tarweed
 Madia gracilis,slender tarweed,N,4047,5291,53135,204829,true,Gumweed,,yellow
 Madia radiata,showy madia,N,4053,5296,77924,204832,true,Showy Golden Madia,,,,,1054,1B.1,,,S3,G3
 Madia sativa,coast tarweed,N,4055,5298,53143,204833,true,Coast Tarweed,,yellow
-Maianthemum racemosum subsp. amplexicaule,false Solomon's seal,N,51514,10096,51062,204837,true,Large False Solomon's Seal
+Maianthemum racemosum subsp. amplexicaule,false Solomon's seal,N,51514,10096,53012,204837,true,Large False Solomon's Seal
 Maianthemum stellatum,,N,32497,9629,53268,204838,true,False Solomon Seal
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,412621,,Eastern Bewildering Bushmallow,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,400947,Malacothamnus fremontii,,perennial,pink,5,6
@@ -1270,7 +1270,7 @@ Nicotiana glauca,tree tobacco,X,34646,5860,58334,72870
 Nicotiana quadrivalvis,Indian tobacco,N,34649,5862,58336,72878,,Indian Tobacco
 Nitrophila occidentalis,borax weed,N,34675,5865,78223,116737,true,Boraxweed
 Nothoscordum gracile,false garlic,X,34732,10157,78233,205139,true
-Nuttallanthus texanus,blue toadflax,N,34756,11883,78235,72929,true,Blue Toadflax
+Nuttallanthus texanus,blue toadflax,N,34756,11883,209238,72929,true,Blue Toadflax
 Oemleria cerasiformis,oso berrry,N,34900,5879,53419,26643,true,Osoberry
 Oenanthe sarmentosa,,N,34904,5881,60127,205153,,Pacific Oenanthe
 Oenothera biennis,common evening-primrose,X,34975,5882,62207,26661,true
@@ -1714,7 +1714,7 @@ Spiranthes porrifolia,,N,45262,7740,50742,206062,true,Creamy Lady's Tresses
 Spiranthes romanzoffiana,,N,45264,7741,50743,206063,true,Irish Lady's-tresses
 Sporobolus airoides,alkali sacaton,N,45286,7744,60313,149026,true,Alkali Sacaton
 Sporobolus alterniflorus,saltwater cordgrass,X,82872,7699,772903,148951,true
-Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,772990,148961,true
+Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,169300,148961,true
 Sporobolus foliosus,California cordgrass,N,82873,7701,772992,148963,true,California Cord Grass
 Sporobolus indicus,smutgrass,X,45308,7749,79187,149101,true
 Sporobolus niliacus,,X,82876,2440,773022,138720,true
@@ -1825,7 +1825,7 @@ Triglochin maritima,seaside arrow-grass,N,47197,8114,60264,206250,true,Arrowgras
 Triglochin scilloides,flowering quillwort,N,91083,12117,79437,204660,Lilaea scilloides,Flowering-quillwort
 Triglochin striata,,N,47201,8116,79438,206252,true,Three-ribbed Arrow-grass
 Trillium chloropetalum,giant trillium,N,47218,8119,50823,206256,true,Giant Wakerobin,,"yellow,pink,purple,white",4,5
-Trillium ovatum,white trillium,N,47239,8122,63972,207392,Trillium ovatum var. ovatum,Western Wakerobin
+Trillium ovatum,white trillium,N,47239,8122,49463,207392,Trillium ovatum var. ovatum,Western Wakerobin
 Triodanis biflora,Venus' looking-glass,N,47267,8126,79440,206266,,Small Venus' Looking-glass
 Triphysaria eriantha subsp. eriantha,butter-and-eggs,N,53279,8129,59332,96567,true,Butter'n Eggs
 Triphysaria pusilla,,N,47296,8133,57276,78297,true,Dwarf Owl's-clover
@@ -1845,7 +1845,7 @@ Ulmus minor,English elm,X,47478,8180,79461,34372,Ulmus procera
 Umbellularia californica,California bay,N,47489,8183,48807,34384,true,California Laurel,perennial,yellow,11,5
 Uropappus lindleyi,silver puffs,N,76212,8184,50806,206299,true,Uropappus
 Urospermum picroides,false hawkbit,X,5477,8185,59361,206301,true
-Urtica gracilis subsp. gracilis,American stinging nettle,N,70675,8186,141854,44054,true,California Nettle
+Urtica gracilis subsp. gracilis,American stinging nettle,N,70675,8186,1074432,44054,true,California Nettle
 Urtica gracilis subsp. holosericea,hoary nettle,N,53304,8187,141851,44055,true,Hoary Nettle
 Urtica urens,dwarf nettle,X,47589,8188,53315,34426,true
 Vaccinium ovatum,"California huckleberry,evergreen huckleberry",N,47685,8200,48349,78452,true,Evergreen Huckleberry
