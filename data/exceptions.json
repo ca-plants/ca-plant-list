@@ -61,9 +61,6 @@
     },
     "Malacothamnus hallii": {
         "comment": "in CNPS Rare Plant Inventory",
-        "calflora": {
-            "notintaxondata": true
-        },
         "jepson": {
             "notineflora": true
         },
@@ -102,9 +99,6 @@
         "jepson": {
             "notineflora": true
         }
-    },
-    "Typha angustifolia": {
-        "calscape": { "notnative": true }
     },
     "Veronica catenata": { "calflora": { "native": true } }
 }
