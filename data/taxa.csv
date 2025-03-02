@@ -265,7 +265,7 @@ Calandrinia breweri,,N,16614,1249,68636,112280,true,Brewer's Calandrinia,,,,,180
 Calandrinia menziesii,red maids,N,95066,13205,400267,202564,,Red Maids
 Calendula arvensis,field-marigold,X,1862,1252,59260,202566,true
 Calendula officinalis,pot-marigold,X,1863,1253,75931,202567,true
-Calibrachoa parviflora,wild petunia,N,16635,6279,159650,74142,,Seaside Petunia
+Calibrachoa parviflora,wild petunia,U,16635,6279,159650,74142,,Seaside Petunia
 California macrophylla,,N,80427,10468,60554,11982,,Round-leaved Filaree
 Callitriche heterophylla var. bolanderi,,N,55448,1257,60158,96979,,Bolander's Water-starwort
 Callitriche longipedunculata,,N,16691,11443,75936,64127,true,Longstock Water-starwort
@@ -538,7 +538,7 @@ Dactylis glomerata,orchard grass,X,22210,2603,52720,138886,true
 Danthonia californica,California oatgrass,N,22319,2610,57165,138931,true,California Oatgrass
 Datisca glomerata,durango root,N,22377,2618,58888,16996,true,Durango Root,perennial,yellow,5,7
 Datura stramonium,jimson weed,X,22387,2621,55854,67400
-Datura wrightii,,N,22389,2622,58331,67403,,Sacred Datura
+Datura wrightii,"sacred datura,angel's trumpet",U,22389,2622,58331,67403,,Sacred Datura,"annual,perennial",white,4,10
 Daucus carota,Queen Anne's lace,X,22394,2623,76610,203298
 Daucus pusillus,,N,22395,2624,56726,203299,,Rattlesnake Weed
 Deinandra bacigalupii,Livermore moonshine,N,77607,9090,58817,203307,true,Livermore Tarplant,,,,,1890,1B.1,CE,,S1,G1
@@ -1687,7 +1687,7 @@ Solanum elaeagnifolium,white horse-nettle,X,44852,7654,79137,76470
 Solanum furcatum,,X,44856,7655,79138,76521
 Solanum lanceolatum,lanceleaf nightshade,X,44872,7656,79139,76689
 Solanum nigrum,black nightshade,X,44883,7658,79141,76840
-Solanum nitidibaccatum,nightshade,X,103838,11086,406080,99842
+Solanum nitidibaccatum,nightshade,N,103838,11086,406080,99842,,,annual,white,5,10
 Solanum umbelliferum,blue witch,N,44919,7664,50639,77221,,Bluewitch Nightshade
 Soleirolia soleirolii,baby's tears,X,44928,7667,79147,32304,true
 Solidago elongata,Canada goldenrod,N,4956,12025,79150,206005,true,Canadian Goldenrod
