@@ -1,14 +1,4 @@
 {
-    "Campanula exigua": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella exigua"
-        }
-    },
-    "Campanula sharsmithiae": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella sharsmithiae"
-        }
-    },
     "Castilleja ambigua subsp. ambigua": {
         "rpi": {
             "translation-to-rpi": "Castilleja ambigua var. ambigua"
@@ -101,17 +91,6 @@
     "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
-    },
-    "Ravenella exigua": {
-        "comment": "in CNPS Rare Plant Inventory as Ravenella",
-        "rpi": {
-            "translation": "Campanula exigua"
-        }
-    },
-    "Ravenella sharsmithiae": {
-        "rpi": {
-            "translation": "Campanula sharsmithiae"
-        }
     },
     "Sagina procumbens": { "calflora": { "native": false } },
     "Salvia apiana": { "calflora": { "notintaxondata": true } },
