@@ -1145,7 +1145,7 @@ Maianthemum racemosum subsp. amplexicaule,false Solomon's seal,N,51514,10096,530
 Maianthemum stellatum,,N,32497,9629,53268,204838,true,False Solomon Seal
 Malacothamnus arcuatus var. elmeri,,N,108345,14681,1497404,412621,,Eastern Bewildering Bushmallow,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothamnus fremontii var. fremontii,long-haired unfurled bushmallow,N,108341,14689,70398,400947,Malacothamnus fremontii,,perennial,pink,5,6
-Malacothamnus hallii,Hall's bushmallow,N,108345,14681,1497404,25364,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
+Malacothamnus hallii,Hall's bushmallow,N,108345,5314,1497404,25364,,,perennial,pink,4,5,1065,1B.2,,,S2,G2
 Malacothrix californica,,N,4059,5325,58026,204841,true,California Desertdandelion
 Malacothrix clevelandii,Cleveland's malacothrix,N,4060,5326,58841,204842,true,Cleveland's Desertdandelion
 Malacothrix coulteri,snake's-head,N,4061,5327,58027,204843,true,Snake's Head
@@ -1530,9 +1530,9 @@ Ranunculus sceleratus var. sceleratus,,X,64987,11983,81341,50983,true,,annual,ye
 Ranunculus sceleratus,cursed crowsfoot,N,40971,7059,59301,29675,true,Cursed Buttercup
 Raphanus raphanistrum,jointed charlock,X,40991,7063,55411,29701,true
 Raphanus sativus,wild radish,X,40992,7064,995125,29702,true
-Ravenella exigua,chaparral harebell,N,84837,1461,1342787,412341,,,,,,,265,1B.2,,,S2,G2
-Ravenella griffinii,,N,84836,1462,1342789,412342
-Ravenella sharsmithiae,,N,108392,1467,1342786,208086,,,,,,,267,1B.2,,,S1S2,G1G2
+Ravenella exigua,chaparral harebell,N,84837,14672,1342787,412341,,,,,,,265,1B.2,,,S2,G2
+Ravenella griffinii,,N,84836,14796,1342789,412342
+Ravenella sharsmithiae,,N,108392,14673,1342786,208086,,,,,,,267,1B.2,,,S1S2,G1G2
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856,29726,true
 Rhamnus crocea,spiny redberry,N,41069,7075,57243,29736,true,Spiny Redberry
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308,29743,true,Hollyleaf Redberry
