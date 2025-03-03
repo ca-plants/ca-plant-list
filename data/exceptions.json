@@ -1,14 +1,4 @@
 {
-    "Campanula exigua": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella exigua"
-        }
-    },
-    "Campanula sharsmithiae": {
-        "rpi": {
-            "translation-to-rpi": "Ravenella sharsmithiae"
-        }
-    },
     "Castilleja ambigua subsp. ambigua": {
         "rpi": {
             "translation-to-rpi": "Castilleja ambigua var. ambigua"
@@ -71,9 +61,6 @@
     },
     "Malacothamnus hallii": {
         "comment": "in CNPS Rare Plant Inventory",
-        "calflora": {
-            "notintaxondata": true
-        },
         "jepson": {
             "notineflora": true
         },
@@ -102,17 +89,6 @@
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
-    "Ravenella exigua": {
-        "comment": "in CNPS Rare Plant Inventory as Ravenella",
-        "rpi": {
-            "translation": "Campanula exigua"
-        }
-    },
-    "Ravenella sharsmithiae": {
-        "rpi": {
-            "translation": "Campanula sharsmithiae"
-        }
-    },
     "Sagina procumbens": { "calflora": { "native": false } },
     "Salvia apiana": { "calflora": { "notintaxondata": true } },
     "Streptanthus albidus subsp. peramoenus": {
@@ -123,9 +99,6 @@
         "jepson": {
             "notineflora": true
         }
-    },
-    "Typha angustifolia": {
-        "calscape": { "notnative": true }
     },
     "Veronica catenata": { "calflora": { "native": true } }
 }

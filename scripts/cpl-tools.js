@@ -58,10 +58,13 @@ async function build(program, options) {
 
     const exceptions = new Exceptions(options.datadir);
     const config = new Config(options.datadir);
-    const taxa = await Taxa.loadTaxa(options);
 
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
     for (const tool of tools) {
+        const taxa =
+            tool === TOOLS.JEPSON_FAM
+                ? undefined
+                : await Taxa.loadTaxa(options);
         switch (tool) {
             case TOOLS.CALFLORA:
                 await Calflora.analyze(
