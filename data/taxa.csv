@@ -1864,12 +1864,12 @@ Veronica catenata,chain speedwell,N,47944,8246,79496,78637,true
 Veronica peregrina subsp. xalapensis,purslane speedwell,N,53337,8252,491173,206335,,Purslane Speedwell
 Veronica persica,Persian speedwell,X,47976,8253,55666,78667,true
 Viburnum ellipticum,western viburnum,N,48020,8259,79500,211467,,Common Viburnum,,,,,2056,2B.3,,,S3,G4G5
-Vicia americana subsp. americana,American vetch,N,53345,10448,53321,44061,,American Vetch
-Vicia benghalensis,purple vetch,X,48060,8261,53333,34506
-Vicia disperma,,X,48066,8263,79502,34518
-Vicia gigantea,giant vetch,N,48092,8265,53322,34529,,Giant Vetch
+Vicia americana subsp. americana,American vetch,N,53345,10448,53321,44061,,American Vetch,perennial,blue,4,6
+Vicia benghalensis,purple vetch,X,48060,8261,53333,34506,,,annual,red,purple,3,6
+Vicia disperma,,X,48066,8263,79502,34518,,,annual,blue,3,5
+Vicia gigantea,giant vetch,N,48092,8265,53322,34529,,Giant Vetch,perennial,red,3,8
 Vicia hassei,slender vetch,N,48071,8266,57313,34535,,Slender Vetch
-Vicia sativa subsp. nigra,common vetch,X,53355,8272,710103,44080
+Vicia sativa subsp. nigra,common vetch,X,53355,8272,710103,44080,,,annual,pink,3,6
 Vicia sativa subsp. sativa,spring vetch,X,53356,8273,53334,44081
 Vicia villosa subsp. varia,winter vetch,X,53358,8275,57316,44085
 Vicia villosa subsp. villosa,hairy vetch,X,53359,8276,57315,44086

@@ -1,1 +1,1 @@
-Raceme with 3-9 flowers, not grouped on one side.
+[Style](./g/style.html) not flattened (_Lathyrus_ is flattened). Raceme with 3-9 flowers, not grouped on one side. Flowers generally pale purple/lavender. Leaf usually < 10cm; [stipules](./g/stipule.html) generally with sharp points.
