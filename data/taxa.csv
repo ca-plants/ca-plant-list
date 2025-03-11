@@ -225,7 +225,7 @@ Boechera breweri subsp. breweri,Brewer's rock cress,N,85519,11382,79644,41737,tr
 Bolboschoenus fluviatilis,river bulrush,N,80011,11419,64228,103271,true,River Bulrush
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,49436,10796,79646,107348,true,Prairie Rush
 Bolboschoenus robustus,seacoast bulrush,N,77450,10798,75840,103276,true,Big Bulrush
-Bowlesia incana,,N,15999,1133,56822,202482,,Hoary Bowlesia
+Bowlesia incana,Hoary bowlesia,N,15999,1133,56822,202482,,Hoary Bowlesia,annual,green,3,4
 Brachypodium distachyon,false-brome,X,16042,1137,57158,136941,true
 Brassica juncea,India mustard,X,16072,1142,64241,11799,true,,"annual,perennial",yellow,5,9
 Brassica nigra,black mustard,X,16079,1144,1555489,11804,true,,annual,yellow,4,9
@@ -340,10 +340,10 @@ Carpobrotus edulis,freeway iceplant,X,17975,1660,49322,112322,true
 Castilleja affinis subsp. affinis,Indian paintbrush,N,70068,1669,50043,95113,Castilleja affinis var. affinis,Coast Indian Paintbrush,,red
 Castilleja ambigua subsp. ambigua,johnny-nip,N,49732,1673,61110,95117,Castilleja ambigua var. ambigua,Johnny-nip,,,,,3361,4.2,,,S3S4,G5T4
 Castilleja applegatei subsp. martinii,,N,76733,1679,1041230,95122,Castilleja martini var. martini,Wavyleaf Indian Paintbrush
-Castilleja attenuata,valley tassels,N,18175,1683,49341,64264,true,Valley Tassels
-Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover
-Castilleja exserta subsp. exserta,purple owl's-clover,N,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover
-Castilleja exserta subsp. latifolia,,N,49745,1696,61109,95135,Castilleja exserta var. latifolia,Purple Owl's Clover
+Castilleja attenuata,valley tassels,N,18175,1683,49341,64264,true,Valley Tassels,annual,white,3,5
+Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover,annual,purple,3,5
+Castilleja exserta subsp. exserta,purple owl's-clover,N,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover,annual,purple,3,5
+Castilleja exserta subsp. latifolia,,N,49745,1696,61109,95135,Castilleja exserta var. latifolia,Purple Owl's Clover,annual,purple,3,5
 Castilleja foliolosa,woolly paintbrush,N,18205,1698,56760,64309,true,Texas Paintbrush,,red
 Castilleja rubicundula subsp. lithospermoides,cream sacs,N,49761,1729,57269,95159,Castilleja rubicundula var. lithospermoides,Cream Sacs
 Castilleja subinclusa subsp. franciscana,,N,76740,1733,53916,95162,Castilleja subinclusa var. franciscana,Longleaf Indian Paintbrush

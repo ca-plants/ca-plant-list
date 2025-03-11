@@ -1,1 +1,1 @@
-Stems with spines. Anthers extending beyond petals. [Styles](./g/style.html) not hairy at base. Lower side of leaf not glandular. Sepals green- or red-tinged.
+Stems with spines primarily at nodes. Anthers extending beyond petals. [Styles](./g/style.html) not hairy at base; protruding beyond anthers. Lower side of leaf not glandular. Sepals green- or red-tinged. Fruit red and bristly.
