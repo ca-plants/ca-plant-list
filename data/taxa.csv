@@ -1483,11 +1483,11 @@ Pseudognaphalium ramosissimum,,N,80579,11959,53088,205661,true,Pink Cudweed
 Pseudognaphalium stramineum,,N,40045,11960,53089,205662,true,Chilean Cudweed
 Pseudognaphalium thermale,,N,81995,11049,78765,205663,true
 Pseudotsuga menziesii var. menziesii,Douglas Fir,N,64553,6907,63910,58841,true,Coast Douglas Fir
-Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159,205666,true,Dwarf Woollyheads
+Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159,205666,true,Dwarf Woollyheads,annual,white,5,6
 Psilocarphus brevissimus var. multiflorus,,N,8099,6910,60148,205667,true,Delta Woolly-marbles,,,,,1756,4.2,,,S3,G4T3
-Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158,205670,true,Round Woolly-marbles
-Psilocarphus oregonus,Oregon woolly-marbles,N,4500,6912,60149,205671,true,Oregon Woollyheads
-Psilocarphus tenellus,slender woolly-marbles,N,4501,6913,53188,205668,true,Slender Woolly-marbles
+Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158,205670,true,Round Woolly-marbles,annual,white,3,7
+Psilocarphus oregonus,Oregon woolly-marbles,N,4500,6912,60149,205671,true,Oregon Woollyheads,annual,white,3,7
+Psilocarphus tenellus,slender woolly-marbles,N,4501,6913,53188,205668,true,Slender Woolly-marbles,annual,white,3,7
 Ptelea crenulata,hop tree,N,40219,6929,50622,29077,,Western Hoptree
 Pteridium aquilinum var. pubescens,bracken fern,N,64626,6930,52684,201716,true,Hairy Brackenfern
 Pterostegia drymarioides,,N,40273,6935,53191,118523,true,Woodland Threadstem
