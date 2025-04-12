@@ -225,7 +225,7 @@ Boechera breweri subsp. breweri,Brewer's rock cress,N,85519,11382,79644,41737,tr
 Bolboschoenus fluviatilis,river bulrush,N,80011,11419,64228,103271,true,River Bulrush
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,49436,10796,79646,107348,true,Prairie Rush
 Bolboschoenus robustus,seacoast bulrush,N,77450,10798,75840,103276,true,Big Bulrush
-Bowlesia incana,,N,15999,1133,56822,202482,,Hoary Bowlesia
+Bowlesia incana,Hoary bowlesia,N,15999,1133,56822,202482,,Hoary Bowlesia,annual,green,3,4
 Brachypodium distachyon,false-brome,X,16042,1137,57158,136941,true
 Brassica juncea,India mustard,X,16072,1142,64241,11799,true,,"annual,perennial",yellow,5,9
 Brassica nigra,black mustard,X,16079,1144,1555489,11804,true,,annual,yellow,4,9
@@ -340,10 +340,10 @@ Carpobrotus edulis,freeway iceplant,X,17975,1660,49322,112322,true
 Castilleja affinis subsp. affinis,Indian paintbrush,N,70068,1669,50043,95113,Castilleja affinis var. affinis,Coast Indian Paintbrush,,red
 Castilleja ambigua subsp. ambigua,johnny-nip,N,49732,1673,61110,95117,Castilleja ambigua var. ambigua,Johnny-nip,,,,,3361,4.2,,,S3S4,G5T4
 Castilleja applegatei subsp. martinii,,N,76733,1679,1041230,95122,Castilleja martini var. martini,Wavyleaf Indian Paintbrush
-Castilleja attenuata,valley tassels,N,18175,1683,49341,64264,true,Valley Tassels
-Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover
-Castilleja exserta subsp. exserta,purple owl's-clover,N,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover
-Castilleja exserta subsp. latifolia,,N,49745,1696,61109,95135,Castilleja exserta var. latifolia,Purple Owl's Clover
+Castilleja attenuata,valley tassels,N,18175,1683,49341,64264,true,Valley Tassels,annual,white,3,5
+Castilleja densiflora subsp. densiflora,owl's-clover,N,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover,annual,purple,3,5
+Castilleja exserta subsp. exserta,purple owl's-clover,N,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover,annual,purple,3,5
+Castilleja exserta subsp. latifolia,,N,49745,1696,61109,95135,Castilleja exserta var. latifolia,Purple Owl's Clover,annual,purple,3,5
 Castilleja foliolosa,woolly paintbrush,N,18205,1698,56760,64309,true,Texas Paintbrush,,red
 Castilleja rubicundula subsp. lithospermoides,cream sacs,N,49761,1729,57269,95159,Castilleja rubicundula var. lithospermoides,Cream Sacs
 Castilleja subinclusa subsp. franciscana,,N,76740,1733,53916,95162,Castilleja subinclusa var. franciscana,Longleaf Indian Paintbrush
@@ -502,7 +502,7 @@ Cryptantha hispidula,Napa cryptantha,N,21237,2465,57703,203175,,Napa Cryptantha,
 Cryptantha hooveri,,N,21240,2468,57701,245944,,Hoover's Cryptantha,,,,,525,1A,,,SH,GH
 Cryptantha intermedia var. intermedia,,N,71933,11568,80627,203183
 Cryptantha juniperensis,rigid cryptantha,N,103476,14557,769572,203205
-Cryptantha micromeres,,N,21263,2476,770232,203194,,Minute-flowered Cryptantha
+Cryptantha micromeres,,N,21263,2476,53027,203194,,Minute-flowered Cryptantha
 Cryptantha microstachys,,N,21264,2477,57696,203195,,Tejon Cryptantha
 Cryptantha muricata var. jonesii,,N,57144,11572,80631,203200,,Jones' Cryptantha
 Cryptantha muricata var. muricata,,N,57145,11573,80632,203201,,Showy Prickly-nut Cryptantha
@@ -1483,11 +1483,11 @@ Pseudognaphalium ramosissimum,,N,80579,11959,53088,205661,true,Pink Cudweed
 Pseudognaphalium stramineum,,N,40045,11960,53089,205662,true,Chilean Cudweed
 Pseudognaphalium thermale,,N,81995,11049,78765,205663,true
 Pseudotsuga menziesii var. menziesii,Douglas Fir,N,64553,6907,63910,58841,true,Coast Douglas Fir
-Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159,205666,true,Dwarf Woollyheads
+Psilocarphus brevissimus var. brevissimus,dwarf woolly-marbles,N,8098,6909,64159,205666,true,Dwarf Woollyheads,annual,white,5,6
 Psilocarphus brevissimus var. multiflorus,,N,8099,6910,60148,205667,true,Delta Woolly-marbles,,,,,1756,4.2,,,S3,G4T3
-Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158,205670,true,Round Woolly-marbles
-Psilocarphus oregonus,Oregon woolly-marbles,N,4500,6912,60149,205671,true,Oregon Woollyheads
-Psilocarphus tenellus,slender woolly-marbles,N,4501,6913,53188,205668,true,Slender Woolly-marbles
+Psilocarphus chilensis,round woolly-marbles,N,81848,11050,64158,205670,true,Round Woolly-marbles,annual,white,3,7
+Psilocarphus oregonus,Oregon woolly-marbles,N,4500,6912,60149,205671,true,Oregon Woollyheads,annual,white,3,7
+Psilocarphus tenellus,slender woolly-marbles,N,4501,6913,53188,205668,true,Slender Woolly-marbles,annual,white,3,7
 Ptelea crenulata,hop tree,N,40219,6929,50622,29077,,Western Hoptree
 Pteridium aquilinum var. pubescens,bracken fern,N,64626,6930,52684,201716,true,Hairy Brackenfern
 Pterostegia drymarioides,,N,40273,6935,53191,118523,true,Woodland Threadstem
@@ -1843,7 +1843,7 @@ Typha domingensis,southern cattail,N,47463,8177,58392,174864,true,Southern Catta
 Typha latifolia,cattail,N,47466,8178,48685,174865,true,Broadleaf Cattail
 Ulmus minor,English elm,X,47478,8180,79461,34372,Ulmus procera
 Umbellularia californica,California bay,N,47489,8183,48807,34384,true,California Laurel,perennial,yellow,11,5
-Uropappus lindleyi,silver puffs,N,76212,8184,50806,206299,true,Uropappus
+Uropappus lindleyi,silver puffs,N,76212,8184,50806,206299,true,Silverpuffs
 Urospermum picroides,false hawkbit,X,5477,8185,59361,206301,true
 Urtica gracilis subsp. gracilis,American stinging nettle,N,70675,8186,1074432,207397,Urtica dioica subsp. gracilis
 Urtica gracilis subsp. holosericea,hoary nettle,N,53304,8187,141851,44056,Urtica dioica subsp. holosericea
@@ -1864,17 +1864,17 @@ Veronica catenata,chain speedwell,N,47944,8246,79496,78637,true
 Veronica peregrina subsp. xalapensis,purslane speedwell,N,53337,8252,491173,206335,,Purslane Speedwell
 Veronica persica,Persian speedwell,X,47976,8253,55666,78667,true
 Viburnum ellipticum,western viburnum,N,48020,8259,79500,211467,,Common Viburnum,,,,,2056,2B.3,,,S3,G4G5
-Vicia americana subsp. americana,American vetch,N,53345,10448,53321,44061,,American Vetch
-Vicia benghalensis,purple vetch,X,48060,8261,53333,34506
-Vicia disperma,,X,48066,8263,79502,34518
-Vicia gigantea,giant vetch,N,48092,8265,53322,34529,,Giant Vetch
+Vicia americana subsp. americana,American vetch,N,53345,10448,53321,44061,,American Vetch,perennial,blue,4,6
+Vicia benghalensis,purple vetch,X,48060,8261,53333,34506,,,annual,red,purple,3,6
+Vicia disperma,,X,48066,8263,79502,34518,,,annual,blue,3,5
+Vicia gigantea,giant vetch,N,48092,8265,53322,34529,,Giant Vetch,perennial,red,3,8
 Vicia hassei,slender vetch,N,48071,8266,57313,34535,,Slender Vetch
-Vicia sativa subsp. nigra,common vetch,X,53355,8272,710103,44080
+Vicia sativa subsp. nigra,common vetch,X,53355,8272,710103,44080,,,annual,pink,3,6
 Vicia sativa subsp. sativa,spring vetch,X,53356,8273,53334,44081
 Vicia villosa subsp. varia,winter vetch,X,53358,8275,57316,44085
 Vicia villosa subsp. villosa,hairy vetch,X,53359,8276,57315,44086
 Vinca major,greater periwinkle,X,48131,8280,53326,78696
-Viola adunca subsp. adunca,western blue violet,N,79074,11116,53339,207979,Viola adunca var. adunca,Hookedspur Violet
+Viola adunca subsp. adunca,western blue violet,N,79074,11116,53328,207979,Viola adunca var. adunca,Hookedspur Violet
 Viola douglasii,Douglas violet,N,48202,8288,79508,34682,true,Douglas' Violet,,yellow,2,7
 Viola glabella,stream violet,N,48214,8289,71113,34696,true,Pioneer Violet
 Viola ocellata,western heart's ease,N,48259,8297,61782,34736,true,Western Heart's Ease,,white,3,7

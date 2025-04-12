@@ -38,10 +38,6 @@
             "notintaxondata": true
         }
     },
-    "Juncus ambiguus": {
-        "comment": "Jepson: Presumed introduced. Taxonomy, relationship to Eurasian Juncus bufonius complex needs study.",
-        "calflora": { "native": false }
-    },
     "Juncus elliottii": {
         "calflora": { "native": false }
     },

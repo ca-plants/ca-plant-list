@@ -973,7 +973,7 @@ Isotrema californicum,Aristolochia californica
 Iva axillaris subsp. robustior,Iva axillaris
 Iva axillaris var. robustior,Iva axillaris
 Jacobaea vulgaris,Senecio jacobaea,INAT
-Johnstonella micromeres,Cryptantha micromeres,INAT
+Johnstonella micromeres,Cryptantha micromeres
 Juglans californica var. californica,Juglans californica
 Juglans californica var. hindsii,Juglans hindsii
 Juncoides comosa var. macrantha,Luzula macrantha
@@ -1701,9 +1701,6 @@ Ranunculus subrigidus,Ranunculus aquatilis var. diffusus
 Ranunculus trichophyllus var. trichophyllus,Ranunculus aquatilis var. diffusus
 Ranunculus trichophyllus,Ranunculus aquatilis var. diffusus,INAT
 Raphanus raphanistrum subsp. sativus,Raphanus sativus,INAT
-Ravenella exigua,Campanula exigua,INAT
-Ravenella griffinii,Campanula griffinii,INAT
-Ravenella sharsmithiae,Campanula sharsmithiae,INAT
 Reynoutria japonica,Fallopia japonica,INAT
 Rhamnus californica subsp. californica,Frangula californica subsp. californica
 Rhamnus californica subsp. tomentella,Frangula californica subsp. tomentella
@@ -2115,6 +2112,7 @@ Viola adunca var. adunca,Viola adunca subsp. adunca
 Viola adunca var. cascadensis,Viola adunca subsp. adunca
 Viola adunca var. kirkii,Viola adunca subsp. adunca
 Viola adunca var. uncinulata,Viola adunca subsp. adunca
+Viola adunca,Viola adunca subsp. adunca,INAT
 Viola californica,Viola glabella
 Viola cascadensis,Viola adunca subsp. adunca
 Viola kelloggii,Viola purpurea subsp. purpurea
