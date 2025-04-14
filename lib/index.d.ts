@@ -82,10 +82,7 @@ export class Config {
 }
 
 export class CSV {
-    static readFile(
-        fileName: string,
-        delimeter?: string,
-    ): Record<string, string>[];
+    static readFile<T>(fileName: string, delimeter?: string): T[];
     static writeFileObject(
         fileName: string,
         data: Record<string, any>[],
@@ -128,6 +125,21 @@ export class Files {
 }
 
 export class Genera {}
+
+export class GenericPage {
+    constructor(
+        siteGenerator: SiteGenerator,
+        title: string,
+        baseFileName: string,
+        js?: string,
+    );
+    getBaseFileName(): string;
+    getFrontMatter(): string;
+    getOutputDir(): string;
+    getSiteGenerator(): SiteGenerator;
+    getTitle(): string;
+    writeFile(content: string): void;
+}
 
 export class Genus<T extends Taxon> {
     getTaxa(): T[];
