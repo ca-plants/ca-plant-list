@@ -108,11 +108,13 @@ async function checkUrlFile(fileName, options) {
 
     for (const [name, photoList] of photos.entries()) {
         meter.update(counter++, { custom: ` ${name}` });
-        for (const photo of photoList) {
-            const url = Photo.getUrl(photo.id, photo.ext);
-            const exists = await HttpUtils.UrlExists(url);
-            if (!exists) {
-                errorLog.log(name, url);
+        const urls = photoList.map((p) =>
+            HttpUtils.UrlExists(Photo.getUrl(p.id, p.ext)),
+        );
+        const resolved = await Promise.all(urls);
+        for (let index = 0; index < resolved.length; index++) {
+            if (!resolved[index]) {
+                errorLog.log(name, photoList[index].id);
             }
         }
     }
