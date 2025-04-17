@@ -100,23 +100,40 @@ async function checkUrl(options) {
  * @param {import("commander").OptionValues} options
  */
 async function checkUrlFile(fileName, options) {
-    const photos = readPhotos(fileName);
-    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
-
-    const meter = new ProgressMeter("checking taxa URLs", photos.size);
-    let counter = 1;
-
-    for (const [name, photoList] of photos.entries()) {
-        meter.update(counter++, { custom: ` ${name}` });
+    /**
+     * @param {string} name
+     * @param {import("../lib/utils/inat-tools.js").InatPhotoInfo[]} photoList
+     */
+    async function checkTaxon(name, photoList) {
         const urls = photoList.map((p) =>
             HttpUtils.UrlExists(Photo.getUrl(p.id, p.ext)),
         );
         const resolved = await Promise.all(urls);
         for (let index = 0; index < resolved.length; index++) {
             if (!resolved[index]) {
-                errorLog.log(name, photoList[index].id);
+                const id = photoList[index].id;
+                errorLog.log(name, id);
+                invalid.push({ name: name, id: id });
             }
         }
+    }
+
+    const invalid = [];
+
+    const photos = readPhotos(fileName);
+    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", false);
+
+    const meter = new ProgressMeter("checking taxa URLs", photos.size);
+    let counter = 0;
+    const names = Array.from(photos.keys());
+
+    for (const name of names) {
+        const photoList = photos.get(name);
+        // @ts-ignore
+        await checkTaxon(name, photoList);
+        meter.update(++counter, {
+            custom: ` | ${invalid.length} errors | ${name}`,
+        });
     }
     meter.stop();
 
