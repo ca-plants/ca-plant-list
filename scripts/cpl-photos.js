@@ -341,10 +341,6 @@ function writePhotos(fileName, currentPhotos) {
 
 const program = Program.getProgram();
 program
-    .command("check")
-    .description("Check taxa photos to ensure information is current.")
-    .action(() => check(program.opts()));
-program
     .command("checkmax")
     .description("List taxa with less than the maximum number of photos")
     .option(
@@ -358,6 +354,10 @@ program
     .action(() => checkUrl(program.opts()));
 if (process.env.npm_package_name === "@ca-plant-list/ca-plant-list") {
     // Only allow updates in ca-plant-list.
+    program
+        .command("check")
+        .description("Check taxa photos to ensure information is current.")
+        .action(() => check(program.opts()));
     program
         .command("addmissing")
         .description("Add photos to taxa with fewer than the maximum")
