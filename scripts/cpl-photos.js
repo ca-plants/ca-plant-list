@@ -35,7 +35,8 @@ async function addMissingPhotos(options) {
     }
 
     const newPhotos = await getTaxonPhotos(taxaMissingPhotos);
-    const currentTaxaPhotos = readPhotos(TAXON_PHOTO_FILE_NAME);
+    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
+    const currentTaxaPhotos = readPhotos(csvFilePath);
 
     for (const [taxonName, photos] of newPhotos) {
         let currentPhotos = currentTaxaPhotos.get(taxonName);
@@ -62,16 +63,16 @@ async function addMissingPhotos(options) {
     errorLog.write();
 
     // Write updated photo file.
-    writePhotos(TAXON_PHOTO_FILE_NAME, currentTaxaPhotos);
+    writePhotos(csvFilePath, currentTaxaPhotos);
 }
 
 /**
  * @param {import("commander").OptionValues} options
  */
 async function check(options) {
-    const fileName = TAXON_PHOTO_FILE_NAME;
+    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
     const taxa = await getTaxa(options);
-    const csvPhotos = readPhotos(fileName);
+    const csvPhotos = readPhotos(csvFilePath);
     const taxaPhotos = await getTaxonPhotos(taxa.getTaxonList());
     const csvNames = Array.from(csvPhotos.keys());
 
@@ -96,6 +97,34 @@ async function check(options) {
                     (tp) => tp.id === photoId,
                 );
                 if (iNatPhoto) {
+                    /**
+                     * @param {"attrName"|"ext"|"licenseCode"} colName
+                     * @param {string|undefined} csvVal
+                     * @param {string|undefined} iNatVal
+                     */
+                    function checkCol(colName, csvVal, iNatVal) {
+                        iNatVal = iNatVal ?? "";
+                        if (csvVal !== iNatVal) {
+                            errors++;
+                            errorLog.log(
+                                name,
+                                `photo in CSV has different ${colName}`,
+                                photoId,
+                                csvVal,
+                                iNatVal,
+                            );
+                            if (options.update) {
+                                csvPhoto[colName] = iNatVal;
+                            }
+                        }
+                    }
+                    checkCol("attrName", csvPhoto.attrName, iNatPhoto.attrName);
+                    checkCol("ext", csvPhoto.ext, iNatPhoto.ext);
+                    checkCol(
+                        "licenseCode",
+                        csvPhoto.licenseCode,
+                        iNatPhoto.licenseCode,
+                    );
                 } else {
                     if (options.update) {
                         idsToDelete.push(photoId);
@@ -127,7 +156,7 @@ async function check(options) {
     meter.stop();
 
     if (options.update) {
-        writePhotos(fileName, csvPhotos);
+        writePhotos(csvFilePath, csvPhotos);
     }
 
     errorLog.write();
@@ -188,7 +217,8 @@ async function checkUrlFile(fileName, options) {
 
     const invalid = [];
 
-    const photos = readPhotos(fileName);
+    const csvFilePath = getPhotoFilePath(fileName, options);
+    const photos = readPhotos(csvFilePath);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", false);
 
     const meter = new ProgressMeter("checking taxa URLs", photos.size);
@@ -210,10 +240,11 @@ async function checkUrlFile(fileName, options) {
 
 /**
  * @param {string} fileName
+ * @param {import("commander").OptionValues} options
  * @returns {string}
  */
-function getPhotoFilePath(fileName) {
-    return `./data/${fileName}`;
+function getPhotoFilePath(fileName, options) {
+    return path.join(".", options.datadir, fileName);
 }
 
 /**
@@ -255,17 +286,15 @@ async function prune(options) {
 async function pruneFile(fileName, options) {
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
-    const currentTaxaPhotos = readPhotos(fileName);
+    const csvFilePath = getPhotoFilePath(fileName, options);
+    const currentTaxaPhotos = readPhotos(csvFilePath);
 
     const invalidNames = new Set();
 
     for (const name of currentTaxaPhotos.keys()) {
         const taxon = taxa.getTaxon(name);
         if (!taxon) {
-            errorLog.log(
-                name,
-                `is in ${TAXON_PHOTO_FILE_NAME} but not in taxa list`,
-            );
+            errorLog.log(name, `is in ${csvFilePath} but not in taxa list`);
             invalidNames.add(name);
         }
     }
@@ -274,19 +303,18 @@ async function pruneFile(fileName, options) {
         for (const name of invalidNames) {
             currentTaxaPhotos.delete(name);
         }
-        writePhotos(fileName, currentTaxaPhotos);
+        writePhotos(csvFilePath, currentTaxaPhotos);
     }
 
     errorLog.write();
 }
 
 /**
- * @param {string} fileName
+ * @param {string} csvFilePath
  * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
-function readPhotos(fileName) {
-    const filePath = getPhotoFilePath(fileName);
-    if (!existsSync(filePath)) {
+function readPhotos(csvFilePath) {
+    if (!existsSync(csvFilePath)) {
         return new Map();
     }
 
@@ -295,7 +323,7 @@ function readPhotos(fileName) {
 
     /** @type {import("../lib/utils/inat-tools.js").InatCsvPhoto[]} */
     // @ts-ignore
-    const csvPhotos = CSV.readFile(filePath);
+    const csvPhotos = CSV.readFile(csvFilePath);
     for (const csvPhoto of csvPhotos) {
         const taxonName = csvPhoto.name;
         let photos = taxonPhotos.get(taxonName);
@@ -315,10 +343,10 @@ function readPhotos(fileName) {
 }
 
 /**
- * @param {string} fileName
+ * @param {string} filePath
  * @param {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>} currentPhotos
  */
-function writePhotos(fileName, currentPhotos) {
+function writePhotos(filePath, currentPhotos) {
     // Write updated photo file.
     const headers = ["name", "id", "ext", "licenseCode", "attrName"];
     /** @type {string[][]} */
@@ -336,7 +364,7 @@ function writePhotos(fileName, currentPhotos) {
         }
     }
 
-    CSV.writeFileArray(getPhotoFilePath(fileName), data, headers);
+    CSV.writeFileArray(filePath, data, headers);
 }
 
 const program = Program.getProgram();
