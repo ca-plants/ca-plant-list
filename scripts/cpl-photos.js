@@ -88,18 +88,31 @@ async function check(options) {
             const iNatTaxonPhotos = taxaPhotos.get(name) ?? [];
 
             // Make sure each of the CSV photos is still referenced.
+            /** @type {string[]} */
+            const idsToDelete = [];
             for (const csvPhoto of csvTaxonPhotos) {
+                const photoId = csvPhoto.id;
                 const iNatPhoto = iNatTaxonPhotos.find(
-                    (tp) => tp.id === csvPhoto.id,
+                    (tp) => tp.id === photoId,
                 );
                 if (iNatPhoto) {
                 } else {
+                    if (options.update) {
+                        idsToDelete.push(photoId);
+                    }
                     errors++;
                     errorLog.log(
                         name,
-                        `photo id ${csvPhoto.id} not found in iNat taxon photos`,
+                        `photo id ${photoId} not found in iNat taxon photos`,
                     );
                 }
+            }
+
+            if (idsToDelete.length > 0) {
+                csvPhotos.set(
+                    name,
+                    csvTaxonPhotos.filter((p) => !idsToDelete.includes(p.id)),
+                );
             }
         } else {
             errors++;
@@ -112,6 +125,11 @@ async function check(options) {
     }
 
     meter.stop();
+
+    if (options.update) {
+        writePhotos(fileName, csvPhotos);
+    }
+
     errorLog.write();
 }
 
