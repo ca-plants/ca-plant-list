@@ -67,6 +67,56 @@ async function addMissingPhotos(options) {
 
 /**
  * @param {import("commander").OptionValues} options
+ */
+async function check(options) {
+    const fileName = TAXON_PHOTO_FILE_NAME;
+    const taxa = await getTaxa(options);
+    const csvPhotos = readPhotos(fileName);
+    const taxaPhotos = await getTaxonPhotos(taxa.getTaxonList());
+    const csvNames = Array.from(csvPhotos.keys());
+
+    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", false);
+
+    const meter = new ProgressMeter("checking taxa photos", csvPhotos.size);
+    let errors = 0;
+    let counter = 0;
+
+    for (const name of csvNames) {
+        const taxon = taxa.getTaxon(name);
+        if (taxon) {
+            const csvTaxonPhotos = csvPhotos.get(name) ?? [];
+            const iNatTaxonPhotos = taxaPhotos.get(name) ?? [];
+
+            // Make sure each of the CSV photos is still referenced.
+            for (const csvPhoto of csvTaxonPhotos) {
+                const iNatPhoto = iNatTaxonPhotos.find(
+                    (tp) => tp.id === csvPhoto.id,
+                );
+                if (iNatPhoto) {
+                } else {
+                    errors++;
+                    errorLog.log(
+                        name,
+                        `photo id ${csvPhoto.id} not found in iNat taxon photos`,
+                    );
+                }
+            }
+        } else {
+            errors++;
+            errorLog.log(name, "not found in taxa list");
+        }
+        counter++;
+        meter.update(counter, {
+            custom: ` | ${errors} errors | ${name}`,
+        });
+    }
+
+    meter.stop();
+    errorLog.write();
+}
+
+/**
+ * @param {import("commander").OptionValues} options
  * @param {import("commander").OptionValues} commandOptions
  */
 async function checkmax(options, commandOptions) {
@@ -272,6 +322,10 @@ function writePhotos(fileName, currentPhotos) {
 }
 
 const program = Program.getProgram();
+program
+    .command("check")
+    .description("Check taxa photos to ensure information is current.")
+    .action(() => check(program.opts()));
 program
     .command("checkmax")
     .description("List taxa with less than the maximum number of photos")
