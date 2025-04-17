@@ -7,9 +7,12 @@ import { Taxa } from "../lib/taxonomy/taxa.js";
 import { getTaxonPhotos } from "../lib/utils/inat-tools.js";
 import { existsSync } from "fs";
 import { CSV } from "../lib/csv.js";
+import { HttpUtils } from "../lib/utils/httpUtils.js";
+import { ProgressMeter } from "../lib/progressmeter.js";
+import { Photo } from "../lib/photo.js";
 
-const PHOTO_FILE_NAME = "inattaxonphotos.csv";
-const PHOTO_FILE_PATH = `./data/${PHOTO_FILE_NAME}`;
+const OBS_PHOTO_FILE_NAME = "inatobsphotos.csv";
+const TAXON_PHOTO_FILE_NAME = "inattaxonphotos.csv";
 
 const OPT_LOADER = "loader";
 
@@ -32,7 +35,8 @@ async function addMissingPhotos(options) {
     }
 
     const newPhotos = await getTaxonPhotos(taxaMissingPhotos);
-    const currentTaxaPhotos = readPhotos();
+    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
+    const currentTaxaPhotos = readPhotos(csvFilePath);
 
     for (const [taxonName, photos] of newPhotos) {
         let currentPhotos = currentTaxaPhotos.get(taxonName);
@@ -59,14 +63,110 @@ async function addMissingPhotos(options) {
     errorLog.write();
 
     // Write updated photo file.
-    writePhotos(currentTaxaPhotos);
+    writePhotos(csvFilePath, currentTaxaPhotos);
+}
+
+/**
+ * @param {import("commander").OptionValues} options
+ */
+async function check(options) {
+    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
+    const taxa = await getTaxa(options);
+    const csvPhotos = readPhotos(csvFilePath);
+    const taxaPhotos = await getTaxonPhotos(taxa.getTaxonList());
+    const csvNames = Array.from(csvPhotos.keys());
+
+    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", false);
+
+    const meter = new ProgressMeter("checking taxa photos", csvPhotos.size);
+    let errors = 0;
+    let counter = 0;
+
+    for (const name of csvNames) {
+        const taxon = taxa.getTaxon(name);
+        if (taxon) {
+            const csvTaxonPhotos = csvPhotos.get(name) ?? [];
+            const iNatTaxonPhotos = taxaPhotos.get(name) ?? [];
+
+            // Make sure each of the CSV photos is still referenced.
+            /** @type {string[]} */
+            const idsToDelete = [];
+            for (const csvPhoto of csvTaxonPhotos) {
+                const photoId = csvPhoto.id;
+                const iNatPhoto = iNatTaxonPhotos.find(
+                    (tp) => tp.id === photoId,
+                );
+                if (iNatPhoto) {
+                    /**
+                     * @param {"attrName"|"ext"|"licenseCode"} colName
+                     * @param {string|undefined} csvVal
+                     * @param {string|undefined} iNatVal
+                     */
+                    function checkCol(colName, csvVal, iNatVal) {
+                        iNatVal = iNatVal ?? "";
+                        if (csvVal !== iNatVal) {
+                            errors++;
+                            errorLog.log(
+                                name,
+                                `photo in CSV has different ${colName}`,
+                                photoId,
+                                csvVal,
+                                iNatVal,
+                            );
+                            if (options.update) {
+                                csvPhoto[colName] = iNatVal;
+                            }
+                        }
+                    }
+                    checkCol("attrName", csvPhoto.attrName, iNatPhoto.attrName);
+                    checkCol("ext", csvPhoto.ext, iNatPhoto.ext);
+                    checkCol(
+                        "licenseCode",
+                        csvPhoto.licenseCode,
+                        iNatPhoto.licenseCode,
+                    );
+                } else {
+                    if (options.update) {
+                        idsToDelete.push(photoId);
+                    }
+                    errors++;
+                    errorLog.log(
+                        name,
+                        `photo id ${photoId} not found in iNat taxon photos`,
+                    );
+                }
+            }
+
+            if (idsToDelete.length > 0) {
+                csvPhotos.set(
+                    name,
+                    csvTaxonPhotos.filter((p) => !idsToDelete.includes(p.id)),
+                );
+            }
+        } else {
+            errors++;
+            errorLog.log(name, "not found in taxa list");
+        }
+        counter++;
+        meter.update(counter, {
+            custom: ` | ${errors} errors | ${name}`,
+        });
+    }
+
+    meter.stop();
+
+    if (options.update) {
+        writePhotos(csvFilePath, csvPhotos);
+    }
+
+    errorLog.write();
 }
 
 /**
  * @param {import("commander").OptionValues} options
  * @param {import("commander").OptionValues} commandOptions
  */
-async function checkmissing(options, commandOptions) {
+async function checkmax(options, commandOptions) {
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
 
@@ -83,6 +183,68 @@ async function checkmissing(options, commandOptions) {
     }
 
     errorLog.write();
+}
+
+/**
+ * @param {import("commander").OptionValues} options
+ */
+async function checkUrl(options) {
+    checkUrlFile(TAXON_PHOTO_FILE_NAME, options);
+}
+
+/**
+ * @param {string} fileName
+ * @param {import("commander").OptionValues} options
+ */
+async function checkUrlFile(fileName, options) {
+    /**
+     * @param {string} name
+     * @param {import("../lib/utils/inat-tools.js").InatPhotoInfo[]} photoList
+     */
+    async function checkTaxon(name, photoList) {
+        const urls = photoList.map((p) =>
+            HttpUtils.UrlExists(Photo.getUrl(p.id, p.ext)),
+        );
+        const resolved = await Promise.all(urls);
+        for (let index = 0; index < resolved.length; index++) {
+            if (!resolved[index]) {
+                const id = photoList[index].id;
+                errorLog.log(name, id);
+                invalid.push({ name: name, id: id });
+            }
+        }
+    }
+
+    const invalid = [];
+
+    const csvFilePath = getPhotoFilePath(fileName, options);
+    const photos = readPhotos(csvFilePath);
+    const errorLog = new ErrorLog(options.outputdir + "/log.tsv", false);
+
+    const meter = new ProgressMeter("checking taxa URLs", photos.size);
+    let counter = 0;
+    const names = Array.from(photos.keys());
+
+    for (const name of names) {
+        const photoList = photos.get(name);
+        // @ts-ignore
+        await checkTaxon(name, photoList);
+        meter.update(++counter, {
+            custom: ` | ${invalid.length} errors | ${name}`,
+        });
+    }
+    meter.stop();
+
+    errorLog.write();
+}
+
+/**
+ * @param {string} fileName
+ * @param {import("commander").OptionValues} options
+ * @returns {string}
+ */
+function getPhotoFilePath(fileName, options) {
+    return path.join(".", options.datadir, fileName);
 }
 
 /**
@@ -113,16 +275,26 @@ async function getTaxa(options) {
  * @param {{outputdir:string,update:boolean}} options
  */
 async function prune(options) {
+    await pruneFile(TAXON_PHOTO_FILE_NAME, options);
+    await pruneFile(OBS_PHOTO_FILE_NAME, options);
+}
+
+/**
+ * @param {string} fileName
+ * @param {{outputdir:string,update:boolean}} options
+ */
+async function pruneFile(fileName, options) {
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
-    const currentTaxaPhotos = readPhotos();
+    const csvFilePath = getPhotoFilePath(fileName, options);
+    const currentTaxaPhotos = readPhotos(csvFilePath);
 
     const invalidNames = new Set();
 
     for (const name of currentTaxaPhotos.keys()) {
         const taxon = taxa.getTaxon(name);
         if (!taxon) {
-            errorLog.log(name, `is in ${PHOTO_FILE_NAME} but not in taxa list`);
+            errorLog.log(name, `is in ${csvFilePath} but not in taxa list`);
             invalidNames.add(name);
         }
     }
@@ -131,17 +303,18 @@ async function prune(options) {
         for (const name of invalidNames) {
             currentTaxaPhotos.delete(name);
         }
-        writePhotos(currentTaxaPhotos);
+        writePhotos(csvFilePath, currentTaxaPhotos);
     }
 
     errorLog.write();
 }
 
 /**
+ * @param {string} csvFilePath
  * @returns {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>}
  */
-function readPhotos() {
-    if (!existsSync(PHOTO_FILE_PATH)) {
+function readPhotos(csvFilePath) {
+    if (!existsSync(csvFilePath)) {
         return new Map();
     }
 
@@ -150,7 +323,7 @@ function readPhotos() {
 
     /** @type {import("../lib/utils/inat-tools.js").InatCsvPhoto[]} */
     // @ts-ignore
-    const csvPhotos = CSV.readFile(PHOTO_FILE_PATH);
+    const csvPhotos = CSV.readFile(csvFilePath);
     for (const csvPhoto of csvPhotos) {
         const taxonName = csvPhoto.name;
         let photos = taxonPhotos.get(taxonName);
@@ -170,16 +343,17 @@ function readPhotos() {
 }
 
 /**
- * @param {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>} currentTaxaPhotos
+ * @param {string} filePath
+ * @param {Map<string,import("../lib/utils/inat-tools.js").InatPhotoInfo[]>} currentPhotos
  */
-function writePhotos(currentTaxaPhotos) {
+function writePhotos(filePath, currentPhotos) {
     // Write updated photo file.
     const headers = ["name", "id", "ext", "licenseCode", "attrName"];
     /** @type {string[][]} */
     const data = [];
-    for (const taxonName of [...currentTaxaPhotos.keys()].sort()) {
+    for (const taxonName of [...currentPhotos.keys()].sort()) {
         // @ts-ignore - should always be defined at this point
-        for (const photo of currentTaxaPhotos.get(taxonName)) {
+        for (const photo of currentPhotos.get(taxonName)) {
             data.push([
                 taxonName,
                 photo.id,
@@ -190,20 +364,28 @@ function writePhotos(currentTaxaPhotos) {
         }
     }
 
-    CSV.writeFileArray(PHOTO_FILE_PATH, data, headers);
+    CSV.writeFileArray(filePath, data, headers);
 }
 
 const program = Program.getProgram();
 program
-    .command("checkmissing")
+    .command("checkmax")
     .description("List taxa with less than the maximum number of photos")
     .option(
         "--minphotos <number>",
         "Minimum number of photos. Taxa with fewer than this number will be listed.",
     )
-    .action((options) => checkmissing(program.opts(), options));
+    .action((options) => checkmax(program.opts(), options));
+program
+    .command("checkurl")
+    .description("Make sure URLs are valid")
+    .action(() => checkUrl(program.opts()));
 if (process.env.npm_package_name === "@ca-plant-list/ca-plant-list") {
     // Only allow updates in ca-plant-list.
+    program
+        .command("check")
+        .description("Check taxa photos to ensure information is current.")
+        .action(() => check(program.opts()));
     program
         .command("addmissing")
         .description("Add photos to taxa with fewer than the maximum")
