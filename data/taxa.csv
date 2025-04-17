@@ -637,7 +637,7 @@ Elymus condensatus,giant wild-rye,N,24165,11636,164673,140055,Leymus condensatus
 Elymus elymoides var. elymoides,squirreltail,N,72180,11639,58377,211223,Elymus elymoides subsp. elymoides,Squirreltail
 Elymus glaucus subsp. glaucus,blue wildrye,N,50264,2937,57171,167143,true,Western Rye Grass
 Elymus glaucus subsp. virescens,,N,50266,2939,61203,206754,true,Blue Wildrye
-Elymus hispidus,wheatgrass,X,24153,11640,155848,140096,Thinopyrum intermedium subsp. barbulatum
+Elymus hispidus,wheatgrass,X,24153,11640,155848,140096,Thinopyrum intermedium
 Elymus mollis subsp. mollis,,N,70142,11641,118426,206755,Leymus mollis subsp. mollis,Dune Wild Rye
 Elymus multisetus,big squirreltail,N,24122,2941,57167,140134,true,Big Squirreltail
 Elymus ponticus,tall wheatgrass,X,91896,11643,1301269,206756,Thinopyrum ponticum
@@ -784,7 +784,7 @@ Festuca elmeri,Elmer fescue,N,25798,3580,64333,141011,true,Elmer Fescue
 Festuca idahoensis,Idaho fescue,N,25808,3581,61200,141076,true,Idaho Fescue
 Festuca microstachys,,N,25865,11688,77138,141123,Vulpia microstachys var. ciliata,Pacific Fescue
 Festuca myuros,zorro grass,X,25869,11689,77140,141133,Vulpia myuros
-Festuca octoflora,six-week's fescue,N,25872,11690,77141,141148,Vulpia octoflora var. hirtella,Six Weeks Fescue
+Festuca octoflora,six-week's fescue,N,25872,11690,77141,141148,Vulpia octoflora,Six Weeks Fescue
 Festuca perennis,Italian ryegrass,X,91964,11691,52801,203852,Lolium multiflorum
 Festuca rubra,red fescue,N,25825,3586,61061,141223,true,Red Fescue
 Festuca temulenta,darnel,X,93753,11692,164712,203853,Lolium temulentum
@@ -1738,7 +1738,7 @@ Stephanomeria virgata subsp. pleurocarpa,,N,6227,7806,58849,206092,true,Wand Wir
 Stipa cernua,nodding needlegrass,N,45640,12042,165654,149288,Nassella cernua,Nodding Needle Grass
 Stipa lemmonii var. lemmonii,Lemmon's needlegrass,N,73899,12053,1220756,173006,Achnatherum lemmonii subsp. lemmonii
 Stipa lepida,foothill needlegrass,N,45641,12054,165656,149399,Nassella lepida,Foothill Needlegrass
-Stipa miliacea var. miliacea,smilo grass,X,91920,12058,524183,206097,Piptatherum miliaceum subsp. miliaceum
+Stipa miliacea var. miliacea,smilo grass,X,91920,12058,524183,206097,Piptatherum miliaceum
 Stipa pulchra,purple needlegrass,N,45644,12067,165659,149498,Nassella pulchra,Purple Needlegrass
 Streptanthus albidus subsp. peramoenus,most beautiful jewelflower,N,53142,7814,58783,258754,Streptanthus glandulosus subsp. glandulosus,,,,,,1490,1B.2,,,S2,G2T2
 Streptanthus breweri,,N,45725,7822,79258,32606,true,Brewer's Jewelflower
