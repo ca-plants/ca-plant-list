@@ -10,6 +10,7 @@ import { CSV } from "../lib/csv.js";
 import { HttpUtils } from "../lib/utils/httpUtils.js";
 import { ProgressMeter } from "../lib/progressmeter.js";
 import { Photo } from "../lib/photo.js";
+import { Config } from "../lib/config.js";
 
 const OBS_PHOTO_FILE_NAME = "inatobsphotos.csv";
 const TAXON_PHOTO_FILE_NAME = "inattaxonphotos.csv";
@@ -33,15 +34,16 @@ async function addMissingPhotos(options, commandOptions) {
         addMissingTaxonPhotos(options);
     }
     if (updateObs) {
-        addMissingObsPhotos(options, commandOptions);
+        addMissingObsPhotos(options, commandOptions, isLocal);
     }
 }
 
 /**
  * @param {import("commander").OptionValues} options
  * @param {import("commander").OptionValues} commandOptions
+ * @param {boolean} isLocal
  */
-async function addMissingObsPhotos(options, commandOptions) {
+async function addMissingObsPhotos(options, commandOptions, isLocal) {
     const taxaMissingPhotos = [];
 
     const taxa = await Taxa.loadTaxa(options);
@@ -57,10 +59,28 @@ async function addMissingObsPhotos(options, commandOptions) {
         }
     }
 
+    /** @type {import("../lib/utils/inat-tools.js").ObsPhotoLocationOptions|undefined} */
+    let locationOptions;
+    if (isLocal) {
+        locationOptions = {};
+        const config = new Config(options.datadir);
+        const placeId = config.getConfigValue("inat", "place_id");
+        const projId = config.getConfigValue("inat", "project_id");
+        if (!placeId && !projId) {
+            throw new Error();
+        }
+        if (placeId) {
+            locationOptions.place_id = placeId;
+        }
+        if (projId) {
+            locationOptions.project_id = projId;
+        }
+    }
+
     const taxaToProcess = commandOptions.maxtaxa
         ? taxaMissingPhotos.slice(0, parseInt(commandOptions.maxtaxa))
         : taxaMissingPhotos;
-    const newPhotos = await getObsPhotos(taxaToProcess);
+    const newPhotos = await getObsPhotos(taxaToProcess, locationOptions);
 
     for (const [taxonName, photos] of newPhotos) {
         let currentPhotos = currentObsPhotos.get(taxonName);
