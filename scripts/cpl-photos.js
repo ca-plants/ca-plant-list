@@ -20,23 +20,51 @@ const MAX_PHOTOS = 5;
 
 /**
  * @param {import("commander").OptionValues} options
+ * @param {import("commander").OptionValues} commandOptions
  */
-async function addMissingPhotos(options) {
+async function addMissingPhotos(options, commandOptions) {
+    const isLocal =
+        process.env.npm_package_name !== "@ca-plant-list/ca-plant-list";
+    const updateObs =
+        isLocal || commandOptions.observations || !commandOptions.taxa;
+    const updateTaxa =
+        !isLocal && (commandOptions.taxa || !commandOptions.observations);
+    if (updateTaxa) {
+        addMissingTaxonPhotos(options);
+    }
+    if (updateObs) {
+        addMissingObsPhotos(options);
+    }
+}
+
+/**
+ * @param {import("commander").OptionValues} options
+ */
+async function addMissingObsPhotos(options) {
+    const taxa = await Taxa.loadTaxa(options);
+    const targetTaxa = taxa.getTaxonList();
+}
+
+/**
+ * @param {import("commander").OptionValues} options
+ */
+async function addMissingTaxonPhotos(options) {
     const taxaMissingPhotos = [];
 
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
 
+    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
+    const currentTaxaPhotos = readPhotos(csvFilePath);
+
     for (const taxon of taxa.getTaxonList()) {
-        const photos = taxon.getPhotos();
-        if (photos.length < MAX_PHOTOS) {
+        const photos = currentTaxaPhotos.get(taxon.getName());
+        if (!photos || photos.length < MAX_PHOTOS) {
             taxaMissingPhotos.push(taxon);
         }
     }
 
     const newPhotos = await getTaxonPhotos(taxaMissingPhotos);
-    const csvFilePath = getPhotoFilePath(TAXON_PHOTO_FILE_NAME, options);
-    const currentTaxaPhotos = readPhotos(csvFilePath);
 
     for (const [taxonName, photos] of newPhotos) {
         let currentPhotos = currentTaxaPhotos.get(taxonName);
@@ -367,7 +395,17 @@ function writePhotos(filePath, currentPhotos) {
     CSV.writeFileArray(filePath, data, headers);
 }
 
+const isLocal = process.env.npm_package_name !== "@ca-plant-list/ca-plant-list";
+
 const program = Program.getProgram();
+const addMissing = program.command("addmissing");
+addMissing
+    .description("Add photos to taxa with fewer than the maximum")
+    .action((options) => addMissingPhotos(program.opts(), options));
+if (!isLocal) {
+    addMissing.option("--observations", `Update ${OBS_PHOTO_FILE_NAME}.`);
+    addMissing.option("--taxa", `Update ${TAXON_PHOTO_FILE_NAME}.`);
+}
 program
     .command("checkmax")
     .description("List taxa with less than the maximum number of photos")
@@ -380,16 +418,12 @@ program
     .command("checkurl")
     .description("Make sure URLs are valid")
     .action(() => checkUrl(program.opts()));
-if (process.env.npm_package_name === "@ca-plant-list/ca-plant-list") {
+if (!isLocal) {
     // Only allow updates in ca-plant-list.
     program
         .command("check")
         .description("Check taxa photos to ensure information is current.")
         .action(() => check(program.opts()));
-    program
-        .command("addmissing")
-        .description("Add photos to taxa with fewer than the maximum")
-        .action(() => addMissingPhotos(program.opts()));
     program
         .command("prune")
         .description("Remove photos without valid taxon names")
