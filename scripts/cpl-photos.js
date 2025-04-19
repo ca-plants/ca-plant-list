@@ -456,7 +456,7 @@ function writePhotos(filePath, currentPhotos, includeObsId = false) {
         for (const photo of currentPhotos.get(taxonName)) {
             data.push({
                 name: taxonName,
-                id: parseInt(photo.id),
+                id: photo.id,
                 obsId: photo.obsId,
                 ext: photo.ext,
                 licenseCode: photo.licenseCode,

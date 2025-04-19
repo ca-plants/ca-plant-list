@@ -1,13 +1,13 @@
 import { Photo } from "../lib/photo.js";
 
 /**
- * @param {import("../lib/utils/inat-tools.js").InatLicenseCode} licenseCode
+ * @param {import("../lib/utils/inat-tools.js").AllowedLicenseCode} licenseCode
  * @param {string} rightsHolder
  * @param {string} expected
  */
 function testAtt(licenseCode, rightsHolder, expected) {
     it(expected, () => {
-        const photo = new Photo(0, "", licenseCode, rightsHolder);
+        const photo = new Photo("", "", licenseCode, rightsHolder);
         const result = photo.getAttribution();
         expect(result).toEqual(expected);
     });
