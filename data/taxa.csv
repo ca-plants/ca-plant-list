@@ -275,9 +275,9 @@ Callitriche marginata,water-starwort,N,16692,1259,58093,64128,true,Winged Water 
 Callitriche trochlearis,,N,16702,1261,69994,64137,true,Effluent Water-starwort
 Calochortus albus,white globe lily,N,16710,1264,51315,202570,true,White Globe Lily,,white,4,6
 Calochortus argillosus,clay mariposa lily,N,76542,1268,64330,202576,true,Clay Mariposa Lily,bulb,"white,pink",4,6
-Calochortus clavatus var. pallidus,bulb,N,55455,1275,58360,202583,true,Pale Yellow Mariposa
-Calochortus invenustus,bulb,N,16733,1284,64432,202590,true,Plain Mariposa Lily
-Calochortus leichtlinii,bulb,N,16735,1288,52542,202594,true,Leichtlin's Mariposa Lily
+Calochortus clavatus var. pallidus,,N,55455,1275,58360,202583,true,Pale Yellow Mariposa
+Calochortus invenustus,,N,16733,1284,64432,202590,true,Plain Mariposa Lily
+Calochortus leichtlinii,,N,16735,1288,52542,202594,true,Leichtlin's Mariposa Lily
 Calochortus luteus,yellow mariposa lily,N,16737,1290,51077,202595,true,Yellow Mariposa Lily,bulb,yellow,4,6
 Calochortus pulchellus,Mt. Diablo fairy lantern,N,16755,1303,47326,202609,true,Mt. Diablo Fairy Lantern,bulb,,,,50,1B.2,,,S2,G2
 Calochortus splendens,,N,16759,1306,58361,202611,true,Splendid Mariposa Lily,bulb
@@ -443,7 +443,7 @@ Claytonia exigua subsp. glauca,,N,76949,2233,57229,127855,true,Serpentine Spring
 Claytonia gypsophiloides,candy stripers,N,19620,2234,55344,112597,true,Gypsum Springbeauty,annual,pink,3,5
 Claytonia parviflora subsp. parviflora,,N,74695,2242,58296,127861,true,Utah Miner's Lettuce,"annual,perennial",white,3,6
 Claytonia perfoliata subsp. mexicana,,N,76956,2245,53004,127866,true,Southern Miner's Lettuce,annual,white,2,4
-Claytonia perfoliata subsp. perfoliata,Miner's lettuce,N,49921,2246,53002,127867,true,Miner's Lettuce,annual,white,1,5
+Claytonia perfoliata subsp. perfoliata,miner's lettuce,N,49921,2246,53002,127867,true,Miner's Lettuce,annual,white,1,5
 Claytonia rubra subsp. depressa,red stem spring beauty,N,76957,2248,79751,127869,true,Miner's Lettuce,annual,white,2,4
 Clematis lasiantha,pipestems,N,19682,2254,49876,13749,true,Chaparral Clematis,,white,1,6
 Clematis ligusticifolia,virgin's bower,N,19683,2255,58996,13750,true,Virgin's Bower,,white,6,9
@@ -701,6 +701,7 @@ Eriogonum fasciculatum var. polifolium,,N,58546,3247,58272,129983,true,Interior 
 Eriogonum gracile var. gracile,slender buckwheat,N,58563,3257,58982,129999,true,Slender Woolly Wild Buckwheat
 Eriogonum incanum,frosted buckwheat,N,24809,3279,62680,114044,true,Frosted Wild Buckwheat,perennial,yellow,6,9
 Eriogonum inerme var. inerme,unarmed buckwheat,N,58586,9110,80799,130026,true,Unarmed Wild Buckwheat
+Eriogonum latifolium,seaside wild buckwheat,N,,,,,,,perennial,"white,pink",1,12
 Eriogonum lobbii,granite buckwheat,N,24839,9935,77005,114067,true,Lobb's Buckwheat,perennial,"white,pink",6,8
 Eriogonum luteolum var. caninum,Tiburon buckwheat,N,58623,3297,61205,130067,true,Tiburon Buckwheat,,,,,733,1B.2,,,S2,G5T2
 Eriogonum luteolum var. luteolum,,N,58624,3298,64226,130068,true,Golden-carpet Wild Buckwheat
