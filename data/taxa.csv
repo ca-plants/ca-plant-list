@@ -237,7 +237,7 @@ Brickellia californica,California brickelbush,N,1794,1152,58803,202493,true,Bric
 Briza maxima,quaking grass,X,16135,1165,57157,136989,true
 Briza minor,little quaking grass,X,16137,1166,57162,136993,true
 Brodiaea elegans subsp. elegans,harvest brodiaea,N,49461,1175,57127,202520,true,Harvest Brodiaea,corm,purple,4,8
-Brodiaea terrestris subsp. terrestris,,N,49464,1188,59081,202533,true,Dwarf Brodiaea,corm
+Brodiaea terrestris subsp. terrestris,,N,49464,1188,59081,202533,true,Dwarf Brodiaea,corm,purple,4,7
 Bromus arenarius,Australian chess,X,16216,1191,58368,137101,true
 Bromus berteroanus,Chilean chess,X,16219,9740,75897,137110,true
 Bromus catharticus var. catharticus,rescue grass,X,85279,11433,80494,169088,true
@@ -364,7 +364,7 @@ Ceanothus thyrsiflorus,blue blossom,N,18501,1830,56617,12790,true,Blueblossom Ce
 Centaurea calcitrapa,purple star-thistle,X,1922,1845,56865,202776,true
 Centaurea cyanus,"bachelor's button,cornflower",X,1925,1846,933404,202778,true
 Centaurea iberica,Iberian starthistle,X,1931,1849,76212,206620,true
-Centaurea melitensis,"tocalote,Maltese start-thistle",X,1934,1851,57922,202785,true
+Centaurea melitensis,"tocalote,Maltese star-thistle",X,1934,1851,57922,202785,true
 Centaurea solstitialis,yellow star-thistle,X,1946,1853,52588,202793,true
 Centranthus ruber,red valerian,X,18595,1864,57283,202799
 Centromadia fitchii,Fitch's spikeweed,N,77593,10809,58804,202801,true,Fitch Spikeweed
@@ -701,7 +701,7 @@ Eriogonum fasciculatum var. polifolium,,N,58546,3247,58272,129983,true,Interior 
 Eriogonum gracile var. gracile,slender buckwheat,N,58563,3257,58982,129999,true,Slender Woolly Wild Buckwheat
 Eriogonum incanum,frosted buckwheat,N,24809,3279,62680,114044,true,Frosted Wild Buckwheat,perennial,yellow,6,9
 Eriogonum inerme var. inerme,unarmed buckwheat,N,58586,9110,80799,130026,true,Unarmed Wild Buckwheat
-Eriogonum latifolium,seaside wild buckwheat,N,,,,,,,perennial,"white,pink",1,12
+Eriogonum latifolium,seaside wild buckwheat,N,24832,3293,57211,114060,true,Coast Buckwheat,perennial,"white,pink",1,12
 Eriogonum lobbii,granite buckwheat,N,24839,9935,77005,114067,true,Lobb's Buckwheat,perennial,"white,pink",6,8
 Eriogonum luteolum var. caninum,Tiburon buckwheat,N,58623,3297,61205,130067,true,Tiburon Buckwheat,,,,,733,1B.2,,,S2,G5T2
 Eriogonum luteolum var. luteolum,,N,58624,3298,64226,130068,true,Golden-carpet Wild Buckwheat
@@ -1090,10 +1090,10 @@ Logfia gallica,,X,31363,9521,56949,204736,true,,annual,"brown,yellow",3,7
 Lomatium californicum,chu-chu-pate,N,31389,4950,56824,204737,,California Lomatium,,yellow,4,6
 Lomatium caruifolium var. caruifolium,,N,61026,4953,64328,204739,,Alkali Desertparsley
 Lomatium caruifolium var. denticulatum,,N,61027,4954,60123,204740
-Lomatium dasycarpum subsp. dasycarpum,,N,51334,4960,56829,204743,,Woolly Fruited Lomatium,,white,3,6
-Lomatium macrocarpum,,N,31433,4974,56826,204754,,Bigseed Biscuitroot
+Lomatium dasycarpum subsp. dasycarpum,,N,51334,4960,56829,204743,,Woolly Fruited Lomatium,perennial,white,3,6
+Lomatium macrocarpum,,N,31433,4974,56826,204754,,Bigseed Biscuitroot,perennial,white,4,6
 Lomatium nudicaule,,N,31441,4983,77818,204759,,Barestem Biscuitroot
-Lomatium utriculatum,,N,31473,4999,56827,204766,,Common Lomatium,,yellow,2,5
+Lomatium utriculatum,,N,31473,4999,56827,204766,,Common Lomatium,perennial,yellow,2,5
 Lonicera hispidula,California honeysuckle,N,31505,10075,53416,204768,,Pink Honeysuckle,,pink,5,6
 Lonicera interrupta,chaparral honeysuckle,N,31506,5009,60878,204770,,Chaparral Honeysuckle,,"yellow,white",4,5
 Lonicera involucrata var. ledebourii,black twinberry,N,61081,5012,60990,204773,,Twinberry Honeysuckle
@@ -1197,8 +1197,8 @@ Mercurialis annua,annual mercury,X,33300,5450,68838,25939,true
 Mesembryanthemum nodiflorum,,X,33363,5461,71191,116177,true
 Micranthes californica,,N,91942,11841,78023,26022,true,California Saxifrage
 Micropus amphibolus,,N,33474,5462,78034,204946,true,Mount Diablo Cottonseed,,,,,1507,3.2,,,S3S4,G3G4
-Micropus californicus var. californicus,slender cottonweed,N,7993,5464,58030,204950,true,Cottontop
-Micropus californicus var. subvestitus,,N,7994,5465,81107,207081,true,Q-tips
+Micropus californicus var. californicus,slender cottonweed,N,7993,5464,58030,204950,true,Cottontop,annual,white,3,6
+Micropus californicus var. subvestitus,Q-tips,N,7994,5465,81107,207081,true,Q-tips,annual,white,4,6
 Microseris acuminata,,N,4146,5466,60142,204953,true,Sierra Foothill Silverpuffs
 Microseris bigelovii,,N,4147,5467,60977,204954,true,Coastal Silverpuffs
 Microseris campestris,,N,4149,5469,58031,204955,true,San Joaquin Silverpuffs
@@ -1834,8 +1834,8 @@ Triphysaria eriantha subsp. eriantha,butter-and-eggs,N,53279,8129,59332,96567,tr
 Triphysaria pusilla,,N,47296,8133,57276,78297,true,Dwarf Owl's-clover
 Triphysaria versicolor subsp. faucibarbata,,N,53281,8135,60737,206269,true,Triphysaria
 Trisetum canescens,,N,47326,8139,1538928,150155,true,Tall False Oat
-Triteleia hyacinthina,white brodiaea,N,47356,8154,57132,206275,true,White Brodiaea
-Triteleia laxa,Ithuriel's spear,N,47359,8160,51085,206281,true,Ithuriel's Spear
+Triteleia hyacinthina,white brodiaea,N,47356,8154,57132,206275,true,White Brodiaea,corm,white,3,7
+Triteleia laxa,Ithuriel's spear,N,47359,8160,51085,206281,true,Ithuriel's Spear,corm,blue,3,6
 Triteleia peduncularis,,N,47363,8164,57133,206284,true,Long Rayed Brodiaea
 Tropaeolum majus,garden nasturtium,X,47408,8167,54329,34321,true
 Tropidocarpum capparideum,caper-fruited tropidocarpum,N,47411,8168,79456,34327,true,Caper-fruited Tropidocarpum,annual,yellow,3,4,1255,1B.1,,,S1,G1
