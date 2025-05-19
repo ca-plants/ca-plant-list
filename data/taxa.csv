@@ -307,7 +307,7 @@ Camissoniopsis intermedia,,N,89203,11455,75982,12189,true,Intermediate Suncup
 Camissoniopsis micrantha,,N,89206,11458,75985,12192,true,Small Flowered Evening Primrose
 Capsella bursa-pastoris,shepherd's purse,X,17109,1472,56121,12296,true
 Cardamine californica,"milkmaids,tooth wort",N,76456,1479,49651,12325,true,Milk Maids
-Cardamine hirsuta,,X,17158,1486,55829,12347,true
+Cardamine hirsuta,hairy bittercress,X,17158,1486,55829,12347,true
 Cardamine oligosperma,,N,17171,1493,52981,12369,true,Little Western Bittercress
 Carduus pycnocephalus subsp. pycnocephalus,Italian thistle,X,82221,11464,79672,202704,true
 Carduus tenuiflorus,,X,1902,1505,53007,202705,true
@@ -836,7 +836,7 @@ Geranium molle,cranes-bill geranium,X,26729,3800,53076,22359
 Geranium potentilloides,,X,26735,3802,77258,22368
 Geranium purpureum,little robin,X,77514,8594,57643,22370
 Geranium robertianum,,X,26742,3806,55925,22376
-Geranium rotundifolium,,X,26743,3808,77261,22377
+Geranium rotundifolium,round-leaved crane's-bill,X,26743,3808,77261,22377
 Gilia achilleifolia subsp. achilleifolia,,N,50744,3813,51101,95568,,California Gilia
 Gilia achilleifolia subsp. multicaulis,,N,50745,3814,51102,95570,,California Gilia
 Gilia capitata subsp. capitata,,N,50764,3834,57798,95588,,Bluehead Gilia
@@ -895,7 +895,7 @@ Heterotheca grandiflora,telegraph weed,N,3419,4142,58831,204286,true,Telegraph W
 Heterotheca oregona var. rudis,Oregon goldenaster,N,7614,4146,,206910,true
 Heterotheca oregona var. scaberrima,goldenaster,N,7616,4147,80937,204289,true
 Heterotheca sessiliflora subsp. bolanderi,Bolander's goldenaster,N,74443,4151,61170,204291,true,Bolander's Goldenaster
-Heterotheca sessiliflora subsp. echioides,,N,74445,4152,58834,204292,true,Bristly Goldenaster
+Heterotheca sessiliflora subsp. echioides,bristly goldenaster,N,74445,4152,58834,204292,true,Bristly Goldenaster
 Heuchera micrantha,alumroot,N,28126,4171,51274,22981,true,Crevice Alumroot
 Hibiscus lasiocarpos var. occidentalis,rose-mallow,N,91751,11194,80940,266649,,Rose Mallow,,,,,906,1B.2,,,S3,G5T3
 Hieracium albiflorum,white hawkweed,N,3471,4184,63937,204303,true,White Hawkweed
@@ -1563,6 +1563,7 @@ Rosa californica,California rose,N,41631,7179,53437,30158,true,California Wildro
 Rosa gymnocarpa,wood rose,N,41652,7182,53441,30212,true,Wood Rose,,pink
 Rosa rubiginosa,sweet-brier,X,41648,11057,78886,30313,true
 Rosa spithamea,ground rose,N,41696,7187,53442,30338,true,Ground Rose
+Rosa woodsii,Woods' rose,N,41704,,,,,,perennial,pink,
 Rubus armeniacus,Himalayan blackberry,X,87465,10319,61317,30459
 Rubus laciniatus,cutleaf blackberry,X,42009,7195,78891,30698,true
 Rubus parviflorus,thimbleberry,N,42108,7200,51646,30808,true,Thimbleberry
