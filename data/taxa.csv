@@ -1535,7 +1535,7 @@ Raphanus raphanistrum,jointed charlock,X,40991,7063,55411,29701,true
 Raphanus sativus,wild radish,X,40992,7064,995125,29702,true
 Ravenella exigua,chaparral harebell,N,84837,14672,1342787,412341,,,,,,,265,1B.2,,,S2,G2
 Ravenella griffinii,,N,84836,14796,1342789,412342
-Ravenella sharsmithiae,,N,108392,14673,1342786,208086,,,,,,,267,1B.2,,,S1S2,G1G2
+Ravenella sharsmithiae,,N,108392,14673,1342786,432222,,,,,,,267,1B.2,,,S1S2,G1G2
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856,29726,true
 Rhamnus crocea,spiny redberry,N,41069,7075,57243,29736,true,Spiny Redberry
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308,29743,true,Hollyleaf Redberry
@@ -1563,7 +1563,7 @@ Rosa californica,California rose,N,41631,7179,53437,30158,true,California Wildro
 Rosa gymnocarpa,wood rose,N,41652,7182,53441,30212,true,Wood Rose,,pink
 Rosa rubiginosa,sweet-brier,X,41648,11057,78886,30313,true
 Rosa spithamea,ground rose,N,41696,7187,53442,30338,true,Ground Rose
-Rosa woodsii,Woods' rose,N,41704,,,,true,Woods' Rose,perennial,pink
+Rosa woodsii,Woods' rose,N,41704,,,30370,true,Woods' Rose,perennial,pink
 Rubus armeniacus,Himalayan blackberry,X,87465,10319,61317,30459
 Rubus laciniatus,cutleaf blackberry,X,42009,7195,78891,30698,true
 Rubus parviflorus,thimbleberry,N,42108,7200,51646,30808,true,Thimbleberry
@@ -1717,12 +1717,12 @@ Spergularia villosa,hairy sand-spurrey,X,45096,7717,60173,119423,true
 Spiranthes porrifolia,,N,45262,7740,50742,206062,true,Creamy Lady's Tresses
 Spiranthes romanzoffiana,,N,45264,7741,50743,206063,true,Irish Lady's-tresses
 Sporobolus airoides,alkali sacaton,N,45286,7744,60313,149026,true,Alkali Sacaton
-Sporobolus alterniflorus,saltwater cordgrass,X,82872,7699,772903,148951,Spartina alterniflora
-Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,169300,148961,Spartina densiflora
+Sporobolus alterniflorus,saltwater cordgrass,X,82872,7699,772903,432224,Spartina alterniflora
+Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,169300,432225,Spartina densiflora
 Sporobolus foliosus,California cordgrass,N,82873,7701,772992,208714,Spartina foliosa
 Sporobolus indicus,smutgrass,X,45308,7749,79187,149101,true
 Sporobolus niliacus,,X,82876,2440,773022,397065,Crypsis vaginiflora
-Sporobolus pumilus,saltmeadow cordgrass,X,82878,7703,773004,148979,Spartina patens
+Sporobolus pumilus,saltmeadow cordgrass,X,82878,7703,773004,432226,Spartina patens
 Sporobolus schoenoides,swamp grass,X,82879,2439,773038,397066,Crypsis schoenoides
 Stachys ajugoides,hedge nettle,N,45338,7751,53295,77371,,Ajuga Hedge Nettle
 Stachys albens,,N,45339,7754,58192,77372,,White Hedge Nettle
