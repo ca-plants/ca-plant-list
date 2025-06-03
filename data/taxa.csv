@@ -307,7 +307,7 @@ Camissoniopsis intermedia,,N,89203,11455,75982,12189,true,Intermediate Suncup
 Camissoniopsis micrantha,,N,89206,11458,75985,12192,true,Small Flowered Evening Primrose
 Capsella bursa-pastoris,shepherd's purse,X,17109,1472,56121,12296,true
 Cardamine californica,"milkmaids,tooth wort",N,76456,1479,49651,12325,true,Milk Maids
-Cardamine hirsuta,,X,17158,1486,55829,12347,true
+Cardamine hirsuta,hairy bittercress,X,17158,1486,55829,12347,true
 Cardamine oligosperma,,N,17171,1493,52981,12369,true,Little Western Bittercress
 Carduus pycnocephalus subsp. pycnocephalus,Italian thistle,X,82221,11464,79672,202704,true
 Carduus tenuiflorus,,X,1902,1505,53007,202705,true
@@ -836,7 +836,7 @@ Geranium molle,cranes-bill geranium,X,26729,3800,53076,22359
 Geranium potentilloides,,X,26735,3802,77258,22368
 Geranium purpureum,little robin,X,77514,8594,57643,22370
 Geranium robertianum,,X,26742,3806,55925,22376
-Geranium rotundifolium,,X,26743,3808,77261,22377
+Geranium rotundifolium,round-leaved crane's-bill,X,26743,3808,77261,22377
 Gilia achilleifolia subsp. achilleifolia,,N,50744,3813,51101,95568,,California Gilia
 Gilia achilleifolia subsp. multicaulis,,N,50745,3814,51102,95570,,California Gilia
 Gilia capitata subsp. capitata,,N,50764,3834,57798,95588,,Bluehead Gilia
@@ -895,7 +895,7 @@ Heterotheca grandiflora,telegraph weed,N,3419,4142,58831,204286,true,Telegraph W
 Heterotheca oregona var. rudis,Oregon goldenaster,N,7614,4146,,206910,true
 Heterotheca oregona var. scaberrima,goldenaster,N,7616,4147,80937,204289,true
 Heterotheca sessiliflora subsp. bolanderi,Bolander's goldenaster,N,74443,4151,61170,204291,true,Bolander's Goldenaster
-Heterotheca sessiliflora subsp. echioides,,N,74445,4152,58834,204292,true,Bristly Goldenaster
+Heterotheca sessiliflora subsp. echioides,bristly goldenaster,N,74445,4152,58834,204292,true,Bristly Goldenaster
 Heuchera micrantha,alumroot,N,28126,4171,51274,22981,true,Crevice Alumroot
 Hibiscus lasiocarpos var. occidentalis,rose-mallow,N,91751,11194,80940,266649,,Rose Mallow,,,,,906,1B.2,,,S3,G5T3
 Hieracium albiflorum,white hawkweed,N,3471,4184,63937,204303,true,White Hawkweed
@@ -1083,7 +1083,7 @@ Lithophragma affine,woodland star,N,31236,4922,50803,24525,true,San Francisco Wo
 Lithophragma bolanderi,,N,31238,4923,77787,24527,true,Bolander's Woodland Star,perennial,white,2,7
 Lithophragma cymbalaria,,N,31241,4925,58323,24531,true,Mission Woodland Star,perennial,white,3,5
 Lithophragma heterophyllum,hill starflower,N,31244,4927,53124,24533,true,Hillside Woodland Star,perennial,white,2,6
-Lithophragma parviflorum var. parviflorum,,N,60952,4930,81027,48936,Lithophragma parviflorum,Smallflower Woodland-star,perennial,"white,pink",3,7
+Lithophragma parviflorum var. parviflorum,,N,60952,4930,77791,48936,Lithophragma parviflorum,Smallflower Woodland-star,perennial,"white,pink",3,7
 Lobularia maritima,sweet alyssum,X,31347,4939,56992,24547,true
 Logfia filaginoides,herba impia,N,81847,10960,64254,204735,true,California Cottonrose,annual,red,2,5
 Logfia gallica,,X,31363,9521,56949,204736,true,,annual,"brown,yellow",3,7
@@ -1118,7 +1118,7 @@ Lupinus latifolius var. dudleyi,,N,76660,5161,81063,49195,,Broadleaf Lupine
 Lupinus latifolius var. latifolius,"broadleaf lupine,wood lupine",N,75772,5162,64242,204794,,Broad Leaf Lupine,perennial,blue,4,9
 Lupinus littoralis var. variicolor,,N,80538,14304,,49237
 Lupinus luteolus,butter lupine,N,31956,5176,77875,25020,,Pale Yellow Lupine
-Lupinus microcarpus var. densiflorus,,N,76668,5184,241537,49248,,Dense Flowered Platycarpos,annual,"yellow,white",4,6
+Lupinus microcarpus var. densiflorus,,N,76668,5184,57058,49248,,Dense Flowered Platycarpos,annual,"yellow,white",4,6
 Lupinus microcarpus var. microcarpus,chick lupine,N,75776,5186,58159,204796,,Valley Lupine,annual,"pink,blue",3,6
 Lupinus nanus,sky lupine,N,31978,5189,50612,25068,,Sky Lupine,,blue,3,6
 Lupinus pachylobus,big pod lupine,N,31998,5196,50613,25085,,Big Pod Lupine
@@ -1518,7 +1518,7 @@ Quercus parvula var. shrevei,,N,76907,7005,81314,50722,,Shreve Oak
 Quercus wislizeni var. frutescens,,N,64776,7011,58914,50761,,Interior Live Oak
 Quercus wislizeni var. wislizeni,interior live oak,N,64777,7012,58915,50762,Quercus wislizeni,Interior Live Oak
 Rafinesquia californica,California chicory,N,4548,7013,53193,205716,true,California Plumseed
-Ranunculus aquatilis var. aquatilis,,N,73500,10676,81320,50797,true
+Ranunculus aquatilis var. aquatilis,,N,73500,10676,78817,50797,true
 Ranunculus aquatilis var. diffusus,water buttercup,N,80687,11969,486980,50802,true,Hairleaf Water Buttercup
 Ranunculus californicus,California buttercup,N,40867,7032,52173,29565,true,California Buttercup,,yellow
 Ranunculus canus var. canus,,N,73506,11972,81324,50832,true
@@ -1535,7 +1535,7 @@ Raphanus raphanistrum,jointed charlock,X,40991,7063,55411,29701,true
 Raphanus sativus,wild radish,X,40992,7064,995125,29702,true
 Ravenella exigua,chaparral harebell,N,84837,14672,1342787,412341,,,,,,,265,1B.2,,,S2,G2
 Ravenella griffinii,,N,84836,14796,1342789,412342
-Ravenella sharsmithiae,,N,108392,14673,1342786,208086,,,,,,,267,1B.2,,,S1S2,G1G2
+Ravenella sharsmithiae,,N,108392,14673,1342786,432222,,,,,,,267,1B.2,,,S1S2,G1G2
 Rhamnus alaternus,Italian buckthorn,X,81104,9447,82856,29726,true
 Rhamnus crocea,spiny redberry,N,41069,7075,57243,29736,true,Spiny Redberry
 Rhamnus ilicifolia,holly-leaf redberry,N,41070,7076,58308,29743,true,Hollyleaf Redberry
@@ -1563,6 +1563,7 @@ Rosa californica,California rose,N,41631,7179,53437,30158,true,California Wildro
 Rosa gymnocarpa,wood rose,N,41652,7182,53441,30212,true,Wood Rose,,pink
 Rosa rubiginosa,sweet-brier,X,41648,11057,78886,30313,true
 Rosa spithamea,ground rose,N,41696,7187,53442,30338,true,Ground Rose
+Rosa woodsii,Woods' rose,N,41704,,78887,30370,true,Woods' Rose,perennial,pink
 Rubus armeniacus,Himalayan blackberry,X,87465,10319,61317,30459
 Rubus laciniatus,cutleaf blackberry,X,42009,7195,78891,30698,true
 Rubus parviflorus,thimbleberry,N,42108,7200,51646,30808,true,Thimbleberry
@@ -1716,12 +1717,12 @@ Spergularia villosa,hairy sand-spurrey,X,45096,7717,60173,119423,true
 Spiranthes porrifolia,,N,45262,7740,50742,206062,true,Creamy Lady's Tresses
 Spiranthes romanzoffiana,,N,45264,7741,50743,206063,true,Irish Lady's-tresses
 Sporobolus airoides,alkali sacaton,N,45286,7744,60313,149026,true,Alkali Sacaton
-Sporobolus alterniflorus,saltwater cordgrass,X,82872,7699,772903,148951,Spartina alterniflora
-Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,169300,148961,Spartina densiflora
+Sporobolus alterniflorus,saltwater cordgrass,X,82872,7699,772903,432224,Spartina alterniflora
+Sporobolus densiflorus,dense-flowered cordgrass,X,108405,7700,169300,432225,Spartina densiflora
 Sporobolus foliosus,California cordgrass,N,82873,7701,772992,208714,Spartina foliosa
 Sporobolus indicus,smutgrass,X,45308,7749,79187,149101,true
 Sporobolus niliacus,,X,82876,2440,773022,397065,Crypsis vaginiflora
-Sporobolus pumilus,saltmeadow cordgrass,X,82878,7703,773004,148979,Spartina patens
+Sporobolus pumilus,saltmeadow cordgrass,X,82878,7703,773004,432226,Spartina patens
 Sporobolus schoenoides,swamp grass,X,82879,2439,773038,397066,Crypsis schoenoides
 Stachys ajugoides,hedge nettle,N,45338,7751,53295,77371,,Ajuga Hedge Nettle
 Stachys albens,,N,45339,7754,58192,77372,,White Hedge Nettle
