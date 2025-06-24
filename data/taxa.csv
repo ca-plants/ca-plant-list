@@ -41,7 +41,7 @@ Agoseris grandiflora var. grandiflora,big mountain dandelion,N,79217,10490,80331
 Agoseris heterophylla var. cryptopleura,mountain dandelion,N,6324,10758,80333,206485,true,,annual,yellow,5,6
 Agoseris heterophylla var. heterophylla,annual false dandelion,N,6323,9654,56859,206486,true,,annual,yellow,5,6
 Agoseris heterophylla,,N,794,132,56856,201901,true,Annual Agoseris
-Agoseris hirsuta,Coast Range agoseris,N,777,,,,true,,perennial,yellow,4,6
+Agoseris hirsuta,Coast Range agoseris,N,777,10491,61169,206487,true,Coast Range Agoseris,perennial,yellow,4,6
 Agoseris retrorsa,spearleaf agoseris,N,797,133,57908,201902,true,Spearleaf Agoseris,perennial,yellow,4,8
 Agrostis avenacea,blown grass,X,12268,138,288066,134238,Lachnagrostis filiformis
 Agrostis capillaris,colonial bent,X,12276,140,75312,134268,true
@@ -922,7 +922,7 @@ Hordeum murinum subsp. leporinum,,X,50971,4227,52795,204330,true
 Hordeum murinum subsp. murinum,,X,50972,4228,63333,167373,true
 Horkelia californica var. californica,California horkelia,N,81857,11731,237030,48514,true,California Horkelia
 Horkelia californica var. elata,tall horkelia,N,81856,11732,80945,48515,true,California Honeydew
-Horkelia californica var. frondosa,leafy horkelia,N,81858,11733,,48516,true,California Horkelia
+Horkelia californica var. frondosa,leafy horkelia,N,81858,11733,1629357,48516,true,California Horkelia
 Horkelia cuneata var. sericea,Kellogg's horkelia,N,81861,11738,80951,48524,true,Kellogg's Horkelia,,,,,910,1B.1,,,S1?,G4T1?
 Hornungia procumbens,,X,81333,11748,77452,23250,true
 Hosackia crassifolia var. crassifolia,,N,91757,11750,80960,48541,,Big Deervetch
