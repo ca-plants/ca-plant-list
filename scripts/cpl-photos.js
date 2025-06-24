@@ -232,7 +232,7 @@ async function checkObsPhotos(options, errorLog) {
         for (const photo of photos) {
             const obsId = photo.obsId;
             if (!obsId) {
-                throw new Error();
+                throw new Error(`no obsId in ${JSON.stringify(photo)}`);
             }
             const currentPhotos = photosById.get(obsId);
             if (!currentPhotos) {
@@ -641,11 +641,11 @@ if (!isLocal) {
 
 const checkCommand = program.command("check");
 checkCommand
-    .description("Check photo data to ensure information is current.")
+    .description("Check photo data to ensure information is current")
     .action((options) => check(program.opts(), options));
 if (!isLocal) {
-    checkCommand.option("--observations", `Check ${OBS_PHOTO_FILE_NAME}.`);
-    checkCommand.option("--taxa", `Check ${TAXON_PHOTO_FILE_NAME}.`);
+    checkCommand.option("--observations", `Check ${OBS_PHOTO_FILE_NAME}`);
+    checkCommand.option("--taxa", `Check ${TAXON_PHOTO_FILE_NAME}`);
 }
 
 program
