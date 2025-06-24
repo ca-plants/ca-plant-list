@@ -37,11 +37,12 @@ Aegilops triuncialis,barbed goatgrass,X,11997,107,60272,134011,true
 Aesculus californica,California buckeye,N,12026,111,53348,9383,,California Buckeye,,white
 Ageratina adenophora,,X,735,117,64114,201878,true
 Agoseris apargioides var. apargioides,,N,6310,122,58797,201889,true,Coast Dandelion
-Agoseris grandiflora var. grandiflora,perennial,N,79217,10490,80331,201900,true,Giant Mountain Dandelion,,yellow,4,7
-Agoseris heterophylla var. cryptopleura,annual,N,6324,10758,80333,206485,true,,,yellow,5,6
-Agoseris heterophylla var. heterophylla,,N,6323,9654,56859,206486,true
+Agoseris grandiflora var. grandiflora,big mountain dandelion,N,79217,10490,80331,201900,true,Giant Mountain Dandelion,perennial,yellow,4,7
+Agoseris heterophylla var. cryptopleura,mountain dandelion,N,6324,10758,80333,206485,true,,annual,yellow,5,6
+Agoseris heterophylla var. heterophylla,annual false dandelion,N,6323,9654,56859,206486,true,,annual,yellow,5,6
 Agoseris heterophylla,,N,794,132,56856,201901,true,Annual Agoseris
-Agoseris retrorsa,,N,797,133,57908,201902,true,Spearleaf Agoseris
+Agoseris hirsuta,Coast Range agoseris,N,777,,,,true,,perennial,yellow,4,6
+Agoseris retrorsa,spearleaf agoseris,N,797,133,57908,201902,true,Spearleaf Agoseris,perennial,yellow,4,8
 Agrostis avenacea,blown grass,X,12268,138,288066,134238,Lachnagrostis filiformis
 Agrostis capillaris,colonial bent,X,12276,140,75312,134268,true
 Agrostis exarata,spike redtop,N,12284,143,59088,134320,true,Spike Bentgrass
