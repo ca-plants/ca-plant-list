@@ -40,6 +40,7 @@ export type TaxonData = TaxonomyData & {
     CRPR: string;
     FESA: string;
     fna: string;
+    calipc: string;
     flower_color: string;
     GRank: string;
     "inat id": string;

@@ -15,9 +15,11 @@ import { SupplementalText } from "../lib/tools/supplementaltext.js";
 import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
 import { CCH2 } from "../lib/tools/cch2.js";
 import { FNA } from "../lib/tools/fna.js";
+import { CalIPC } from "../lib/tools/calipc.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
+    CAL_IPC: "calipc",
     CALSCAPE: "calscape",
     CCH2: "cch",
     FNA: "fna",
@@ -30,6 +32,7 @@ const TOOLS = {
 
 const ALL_TOOLS = [
     TOOLS.CALFLORA,
+    TOOLS.CAL_IPC,
     TOOLS.CALSCAPE,
     TOOLS.CCH2,
     TOOLS.FNA,
@@ -68,6 +71,16 @@ async function build(program, options) {
         switch (tool) {
             case TOOLS.CALFLORA:
                 await Calflora.analyze(
+                    TOOLS_DATA_DIR,
+                    options.datadir,
+                    taxa,
+                    exceptions,
+                    errorLog,
+                    !!options.update,
+                );
+                break;
+            case TOOLS.CAL_IPC:
+                await CalIPC.analyze(
                     TOOLS_DATA_DIR,
                     options.datadir,
                     taxa,
@@ -167,8 +180,9 @@ program.addHelpText(
     "after",
     `
 Tools:
-    'all' runs the 'calflora', '${TOOLS.CALSCAPE}', '${TOOLS.CCH2}, '${TOOLS.FNA}, 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
+    'all' runs the 'calflora', '${TOOLS.CAL_IPC}', '${TOOLS.CALSCAPE}', '${TOOLS.CCH2}, '${TOOLS.FNA}, 'inat', 'jepson-eflora', 'rpi', and 'text' tools.
     '${TOOLS.CALFLORA}' retrieves data from Calflora and compares with local data.
+    '${TOOLS.CAL_IPC}' retrieves data from Cal-IPC and compares with local data.
     '${TOOLS.CALSCAPE}' retrieves data from Calscape and compares with local data.
     '${TOOLS.CCH2}' retrieves data from CCH2 and compares with local data.
     '${TOOLS.FNA}' retrieves data from Flora of North America and compares with local data.
