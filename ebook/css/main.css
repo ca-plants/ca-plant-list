@@ -8,6 +8,14 @@ div.flr {
     align-items: center;
 }
 
+div.hdr {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: .5rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 div.section {
     margin-bottom: .5rem;
 }
