@@ -8,9 +8,12 @@ import { Program } from "../lib/program.js";
 import { Taxa } from "../lib/taxonomy/taxa.js";
 
 const program = Program.getProgram();
-program
-    .option("-l, --locationsdir <dir>", "directory containing location data")
-    .action(build);
+program.option(
+    "-l, --locationsdir <dir>",
+    "directory containing location data",
+);
+program.option("--max-taxa <number>", "maximum number of taxa to include");
+program.action(build);
 
 await program.parseAsync();
 
@@ -34,6 +37,7 @@ async function build(options) {
                     outputBase + suffix,
                     path,
                     options.showFlowerErrors,
+                    options.maxTaxa,
                 );
             }
         }
@@ -43,6 +47,7 @@ async function build(options) {
             options.outputdir,
             options.datadir,
             options.showFlowerErrors,
+            options.maxTaxa,
         );
     }
 }
@@ -51,8 +56,9 @@ async function build(options) {
  * @param {string} outputDir
  * @param {string} dataDir
  * @param {boolean} showFlowerErrors
+ * @param {number|undefined} maxTaxa
  */
-async function buildBook(outputDir, dataDir, showFlowerErrors) {
+async function buildBook(outputDir, dataDir, showFlowerErrors, maxTaxa) {
     const errorLog = new ErrorLog(outputDir + "/errors.tsv");
 
     const taxa = new Taxa(
@@ -62,7 +68,7 @@ async function buildBook(outputDir, dataDir, showFlowerErrors) {
     );
 
     const config = new Config(dataDir);
-    const ebook = new PlantBook(outputDir, config, taxa);
+    const ebook = new PlantBook(outputDir, config, taxa, maxTaxa);
     await ebook.create();
     errorLog.write();
 }
