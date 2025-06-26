@@ -8,6 +8,7 @@ type PhotoRights = "CC0" | "CC BY" | "CC BY-NC" | "C" | null;
 
 type RefSourceCode =
     | "calflora"
+    | "calipc"
     | "calscape"
     | "cch"
     | "fna"
