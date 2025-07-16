@@ -59,16 +59,19 @@ Allenrolfea occidentalis,iodine bush,N,,,,,12469,171,58109,111472,true,Iodine Bu
 Allium acuminatum,taper tipped onion,N,,,,,12504,174,59782,201921,true,Taper Tipped Onion
 Allium amplectens,,N,,,,,12506,175,60267,201922,true,Narrow Leaved Onion
 Allium bolanderi var. bolanderi,Bolander's onion,N,,,,,53763,182,80339,211597,true,Bolander's Onion
+Allium campanulatum,dusky onion,N,bulb,pink,5,8
 Allium crispum,crinkled onion,N,,,,,12555,187,58351,201933,true,Crinkled Onion
 Allium diabolense,serpentine onion,N,,white,4,6,76528,189,75342,201937,true,Diablo Onion
 Allium falcifolium,sickle-leaved onion,N,,,,,12566,191,47356,201941,true,Scytheleaf Onion
 Allium neapolitanum,white garlic,X,,,,,12605,214,61475,201959,true
+Allium obtusum var. obtusum,subalpine onion,N,bulb,white,5,6
 Allium paniculatum var. paniculatum,,X,,,,,76535,219,75355,241440,true
 Allium peninsulare var. peninsulare,Mexicali onion,N,,,,,53816,225,80351,201966,true,Penisula Onion
 Allium serra,jeweled onion,N,,,,,12640,232,59784,207991,true,Jeweled Onion
 Allium sharsmithiae,Sharsmith's onion,N,,,,,76536,233,75364,231723,true,Sharsmith's Onion,,83,1B.3,,,S2,G2
 Allium triquetrum,three-cornered leek,X,,,,,12655,238,55505,201971,true
 Allium unifolium,one leaf onion,N,,,,,12657,240,59781,201972,true,One Leaf Onion
+Allium validum,swamp onion,N,bulb,"pink,white",6,8
 Allophyllum divaricatum,purple false gilia,N,,,,,12696,244,56738,62706,,Purple False Gilyflower
 Allophyllum gilioides subsp. gilioides,dense false gilia,N,,,,,49079,246,58962,94899
 Allophyllum gilioides subsp. violaceum,,N,,,,,49080,247,58963,201976,,Dense False Gilyflower
@@ -128,8 +131,8 @@ Aphyllon vallicola,hemp broom-rape,N,,,,,85145,14626,938507,416916,Orobanche val
 Apiastrum angustifolium,,N,,,,,13619,422,58777,202120,,Mock Parsley
 Apium graveolens,celery,X,,,,,13622,423,58788,202122
 Apium nodiflorum,,X,,,,,13623,424,332963,211138
-Apocynum androsaemifolium,dogbane,N,,,,,13635,425,47359,63062,,Bitter Dogbane
-Apocynum cannabinum,Indian-hemp,N,,,,,13639,426,58795,63063,,Indianhemp Dogbane
+Apocynum androsaemifolium,dogbane,N,perennial,white,5,10,13635,425,47359,63062,,Bitter Dogbane
+Apocynum cannabinum,Indian-hemp,N,perennial,,,,13639,426,58795,63063,,Indianhemp Dogbane
 Aquilegia eximia,,N,,,,,13665,429,57230,10123,true,Van Houtte's Columbine
 Aquilegia formosa,,N,,,,,13668,430,48244,10126,true,Western Columbine
 Arabidopsis thaliana,mouse-ear cress,X,,,,,13682,433,55021,10153,true
@@ -1117,6 +1120,10 @@ Lupinus concinnus,Bajada lupine,N,,,,,31835,5129,58901,24863,,Elegant Lupine
 Lupinus formosus var. formosus,"summer lupine,western lupine",N,perennial,blue,4,9,61315,5148,61822,49175,,Summer Lupine
 Lupinus latifolius var. dudleyi,,N,,,,,76660,5161,81063,49195,,Broadleaf Lupine
 Lupinus latifolius var. latifolius,"broadleaf lupine,wood lupine",N,perennial,blue,4,9,75772,5162,64242,204794,,Broad Leaf Lupine
+Lupinus lepidus,dwarf lupine,N,perennial,blue
+Lupinus lepidus var. confertus
+Lupinus lepidus var. lobbii
+Lupinus lepidus var. sellulus
 Lupinus littoralis var. variicolor,,N,,,,,80538,14304,,49237
 Lupinus luteolus,butter lupine,N,,,,,31956,5176,77875,25020,,Pale Yellow Lupine
 Lupinus microcarpus var. densiflorus,,N,annual,"yellow,white",4,6,76668,5184,57058,49248,,Dense Flowered Platycarpos
@@ -1317,6 +1324,7 @@ Pennisetum setaceum,fountain grass,X,,,,,36827,6133,430581,146423,true,,penniset
 Pennisetum villosum,,X,,,,,36829,6134,430578,146437,true,,pennisetum-villosum-profile
 Penstemon centranthifolius,scarlet bugler,N,,,,,36894,6146,56752,73715,true,Scarlet Bugler
 Penstemon deustus var. deustus,hot rock penstemon,N,perennial,white,5,7,63245,10192,81191,99110,true,Scabland Penstemon
+Penstemon deustus var. pedicellatus,hot rock penstemon,N,perennial,white,5,7
 Penstemon heterodoxus var. heterodoxus,Sierra penstemon,N,perennial,purple,7,8,76771,6174,81203,99147,true,Sierra Beardtongue
 Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,perennial,purple,4,7,75906,6178,51852,99150,true,Foothill Penstemon
 Penstemon heterophyllus var. purdyi,foothill penstemon,N,perennial,purple,5,6,76773,6179,81205,99151,true,Purdy's Foothill Penstemon
@@ -1542,6 +1550,7 @@ Rhamnus crocea,spiny redberry,N,,,,,41069,7075,57243,29736,true,Spiny Redberry
 Rhamnus ilicifolia,holly-leaf redberry,N,,,,,41070,7076,58308,29743,true,Hollyleaf Redberry
 Rhaponticum repens,Russian knapweed,X,,,,,103802,13621,339502,201832,Acroptilon repens,,acroptilon-repens-profile
 Rhinotropis californica,California milkwort,N,,,,,107535,14636,876453,265222,true
+Rhodiola integrifolia subsp. integrifolia,western roseroot,N,perennial,red,5,8
 Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,,Fragrant Sumac
 Ribes amarum,bitter gooseberry,N,,,,,41372,7099,53433,29899,true,Bitter Gooseberry
 Ribes aureum var. gracillimum,golden currant,N,perennial,yellow,2,5,65126,7104,55547,51084,true,Golden Currant

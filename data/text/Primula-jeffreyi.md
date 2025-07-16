@@ -1,1 +1,1 @@
-Stem hairy and glandular.
+Stem hairy and glandular. Intergrades with _P. tetrandra_.
