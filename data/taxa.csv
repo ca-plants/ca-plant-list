@@ -544,6 +544,7 @@ Cytisus scoparius,Scotch broom,X,,,,,22199,2601,48538,16767,,,cytisus-scoparius-
 Cytisus striatus,,X,,,,,22200,2602,76598,16770,,,cytisus-striatus-profile
 Dactylis glomerata,orchard grass,X,,,,,22210,2603,52720,138886,true,,dactylis-glomerata-profile
 Danthonia californica,California oatgrass,N,,,,,22319,2610,57165,138931,true,California Oatgrass
+Dasiphora fruticosa,shrubby cinquefoil,N,perennial,6,9
 Datisca glomerata,durango root,N,perennial,yellow,5,7,22377,2618,58888,16996,true,Durango Root
 Datura stramonium,jimson weed,X,,,,,22387,2621,55854,67400
 Datura wrightii,"sacred datura,angel's trumpet",U,"annual,perennial",white,4,10,22389,2622,58331,67403,,Sacred Datura
@@ -955,6 +956,8 @@ Isoetes howellii,Howell's quillwort,N,,,,,29392,4379,63823,199150,,Howell's Quil
 Isolepis carinata,,N,,,,,80405,9608,77515,104671,true,Keeled Bulrush
 Isolepis cernua,,N,,,,,79218,9605,60257,104672,true,Annual Tule
 Iva axillaris,poverty weed,N,,,,,3654,10020,58837,204449,true,Poverty Weed
+Ivesia gordonii,Gordon's mousetail,N,perennial,yellow,6,9
+Ivesia santolinoides,Sierra mousetail,N,perennial,white,6,9
 Jacobaea vulgaris subsp. vulgaris,tansy ragwort,X,,,,,82779,7508,487101,205893,Senecio jacobaea
 Jaumea carnosa,,N,,,,,3667,4424,60969,204476,true,Fleshy Jaumea
 Juglans californica,Southern California black walnut,N,,,,,29566,4428,54503,23676,true,Southern California Black Walnut,,1704,4.2,,,S4,G4
@@ -1470,6 +1473,9 @@ Potamogeton nodosus,,N,,,,,39595,6817,59108,205619,true,Long-leaved Pondweed
 Potamogeton pusillus,,N,,,,,39612,6820,78714,205623,true,Small Pondweed
 Potamogeton zosteriformis,,N,,,,,39646,6825,78717,208653,true,Eel-grass Pondweed,,1750,2B.2,,,S3,G5
 Potentilla anserina subsp. pacifica,,N,,,,,52485,6828,524900,205630,true,Pacific Potentilla
+Potentilla flabellifolia,fan-foil,N,perennial,yellow,7,9
+Potentilla gracilis var. fastigiata,Nuttall's Cinquefoil,N,perennial,yellow,6,9
+Potentilla grayi,Gray's Cinquefoil,N,perennial,yellow,7,9
 Potentilla rivalis,river cinquefoil,N,,,,,39786,6868,78740,28731,true,Brook
 Poterium sanguisorba,burnet,X,,,,,91917,11953,55736,28806,true
 Primula clevelandii var. gracilis,,N,,,,,98403,13220,487172,99504,Dodecatheon clevelandii var. gracile,Padre's Shootingstar
@@ -1680,6 +1686,7 @@ Setaria parviflora,marsh brittlegrass,N,,,,,44257,11079,79068,148658,true,Knotro
 Setaria pumila subsp. pumila,yellow brittlegrass,X,,,,,89130,9227,80195,167729,true
 Setaria viridis,green brittlegrass,X,,,,,44277,7540,79070,148715,true
 Sherardia arvensis,field madder,X,,,,,44299,7542,47691,75982
+Sibbaldia procumbens,creeping sibbaldia,N,perennial,yellow,6,8
 Sidalcea diploscypha,fringed checkerbloom,N,annual,pink,4,5,44415,7553,57139,32180,true,Fringed Checkerbloom
 Sidalcea malviflora subsp. laciniata,checker mallow,N,,pink,3,6,52986,7568,61195,205941,true,Dwarf Checkerbloom
 Sidalcea malviflora subsp. malviflora,checker mallow,N,,,,,52987,7569,61041,43800,true,Checker Mallow
