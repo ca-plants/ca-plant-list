@@ -94,7 +94,8 @@ Amaranthus retroflexus,rough pigweed,X,,,,,12941,283,58776,111637,true
 Amaryllis belladonna,naked-lady,X,,,,,12964,8632,61827,201987
 Ambrosia chamissonis,beach-bur,N,,,,,812,292,71135,202002,true,Beach Bur
 Ambrosia psilostachya,western ragweed,N,,,,,12969,298,60129,202010,true,Western Ragweed
-Amelanchier utahensis,service-berry,N,,,,,13008,304,61099,9742,true,Service Berry
+Amelanchier alnifolia var. pumila,dwarf serviceberry,N,perennial,white,5,6
+Amelanchier utahensis,service-berry,N,perennial,white,4,6,13008,304,61099,9742,true,Service Berry
 Ammannia coccinea,,N,,,,,13031,306,60210,9763,true,Valley Redstem
 Amsinckia douglasiana,,N,,,,,13126,321,58047,202025,,Douglas' Fiddleneck,,3270,4.2,,,S4,G4
 Amsinckia eastwoodiae,,N,,,,,13127,322,75422,202026,,Eastwood's Fiddleneck
@@ -1316,6 +1317,7 @@ Oxalis oregana,Oregon wood sorrel,N,perennial,white,2,10,35641,6015,47757,27000,
 Oxalis pes-caprae,Bermuda-buttercup,X,,yellow,1,5,35642,6016,53169,27001,true,,oxalis-pes-caprae-profile
 Oxalis pilosa,hairy wood sorrel,N,,yellow,2,9,35601,11895,78300,27002,true,Radishroot Woodsorrel
 Oxalis smalliana,redwood sorrel,N,perennial,"white,pink,blue",1,8,8615,14752,1464017,416928
+Oxyria digyna,alpine sorrel,N,perennial,,7,9
 Packera breweri,Brewer groundsel,N,,,,,77383,9613,56983,205206,true,Groundsel
 Panicum acuminatum,Pacific panic grass,N,,,,,35923,6044,128949,144112,Dichanthelium acuminatum,Western Panicgrass
 Panicum capillare,witchgrass,N,,,,,36094,6048,78337,144296,true,Witch Grass
