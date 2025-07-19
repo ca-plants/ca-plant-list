@@ -1915,9 +1915,12 @@ Vicia villosa subsp. villosa,hairy vetch,X,,,,,53359,8276,57315,44086
 Vinca major,greater periwinkle,X,,,,,48131,8280,53326,78696,,,vinca-major-profile
 Viola adunca subsp. adunca,western blue violet,N,,,,,79074,11116,53328,207979,Viola adunca var. adunca,Hookedspur Violet
 Viola douglasii,Douglas violet,N,,yellow,2,7,48202,8288,79508,34682,true,Douglas' Violet
-Viola glabella,stream violet,N,,,,,48214,8289,71113,34696,true,Pioneer Violet
+Viola glabella,stream violet,N,perennial,yellow,3,8,48214,8289,71113,34696,true,Pioneer Violet
+Viola macloskeyi,Macloskey's violet,N,perennial,white,3,9
 Viola ocellata,western heart's ease,N,,white,3,7,48259,8297,61782,34736,true,Western Heart's Ease
 Viola pedunculata,johnny-jump-up,N,,yellow,2,4,48273,8300,50825,34748,true,Johnny Jump Up
+Viola pinetorum subsp. pinetorum,mountain yellow violet,N,perennial,yellow,5,7
+Viola purpurea subsp. integrifolia,mountain violet,N,perennial,yellow,5,8
 Viola purpurea subsp. purpurea,mountain violet,N,perennial,yellow,3,7,53409,8312,80281,44144,Viola purpurea var. purpurea,Goosefoot Violet
 Viola purpurea subsp. quercetorum,oakwoods violet,N,perennial,yellow,2,7,53410,8313,80282,44145,Viola quercetorum,Goosefoot Violet
 Viola sempervirens,evergreen violet,N,,,,,48307,8315,55342,34777,true,Redwood Violet
