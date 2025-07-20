@@ -94,7 +94,7 @@ Amaranthus retroflexus,rough pigweed,X,,,,,12941,283,58776,111637,true
 Amaryllis belladonna,naked-lady,X,,,,,12964,8632,61827,201987
 Ambrosia chamissonis,beach-bur,N,,,,,812,292,71135,202002,true,Beach Bur
 Ambrosia psilostachya,western ragweed,N,,,,,12969,298,60129,202010,true,Western Ragweed
-Amelanchier alnifolia var. pumila,dwarf serviceberry,N,perennial,white,5,6
+Amelanchier alnifolia var. pumila,dwarf serviceberry,N,perennial,white,5,6,,,80359
 Amelanchier utahensis,service-berry,N,perennial,white,4,6,13008,304,61099,9742,true,Service Berry
 Ammannia coccinea,,N,,,,,13031,306,60210,9763,true,Valley Redstem
 Amsinckia douglasiana,,N,,,,,13126,321,58047,202025,,Douglas' Fiddleneck,,3270,4.2,,,S4,G4
@@ -472,7 +472,7 @@ Collinsia parviflora,blue-eyed mary,N,annual,blue,3,7,20000,2285,59013,65288,tru
 Collinsia sparsiflora var. collina,,N,,,,,56722,2290,57290,97227,true,Spinster's Blue Eyed Mary
 Collinsia sparsiflora var. sparsiflora,,N,,,,,56723,2291,64295,97228,true,Spinster's Blue Eyed Mary
 Collinsia tinctoria,,N,,,,,20008,2293,51850,65294,true,Sticky Chinese Houses
-Collinsia torreyi,Torrey's blue-eyed Mary,N,annual,blue,5,8
+Collinsia torreyi,Torrey's blue-eyed Mary,N,annual,blue,5,8,,,76414
 Collomia diversifolia,serpentine collomia,N,,,,,20020,2299,62230,65306,,Serpentine Collomia,,126,4.3,,,S4,G4
 Collomia grandiflora,large-flowered collomia,N,annual,orange,4,6,20021,2300,61871,65307,,Large Flowered Collomia
 Collomia heterophylla,,N,,,,,20022,2301,52996,65308,,Variable-leaf Collomia
@@ -699,13 +699,13 @@ Eriastrum pluriflorum,many-flowered eriastrum,N,,,,,24595,3065,58239,68581,,Many
 Ericameria arborescens,golden-fleece,N,,,,,2583,3071,63924,203595,true,Golden Fleece
 Ericameria linearifolia,interior goldenbush,N,,,,,2598,3085,57971,203609,true,Linear Leaved Goldenbush
 Ericameria nauseosa var. mohavensis,rabbitbrush,N,,,,,80505,11665,57936,203611,true,Mojave Rabbitbrush
-Erigeron algidus,Sierra fleabane,N,perennial,"white,pink,purple",7,8
+Erigeron algidus,Sierra fleabane,N,perennial,"white,pink,purple",7,8,,,76895
 Erigeron bonariensis,,X,,,,,2305,11666,76904,203634,Conyza bonariensis
 Erigeron canadensis,horseweed,N,,,,,2312,11667,76907,203035,Conyza canadensis,Horseweed
 Erigeron compositus,cut-leaf fleabane,N,perennial,white,5,9,2650,3121,76912,203641,true,Cut Leaved Daisy
 Erigeron foliosus var. franciscensis,,N,,,,,58408,3137,80740,208034,true,Franciscan Erigeron
 Erigeron glacialis var. glacialis,subalpine fleabane,N,perennial,"white,purple",7,9,82188,10882,80743,210706,true,Wandering Daisy
-Erigeron coulteri,Coulter's fleabane,N,perennial,white,7,9
+Erigeron coulteri,Coulter's fleabane,N,perennial,white,7,9,,,76914
 Erigeron petrophilus var. petrophilus,,N,,,,,58427,3159,58825,203681,true,Rockloving Erigeron
 Erigeron philadelphicus var. philadelphicus,,N,,white,5,6,7324,9105,80752,203683,true,Philadelphia Fleabane
 Erigeron reductus var. angustatus,,N,,,,,58431,3166,80754,211702,true
@@ -1269,7 +1269,7 @@ Najas guadalupensis subsp. guadalupensis,common water-nymph,N,,,,,80549,10142,80
 Najas marina,holly-leaved water-nymph,N,,,,,34357,5744,78164,205043,true,Holly-leaved Water-nymph
 Narcissus pseudonarcissus,daffodil,X,,,,,34403,8637,55848,207110,true
 Narcissus tazetta,daffodil,X,,,,,34404,8638,56027,205060,true
-Narthecium californicum,California bog asphodel,N,perennial,yellow,7,8
+Narthecium californicum,California bog asphodel,N,perennial,yellow,7,8,,,51877
 Nasturtium officinale,water cress,N,,,,,34435,9597,78174,26443,true,Watercress
 Navarretia atractyloides,holly-leaf navarretia,N,,purple,5,7,34444,5768,58251,72732,,Holly Leaf Navarretia
 Navarretia cotulifolia,cotula navarretia,N,,,,,34446,5770,60224,72736,,Cotula Navarretia,,1981,4.2,,,S4,G4
@@ -1320,7 +1320,7 @@ Oxalis oregana,Oregon wood sorrel,N,perennial,white,2,10,35641,6015,47757,27000,
 Oxalis pes-caprae,Bermuda-buttercup,X,,yellow,1,5,35642,6016,53169,27001,true,,oxalis-pes-caprae-profile
 Oxalis pilosa,hairy wood sorrel,N,,yellow,2,9,35601,11895,78300,27002,true,Radishroot Woodsorrel
 Oxalis smalliana,redwood sorrel,N,perennial,"white,pink,blue",1,8,8615,14752,1464017,416928
-Oxyria digyna,alpine sorrel,N,perennial,,7,9
+Oxyria digyna,alpine sorrel,N,perennial,,7,9,,,67591
 Packera breweri,Brewer groundsel,N,,,,,77383,9613,56983,205206,true,Groundsel
 Panicum acuminatum,Pacific panic grass,N,,,,,35923,6044,128949,144112,Dichanthelium acuminatum,Western Panicgrass
 Panicum capillare,witchgrass,N,,,,,36094,6048,78337,144296,true,Witch Grass
@@ -1642,7 +1642,7 @@ Salix gooddingii,Goodding's black willow,N,,,,,42825,7272,60240,31274,true,Goodd
 Salix laevigata,red willow,N,,,,,42850,7276,58319,31302,true,Red Willow
 Salix lasiandra var. lasiandra,Pacific willow,N,,,,,76043,11065,81358,51640,true,Yellow Willow
 Salix lasiolepis,arroyo willow,N,perennial,yellow,1,6,42855,7277,53452,31307,true,Arroyo Willow
-Salix lemmonii,Lemmon's willow,N,perennial,yellow,5,6
+Salix lemmonii,Lemmon's willow,N,perennial,yellow,5,6,,,78944
 Salix melanopsis,dusky willow,N,,,,,42881,7284,78947,31332,true,Dusky Willow
 Salix scouleriana,Scouler's willow,N,perennial,yellow,2,6,42973,7289,71076,31425,true,Scouler's Willow
 Salix sitchensis,Sitka willow,N,,,,,42994,7291,61100,31435,true,Sitka Willow
