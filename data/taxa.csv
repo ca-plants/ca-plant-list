@@ -468,10 +468,11 @@ Collinsia bartsiifolia var. bartsiifolia,,N,,,,,56710,2272,80607,97215,true,Whit
 Collinsia bartsiifolia var. davidsonii,,N,,,,,56711,2273,58330,97216,true,Davidson's Blue Eyed Mary
 Collinsia bartsiifolia var. stricta,,N,,,,,56713,9818,80608,97218,true,White Blue Eyed Mary
 Collinsia heterophylla var. heterophylla,Chinese houses,N,,"white,purple",3,6,56716,9819,48727,97221,true,Purple Chinese Houses
-Collinsia parviflora,blue-eyed mary,N,,,,,20000,2285,59013,65288,true,Blue-eyed Mary
+Collinsia parviflora,blue-eyed mary,N,annual,blue,3,7,20000,2285,59013,65288,true,Blue-eyed Mary
 Collinsia sparsiflora var. collina,,N,,,,,56722,2290,57290,97227,true,Spinster's Blue Eyed Mary
 Collinsia sparsiflora var. sparsiflora,,N,,,,,56723,2291,64295,97228,true,Spinster's Blue Eyed Mary
 Collinsia tinctoria,,N,,,,,20008,2293,51850,65294,true,Sticky Chinese Houses
+Collinsia torreyi,Torrey's blue-eyed Mary,N,annual,blue,5,8
 Collomia diversifolia,serpentine collomia,N,,,,,20020,2299,62230,65306,,Serpentine Collomia,,126,4.3,,,S4,G4
 Collomia grandiflora,large-flowered collomia,N,annual,orange,4,6,20021,2300,61871,65307,,Large Flowered Collomia
 Collomia heterophylla,,N,,,,,20022,2301,52996,65308,,Variable-leaf Collomia
@@ -1640,9 +1641,10 @@ Salix exigua var. hindsiana,Hind's willow,N,,,,,81242,11063,64195,51553,true,San
 Salix gooddingii,Goodding's black willow,N,,,,,42825,7272,60240,31274,true,Goodding's Black Willow
 Salix laevigata,red willow,N,,,,,42850,7276,58319,31302,true,Red Willow
 Salix lasiandra var. lasiandra,Pacific willow,N,,,,,76043,11065,81358,51640,true,Yellow Willow
-Salix lasiolepis,arroyo willow,N,perennial,,1,6,42855,7277,53452,31307,true,Arroyo Willow
+Salix lasiolepis,arroyo willow,N,perennial,yellow,1,6,42855,7277,53452,31307,true,Arroyo Willow
+Salix lemmonii,Lemmon's willow,N,perennial,yellow,5,6
 Salix melanopsis,dusky willow,N,,,,,42881,7284,78947,31332,true,Dusky Willow
-Salix scouleriana,Scouler's willow,N,,,,,42973,7289,71076,31425,true,Scouler's Willow
+Salix scouleriana,Scouler's willow,N,perennial,yellow,2,6,42973,7289,71076,31425,true,Scouler's Willow
 Salix sitchensis,Sitka willow,N,,,,,42994,7291,61100,31435,true,Sitka Willow
 Salpichroa origanifolia,,X,,,,,43020,7292,78954,75594,,,salpichroa-origanifolia-profile
 Salsola australis,,X,,,,,43028,12003,78955,119057
