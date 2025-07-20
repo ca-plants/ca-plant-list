@@ -1,1 +1,1 @@
-Stem not hairy.
+Stem not hairy. Intergrades with _P. jeffreyi_.

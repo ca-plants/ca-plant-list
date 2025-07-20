@@ -12,6 +12,10 @@ program.option(
     "-l, --locationsdir <dir>",
     "directory containing location data",
 );
+program.option(
+    "--location <name>",
+    "name of location to generate (otherwise all ebooks will be generated)",
+);
 program.option("--max-taxa <number>", "maximum number of taxa to include");
 program.action(build);
 
@@ -29,6 +33,11 @@ async function build(options) {
         const outputBase = options.outputdir;
         const subdirs = Files.getDirEntries(locationsDir);
         for (const subdir of subdirs) {
+            // If a single location was specified, ignore the others.
+            if (options.location && subdir !== options.location) {
+                continue;
+            }
+
             console.log("Generating " + subdir);
             const suffix = "/" + subdir;
             const path = locationsDir + suffix;

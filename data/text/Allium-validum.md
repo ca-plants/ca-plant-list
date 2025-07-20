@@ -1,0 +1,1 @@
+Stamens protruding beyond petals.

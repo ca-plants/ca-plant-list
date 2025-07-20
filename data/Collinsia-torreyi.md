@@ -1,0 +1,1 @@
+Inflorescence densely glandular.

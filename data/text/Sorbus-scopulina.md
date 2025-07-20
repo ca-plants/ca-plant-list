@@ -1,0 +1,1 @@
+Hairs whitish.
