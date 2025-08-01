@@ -42,7 +42,8 @@ Adiantum jordanii,California maidenhair,N,,,,,11955,102,56032,196934,true,Califo
 Aegilops triuncialis,barbed goatgrass,X,,,,,11997,107,60272,134011,true,,aegilops-triuncialis-profile
 Aesculus californica,California buckeye,N,perennial,white,,,12026,111,53348,9383,,California Buckeye
 Agastache urticifolia,giant hyssop,N,perennial,pink,6,8,,,63316
-Ageratina adenophora,,X,,,,,735,117,64114,201878,true,,ageratina-adenophora-profile
+Ageratina adenophora,Crofton weed,X,perennial,white,1,12,735,117,64114,201878,true,,ageratina-adenophora-profile
+Ageratina occidentalis,western Snakeroot,N,perennial,"white,pink",6,10
 Agoseris apargioides var. apargioides,,N,,,,,6310,122,58797,201889,true,Coast Dandelion
 Agoseris grandiflora var. grandiflora,big mountain dandelion,N,perennial,yellow,4,7,79217,10490,80331,201900,true,Giant Mountain Dandelion
 Agoseris heterophylla var. cryptopleura,mountain dandelion,N,annual,yellow,5,6,6324,10758,80333,206485,true
@@ -82,6 +83,8 @@ Allium validum,swamp onion,N,bulb,"pink,white",6,8,,,75370
 Allophyllum divaricatum,purple false gilia,N,,,,,12696,244,56738,62706,,Purple False Gilyflower
 Allophyllum gilioides subsp. gilioides,dense false gilia,N,,,,,49079,246,58962,94899
 Allophyllum gilioides subsp. violaceum,,N,,,,,49080,247,58963,201976,,Dense False Gilyflower
+Allotropa virgata,sugarstick,N,perennial,white,6,8
+Alnus incana subsp. tenuifolia,mountain alder,N,perennial,,4,6
 Alnus rhombifolia,white alder,N,,,,,12722,252,53351,9639,true,White Alder
 Alnus rubra,red alder,N,,,,,12723,253,56034,9640,true,Red Alder
 Alopecurus myosuroides,slender meadow foxtail,X,,,,,12751,261,75383,134798,true
@@ -116,7 +119,9 @@ Ancistrocarphus filagineus,woolly fishhook,N,,,,,849,345,50795,202048,true,Wooll
 Androsace elongata subsp. acuta,,N,,,,,49111,348,58299,202050,true,California Androsace,,1799,4.2,,,S3S4,G5?T3T4
 Anemone occidentalis,white pasqueflower,N,perennial,white,5,9,13385,357,60482,9882,true,Western Pasque Flower
 Anemopsis californica,yerba mansa,N,,,,,13392,360,60241,9906,true,Yerba Mansa
+Angelica breweri,Brewer's angelica,N,perennial,white,6,8
 Angelica californica,,N,,,,,13406,364,75448,211125,,California Angelica
+Angelica capitellata,ranger's buttons,N,perennial,white,7,8
 Anisocarpus madioides,,N,,,,,77551,10770,53137,202061,true,Woodland Madia
 Antennaria media,Rocky Mountain pussytoes,N,perennial,white,7,8,935,383,75466,202065,true,Alpine Pussytoes
 Antennaria rosea subsp. rosea,rosy pussytoes,N,perennial,"white,pink",6,8,5718,388,79575,211615,true,Rosy Pussytoes
@@ -129,11 +134,12 @@ Antirrhinum thompsonii,Sierra snapdragon,N,,pink,4,8,108978,14286,168306,207994,
 Antirrhinum vexillocalyculatum subsp. vexillocalyculatum,,N,annual,purple,6,8,88873,10499,840919,206530,Sairocarpus vexillocalyculatus subsp. vexillocalyculatus
 Aphanes occidentalis,western lady's mantle,N,annual,,3,5,13608,420,1452907,10074,true,Lady's Mantle
 Aphyllon californicum subsp. jepsonii,,N,,,,,103325,13438,802459,202108,Orobanche californica subsp. jepsonii
+Aphyllon corymbosum,flat-top broomrape,N,annual,"pink,purple",6,8
 Aphyllon epigalium subsp. epigalium,,N,,,,,103327,13527,809377,211137
 Aphyllon fasciculatum,clustered broom-rape,N,,,,,100018,13441,802543,63056,Orobanche fasciculata
 Aphyllon franciscanum,"yellow clustered broom-rape,Franciscan broom-rape",N,,,,,84892,14625,1303043,399790
 Aphyllon pinorum,pinewoods broom-rape,N,,,,,13618,13445,802557,63057,Orobanche pinorum
-Aphyllon purpureum,naked broom-rape,N,,,,,103312,13529,739040,202115,Orobanche uniflora subsp. occidentalis
+Aphyllon purpureum,naked broom-rape,N,annual,purple,3,7,103312,13529,739040,202115,Orobanche uniflora subsp. occidentalis
 Aphyllon tuberosum,bulbous broom-rape,N,,,,,13614,13446,809373,63058,Orobanche bulbosa
 Aphyllon vallicola,hemp broom-rape,N,,,,,85145,14626,938507,416916,Orobanche vallicola
 Apiastrum angustifolium,,N,,,,,13619,422,58777,202120,,Mock Parsley
@@ -356,11 +362,14 @@ Carpobrotus edulis,freeway iceplant,X,,,,,17975,1660,49322,112322,true,,carpobro
 Castilleja affinis subsp. affinis,Indian paintbrush,N,,red,,,70068,1669,50043,95113,Castilleja affinis var. affinis,Coast Indian Paintbrush
 Castilleja ambigua subsp. ambigua,johnny-nip,N,,,,,49732,1673,61110,95117,Castilleja ambigua var. ambigua,Johnny-nip,,3361,4.2,,,S3S4,G5T4
 Castilleja applegatei subsp. martinii,,N,,,,,76733,1679,1041230,95122,Castilleja martini var. martini,Wavyleaf Indian Paintbrush
+Castilleja applegatei subsp. pallida,Applegate's paintbrush,N,perennial,red,6,8
 Castilleja attenuata,valley tassels,N,annual,white,3,5,18175,1683,49341,64264,true,Valley Tassels
 Castilleja densiflora subsp. densiflora,owl's-clover,N,annual,purple,3,5,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover
 Castilleja exserta subsp. exserta,purple owl's-clover,N,annual,purple,3,5,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover
 Castilleja exserta subsp. latifolia,,N,annual,purple,3,5,49745,1696,61109,95135,Castilleja exserta var. latifolia,Purple Owl's Clover
 Castilleja foliolosa,woolly paintbrush,N,,red,,,18205,1698,56760,64309,true,Texas Paintbrush
+Castilleja miniata subsp. miniata,giant red paintbrush,N,perennial,red,5,9
+Castilleja nana,"dwarf paintbrush,alpine paintbrush",N,perennial,"yellow,green",7,8
 Castilleja rubicundula subsp. lithospermoides,cream sacs,N,,,,,49761,1729,57269,95159,Castilleja rubicundula var. lithospermoides,Cream Sacs
 Castilleja subinclusa subsp. franciscana,,N,,,,,76740,1733,53916,95162,Castilleja subinclusa var. franciscana,Longleaf Indian Paintbrush
 Castilleja subinclusa subsp. subinclusa,,N,,,,,74693,1734,53917,95163,Castilleja subinclusa var. subinclusa,Long Leaf Paintbrush
@@ -675,7 +684,8 @@ Ephedra californica,,N,,,,,24275,2972,57890,59599,true,California Jointfir
 Ephedra viridis,,N,,,,,24287,2979,57891,59617,true,Mountain Ephedra
 Epilobium brachycarpum,,N,,,,,24341,2983,52971,17879,true,Panicled Willow Herb
 Epilobium campestre,,N,,,,,89220,11649,76827,17882,true,Smooth Boisduvalia
-Epilobium canum subsp. canum,California fuschia,N,,,,,50302,2985,53044,42259,true,California Fuchsia
+Epilobium canum subsp. canum,California fuchsia,N,perennial,red,,,50302,2985,53044,42259,true,California Fuchsia
+Epilobium canum subsp. latifolium,California fuchsia,N,perennial,red,6,12
 Epilobium ciliatum subsp. ciliatum,willow-herb,N,,,,,50307,2989,53045,42264,true,Fringed Willowherb
 Epilobium ciliatum subsp. watsonii,,N,,,,,50309,2991,61047,42266,true,Fringed Willowherb
 Epilobium cleistogamum,,N,,,,,76883,2993,60219,17887,true,Selfing Willowherb
@@ -1227,6 +1237,7 @@ Mentzelia lindleyi,,N,,,,,33255,5432,53923,204917,true,Lindley's Blazing Star
 Mentzelia micrantha,,N,,,,,33259,5433,58933,204920,true,San Luis Blazingstar
 Mentzelia pectinata,,N,,,,,33274,5439,58198,204927,true,San Joaquin Blazingstar
 Mercurialis annua,annual mercury,X,,,,,33300,5450,68838,25939,true
+Mertensia ciliata var. stomatechoides,streamside bluebell,N,perennial,blue,6,8
 Mesembryanthemum nodiflorum,,X,,,,,33363,5461,71191,116177,true,,mesembryanthemum-nodiflorum-profile
 Micranthes californica,,N,,,,,91942,11841,78023,26022,true,California Saxifrage
 Micropus amphibolus,,N,,,,,33474,5462,78034,204946,true,Mount Diablo Cottonseed,,1507,3.2,,,S3S4,G3G4
@@ -1357,6 +1368,7 @@ Penstemon heterodoxus var. heterodoxus,Sierra penstemon,N,perennial,purple,7,8,7
 Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,perennial,purple,4,7,75906,6178,51852,99150,true,Foothill Penstemon
 Penstemon heterophyllus var. purdyi,foothill penstemon,N,perennial,purple,5,6,76773,6179,81205,99151,true,Purdy's Foothill Penstemon
 Penstemon newberryi var. newberryi,mountain pride,N,perennial,pink,6,8,76776,6192,52147,99181,true,Newberry's Penstemon
+Penstemon rydbergii var. oreocharis,"Rydberg's beardtongue,meadow penstemon",N,perennial,"blue,purple",5,8
 Pentachaeta alsinoides,tiny pygmy daisy,N,,,,,4273,6225,58844,205258,true,Tiny Pygmydaisy
 Pentachaeta exilis subsp. exilis,meager pygmy daisy,N,,,,,6171,6230,58846,205262,true,Meager Pygmydaisy
 Pentagramma triangularis,goldback fern,N,,,,,77119,6234,52676,199559,true,Goldenback Fern
