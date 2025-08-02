@@ -362,7 +362,7 @@ Carpobrotus edulis,freeway iceplant,X,,,,,17975,1660,49322,112322,true,,carpobro
 Castilleja affinis subsp. affinis,Indian paintbrush,N,,red,,,70068,1669,50043,95113,Castilleja affinis var. affinis,Coast Indian Paintbrush
 Castilleja ambigua subsp. ambigua,johnny-nip,N,,,,,49732,1673,61110,95117,Castilleja ambigua var. ambigua,Johnny-nip,,3361,4.2,,,S3S4,G5T4
 Castilleja applegatei subsp. martinii,,N,,,,,76733,1679,1041230,95122,Castilleja martini var. martini,Wavyleaf Indian Paintbrush
-Castilleja applegatei subsp. pallida,Applegate's paintbrush,N,perennial,red,6,8
+Castilleja applegatei subsp. pallida,Applegate's paintbrush,N,perennial,red,6,8,,,197080
 Castilleja attenuata,valley tassels,N,annual,white,3,5,18175,1683,49341,64264,true,Valley Tassels
 Castilleja densiflora subsp. densiflora,owl's-clover,N,annual,purple,3,5,49740,1691,61233,95130,Castilleja densiflora var. densiflora,Owl's Clover
 Castilleja exserta subsp. exserta,purple owl's-clover,N,annual,purple,3,5,49744,1695,59012,95134,Castilleja exserta var. exserta,Pale Purple Owlclover
@@ -1150,7 +1150,7 @@ Lupinus affinis,,N,,blue,3,5,31690,5095,77846,24759,,Fleshy Lupine
 Lupinus albifrons var. albifrons,bush lupine,N,,blue,3,6,61188,5099,53418,49040,,Silver Lupine
 Lupinus albifrons var. collinus,,N,,,,,61189,5100,61795,49041,,Silver Bush Lupine
 Lupinus arboreus,yellow bush lupine,N,,yellow,4,7,31731,5106,61010,24796,,Coastal Bush Lupine
-Lupinus argenteus var. meionanthus,silvery lupine,N,perennial,blue,7,8
+Lupinus argenteus var. meionanthus,silvery lupine,N,perennial,blue,7,8,,,62692
 Lupinus benthamii,spider lupine,N,,,,,31791,5117,59565,24816,,Spider Lupine
 Lupinus bicolor,miniature lupine,N,,blue,3,6,31793,5118,50614,24819,,Miniature Lupine
 Lupinus chamissonis,beach blue lupine,N,,,,,31831,5125,61011,24853,,Dune Bush Lupine
