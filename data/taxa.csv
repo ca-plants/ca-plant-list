@@ -713,7 +713,9 @@ Eriastrum pluriflorum subsp. pluriflorum,,N,,,,,50337,11660,79842,95384,,Many-fl
 Eriastrum pluriflorum,many-flowered eriastrum,N,,,,,24595,3065,58239,68581,,Many Flowered Eriastrum
 Ericameria arborescens,golden-fleece,N,,,,,2583,3071,63924,203595,true,Golden Fleece
 Ericameria linearifolia,interior goldenbush,N,,,,,2598,3085,57971,203609,true,Linear Leaved Goldenbush
+Ericameria nauseosa,rubber rabbitbrush,N,perennial,yellow
 Ericameria nauseosa var. mohavensis,rabbitbrush,N,,,,,80505,11665,57936,203611,true,Mojave Rabbitbrush
+Ericameria nauseosa var. speciosa,showy rabbitbrush,N,perennial,yellow,8,10
 Erigeron algidus,Sierra fleabane,N,perennial,"white,pink,purple",7,8,,,76895
 Erigeron bonariensis,,X,,,,,2305,11666,76904,203634,Conyza bonariensis
 Erigeron canadensis,horseweed,N,,,,,2312,11667,76907,203035,Conyza canadensis,Horseweed
@@ -1148,6 +1150,7 @@ Lupinus affinis,,N,,blue,3,5,31690,5095,77846,24759,,Fleshy Lupine
 Lupinus albifrons var. albifrons,bush lupine,N,,blue,3,6,61188,5099,53418,49040,,Silver Lupine
 Lupinus albifrons var. collinus,,N,,,,,61189,5100,61795,49041,,Silver Bush Lupine
 Lupinus arboreus,yellow bush lupine,N,,yellow,4,7,31731,5106,61010,24796,,Coastal Bush Lupine
+Lupinus argenteus var. meionanthus,silvery lupine,N,perennial,blue,7,8
 Lupinus benthamii,spider lupine,N,,,,,31791,5117,59565,24816,,Spider Lupine
 Lupinus bicolor,miniature lupine,N,,blue,3,6,31793,5118,50614,24819,,Miniature Lupine
 Lupinus chamissonis,beach blue lupine,N,,,,,31831,5125,61011,24853,,Dune Bush Lupine
@@ -1165,6 +1168,7 @@ Lupinus microcarpus var. densiflorus,,N,annual,"yellow,white",4,6,76668,5184,570
 Lupinus microcarpus var. microcarpus,chick lupine,N,annual,"pink,blue",3,6,75776,5186,58159,204796,,Valley Lupine
 Lupinus nanus,sky lupine,N,,blue,3,6,31978,5189,50612,25068,,Sky Lupine
 Lupinus pachylobus,big pod lupine,N,,,,,31998,5196,50613,25085,,Big Pod Lupine
+Lupinus polyphyllus var. burkei,Burke's lupine,N,perennial,blue,5,8
 Lupinus succulentus,arroyo lupine,N,annual,blue,2,5,32095,5217,56759,25190,,Succulent Lupine
 Luzula comosa var. comosa,wood rush,N,,,,,72790,11810,81079,204802,Luzula comosa
 Luzula macrantha,prairie woodrush,N,perennial,brown,4,7,100427,14739,890625,207042
@@ -1687,6 +1691,7 @@ Sanicula laciniata,,N,,,,,43175,7336,56841,205820,,Coastal Blacksnakeroot
 Sanicula maritima,adobe sanicle,N,,,,,43177,7337,57625,207269,,Adobe Sanicle,,721,1B.1,CR,,S2,G2
 Sanicula saxatilis,rock sanicle,N,,,,,43186,7339,57783,205823,,Diablo Sanicle,,1435,1B.2,CR,,S2,G2
 Sanicula tuberosa,,N,,,,,43190,7341,56842,205825,,Tuberous Sanicle
+Sarcodes sanguinea,snowplant,N,perennial,red,5,7
 Scabiosa atropurpurea,pincushion flower,X,,,,,43445,7374,372376,205831,,,scabiosa-atropurpurea-profile
 Scandix pecten-veneris,Venus' needle,X,,,,,43465,7376,56843,205833
 Schinus molle,Peruvian pepper-tree,X,,,,,43505,7378,57354,31759,,,schinus-molle-profile
