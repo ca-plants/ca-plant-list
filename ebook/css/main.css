@@ -1,48 +1,47 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 div.flr {
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
 }
 
 div.hdr {
-    display: flex;
-    column-gap: 2rem;
-    row-gap: .5rem;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  column-gap: 2rem;
+  row-gap: .5rem;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 div.section {
-    margin-bottom: .5rem;
+  margin-bottom: .5rem;
 }
 
 div.photos {
-    display: flex;
+  display: flex;
 }
 
 figure {
-    margin: auto;
+  margin: auto;
 }
 
 img.flr-color {
-    padding-right: .25rem;
-    width: 1rem;
+  padding-right: .25rem;
+  width: 1rem;
 }
 
 span.flr-time,
 span.lc {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 span.lcs {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-/* Glossary */
 div.glossary img {
-    max-height: 300px;
+  width: 100%
 }
