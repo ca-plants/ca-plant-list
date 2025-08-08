@@ -862,6 +862,7 @@ Garrya flavescens,ashy silk tassel,N,,,,,26462,3749,56201,69029,true,Ashy Silkta
 Garrya fremontii,silk tassel bush,N,,,,,26464,3750,56202,69031,true,Bearbrush
 Gastridium phleoides,nit grass,X,,,,,81267,9978,77225,141354,true
 Gaultheria shallon,salal,N,,,,,26490,3755,48441,69100,true,Salal
+Gayophytum diffusum subsp. parviflorum,groundsmoke,N,annual,white,5,9
 Genista monspessulana,French broom,X,,,,,26558,3774,53403,22307,,,genista-monspessulana-profile
 Gentiana calycosa,"explorers' gentian,mountain bog gentian",N,perennial,"blue,purple",7,9,26579,3779,56350,69137,,Rainier Pleated Gentian
 Gentiana newberryi var. tiogana,Tioga gentian,N,perennial,"white,blue",7,9,59443,3783,80907,98001,,Tioga Gentian
@@ -889,7 +890,7 @@ Glinus lotoides,,X,,,,,27053,3922,77283,114515,true
 Glyceria declinata,waxy mannagrass,X,,,,,27072,9343,77288,141402,true,,glyceria-declinata-profile
 Glyceria leptostachya,narrow mannagrass,N,,,,,27079,3929,77292,141421,true,Narrow Manna Grass
 Glycyrrhiza lepidota,wild licorice,N,,,,,27117,3933,58896,22506,,Wild Licorice
-Gnaphalium palustre,lowland cudweed,N,,,,,3082,3946,57980,204019,true,Western Marsh Cudweed
+Gnaphalium palustre,lowland cudweed,N,annual,white,5,10,3082,3946,57980,204019,true,Western Marsh Cudweed
 Gratiola ebracteata,bractless hedge hyssop,N,,,,,27292,3952,77300,69880,true,Bractless Hedge-hyssop
 Grindelia camporum,,N,,yellow,,,3099,3956,56953,206865,,Great Valley Gumweed
 Grindelia hirsutula,,N,,yellow,,,3107,3960,55364,204046,true,Gumweed
@@ -970,6 +971,7 @@ Hosackia stipularis var. stipularis,,N,,,,,91763,11760,80965,48548,,Balsam Bird'
 Hydrocotyle ranunculoides,,N,,,,,28607,4281,60951,204352,,Floating Marsh Pennywort
 Hydrocotyle verticillata,,N,,,,,28611,4284,60121,204354,,Whorled Marsh Pennywort
 Hydrophyllum occidentale,western waterleaf,N,,,,,28634,4287,77471,204358,,California Waterleaf
+Hypericum anagalloides,tinker's penny,N,"annual,perennial",yellow,5,9
 Hypericum androsaemum,,X,,,,,77418,8601,77480,23356,,,hypericum-androsaemum-profile
 Hypericum perforatum subsp. perforatum,Klamath weed,X,,,,,91766,11762,79949,206926,true
 Hypericum scouleri,St. John's wort,N,,,,,28801,11763,77484,23433,true,Scouler's St. Johnswort
@@ -1161,7 +1163,7 @@ Lupinus latifolius var. dudleyi,,N,,,,,76660,5161,81063,49195,,Broadleaf Lupine
 Lupinus latifolius var. latifolius,"broadleaf lupine,wood lupine",N,perennial,blue,4,9,75772,5162,64242,204794,,Broad Leaf Lupine
 Lupinus lepidus,dwarf lupine,N,perennial,blue,,,31941,,62689,,,Pacific Lupine
 Lupinus lepidus var. confertus,,N,,,,,61358,5166,81066,,,Crowded Lupine
-Lupinus lepidus var. lobbii,,N,,,,,61363,5168,81068,,,Donner Lake Lupine
+Lupinus lepidus var. lobbii,Lobb's dwarf lupine,N,perennial,blue,6,8,61363,5168,81068,,,Donner Lake Lupine
 Lupinus lepidus var. sellulus,,N,,,,,61365,5170,81070,,,Stool Lupine
 Lupinus littoralis var. variicolor,,N,,,,,80538,14304,,49237
 Lupinus luteolus,butter lupine,N,,,,,31956,5176,77875,25020,,Pale Yellow Lupine
@@ -1244,6 +1246,7 @@ Mentzelia pectinata,,N,,,,,33274,5439,58198,204927,true,San Joaquin Blazingstar
 Mercurialis annua,annual mercury,X,,,,,33300,5450,68838,25939,true
 Mertensia ciliata var. stomatechoides,streamside bluebell,N,perennial,blue,6,8,61894,5453,81103,,,Streamside Bluebell
 Mesembryanthemum nodiflorum,,X,,,,,33363,5461,71191,116177,true,,mesembryanthemum-nodiflorum-profile
+Micranthes bryophora,bud saxifrage,N,perennial,white,7,8
 Micranthes californica,,N,,,,,91942,11841,78023,26022,true,California Saxifrage
 Micropus amphibolus,,N,,,,,33474,5462,78034,204946,true,Mount Diablo Cottonseed,,1507,3.2,,,S3S4,G3G4
 Micropus californicus var. californicus,slender cottonweed,N,annual,white,3,6,7993,5464,58030,204950,true,Cottontop
@@ -1357,7 +1360,10 @@ Paspalum dilatatum,Dallis grass,X,,,,,36384,6083,60295,145745,true
 Paspalum distichum,,N,,,,,36387,6084,60297,145752,true,Knotgrass
 Passiflora tarminiana,banana passion vine,X,,,,,81250,8666,78358,27330,true,,passiflora-tarminiana-profile
 Pectocarya penicillata,sleeping combseed,N,,,,,36530,6092,58059,205233,,Northern Pectocarya
-Pedicularis densiflora,warrior's plume,N,,,,,36567,6103,49645,73598,true,Warrior's Plume
+Pedicularis attollens,little elephant's head,N,perennial,pink,6,9
+Pedicularis densiflora,warrior's plume,N,perennial,red,,,36567,6103,49645,73598,true,Warrior's Plume
+Pedicularis groenlandica,elephant's head,N,perennial,pink,6,9
+Pedicularis semibarbata,pinewoods lousewort,N,perennial,yellow,5,7
 Pediomelum californicum,Indian breadroot,N,,,,,36634,6111,78373,27438,,California Indian Breadroot
 Pelargonium grossularioides,,X,,,,,36665,6115,78376,27470
 Pelargonium inquinans,geranium,X,,,,,36668,6116,78377,27472
@@ -1381,6 +1387,7 @@ Perideridia californica,California yampah,N,,,,,37248,6245,58794,205283,,Califor
 Perideridia gairdneri subsp. gairdneri,,N,,,,,52100,6248,63880,207166,,Gairdner's Yampah,,1316,4.2,,,S3S4,G5T3T4
 Perideridia kelloggii,Kellog's yampah,N,,,,,37253,6250,56838,207167,,Kellogg's Yampah
 Perideridia oregana,Oregon yampah,N,,,,,37256,6253,78438,207168,,Oregon Yampah
+Perideridia parishii subsp. latifolia,Sierra yampah,N,perennial,white,6,8
 Persicaria amphibia,water smartweed,N,,,,,69778,11006,78450,117831,true,Swamp Knotweed
 Persicaria hydropiper,waterpepper,X,,,,,37286,11009,78452,117846,true
 Persicaria hydropiperoides,false waterpepper,N,,,,,37287,11008,78453,117847,true,Water Pepper
