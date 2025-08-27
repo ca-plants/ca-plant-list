@@ -16,7 +16,7 @@ async function build(options) {
     Files.rmDir(outputDir);
     const errorLog = new ErrorLog(outputDir + "/errors.tsv");
     const taxa = new Taxa(
-        Program.getIncludeList(options.datadir),
+        Taxa.getIncludeList(options.datadir),
         errorLog,
         options.showFlowerErrors,
     );

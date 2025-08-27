@@ -1542,12 +1542,12 @@ Prunus emarginata,bitter cherry,N,,,,,39978,6889,63905,28885,true,Bitter Cherry
 Prunus ilicifolia subsp. ilicifolia,,N,,,,,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
 Prunus subcordata,,N,,,,,40019,6897,56040,28936,true,Klamath Plum
 Prunus virginiana var. demissa,western choke-cherry,N,,,,,64546,6898,63900,50588,true,Western Chokecherry
-Pseudognaphalium beneolens,,N,,,,,81674,11047,64303,204006,true,Fragrant Everlasting
+Pseudognaphalium beneolens,fragrant everlasting,N,"annual,perennial","white,yellow",6,10,81674,11047,64303,204006,true,Fragrant Everlasting
 Pseudognaphalium biolettii,,N,,,,,81666,11955,58829,205655,true,Bicolored Everlasting
-Pseudognaphalium californicum,,N,,,,,80569,11956,53077,205656,true,California Cudweed
+Pseudognaphalium californicum,"California cudweed,California everlasting",N,"annual,perennial",white,4,7,80569,11956,53077,205656,true,California Cudweed
 Pseudognaphalium luteoalbum,cudweed,X,,,,,101867,11957,53083,205660,true
 Pseudognaphalium microcephalum,,N,,,,,81265,11048,78763,204015,true,Wright's Cudweed
-Pseudognaphalium ramosissimum,,N,,,,,80579,11959,53088,205661,true,Pink Cudweed
+Pseudognaphalium ramosissimum,pink everlasting,N,biennial,"pink,white",7,9,80579,11959,53088,205661,true,Pink Cudweed
 Pseudognaphalium stramineum,,N,,,,,40045,11960,53089,205662,true,Chilean Cudweed
 Pseudognaphalium thermale,,N,,,,,81995,11049,78765,205663,true
 Pseudotsuga menziesii var. menziesii,Douglas Fir,N,,,,,64553,6907,63910,58841,true,Coast Douglas Fir
