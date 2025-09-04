@@ -231,6 +231,7 @@ export class Taxa<T> {
         extraTaxa?: TaxonOverrides[],
         extraSynonyms?: Record<string, string>[],
     );
+    static getIncludeList(dataDir: string): true | Record<string, TaxonData>;
     getTaxon(name: string): T;
     getTaxonList(): T[];
 }

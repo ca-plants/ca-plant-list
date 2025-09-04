@@ -71,7 +71,7 @@ async function buildBook(outputDir, dataDir, showFlowerErrors, maxTaxa) {
     const errorLog = new ErrorLog(outputDir + "/errors.tsv");
 
     const taxa = new Taxa(
-        Program.getIncludeList(dataDir),
+        Taxa.getIncludeList(dataDir),
         errorLog,
         showFlowerErrors,
     );

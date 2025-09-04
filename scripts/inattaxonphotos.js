@@ -44,7 +44,7 @@ async function fetchInatTaxa(taxa) {
 async function getTaxonPhotos(options) {
     const errorLog = new ErrorLog(options.outputdir + "/errors.tsv");
     const taxa = new Taxa(
-        Program.getIncludeList(options.datadir),
+        Taxa.getIncludeList(options.datadir),
         errorLog,
         false,
     );

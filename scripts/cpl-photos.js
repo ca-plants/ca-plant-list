@@ -506,7 +506,7 @@ async function getTaxa(options) {
         taxa = await taxaLoaderClass.TaxaLoader.loadTaxa(options, errorLog);
     } else {
         taxa = new Taxa(
-            Program.getIncludeList(options.datadir),
+            Taxa.getIncludeList(options.datadir),
             errorLog,
             options.showFlowerErrors,
         );
