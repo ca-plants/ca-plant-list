@@ -862,7 +862,7 @@ Garrya flavescens,ashy silk tassel,N,,,,,26462,3749,56201,69029,true,Ashy Silkta
 Garrya fremontii,silk tassel bush,N,,,,,26464,3750,56202,69031,true,Bearbrush
 Gastridium phleoides,nit grass,X,,,,,81267,9978,77225,141354,true
 Gaultheria shallon,salal,N,,,,,26490,3755,48441,69100,true,Salal
-Gayophytum diffusum subsp. parviflorum,groundsmoke,N,annual,white,5,9,50695
+Gayophytum diffusum subsp. parviflorum,groundsmoke,N,annual,white,5,9,50695,,,,true
 Genista monspessulana,French broom,X,,,,,26558,3774,53403,22307,,,genista-monspessulana-profile
 Gentiana calycosa,"explorers' gentian,mountain bog gentian",N,perennial,"blue,purple",7,9,26579,3779,56350,69137,,Rainier Pleated Gentian
 Gentiana newberryi var. tiogana,Tioga gentian,N,perennial,"white,blue",7,9,59443,3783,80907,98001,,Tioga Gentian
@@ -938,8 +938,8 @@ Heterotheca sessiliflora subsp. echioides,bristly goldenaster,N,,,,,74445,4152,5
 Heuchera micrantha,alumroot,N,,,,,28126,4171,51274,22981,true,Crevice Alumroot
 Hibiscus lasiocarpos var. occidentalis,rose-mallow,N,,,,,91751,11194,80940,266649,,Rose Mallow,,906,1B.2,,,S3,G5T3
 Hieracium albiflorum,white hawkweed,N,perennial,white,5,9,3471,4184,63937,204303,true,White Hawkweed
-Hieracium horridum,prickly hawkweed,N,perennial,yellow,6,10,3509
-Hieracium triste,slender hawkweed,N,perennial,yellow,7,9,3552
+Hieracium horridum,prickly hawkweed,N,perennial,yellow,6,10,3509,,,,true
+Hieracium triste,slender hawkweed,N,perennial,yellow,7,9,3552,,,,true
 Hirschfeldia incana,hoary mustard,X,,,,,28295,4196,53097,23143,true,,hirschfeldia-incana-profile
 Hoita macrostachya,,N,,,,,28323,4198,60186,23176,,Leather Root
 Hoita orbicularis,,N,,,,,28327,4199,77425,23177,,Round Leaved Psoralea
@@ -971,7 +971,7 @@ Hosackia stipularis var. stipularis,,N,,,,,91763,11760,80965,48548,,Balsam Bird'
 Hydrocotyle ranunculoides,,N,,,,,28607,4281,60951,204352,,Floating Marsh Pennywort
 Hydrocotyle verticillata,,N,,,,,28611,4284,60121,204354,,Whorled Marsh Pennywort
 Hydrophyllum occidentale,western waterleaf,N,,,,,28634,4287,77471,204358,,California Waterleaf
-Hypericum anagalloides,tinker's penny,N,"annual,perennial",yellow,5,9,28732
+Hypericum anagalloides,tinker's penny,N,"annual,perennial",yellow,5,9,28732,,,,true
 Hypericum androsaemum,,X,,,,,77418,8601,77480,23356,,,hypericum-androsaemum-profile
 Hypericum perforatum subsp. perforatum,Klamath weed,X,,,,,91766,11762,79949,206926,true
 Hypericum scouleri,St. John's wort,N,,,,,28801,11763,77484,23433,true,Scouler's St. Johnswort
@@ -1246,7 +1246,7 @@ Mentzelia pectinata,,N,,,,,33274,5439,58198,204927,true,San Joaquin Blazingstar
 Mercurialis annua,annual mercury,X,,,,,33300,5450,68838,25939,true
 Mertensia ciliata var. stomatechoides,streamside bluebell,N,perennial,blue,6,8,61894,5453,81103,,,Streamside Bluebell
 Mesembryanthemum nodiflorum,,X,,,,,33363,5461,71191,116177,true,,mesembryanthemum-nodiflorum-profile
-Micranthes bryophora,bud saxifrage,N,perennial,white,7,8,91943
+Micranthes bryophora,bud saxifrage,N,perennial,white,7,8,91943,,,,true
 Micranthes californica,,N,,,,,91942,11841,78023,26022,true,California Saxifrage
 Micropus amphibolus,,N,,,,,33474,5462,78034,204946,true,Mount Diablo Cottonseed,,1507,3.2,,,S3S4,G3G4
 Micropus californicus var. californicus,slender cottonweed,N,annual,white,3,6,7993,5464,58030,204950,true,Cottontop
@@ -1360,10 +1360,10 @@ Paspalum dilatatum,Dallis grass,X,,,,,36384,6083,60295,145745,true
 Paspalum distichum,,N,,,,,36387,6084,60297,145752,true,Knotgrass
 Passiflora tarminiana,banana passion vine,X,,,,,81250,8666,78358,27330,true,,passiflora-tarminiana-profile
 Pectocarya penicillata,sleeping combseed,N,,,,,36530,6092,58059,205233,,Northern Pectocarya
-Pedicularis attollens,little elephant's head,N,perennial,pink,6,9,36539
+Pedicularis attollens,little elephant's head,N,perennial,pink,6,9,36539,,,,true
 Pedicularis densiflora,warrior's plume,N,perennial,red,,,36567,6103,49645,73598,true,Warrior's Plume
-Pedicularis groenlandica,elephant's head,N,perennial,pink,6,9,36574
-Pedicularis semibarbata,pinewoods lousewort,N,perennial,yellow,5,7,36608
+Pedicularis groenlandica,elephant's head,N,perennial,pink,6,9,36574,,,,true
+Pedicularis semibarbata,pinewoods lousewort,N,perennial,yellow,5,7,36608,,,,true
 Pediomelum californicum,Indian breadroot,N,,,,,36634,6111,78373,27438,,California Indian Breadroot
 Pelargonium grossularioides,,X,,,,,36665,6115,78376,27470
 Pelargonium inquinans,geranium,X,,,,,36668,6116,78377,27472
