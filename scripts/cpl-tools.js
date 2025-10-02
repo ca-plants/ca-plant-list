@@ -145,10 +145,12 @@ async function build(program, options) {
             case TOOLS.RPI:
                 await RPI.analyze(
                     TOOLS_DATA_DIR,
+                    options.datadir,
                     taxa,
                     config,
                     exceptions,
                     errorLog,
+                    !!options.update,
                 );
                 break;
             case TOOLS.TEXT:
