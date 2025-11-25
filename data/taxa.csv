@@ -1332,7 +1332,7 @@ Oenanthe sarmentosa,,N,,,,,34904,5881,60127,205153,,Pacific Oenanthe
 Oenothera biennis,common evening-primrose,X,,,,,34975,5882,62207,26661,true
 Oenothera deltoides subsp. cognata,,N,,,,,51746,5891,80072,43163,true,Birdcage Evening Primrose
 Oenothera deltoides subsp. howellii,Antioch Dunes evening-primrose,N,,,,,51748,5893,80074,43166,true,Antioch Dunes Evening Primrose,,1179,1B.1,CE,FE,S1,G5T1
-Oenothera deltoides subsp. julpunensis,,N,,,,,,,,,,,,5767,1B.1,,,S1,G5T1
+Oenothera deltoides subsp. julpunensis,,N,,,,,,,1631990,438449,,,,5767,1B.1,,,S1,G5T1
 Oenothera elata subsp. hookeri,evening primrose,N,,,,,51752,5897,51814,43171,true,Hooker's Evening Primrose
 Oenothera glazioviana,,X,,,,,35004,5899,62208,26721,true
 Oenothera laciniata,,X,,,,,35016,5900,78243,26747,true
@@ -1839,7 +1839,7 @@ Symphyotrichum lanceolatum var. hesperium,,N,,,,,80306,11093,81407,202308,true,W
 Symphyotrichum lentum,Suisun Marsh aster,N,,,,,80304,9490,60130,211454,true,Suisun Marsh Aster,,289,1B.2,,,S2,G2
 Symphyotrichum spathulatum,,N,,,,,80300,10409,79302,206133,true,Western Mountain Aster
 Symphyotrichum subulatum var. parviflorum,saltmarsh aster,N,annual,"white,pink",7,10,81976,11094,169461,202299,true,Saltmarsh Aster
-Symphyotrichum subulatum var. squamatum,saltmarsh aster,X,annual,white,7,10,93843,,169489,,true
+Symphyotrichum subulatum var. squamatum,saltmarsh aster,X,annual,white,7,10,93843,12081,169489,207358,true
 Tamarix parviflora,smallflower tamarisk,X,,,,,46074,7916,56011,119759,true,,tamarix-parviflora-plant-profile
 Tamarix ramosissima,saltcedar,X,,,,,46076,7917,56015,119761,true,,tamarix-ramosissima-profile
 Tanacetum parthenium,feverfew,X,,,,,5215,7919,54520,206156,true
