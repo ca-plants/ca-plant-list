@@ -10,7 +10,7 @@
         "noEmit": true,
         "outDir": "output",
         "rootDir": ".",
-        "skipLibCheck": false,
+        "skipLibCheck": true,
         "strict": true
     }
 }
