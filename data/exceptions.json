@@ -81,6 +81,15 @@
             "notineflora": true
         }
     },
+    "Oenothera deltoides subsp. julpunensis": {
+        "comment": "subsp. not yet in Jepson; see data/taxatext for details",
+        "calflora": {
+            "notintaxondata": true
+        },
+        "jepson": {
+            "notineflora": true
+        }
+    },
     "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }

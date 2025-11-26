@@ -1,6 +1,6 @@
 {
     "name": "@ca-plant-list/ca-plant-list",
-    "version": "0.4.38",
+    "version": "0.4.39",
     "description": "Tools to create files for a website listing plants in an area of California.",
     "license": "MIT",
     "repository": {
@@ -47,7 +47,7 @@
         "image-size": "^2.0.2",
         "markdown-it": "^14.1.0",
         "sharp": "^0.34.4",
-        "svgo-ll": "^6.1.0",
+        "svgo-ll": "^6.2.0",
         "unzipper": "^0.12.3"
     },
     "devDependencies": {
