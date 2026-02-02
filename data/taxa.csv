@@ -1044,7 +1044,7 @@ Lasthenia conjugens,Contra Costa goldfields,N,,,,,3729,4579,77629,204539,true,Co
 Lasthenia ferrisiae,,N,,,,,3732,4582,57996,204542,true,Ferris' Goldfields,,1301,4.2,,,S3,G3
 Lasthenia fremontii,goldfields,N,,,,,3733,4583,57997,204543,true,Fremont's Goldfields
 Lasthenia glaberrima,goldfields,N,,,,,3734,4584,60137,204544,true,Smooth Goldfields
-Lasthenia glabrata subsp. coulteri,Coulter's goldfields,N,annual,yellow,4,5,6124,4586,57999,,,,,,1B.1,,,S2,G4T2
+Lasthenia glabrata subsp. coulteri,Coulter's goldfields,N,annual,yellow,4,5,6124,4586,57999,204546,true,Coulter's Goldfields,,,1B.1,,,S2,G4T2
 Lasthenia glabrata subsp. glabrata,,N,,,,,6125,4587,64193,204547,true,Yellow-ray Goldfields
 Lasthenia gracilis,,N,,yellow,2,6,79082,9143,56761,204548,true,Common Goldfields
 Lasthenia maritima,Farallon weed,N,,,,,3738,4592,64253,204550,true,Maritime
@@ -1086,7 +1086,7 @@ Leptochloa fusca subsp. fascicularis,bearded sprangletop,N,,,,,80525,11795,13772
 Leptochloa fusca subsp. uninervia,Mexican sprangletop,N,,,,,80527,11796,1377299,167410,true,Mexican Sprangletop
 Leptosiphon ambiguus,serpentine linanthus,N,,pink,4,5,80953,8945,58970,71346,,Serpentine Leptosiphon,,1717,4.2,,,S4,G4
 Leptosiphon androsaceus,,N,,"white,pink",4,6,81151,9556,58969,71347,,False Baby Stars
-Leptosiphon aureus,,N,,,,,84733,10055,854272,71348,,,,1716,4.2,,,S4?,G4?
+Leptosiphon aureus,,N,,,,,84733,10055,854272,71348,,Bristly Leptosiphon,,1716,4.2,,,S4?,G4?
 Leptosiphon bicolor,bicolored linanthus,N,,"pink,white",3,6,81148,9559,64245,71349,,Bicolor Linanthus
 Leptosiphon bolanderi,,N,,,,,81742,9560,77682,71350,,Bolander's Linanthus
 Leptosiphon ciliatus,whisker brush,N,,"pink,white",3,7,81150,10056,77684,71352,,Whisker Brush
@@ -1400,7 +1400,7 @@ Persicaria punctata,,N,,,,,37303,11014,78456,117874,true,Water Smartweed
 Petasites frigidus var. palmatus,coltsfoot,N,,,,,8060,6269,55778,205301,true,Arctic Sweet Coltsfoot
 Petrorhagia dubia,pink grass,X,,,,,37370,6275,60602,117891,true
 Phacelia breweri,Brewer's phacelia,N,annual,blue,3,6,37425,6292,68813,205312,,Brewer's Phacelia
-Phacelia californica,rock phacelia,N,perennial,blue,3,9,37426,6293,53170,205313,,Rock Phacelia
+Phacelia californica,rock phacelia,N,perennial,blue,3,9,37426,6293,53170,205313,,California Phacelia
 Phacelia ciliata,great valley phacelia,N,annual,blue,3,6,37432,6302,58180,205324,,Great Valley Phacelia
 Phacelia distans,"sordid phacelia,distant phacelia",N,annual,"white,blue",3,5,37450,6318,56631,205333,,Wild Heliotrope
 Phacelia divaricata,,N,,,,,37451,6319,51093,207177,,Divaricate Phacelia
