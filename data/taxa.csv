@@ -240,15 +240,15 @@ Bidens laevis,bur-marigold,N,,,,,1711,1087,75766,202450,true,Bur Marigold
 Blennosperma nanum var. nanum,,N,,,,,6876,1094,64152,202456,true,Common Blennosperma
 Blepharizonia laxa,glandular big tarplant,N,,,,,80231,10792,58799,202461,true,Glandular Big Tarweed
 Blepharizonia plumosa,big tarplant,N,,,,,1762,1098,57915,202462,true,Big Tarplant,,1589,1B.1,,,S1S2,G1G2
-Blitum californicum,California blite,N,perennial,,3,9,100040
-Blitum nuttallianum,Nuttall's poverty weed,N,annual,,4,9,82731
+Blitum californicum,California blite,N,perennial,,3,9,100040,,878230
+Blitum nuttallianum,Nuttall's poverty weed,N,annual,,4,9,82731,,877971
 Bloomeria crocea var. aurea,,N,,yellow,4,6,55181,11376,80476,202467,true,Golden Stars
 Boechera breweri subsp. breweri,Brewer's rock cress,N,,,,,85519,11382,79644,41737,true,Brewer's Rock Cress
 Bolboschoenus fluviatilis,river bulrush,N,,,,,80011,11419,64228,103271,true,River Bulrush
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,,,,,49436,10796,79646,107348,true,Prairie Rush
 Bolboschoenus robustus,seacoast bulrush,N,,,,,77450,10798,75840,103276,true,Big Bulrush
 Bowlesia incana,Hoary bowlesia,N,annual,green,3,4,15999,1133,56822,202482,,Hoary Bowlesia
-Brachypodium hybridum,hybrid falsebrome,X,annual,,4,7,98980
+Brachypodium hybridum,hybrid falsebrome,X,annual,,4,7,98980,,1586229
 Brassica juncea,India mustard,X,"annual,perennial",yellow,5,9,16072,1142,64241,11799,true
 Brassica nigra,black mustard,X,annual,yellow,4,9,16079,1144,1555489,11804,true,,brassica-nigra-profile
 Brassica oleracea,cabbage,X,"biennial,perennial",yellow,5,8,16080,9040,54516,11805,true
@@ -408,7 +408,7 @@ Chaenactis glabriuscula var. glabriuscula,yellow pincushion,N,,yellow,2,7,6951,1
 Chaenactis glabriuscula var. heterocarpha,yellow pincushion,N,,yellow,3,6,6954,1900,80548,202828,true,Inner Coast Range Pincushion
 Chaenactis glabriuscula var. megacephala,,N,,yellow,3,6,6953,1902,80549,202830,true,Big Headed Yellow Chaenactis
 Chasmanthe floribunda,African cornflag,X,,,,,19045,1951,56028,206632,true,,chasmanthe-floribunda-profile
-Chenopodiastrum murale,,X,annual,,1,12,100067
+Chenopodiastrum murale,,X,annual,,1,12,100067,,514012
 Chenopodium album,lamb's quarters,X,,,,,19131,1962,58127,112425,true
 Chenopodium berlandieri var. sinuatum,,N,,,,,56415,11500,80551,129524,true,Pitseed Goosefoot
 Chenopodium berlandieri var. zschackei,,N,,,,,56416,10529,80552,129525,true
@@ -574,7 +574,7 @@ Deinandra corymbosa,,N,,,,,77598,9855,60956,203310,true,Coastal Tarweed
 Deinandra kelloggii,,N,,,,,79196,10829,76615,203319,true,Kellogg's Tarweed
 Deinandra lobbii,,N,,,,,77606,10830,58813,203320,true,Threeray Tarweed
 Delairea odorata,German-ivy,X,,,,,80449,9623,53208,203329,true,,delairea-odorata-profile
-Delphinium ajacis,rocket larkspur,X,annual,purple,4,9,22431
+Delphinium ajacis,rocket larkspur,X,annual,purple,4,9,22431,,401314
 Delphinium californicum subsp. californicum,,N,perennial,white,4,6,50072,2631,51860,42106,true,California Larkspur
 Delphinium californicum subsp. interius,California larkspur,N,perennial,white,4,6,50073,2632,51859,42107,true,Hospital Canyon Larkspur,,551,1B.2,,,S3,G3T3
 Delphinium decorum subsp. decorum,coast larkspur,N,perennial,"blue,purple",3,5,50079,2635,79784,42113,true,Coast Larkspur
@@ -1345,10 +1345,10 @@ Oxalis oregana,Oregon wood sorrel,N,perennial,white,2,10,35641,6015,47757,27000,
 Oxalis pes-caprae,Bermuda-buttercup,X,,yellow,1,5,35642,6016,53169,27001,true,,oxalis-pes-caprae-profile
 Oxalis pilosa,hairy wood sorrel,N,,yellow,2,9,35601,11895,78300,27002,true,Radishroot Woodsorrel
 Oxalis smalliana,redwood sorrel,N,perennial,"white,pink,blue",1,8,8615,14752,1464017,416928
-Oxybasis macrosperma,,X,annual,,7,10,82806
-Oxybasis rubra var. humilis,,N,annual,,8,10,82809
-Oxybasis rubra var. rubra,,N,annual,,8,10,82810
-Oxybasis rubra,red pigweed,N,annual,,,,107008
+Oxybasis macrosperma,,X,annual,,7,10,82806,,1023208
+Oxybasis rubra var. humilis,,N,annual,,8,10,82809,,931680
+Oxybasis rubra var. rubra,,N,annual,,8,10,82810,,931836
+Oxybasis rubra,red pigweed,N,annual,,,,107008,,931679
 Oxyria digyna,alpine sorrel,N,perennial,,7,9,35722,6022,67591,117404,true,Mountain Sorrel
 Packera breweri,Brewer groundsel,N,,,,,77383,9613,56983,205206,true,Groundsel
 Panicum acuminatum,Pacific panic grass,N,,,,,35923,6044,128949,144112,Dichanthelium acuminatum,Western Panicgrass
@@ -1471,8 +1471,8 @@ Plantago major,common plantain,X,,,,,38570,6619,58961,74543,true
 Plantago maritima,alkali plantain,N,,,,,38573,6620,68543,74544,true,Goose Tongue
 Plantago subnuda,naked plantain,N,,,,,38605,6626,60223,74567,true,Naked Plantain
 Platanthera dilatata var. leucostachys,white-flowered bog orchid,N,,,,,63974,9593,81271,205521,true,White Bog Orchid
-Platanthera elegans subsp. elegans,,N,perennial,green,5,9,76273
-Platanthera elongata,wood rein-orchid,N,perennial,green,5,7,107276
+Platanthera elegans subsp. elegans,,N,perennial,green,5,9,76273,,840643
+Platanthera elongata,wood rein-orchid,N,perennial,green,5,7,107276,,551466
 Platanthera michaelii,Michael's rein-orchid,N,perennial,green,4,8,107279,6534,840639,205451,true,,,1380,4.2,,,S3,G3
 Platanthera transversa,flat-spurred piperia,N,perennial,green,5,8,107280,6535,355392,205453,true,Flat Spurred Piperia
 Platanthera unalascensis,"Alaska piperia,slender-spire orchid",N,perennial,green,5,8,38611,6536,840638,205455,true,Alaska Piperia
