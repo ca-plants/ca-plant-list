@@ -1439,7 +1439,7 @@ Pickeringia montana var. montana,chaparral pea,N,,,,,63765,6497,58908,50182,true
 Pilularia americana,pillwort,N,,,,,38232,6501,57885,199588,true,American Pillwort
 Pinus attenuata,knobcone pine,N,,,,,38257,6504,64047,58364,true,Knobcone Pine
 Pinus coulteri,Coulter pine,N,,,,,38266,6512,67330,58387,true,Coulter Pine
-Pinus ponderosa var. benthamiana,Ponderosa pine,N,,,,,103000,11929,127204,58824,,Pacific Ponderosa Pine
+Pinus ponderosa var. benthamiana,Ponderosa pine,N,,,,,103000,11929,127204,58824
 Pinus radiata,Monterey pine,N,,,,,38300,6523,53421,58452,true,Monterey Pine,,1378,1B.1,,,S1,G1
 Pinus sabiniana,"gray pine,foothill pine",N,,,,,38304,6524,58772,58458,true,Foothill Pine
 Pistacia atlantica,,X,,,,,77247,6541,78588,28204
@@ -1474,8 +1474,8 @@ Platanthera dilatata var. leucostachys,white-flowered bog orchid,N,,,,,63974,959
 Platanthera elegans subsp. elegans,,N,perennial,green,5,9,76273,,840643,396924,Piperia elegans subsp. elegans
 Platanthera elongata,wood rein-orchid,N,perennial,green,5,7,107276,,551466,205448,Piperia elongata
 Platanthera michaelii,Michael's rein-orchid,N,perennial,green,4,8,107279,6534,840639,205450,Piperia michaelii,,,1380,4.2,,,S3,G3
-Platanthera transversa,flat-spurred piperia,N,perennial,green,5,8,107280,6535,355392,205452,Piperia transversa,Flat Spurred Piperia
-Platanthera unalascensis,"Alaska piperia,slender-spire orchid",N,perennial,green,5,8,38611,6536,840638,205454,Piperia unalascensis,Alaska Piperia
+Platanthera transversa,flat-spurred piperia,N,perennial,green,5,8,107280,6535,355392,205452,Piperia transversa
+Platanthera unalascensis,"Alaska piperia,slender-spire orchid",N,perennial,green,5,8,38611,6536,840638,205454,Piperia unalascensis
 Platanus racemosa,western sycamore,N,perennial,red,2,4,38655,6633,58231,28255,true,Western Sycamore
 Platystemon californicus,cream cups,N,,,,,38664,6635,51288,28269,true,Creamcups
 Plectritis ciliosa,,N,,pink,3,6,38677,6639,57284,205528,,Longspur Seablush
@@ -1839,7 +1839,7 @@ Symphyotrichum chilense,Pacific aster,N,,,,,80313,10402,56861,202283,true,Califo
 Symphyotrichum frondosum,,N,,,,,80309,9487,79298,202305,true,Short-rayed Alkali Aster
 Symphyotrichum lanceolatum var. hesperium,,N,,,,,80306,11093,81407,202308,true,Western Lance Leaf Aster
 Symphyotrichum lentum,Suisun Marsh aster,N,,,,,80304,9490,60130,211454,true,Suisun Marsh Aster,,289,1B.2,,,S2,G2
-Symphyotrichum occidentale,,N,perennial,,,,76295,10409,79302,208343,Symphyotrichum spathulatum,Western Mountain Aster
+Symphyotrichum occidentale,,N,perennial,,,,76295,10409,79302,208343,Symphyotrichum spathulatum
 Symphyotrichum subulatum var. parviflorum,saltmarsh aster,N,annual,"white,pink",7,10,81976,11094,169461,202299,true,Saltmarsh Aster
 Symphyotrichum subulatum var. squamatum,saltmarsh aster,X,annual,white,7,10,93843,12081,169489,207358,true
 Tamarix parviflora,smallflower tamarisk,X,,,,,46074,7916,56011,119759,true,,tamarix-parviflora-plant-profile
