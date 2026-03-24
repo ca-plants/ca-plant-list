@@ -1,6 +1,6 @@
 {
     "name": "@ca-plant-list/ca-plant-list",
-    "version": "0.4.41",
+    "version": "0.4.42",
     "description": "Tools to create files for a website listing plants in an area of California.",
     "license": "MIT",
     "repository": {
@@ -46,21 +46,21 @@
         "exceljs": "^4.4.0",
         "image-size": "^2.0.2",
         "markdown-it": "^14.1.0",
-        "sharp": "^0.34.4",
-        "svgo-ll": "^6.2.0",
+        "sharp": "^0.34.5",
+        "svgo-ll": "^6.3.0",
         "unzipper": "^0.12.3"
     },
     "devDependencies": {
-        "@types/archiver": "^6.0.2",
+        "@types/archiver": "^7.0.0",
         "@types/cli-progress": "^3.11.6",
-        "@types/jest": "^29.5.14",
+        "@types/jest": "^30.0.0",
         "@types/markdown-it": "^14.1.2",
-        "@types/node": "^22.10.7",
-        "@types/unzipper": "^0.10.9",
-        "eslint": "^9.39.0",
+        "@types/node": "^25.0.9",
+        "@types/unzipper": "^0.10.11",
+        "eslint": "^9.39.2",
         "jest": "^30.2.0",
-        "prettier": "^3.6.2",
-        "puppeteer": "^24.27.0",
+        "prettier": "^3.8.0",
+        "puppeteer": "^24.35.0",
         "typescript": "^5.9.3"
     }
 }

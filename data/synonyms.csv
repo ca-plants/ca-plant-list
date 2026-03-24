@@ -34,7 +34,6 @@ Adiantum boreale,Adiantum aleuticum
 Adiantum pedatum subsp. calderi,Adiantum aleuticum
 Adiantum pedatum var. aleuticum,Adiantum aleuticum
 Adiantum pedatum var. subpumilum,Adiantum aleuticum
-Aegochloa cotulifolia,Navarretia cotulifolia
 Agastache glaucifolia,Agastache urticifolia
 Agoseris californica,Agoseris heterophylla var. cryptopleura
 Agoseris cinerea,Agoseris grandiflora var. grandiflora
@@ -204,9 +203,9 @@ Aster hesperius,Symphyotrichum lanceolatum var. hesperium
 Aster lanceolatus subsp. hesperius,Symphyotrichum lanceolatum var. hesperium
 Aster lentus,Symphyotrichum lentum
 Aster lentus var. sonomensis,Symphyotrichum lentum
-Aster occidentalis,Symphyotrichum spathulatum
+Aster occidentalis,Symphyotrichum occidentale
 Aster radulinus,Eurybia radulina
-Aster spathulatus,Symphyotrichum spathulatum
+Aster spathulatus,Symphyotrichum occidentale
 Aster squamatum,Symphyotrichum subulatum var. squamatum
 Aster subulatus var. cubensis,Symphyotrichum subulatum var. parviflorum
 Astragalus didymocarpus var. daleoides,Astragalus didymocarpus var. didymocarpus
@@ -429,10 +428,16 @@ Chenopodiastrum murale,Chenopodium murale,INAT
 Chenopodium ambrosioides,Dysphania ambrosioides
 Chenopodium ambrosioides var. suffruticosum,Dysphania ambrosioides
 Chenopodium botrys,Dysphania botrys
+Chenopodium californicum,Blitum californicum
 Chenopodium desiccatum var. leptophylloides,Chenopodium pratericola
-Chenopodium macrospermum var. farinosum,Chenopodium macrospermum
-Chenopodium macrospermum var. halophilum,Chenopodium macrospermum
+Chenopodium macrospermum,Oxybasis macrosperma
+Chenopodium macrospermum var. farinosum,Oxybasis macrosperma
+Chenopodium macrospermum var. halophilum,Oxybasis macrosperma
 Chenopodium multifidum,Dysphania multifida
+Chenopodium murale,Chenopodiastrum murale
+Chenopodium rubrum,Oxybasis rubra
+Chenopodium rubrum var. humile,Oxybasis rubra var. humilis
+Chenopodium rubrum var. rubrum,Oxybasis rubra var. rubra
 Chenopodium subspicatum,Atriplex dioica
 Chimaphila umbellata var. occidentalis,Chimaphila umbellata
 Chorizanthe coriacea,Lastarriaea coriacea
@@ -467,6 +472,7 @@ Coleosanthus californicus,Brickellia californica
 Coleosanthus grandiflorus,Brickellia grandiflora
 Coleosanthus tener,Brickellia californica
 Collinsia parviflora var. collina,Collinsia sparsiflora var. collina
+Consolida ajacis,Delphinium ajacis
 Convolvulus fruticetorum,Calystegia occidentalis subsp. occidentalis
 Convolvulus limnophilus,Calystegia sepium subsp. limnophila
 Convolvulus malacophyllus subsp. pedicellatus,Calystegia malacophylla subsp. pedicellata
@@ -599,6 +605,7 @@ Deschampsia holciformis,Deschampsia cespitosa subsp. holciformis
 Dicentra chrysantha,Ehrendorferia chrysantha
 Dichanthelium acuminatum,Panicum acuminatum,INAT
 Dichelostemma californicum,Dichelostemma volubile
+Dichelostemma capitatum subsp. capitatum,Dipterostemon capitatus subsp. capitatus
 Dichelostemma insulare,Dipterostemon capitatus subsp. capitatus
 Dichelostemma parviflorum,Dichelostemma multiflorum
 Diplachne fusca subsp. fascicularis,Leptochloa fusca subsp. fascicularis,INAT
@@ -889,11 +896,13 @@ Guillenia flavescens,Caulanthus flavescens
 Guillenia lasiophylla,Caulanthus lasiophyllus
 Gutierrezia bracteata,Gutierrezia californica
 Habenaria dilatata var. leucostachys,Platanthera dilatata var. leucostachys
-Habenaria elegans var. elata,Piperia elongata
-Habenaria elegans var. maritima,Piperia elegans subsp. elegans
-Habenaria elegans var. multiflora,Piperia elegans subsp. elegans
-Habenaria greenei,Piperia elegans subsp. elegans
-Habenaria unalascensis,Piperia unalascensis
+Habenaria elegans,Platanthera elegans subsp. elegans
+Habenaria elegans var. elata,Platanthera elongata
+Habenaria elegans var. maritima,Platanthera elegans subsp. elegans
+Habenaria elegans var. multiflora,Platanthera elegans subsp. elegans
+Habenaria greenei,Platanthera elegans subsp. elegans
+Habenaria michaelii,Platanthera michaelii
+Habenaria unalascensis,Platanthera unalascensis
 Hackelia jessicae,Hackelia micrantha
 Haplopappus arborescens,Ericameria arborescens
 Haplopappus linearifolius,Ericameria linearifolia
@@ -1107,7 +1116,6 @@ Lilium parvum var. luteum,Lilium pardalinum subsp. shastense
 Lilium roezlii,Lilium pardalinum subsp. pardalinum
 Lilium shastense,Lilium pardalinum subsp. shastense
 Lilium washingtonianum var. purpureum,Lilium rubescens
-Limnanthes douglasii subsp. ornduffii,Limnanthes douglasii subsp. douglasii
 Limonium californicum var. mexicanum,Limonium californicum
 Limosella subulata,Limosella australis
 Linanthus acicularis,Leptosiphon aureus
@@ -1403,6 +1411,7 @@ Monardella villosa subsp. sheltonii,Monardella sheltonii
 Monardella villosa subsp. subserrata,Monardella villosa subsp. villosa
 Monardella villosa var. sheltonii,Monardella sheltonii
 Monerma cylindrica,Hainardia cylindrica
+Monolepis nuttalliana,Blitum nuttallianum
 Montia fontana subsp. amporitana,Montia fontana
 Montia fontana subsp. chondrosperma,Montia fontana
 Montia fontana subsp. variabilis,Montia fontana
@@ -1461,6 +1470,7 @@ Oenothera boothii subsp. decorticans,Eremothera boothii subsp. decorticans
 Oenothera boothii subsp. rutila,Eremothera boothii subsp. decorticans
 Oenothera campestris,Camissonia campestris subsp. campestris
 Oenothera campestris subsp. parishii,Camissonia campestris subsp. campestris
+Oenothera cheiranthifolia var. nitida,Camissoniopsis cheiranthifolia subsp. cheiranthifolia
 Oenothera contorta,Camissonia contorta
 Oenothera decorticans,Eremothera boothii subsp. decorticans
 Oenothera graciliflora,Tetrapteron graciliflorum
@@ -1598,10 +1608,19 @@ Phyla nodiflora var. incisa,Phyla nodiflora
 Phyla nodiflora var. reptans,Phyla nodiflora
 Phyla nodiflora var. rosea,Phyla nodiflora
 Picris echioides,Helminthotheca echioides
-Pinus benthamiana,Pinus ponderosa var. pacifica
-Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. pacifica
+Pinus benthamiana,Pinus ponderosa var. benthamiana
+Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. benthamiana
 Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. pacifica,INAT
-Pinus ponderosa var. benthamiana,Pinus ponderosa var. pacifica
+Pinus ponderosa var. pacifica,Pinus ponderosa var. benthamiana
+Piperia elegans subsp. elegans,Platanthera elegans subsp. elegans
+Piperia elegans var. elata,Platanthera elongata
+Piperia elongata,Platanthera elongata
+Piperia elongata subsp. michaelii,Platanthera michaelii
+Piperia maritima,Platanthera elegans subsp. elegans
+Piperia michaelii,Platanthera michaelii
+Piperia multiflora,Platanthera elegans subsp. elegans
+Piperia transversa,Platanthera transversa
+Piperia unalascensis,Platanthera unalascensis
 Piptatherum miliaceum,Stipa miliacea var. miliacea
 Piptatherum miliaceum subsp. miliaceum,Stipa miliacea var. miliacea
 Pityrogramma triangularis var. triangularis,Pentagramma triangularis
@@ -1622,11 +1641,10 @@ Plantago maritima var. juncoides,Plantago maritima
 Plantago maritima var. maritima,Plantago maritima
 Platanthera elegans subsp. elegans,Piperia elegans subsp. elegans,INAT
 Platanthera elongata,Piperia elongata,INAT
-Platanthera foetida,Piperia unalascensis
+Platanthera foetida,Platanthera unalascensis
 Platanthera leucostachys,Platanthera dilatata var. leucostachys
 Platanthera michaelii,Piperia michaelii,INAT
 Platanthera transversa,Piperia transversa,INAT
-Platanthera unalascensis,Piperia unalascensis,INAT
 Platystemon californicus var. ciliatus,Platystemon californicus
 Platystemon californicus var. crinitus,Platystemon californicus
 Platystemon californicus var. horridulus,Platystemon californicus
@@ -2094,6 +2112,7 @@ Symphyotrichum chilense var. invenustum,Symphyotrichum chilense
 Symphyotrichum chilense var. medium,Symphyotrichum chilense
 Symphyotrichum expansum,Symphyotrichum subulatum var. parviflorum,INAT
 Symphyotrichum lanceolatum subsp. hesperium,Symphyotrichum lanceolatum var. hesperium
+Symphyotrichum spathulatum,Symphyotrichum occidentale,INAT
 Symphyotrichum squamatum,Symphyotrichum subulatum var. squamatum,INAT
 Taeniatherum asperum,Elymus caput-medusae
 Taeniatherum caput-medusae,Elymus caput-medusae,INAT
