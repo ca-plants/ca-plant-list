@@ -88,6 +88,13 @@
             "notineflora": true
         }
     },
+    "Piperia michaelii": { "rpi": { "translation": "Platanthera michaelii" } },
+    "Platanthera michaelii": {
+        "comment": "in CNPS Rare Plant Inventory as Piperia michaelii",
+        "rpi": {
+            "translation-to-rpi": "Piperia michaelii"
+        }
+    },
     "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
