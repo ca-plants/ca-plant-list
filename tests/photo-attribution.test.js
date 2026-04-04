@@ -1,3 +1,4 @@
+import { expect, test } from "@jest/globals";
 import { Photo } from "../lib/photo.js";
 
 /**
@@ -6,7 +7,7 @@ import { Photo } from "../lib/photo.js";
  * @param {string} expected
  */
 function testAtt(licenseCode, rightsHolder, expected) {
-    it(expected, () => {
+    test(expected, () => {
         const photo = new Photo("", "", licenseCode, rightsHolder);
         const result = photo.getAttribution();
         expect(result).toEqual(expected);
