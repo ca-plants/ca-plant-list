@@ -1756,6 +1756,7 @@ Silene douglasii var. douglasii,Douglas' catchfly,N,perennial,white,6,9,66384,10
 Silene gallica,windmill pink,X,,,,,44517,7597,53212,119276,true
 Silene laciniata subsp. californica,,N,,,,,82538,11084,62222,129063,true,Cardinal Catchfly
 Silene lemmonii,Lemmon's catchfly,N,perennial,white,4,9,44533,7603,60523,119295,true,Lemmon's Catchfly
+Silene multinervia,multinerved catchfly,N,annual,"white,pink",4,6,44540
 Silene sargentii,Sargent's catchfly,N,perennial,white,7,8,44566,7614,62697,119340,true,Sargent's Catchfly
 Silene verecunda,,N,,,,,44589,7617,60581,119364,true,San Francisco Campion
 Silybum marianum,milk-thistle,X,,,,,4918,7622,52586,205950,true,,silybum-marianum-profile
@@ -1806,6 +1807,7 @@ Sporobolus indicus,smutgrass,X,,,,,45308,7749,79187,149101,true
 Sporobolus niliacus,,X,,,,,82876,14905,773022,397065,Crypsis vaginiflora
 Sporobolus pumilus,saltmeadow cordgrass,X,,,,,82878,14906,773004,432226,Spartina patens
 Sporobolus schoenoides,swamp grass,X,,,,,82879,14907,773038,397066,Crypsis schoenoides
+Stachys,,N
 Stachys ajugoides,hedge nettle,N,,,,,45338,7751,53295,77371,,Ajuga Hedge Nettle
 Stachys albens,,N,,,,,45339,7754,58192,77372,,White Hedge Nettle
 Stachys bullata,,N,,,,,45343,7756,58930,77383,,California Hedgenettle
@@ -1870,6 +1872,7 @@ Toxicoscordion fremontii,zigadene,N,bulb,white,2,6,89163,11103,49649,206215,Ziga
 Toxicoscordion paniculatum,,N,bulb,white,5,6,46802,11105,79380,206217,Zigadenus paniculatus,Panicled Death Camas
 Toxicoscordion venenosum var. venenosum,death-camas,N,bulb,white,5,7,93851,11106,81432,206219,Zigadenus venenosus var. venenosus,Death Camas
 Tradescantia fluminensis,,X,,,,,77137,8017,79382,206221,true
+Tragopogon dubius,yellow salsify,X,"annual,biennial",yellow,5,9,5443
 Tragopogon porrifolius,salsify,X,,,,,5449,8020,54141,206232,true
 Trianthema portulacastrum,,N,,,,,46920,8023,79390,119925,true,Desert Horsepurslane
 Tribulus terrestris,puncture vine,X,,,,,46922,8024,64238,33988,true,,tribulus-terrestris-profile
@@ -1882,8 +1885,9 @@ Trifolium campestre,hop clover,X,,,,,47059,8064,57076,34056,true
 Trifolium ciliolatum,foothill clover,N,,,,,47063,8065,60197,34065,true,Foothill Clover
 Trifolium columbinum,olive clover,N,,,,,47030,13577,79425,34068,true
 Trifolium cyathiferum,bowl clover,N,,,,,47064,8066,60198,34073,true,Bowl Clover
-Trifolium depauperatum var. depauperatum,dwarf sack clover,N,,,,,67267,8069,64176,52386,true,Dwarf Sack Clover
-Trifolium depauperatum var. truncatum,truncate sack clover,N,,,,,67272,8071,60199,52391,true,Truncate Sack Clover
+Trifolium depauperatum,sack clover,N,annual,purple
+Trifolium depauperatum var. depauperatum,dwarf sack clover,N,annual,purple,3,5,67267,8069,64176,52386,true,Dwarf Sack Clover
+Trifolium depauperatum var. truncatum,truncate sack clover,N,annual,purple,4,6,67272,8071,60199,52391,true,Truncate Sack Clover
 Trifolium dichotomum,,N,,,,,47076,12099,61179,34079,true,Branched Indian Clover
 Trifolium dubium,little hop clover,X,,,,,47078,8072,53313,34083,true
 Trifolium fragiferum,strawberry clover,X,,,,,47083,8074,58167,34092,true
