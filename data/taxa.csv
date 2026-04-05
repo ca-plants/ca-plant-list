@@ -785,7 +785,7 @@ Erythranthe laciniata,,N,,,,,99142,13417,546557,203784,true,Cut-leaved Monkeyflo
 Erythranthe latidens,broad-tooth monkeyflower,N,,"white,pink",4,6,99144,13495,771886,203785,true,Broadtooth Monkeyflower
 Erythranthe microphylla,small leaved monkeyflower,N,,,,,99152,13498,453717,206815,true
 Erythranthe moschata,musk monkeyflower,N,perennial,yellow,6,8,99156,13494,453644,203788,true,Musk Flower
-Erythranthe nasuta,shy monkeyflower,N,,yellow,3,7,99158,13637,545973,203789,true
+Erythranthe nasuta,shy monkeyflower,N,annual,yellow,3,7,99158,13637,545973,203789,true
 Erythranthe primuloides,primrose monkeyflower,N,perennial,yellow,6,8,99174,13501,635401,203794,true,Primrose Monkeyflower
 Erythranthe tilingii,Tiling's monkeyflower,N,perennial,yellow,6,9,99191,13507,555996,203798,true,Larger Mountain Monkeyflower
 Eschscholzia caespitosa,tufted poppy,N,,,,,25205,3511,58954,18096,true,Tufted Poppy
@@ -1544,9 +1544,9 @@ Prunella vulgaris var. vulgaris,,X,,,,,75995,6885,81287,99540
 Prunus cerasifera,cherry plum,X,,,,,39972,6887,55837,28875,true,,prunus-cerasifera-profile
 Prunus dulcis,almond,X,,,,,39976,6888,69936,28884,true
 Prunus emarginata,bitter cherry,N,,,,,39978,6889,63905,28885,true,Bitter Cherry
-Prunus ilicifolia subsp. ilicifolia,,N,,,,,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
+Prunus ilicifolia subsp. ilicifolia,holly-leafed cherry,N,perennial,white,4,5,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
 Prunus subcordata,,N,,,,,40019,6897,56040,28936,true,Klamath Plum
-Prunus virginiana var. demissa,western choke-cherry,N,,,,,64546,6898,63900,50588,true,Western Chokecherry
+Prunus virginiana var. demissa,western choke-cherry,N,perennial,white,5,6,64546,6898,63900,50588,true,Western Chokecherry
 Pseudognaphalium beneolens,fragrant everlasting,N,"annual,perennial","white,yellow",6,10,81674,11047,64303,204006,true,Fragrant Everlasting
 Pseudognaphalium biolettii,,N,,,,,81666,11955,58829,205655,true,Bicolored Everlasting
 Pseudognaphalium californicum,"California cudweed,California everlasting",N,"annual,perennial",white,4,7,80569,11956,53077,205656,true,California Cudweed
