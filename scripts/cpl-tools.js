@@ -16,6 +16,7 @@ import { JepsonFamilies } from "../lib/tools/jepsonfamilies.js";
 import { CCH2 } from "../lib/tools/cch2.js";
 import { FNA } from "../lib/tools/fna.js";
 import { CalIPC } from "../lib/tools/calipc.js";
+import { Synonyms } from "../lib/tools/synonyms.js";
 
 const TOOLS = {
     CALFLORA: "calflora",
@@ -27,6 +28,7 @@ const TOOLS = {
     JEPSON_EFLORA: "jepson-eflora",
     JEPSON_FAM: "jepson-families",
     RPI: "rpi",
+    SYNONYNS: "synonyms",
     TEXT: "text",
 };
 
@@ -39,6 +41,7 @@ const ALL_TOOLS = [
     TOOLS.INAT,
     TOOLS.JEPSON_EFLORA,
     TOOLS.RPI,
+    TOOLS.SYNONYNS,
     TOOLS.TEXT,
 ];
 
@@ -153,6 +156,14 @@ async function build(program, options) {
                     !!options.update,
                 );
                 break;
+            case TOOLS.SYNONYNS:
+                Synonyms.analyze(
+                    options.datadir,
+                    taxa,
+                    errorLog,
+                    !!options.update,
+                );
+                break;
             case TOOLS.TEXT:
                 SupplementalText.analyze(taxa, errorLog);
                 break;
@@ -192,6 +203,7 @@ Tools:
     '${TOOLS.JEPSON_EFLORA}' retrieves data from Jepson eFlora indexes and compares with local data.
     '${TOOLS.JEPSON_FAM}' retrieves section, family and genus data from Jepson eFlora and creates data files for use by ca-plant-list.
     '${TOOLS.RPI}' retrieves data from the CNPS Rare Plant Inventory and compares with local data.
+    '${TOOLS.SYNONYNS}' checks that synonyms are valid.
     '${TOOLS.TEXT}' checks supplemental text files to make sure their names are referenced.
     `,
 );
