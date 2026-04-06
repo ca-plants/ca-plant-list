@@ -55,6 +55,7 @@
     },
     "Malacothamnus hallii": {
         "comment": "in CNPS Rare Plant Inventory",
+        "inat": { "notintaxondata": true },
         "jepson": {
             "notineflora": true
         },
@@ -107,7 +108,8 @@
         },
         "jepson": {
             "notineflora": true
-        }
+        },
+        "inat": { "notintaxondata": true }
     },
     "Veronica catenata": { "calflora": { "native": true } }
 }

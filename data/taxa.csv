@@ -1885,7 +1885,7 @@ Trifolium campestre,hop clover,X,,,,,47059,8064,57076,34056,true
 Trifolium ciliolatum,foothill clover,N,,,,,47063,8065,60197,34065,true,Foothill Clover
 Trifolium columbinum,olive clover,N,,,,,47030,13577,79425,34068,true
 Trifolium cyathiferum,bowl clover,N,,,,,47064,8066,60198,34073,true,Bowl Clover
-Trifolium depauperatum,sack clover,N,annual,purple
+Trifolium depauperatum,sack clover,N,annual,purple,,,47072
 Trifolium depauperatum var. depauperatum,dwarf sack clover,N,annual,purple,3,5,67267,8069,64176,52386,true,Dwarf Sack Clover
 Trifolium depauperatum var. truncatum,truncate sack clover,N,annual,purple,4,6,67272,8071,60199,52391,true,Truncate Sack Clover
 Trifolium dichotomum,,N,,,,,47076,12099,61179,34079,true,Branched Indian Clover
