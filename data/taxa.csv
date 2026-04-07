@@ -241,7 +241,7 @@ Blennosperma nanum var. nanum,,N,,,,,6876,1094,64152,202456,true,Common Blennosp
 Blepharizonia laxa,glandular big tarplant,N,,,,,80231,10792,58799,202461,true,Glandular Big Tarweed
 Blepharizonia plumosa,big tarplant,N,,,,,1762,1098,57915,202462,true,Big Tarplant,,1589,1B.1,,,S1S2,G1G2
 Blitum californicum,California blite,N,perennial,,3,9,100040,,878230,213354,Chenopodium californicum
-Blitum nuttallianum,Nuttall's poverty weed,N,annual,,4,9,82731,,877971,381982,Monolepis nuttalliana
+Blitum nuttallianum,Nuttall's poverty weed,N,annual,,4,9,82731,5671,877971,381982,Monolepis nuttalliana
 Bloomeria crocea var. aurea,,N,,yellow,4,6,55181,11376,80476,202467,true,Golden Stars
 Boechera breweri subsp. breweri,Brewer's rock cress,N,,,,,85519,11382,79644,41737,true,Brewer's Rock Cress
 Bolboschoenus fluviatilis,river bulrush,N,,,,,80011,11419,64228,103271,true,River Bulrush
@@ -1347,7 +1347,7 @@ Oxalis pes-caprae,Bermuda-buttercup,X,,yellow,1,5,35642,6016,53169,27001,true,,o
 Oxalis pilosa,hairy wood sorrel,N,,yellow,2,9,35601,11895,78300,27002,true,Radishroot Woodsorrel
 Oxalis smalliana,redwood sorrel,N,perennial,"white,pink,blue",1,8,8615,14752,1464017,416928
 Oxybasis macrosperma,,X,annual,,7,10,82806,,1023208,394022,Chenopodium macrospermum
-Oxybasis rubra var. humilis,,N,annual,,8,10,82809,,931680,433293,Chenopodium rubrum var. humile
+Oxybasis rubra var. humilis,,N,annual,,8,10,82809,10813,931680,433293,Chenopodium rubrum var. humile
 Oxybasis rubra var. rubra,,N,annual,,8,10,82810,,931836,432285,Chenopodium rubrum var. rubrum
 Oxybasis rubra,red pigweed,N,annual,,,,107008,,931679,210185,Chenopodium rubrum
 Oxyria digyna,alpine sorrel,N,perennial,,7,9,35722,6022,67591,117404,true,Mountain Sorrel
@@ -1885,7 +1885,7 @@ Trifolium campestre,hop clover,X,,,,,47059,8064,57076,34056,true
 Trifolium ciliolatum,foothill clover,N,,,,,47063,8065,60197,34065,true,Foothill Clover
 Trifolium columbinum,olive clover,N,,,,,47030,13577,79425,34068,true
 Trifolium cyathiferum,bowl clover,N,,,,,47064,8066,60198,34073,true,Bowl Clover
-Trifolium depauperatum,sack clover,N,annual,purple,,,47072,,58164,34078,true
+Trifolium depauperatum,sack clover,N,annual,purple,,,47072,,58164,34078,true,Cowbag Clover
 Trifolium depauperatum var. depauperatum,dwarf sack clover,N,annual,purple,3,5,67267,8069,64176,52386,true,Dwarf Sack Clover
 Trifolium depauperatum var. truncatum,truncate sack clover,N,annual,purple,4,6,67272,8071,60199,52391,true,Truncate Sack Clover
 Trifolium dichotomum,,N,,,,,47076,12099,61179,34079,true,Branched Indian Clover
