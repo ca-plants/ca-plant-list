@@ -2,12 +2,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-html,
-body {
-    background-color: #ccc;
-}
-
 div.flr {
+    background-color: #ccc;
     display: flex;
     align-items: center;
 }
@@ -48,12 +44,4 @@ span.lcs {
 
 div.glossary img {
     width: 100%
-}
-
-@media (prefers-color-scheme: dark) {
-
-    html,
-    body {
-        background-color: unset;
-    }
 }

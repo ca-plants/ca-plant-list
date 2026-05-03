@@ -568,7 +568,7 @@ Datisca glomerata,durango root,N,perennial,yellow,5,7,22377,2618,58888,16996,tru
 Datura stramonium,jimson weed,X,,,,,22387,2621,55854,67400,true
 Datura wrightii,"sacred datura,angel's trumpet",U,"annual,perennial",white,4,10,22389,2622,58331,67403,true,Sacred Datura
 Daucus carota,Queen Anne's lace,X,,,,,22394,2623,76610,203298
-Daucus pusillus,"American wild carrot, rattlesnake weed",N,,,,,22395,2624,56726,203299,,Rattlesnake Weed
+Daucus pusillus,"American wild carrot, rattlesnake weed",N,annual,white,4,6,22395,2624,56726,203299,,Rattlesnake Weed
 Deinandra bacigalupii,Livermore moonshine,N,,,,,77607,9090,58817,203307,true,Livermore Tarplant,,1890,1B.1,CE,,S1,G1
 Deinandra corymbosa,,N,,,,,77598,9855,60956,203310,true,Coastal Tarweed
 Deinandra kelloggii,,N,,,,,79196,10829,76615,203319,true,Kellogg's Tarweed
@@ -653,7 +653,7 @@ Eichhornia crassipes,water-hyacinth,X,,,,,23856,2896,962637,203518,true,,eichhor
 Elatine brachysperma,waterwort,N,,,,,23917,2899,76768,17822,true,Shortseed Waterwort
 Elatine californica,waterwort,N,,,,,23919,2900,58891,17823,true,California Waterwort
 Eleocharis acicularis var. acicularis,needle spikerush,N,,,,,58118,2906,64313,108000,Eleocharis acicularis,Needle Spike-rush
-Eleocharis macrostachya,common spikerush,N,,,,,23993,2911,59064,104457,true,Common Spikerush
+Eleocharis macrostachya,common spikerush,N,perennial,,,,23993,2911,59064,104457,true,Common Spikerush
 Eleocharis parishii,Parish spikerush,N,,,,,23997,2917,58344,104485,true,Parish's Spikerush
 Eleocharis parvula,small spikerush,N,,,,,23999,2918,76783,104486,true,Small Spikerush,,588,4.3,,,S3,G5
 Eleocharis rostellata,,N,,,,,24012,2922,59065,104498,true,Beaked Spikerush
@@ -1018,7 +1018,7 @@ Juncus tenuis,poverty rush,N,,,,,29725,4496,69930,104860,true,Poverty Rush
 Juncus xiphioides,iris-leaved rush,N,,,,,29743,4502,57110,104882,true,Irisleaf Rush
 Juniperus californica,California juniper,N,,,,,29749,4503,57889,58267,true,California Juniper
 Juniperus communis var. saxatilis,mountain juniper,N,,,,,60424,10933,81001,58735,,Common Juniper
-Keckiella breviflora var. breviflora,,N,,,,,75718,4520,59015,98400,true,Gaping Keckiella
+Keckiella breviflora var. breviflora,bush beardtongue,N,perennial,"white,pink",5,7,75718,4520,59015,98400,true,Gaping Keckiella
 Keckiella corymbosa,,N,,,,,29883,4523,62043,71018,true,Keckiella
 Kickxia elatine,fluellin,X,,,,,29898,4532,64332,71023,true
 Kickxia spuria,fluellin,X,,,,,29899,4533,64191,71024,true
@@ -1027,9 +1027,9 @@ Koeleria gerardi,annual junegrass,X,,,,,29957,13237,167999,231850,Rostraria cris
 Koeleria macrantha,junegrass,N,,,,,29951,4539,57183,142292,true,Junegrass
 Kopsiopsis strobilacea,California ground-cone,N,,,,,93802,11786,77612,71163,true,California Ground-cone
 Kyllinga brevifolia,shortleaf spikesedge,X,,,,,30044,4545,489795,104894,true
-Lactuca saligna,,X,,,,,3688,4549,53105,204511,true
+Lactuca saligna,willowleaf lettuce,X,,,,,3688,4549,53105,204511,true
 Lactuca serriola,prickly lettuce,X,,,,,3690,4550,53107,204513,true
-Lactuca virosa,,X,,,,,3697,4552,53108,204515,true
+Lactuca virosa,bitter lettuce,X,,,,,3697,4552,53108,204515,true
 Laennecia coulteri,,N,,,,,3698,9509,57937,204517,,Coulter's Horseweed
 Lagophylla ramosissima,hare's-ear,N,,,,,3719,4556,56965,204520,true,Branched Lagophylla
 Lamarckia aurea,goldentop,X,,,,,30147,4560,58379,142340,true
@@ -1121,7 +1121,7 @@ Limosella australis,delta mudwort,N,,,,,31029,10069,60248,71441,true,,,1715,2B.1
 Linanthus dichotomus subsp. dichotomus,evening snow,N,,,,,51286,10624,80000,95800,,Evening Snow
 Linanthus dichotomus subsp. meridianus,,N,,,,,51287,10625,80001,95801
 Linanthus pungens subsp. pulchriflorus,granite prickly phlox,N,perennial,"white,pink",5,8,98684,14586,861790,204699
-Linum bienne,,X,,,,,31144,4906,55679,24471,true
+Linum bienne,pale flax,X,,,,,31144,4906,55679,24471,true
 Linum lewisii var. lewisii,blue flax,N,,,,,60912,4910,60495,48905,true,Prairie Flax
 Lithophragma affine,woodland star,N,perennial,white,3,4,31236,4922,50803,24525,true,San Francisco Woodland Star
 Lithophragma bolanderi,,N,perennial,white,2,7,31238,4923,77787,24527,true,Bolander's Woodland Star
@@ -1130,7 +1130,7 @@ Lithophragma heterophyllum,hill starflower,N,perennial,white,2,6,31244,4927,5312
 Lithophragma parviflorum var. parviflorum,,N,perennial,"white,pink",3,7,60952,4930,77791,48936,Lithophragma parviflorum,Smallflower Woodland-star
 Lobularia maritima,sweet alyssum,X,,,,,31347,4939,56992,24547,true,,lobularia-maritima-profile
 Logfia filaginoides,herba impia,N,annual,red,2,5,81847,10960,64254,204735,true,California Cottonrose
-Logfia gallica,,X,annual,"brown,yellow",3,7,31363,9521,56949,204736,true
+Logfia gallica,narrowleaf cottonrose,X,annual,"brown,yellow",3,7,31363,9521,56949,204736,true
 Lomatium californicum,chu-chu-pate,N,,yellow,4,6,31389,4950,56824,204737,,California Lomatium
 Lomatium caruifolium var. caruifolium,,N,,,,,61026,4953,64328,204739,,Alkali Desertparsley
 Lomatium caruifolium var. denticulatum,,N,,,,,61027,4954,60123,204740
@@ -1167,6 +1167,7 @@ Lupinus lepidus var. sellulus,,N,,,,,61365,5170,81070,49224,true,Stool Lupine
 Lupinus lepidus,dwarf lupine,N,perennial,blue,,,31941,,62689,25001,true,Pacific Lupine
 Lupinus littoralis var. variicolor,,N,,,,,80538,14304,,49237,true,Manycolored Lupine
 Lupinus luteolus,butter lupine,N,,,,,31956,5176,77875,25020,true,Pale Yellow Lupine
+Lupinus microcarpus,chick lupine,N,annual
 Lupinus microcarpus var. densiflorus,,N,annual,"yellow,white",4,6,76668,5184,57058,49248,true,Dense Flowered Platycarpos
 Lupinus microcarpus var. microcarpus,chick lupine,N,annual,"pink,blue",3,6,75776,5186,58159,204796,true,Valley Lupine
 Lupinus nanus,sky lupine,N,,blue,3,6,31978,5189,50612,25068,true,Sky Lupine
@@ -1447,7 +1448,7 @@ Pistacia atlantica,,X,,,,,77247,6541,78588,28204
 Pittosporum crassifolium,,X,,,,,38444,6545,78590,208641
 Plagiobothrys acanthocarpus,adobe allocarya,N,,,,,38484,6550,58062,205466,,Adobe Popcornflower
 Plagiobothrys arizonicus,,N,,,,,38485,6551,58063,205467,,Arizona Popcornflower
-Plagiobothrys bracteatus,,N,,,,,38487,6553,57719,205469,,Bracted Popcornflower
+Plagiobothrys bracteatus,bracted popcornflower,N,annual,white,4,6,38487,6553,57719,205469,,Bracted Popcornflower
 Plagiobothrys canescens var. canescens,,N,,,,,63883,10232,81250,205474,,Valley Popcornflower
 Plagiobothrys canescens,,N,,,,,38488,6554,58064,205473,,Valley Popcornflower
 Plagiobothrys chorisianus var. chorisianus,,N,,,,,63885,6557,57715,208215,,Choris' Popcornflower,,1382,1B.2,,,S1,G3T1Q
@@ -1490,7 +1491,7 @@ Poa bulbosa,bulbous bluegrass,X,,,,,38805,6662,58382,147098,true
 Poa douglasii,sand-dune bluegrass,N,,,,,38815,6669,61071,147190,true,Sand Dune Blue Grass
 Poa howellii,,N,,,,,38804,6672,52812,147272,true,Howell's Bluegrass
 Poa pratensis subsp. pratensis,Kentucky bluegrass,X,,,,,70514,6689,64155,167666,true
-Poa secunda subsp. secunda,one-sided bluegrass,N,,,,,70516,6694,58383,167673,true,One-sided Bluegrass
+Poa secunda subsp. secunda,one-sided bluegrass,N,perennial,,,,70516,6694,58383,167673,true,One-sided Bluegrass
 Pogogyne douglasii,,N,,,,,38936,6704,63943,74615,,Douglas' Pogogyne
 Pogogyne serpylloides,,N,,,,,38939,6708,57118,74618,,Thymeleaf Beardstyle
 Pogogyne zizyphoroides,,N,,,,,78298,6709,60209,207217,,Sacramento Beardstyle
@@ -1616,6 +1617,8 @@ Rhaponticum repens,Russian knapweed,X,,,,,103802,13621,339502,201832,Acroptilon 
 Rhinotropis californica,California milkwort,N,,,,,107535,14636,876453,265222,true,California Milkwort
 Rhodiola integrifolia subsp. integrifolia,western roseroot,N,perennial,red,5,8,80583,10300,80170,43540,true,Western Roseroot
 Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,,Fragrant Sumac
+Rhus integrifolia,lemonade berry,N,perennial
+Rhus ovata,sugar bush,N,perennial
 Ribes amarum,bitter gooseberry,N,,,,,41372,7099,53433,29899,true,Bitter Gooseberry
 Ribes aureum var. gracillimum,golden currant,N,perennial,yellow,2,5,65126,7104,55547,51084,true,Golden Currant
 Ribes californicum var. californicum,hillside gooseberry,N,perennial,white,2,3,65128,7108,47128,51086,true,Hillside Gooseberry
@@ -1769,7 +1772,7 @@ Sisyrinchium californicum,golden-eyed-grass,N,,,,,44688,7633,60550,205957,true,Y
 Sium suave,,N,,,,,44763,7641,79131,208695,,Hemlock Waterparsnip
 Solanum americanum,,N,,,,,44818,7647,59035,76168,true,American Black Nightshade
 Solanum elaeagnifolium,white horse-nettle,X,,,,,44852,7654,79137,76470,true
-Solanum furcatum,,X,,,,,44856,7655,79138,76521,true
+Solanum furcatum,forked nightshade,X,,,,,44856,7655,79138,76521,true
 Solanum lanceolatum,lanceleaf nightshade,X,,,,,44872,7656,79139,76689,true
 Solanum nigrum,black nightshade,X,,,,,44883,7658,79141,76840,true
 Solanum nitidibaccatum,nightshade,X,annual,white,5,10,103838,14890,406080,211825,true
@@ -1812,8 +1815,9 @@ Stachys ajugoides,hedge nettle,N,,,,,45338,7751,53295,77371,,Ajuga Hedge Nettle
 Stachys albens,,N,,,,,45339,7754,58192,77372,,White Hedge Nettle
 Stachys bullata,,N,,,,,45343,7756,58930,77383,,California Hedgenettle
 Stachys pycnantha,short-spike hedge nettle,N,,,,,45389,7759,57123,77417,,Short Spike Hedge Nettle
-Stachys rigida var. quercetorum,,N,,,,,80610,12038,81388,99881,,Rough Hedgenettle
-Stachys rigida var. rigida,hedge nettle,N,,pink,,,80611,12039,53296,99882,,Rigid Hedge Nettle
+Stachys rigida,rough hedgenettle,N,perennial,pink,3,10
+Stachys rigida var. quercetorum,,N,perennial,pink,,,80610,12038,81388,99881,,Rough Hedgenettle
+Stachys rigida var. rigida,hedge nettle,N,perennial,pink,,,80611,12039,53296,99882,,Rigid Hedge Nettle
 Stebbinsoseris heterocarpa,,N,,,,,76210,7768,50804,206070,true,Grassland Silverpuffs
 Stellaria media,common chickweed,X,,,,,45497,7776,53298,119478,true
 Stellaria nitens,shining chickweed,N,,,,,45502,7777,57007,119483,true,Shining Chickweed
