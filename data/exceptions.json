@@ -105,7 +105,6 @@
             "translation-to-rpi": "Piperia michaelii"
         }
     },
-    "Polypogon interruptus": { "calflora": { "native": true } },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },

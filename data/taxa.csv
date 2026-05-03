@@ -1167,7 +1167,7 @@ Lupinus lepidus var. sellulus,,N,,,,,61365,5170,81070,49224,true,Stool Lupine
 Lupinus lepidus,dwarf lupine,N,perennial,blue,,,31941,,62689,25001,true,Pacific Lupine
 Lupinus littoralis var. variicolor,,N,,,,,80538,14304,,49237,true,Manycolored Lupine
 Lupinus luteolus,butter lupine,N,,,,,31956,5176,77875,25020,true,Pale Yellow Lupine
-Lupinus microcarpus,chick lupine,N,annual
+Lupinus microcarpus,chick lupine,N,annual,,,,32094
 Lupinus microcarpus var. densiflorus,,N,annual,"yellow,white",4,6,76668,5184,57058,49248,true,Dense Flowered Platycarpos
 Lupinus microcarpus var. microcarpus,chick lupine,N,annual,"pink,blue",3,6,75776,5186,58159,204796,true,Valley Lupine
 Lupinus nanus,sky lupine,N,,blue,3,6,31978,5189,50612,25068,true,Sky Lupine
@@ -1617,8 +1617,8 @@ Rhaponticum repens,Russian knapweed,X,,,,,103802,13621,339502,201832,Acroptilon 
 Rhinotropis californica,California milkwort,N,,,,,107535,14636,876453,265222,true,California Milkwort
 Rhodiola integrifolia subsp. integrifolia,western roseroot,N,perennial,red,5,8,80583,10300,80170,43540,true,Western Roseroot
 Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,,Fragrant Sumac
-Rhus integrifolia,lemonade berry,N,perennial
-Rhus ovata,sugar bush,N,perennial
+Rhus integrifolia,lemonade berry,N,perennial,,,,41186
+Rhus ovata,sugar bush,N,perennial,,,,41191
 Ribes amarum,bitter gooseberry,N,,,,,41372,7099,53433,29899,true,Bitter Gooseberry
 Ribes aureum var. gracillimum,golden currant,N,perennial,yellow,2,5,65126,7104,55547,51084,true,Golden Currant
 Ribes californicum var. californicum,hillside gooseberry,N,perennial,white,2,3,65128,7108,47128,51086,true,Hillside Gooseberry
@@ -1815,7 +1815,7 @@ Stachys ajugoides,hedge nettle,N,,,,,45338,7751,53295,77371,,Ajuga Hedge Nettle
 Stachys albens,,N,,,,,45339,7754,58192,77372,,White Hedge Nettle
 Stachys bullata,,N,,,,,45343,7756,58930,77383,,California Hedgenettle
 Stachys pycnantha,short-spike hedge nettle,N,,,,,45389,7759,57123,77417,,Short Spike Hedge Nettle
-Stachys rigida,rough hedgenettle,N,perennial,pink,3,10
+Stachys rigida,rough hedgenettle,N,perennial,pink,3,10,45385
 Stachys rigida var. quercetorum,,N,perennial,pink,,,80610,12038,81388,99881,,Rough Hedgenettle
 Stachys rigida var. rigida,hedge nettle,N,perennial,pink,,,80611,12039,53296,99882,,Rigid Hedge Nettle
 Stebbinsoseris heterocarpa,,N,,,,,76210,7768,50804,206070,true,Grassland Silverpuffs
