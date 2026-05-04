@@ -151,7 +151,7 @@ Arceuthobium cyanocarpum,Arceuthobium campylopodum
 Arceuthobium divaricatum,Arceuthobium campylopodum
 Arceuthobium littorum,Arceuthobium campylopodum
 Arceuthobium monticola,Arceuthobium campylopodum
-Arceuthobium occidentale,Arceuthobium campylopodum
+Arceuthobium occidentale,Arceuthobium campylopodum,INAT
 Arceuthobium siskiyouense,Arceuthobium campylopodum
 Arceuthobium tsugense,Arceuthobium campylopodum
 Arceuthobium tsugense subsp. contortae,Arceuthobium campylopodum
@@ -242,8 +242,6 @@ Berberis dictyota,Berberis aquifolium var. dictyota,INAT
 Berberis piperiana,Berberis aquifolium var. aquifolium
 Blepharizonia plumosa subsp. plumosa,Blepharizonia plumosa
 Blepharizonia plumosa subsp. viscida,Blepharizonia laxa
-Blitum californicum,Chenopodium californicum,INAT
-Blitum nuttallianum,Monolepis nuttalliana,INAT
 Bloomeria aurea,Bloomeria crocea var. aurea
 Bloomeria maritima,Muilla maritima
 Bloomeria maritima var. serotina,Muilla maritima
@@ -311,7 +309,6 @@ Cakile edentula subsp. californica,Cakile edentula
 Calamagrostis densa,Calamagrostis koelerioides
 Calandrinia leeana,Lewisia leeana
 Calandrinia menziesii var. macrocarpa,Calandrinia breweri
-Calibrachoa parviflora,Petunia parviflora,INAT
 Callitriche heterophylla subsp. bolanderi,Callitriche heterophylla var. bolanderi
 Callitropsis macrocarpa,Hesperocyparis macrocarpa
 Callitropsis sargentii,Hesperocyparis sargentii
@@ -424,7 +421,6 @@ Cheilanthes carlotta-halliae,Aspidotis carlotta-halliae
 Cheilanthes covillei,Myriopteris covillei
 Cheilanthes gracillima,Myriopteris gracillima
 Cheilanthes intertexta,Myriopteris intertexta
-Chenopodiastrum murale,Chenopodium murale,INAT
 Chenopodium ambrosioides,Dysphania ambrosioides
 Chenopodium ambrosioides var. suffruticosum,Dysphania ambrosioides
 Chenopodium botrys,Dysphania botrys
@@ -541,9 +537,9 @@ Cryptantha hanseni,Cryptantha intermedia var. intermedia
 Cryptantha intermedia var. rigida,Cryptantha juniperensis
 Cryptantha nevadensis var. rigida,Cryptantha juniperensis
 Cryptantha torreyana,Cryptantha torreyana var. pumila,INAT
-Cupressus macrocarpa,Hesperocyparis macrocarpa,INAT
+Cupressus macrocarpa,Hesperocyparis macrocarpa
 Cupressus macrocarpa subsp. lobosensis,Hesperocyparis macrocarpa
-Cupressus sargentii,Hesperocyparis sargentii,INAT
+Cupressus sargentii,Hesperocyparis sargentii
 Cupressus sargentii var. duttonii,Hesperocyparis sargentii
 Cuscuta californica var. breviflora,Cuscuta occidentalis
 Cuscuta formosana,Cuscuta japonica var. formosana
@@ -571,7 +567,6 @@ Danthonia californica var. californica,Danthonia californica
 Danthonia racemosa,Rytidosperma racemosum
 Datura stramonium var. tatula,Datura stramonium
 Deinandra corymbosa subsp. macrocephala,Deinandra corymbosa
-Delphinium ajacis,Consolida ajacis,INAT
 Delphinium californicum var. interius,Delphinium californicum subsp. interius
 Delphinium decorum var. patens,Delphinium patens subsp. patens
 Delphinium emiliae,Delphinium variegatum subsp. variegatum
@@ -600,7 +595,6 @@ Dentaria californica var. cuneata,Cardamine californica
 Dentaria californica var. integrifolia,Cardamine californica
 Dentaria californica var. sinuata,Cardamine californica
 Dentaria pachystigma var. dissectifolia,Cardamine californica
-Deschampsia bolanderi,Scribneria bolanderi,INAT
 Deschampsia holciformis,Deschampsia cespitosa subsp. holciformis
 Dicentra chrysantha,Ehrendorferia chrysantha
 Dichanthelium acuminatum,Panicum acuminatum,INAT
@@ -651,7 +645,6 @@ Draba verna var. verna,Draba verna
 Dudleya cymosa subsp. gigantea,Dudleya cymosa subsp. cymosa
 Echeveria brittonii,Sedum obtusatum
 Echeveria obtusata,Sedum obtusatum
-Echinochloa colona,Echinochloa colona,INAT
 Echinochloa crus-galli subsp. spiralis,Echinochloa crus-galli
 Echinochloa crus-galli var. zelayensis,Echinochloa crus-galli
 Echinodorus berteroi var. lanceolatus,Echinodorus berteroi
@@ -681,8 +674,7 @@ Elytrigia intermedia subsp. intermedia,Elymus hispidus
 Elytrigia intermedia var. intermedia,Elymus hispidus
 Elytrigia pontica,Elymus ponticus
 Elytrigia pontica subsp. pontica,Elymus ponticus
-Emmenanthe penduliflora var. rosea,Emmenanthe rosea,INAT
-Emmenanthe rosea,Emmenanthe rosea,INAT
+Emmenanthe penduliflora var. rosea,Emmenanthe rosea
 Ephedra nevadensis subvar. pluribracteata,Ephedra viridis
 Ephedra nevadensis var. viridis,Ephedra viridis
 Epilobium adenocaulon,Epilobium ciliatum subsp. ciliatum
@@ -946,8 +938,6 @@ Heracleum lanatum,Heracleum maximum
 Herniaria cinerea,Herniaria hirsuta var. cinerea,INAT
 Herniaria hirsuta subsp. cinerea,Herniaria hirsuta var. cinerea
 Herpestris pilosa,Mimetanthe pilosa
-Hesperocyparis macrocarpa,Hesperocyparis macrocarpa,INAT
-Hesperocyparis sargentii,Hesperocyparis sargentii,INAT
 Hesperomecon filiformis,Hesperomecon linearis
 Hesperoscordum hyacinthinum,Triteleia hyacinthina
 Hesperoscordum lacteum,Triteleia hyacinthina
@@ -1018,7 +1008,6 @@ Isopyrum stipitatum,Enemion stipitatum
 Isotrema californicum,Aristolochia californica
 Iva axillaris subsp. robustior,Iva axillaris
 Iva axillaris var. robustior,Iva axillaris
-Jacobaea vulgaris,Senecio jacobaea,INAT
 Johnstonella micromeres,Cryptantha micromeres
 Juglans californica var. californica,Juglans californica
 Juglans californica var. hindsii,Juglans hindsii
@@ -1242,7 +1231,6 @@ Madia madioides,Anisocarpus madioides
 Mahonia dictyota,Berberis aquifolium var. dictyota
 Mahonia nervosa var. mendocinensis,Berberis nervosa
 Mahonia pinnata subsp. pinnata,Berberis pinnata subsp. pinnata
-Malacothamnus arcuatus var. elmeri,Malacothamnus hallii,INAT
 Malacothamnus fremontii subsp. cercophorus,Malacothamnus fremontii var. fremontii
 Malacothamnus hallii,Malacothamnus arcuatus var. elmeri
 Malacothamnus howellii,Malacothamnus fremontii var. fremontii
@@ -1520,9 +1508,6 @@ Oxalis corniculata subsp. pilosa,Oxalis pilosa
 Oxalis corniculata var. wrightii,Oxalis pilosa
 Oxalis oregana f. smalliana,Oxalis smalliana
 Oxalis oregana var. smalliana,Oxalis smalliana
-Oxybasis rubra,Chenopodium rubrum,INAT
-Oxybasis rubra var. humilis,Chenopodium rubrum var. humile,INAT
-Oxybasis rubra var. rubra,Chenopodium rubrum var. rubrum,INAT
 Oxytheca inermis,Eriogonum inerme var. inerme
 Papaver lemmonii,Papaver californicum
 Parapholis cylindrica,Hainardia cylindrica,INAT
@@ -1610,7 +1595,6 @@ Phyla nodiflora var. rosea,Phyla nodiflora
 Picris echioides,Helminthotheca echioides
 Pinus benthamiana,Pinus ponderosa var. benthamiana
 Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. benthamiana
-Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. pacifica,INAT
 Pinus ponderosa var. pacifica,Pinus ponderosa var. benthamiana
 Piperia elegans subsp. elegans,Platanthera elegans subsp. elegans
 Piperia elegans var. elata,Platanthera elongata
@@ -1639,12 +1623,8 @@ Plantago major var. scopulorum,Plantago major
 Plantago maritima var. californica,Plantago maritima
 Plantago maritima var. juncoides,Plantago maritima
 Plantago maritima var. maritima,Plantago maritima
-Platanthera elegans subsp. elegans,Piperia elegans subsp. elegans,INAT
-Platanthera elongata,Piperia elongata,INAT
 Platanthera foetida,Platanthera unalascensis
 Platanthera leucostachys,Platanthera dilatata var. leucostachys
-Platanthera michaelii,Piperia michaelii,INAT
-Platanthera transversa,Piperia transversa,INAT
 Platystemon californicus var. ciliatus,Platystemon californicus
 Platystemon californicus var. crinitus,Platystemon californicus
 Platystemon californicus var. horridulus,Platystemon californicus
@@ -1744,7 +1724,6 @@ Prunella vulgaris var. atropurpurea,Prunella vulgaris var. lanceolata
 Prunella vulgaris var. parviflora,Prunella vulgaris var. vulgaris
 Prunus amygdalus,Prunus dulcis,INAT
 Pseudognaphalium canescens subsp. beneolens,Pseudognaphalium beneolens
-Pseudognaphalium luteoalbum,Pseudognaphalium luteoalbum,INAT
 Pseudognaphalium microcephalum var. thermale,Pseudognaphalium thermale
 Psilocarphus globiferus,Psilocarphus brevissimus var. brevissimus
 Psilocarphus globiferus,Psilocarphus chilensis
@@ -1805,7 +1784,6 @@ Rhamnus crocea subsp. ilicifolia,Rhamnus ilicifolia
 Rhamnus crocea var. ilicifolia,Rhamnus ilicifolia
 Rhamnus tomentella,Frangula californica subsp. tomentella
 Rhamnus tomentella subsp. tomentella,Frangula californica subsp. tomentella
-Rhaponticum repens,Rhaponticum repens,INAT
 Rhus aromatica subsp. trilobata,Rhus aromatica
 Rhus aromatica var. simplicifolia,Rhus aromatica
 Rhus aromatica var. trilobata,Rhus aromatica
@@ -2038,7 +2016,6 @@ Smilacina racemosa var. amplexicaulis,Maianthemum racemosum subsp. amplexicaule
 Smilacina racemosa var. glabra,Maianthemum racemosum subsp. amplexicaule
 Smilacina stellata,Maianthemum stellatum
 Smilacina stellata var. sessilifolia,Maianthemum stellatum
-Solanum nitidibaccatum,Solanum physalifolium var. nitidibaccatum,INAT
 Solanum nodiflorum,Solanum americanum
 Solanum physalifolium var. nitidibaccatum,Solanum nitidibaccatum
 Solidago californica,Solidago velutina subsp. californica
@@ -2093,7 +2070,6 @@ Streptanthus albidus subsp. peramoenus,Streptanthus glandulosus subsp. glandulos
 Streptanthus breweri var. breweri,Streptanthus breweri
 Streptanthus coulteri var. lemmonii,Caulanthus lemmonii
 Streptanthus flavescens,Caulanthus flavescens
-Streptanthus glandulosus subsp. glandulosus,Streptanthus albidus subsp. peramoenus,INAT
 Streptanthus lemmonii,Caulanthus lemmonii
 Stropholirion californicum,Dichelostemma volubile
 Stylocline amphibola,Micropus amphibolus

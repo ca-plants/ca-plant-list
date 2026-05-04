@@ -1,4 +1,13 @@
 {
+    "Aconitum columbianum": {
+        "calflora": { "notintaxondata": true }
+    },
+    "Blitum californicum": {
+        "calflora": { "notintaxondata": true }
+    },
+    "Blitum nuttallianum": {
+        "calflora": { "notintaxondata": true }
+    },
     "Castilleja ambigua subsp. ambigua": {
         "rpi": {
             "translation-to-rpi": "Castilleja ambigua var. ambigua"
@@ -55,6 +64,7 @@
     },
     "Malacothamnus hallii": {
         "comment": "in CNPS Rare Plant Inventory",
+        "inat": { "notintaxondata": true },
         "jepson": {
             "notineflora": true
         },
@@ -88,7 +98,13 @@
             "notineflora": true
         }
     },
-    "Polypogon interruptus": { "calflora": { "native": true } },
+    "Piperia michaelii": { "rpi": { "translation": "Platanthera michaelii" } },
+    "Platanthera michaelii": {
+        "comment": "in CNPS Rare Plant Inventory as Piperia michaelii",
+        "rpi": {
+            "translation-to-rpi": "Piperia michaelii"
+        }
+    },
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
@@ -100,7 +116,9 @@
         },
         "jepson": {
             "notineflora": true
-        }
+        },
+        "inat": { "notintaxondata": true }
     },
+    "Symphyotrichum occidentale": { "calflora": { "notintaxondata": true } },
     "Veronica catenata": { "calflora": { "native": true } }
 }
