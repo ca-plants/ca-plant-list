@@ -119,5 +119,6 @@
         },
         "inat": { "notintaxondata": true }
     },
+    "Symphyotrichum occidentale": { "calflora": { "notintaxondata": true } },
     "Veronica catenata": { "calflora": { "native": true } }
 }
