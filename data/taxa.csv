@@ -163,17 +163,20 @@ Arctostaphylos glandulosa subsp. mollis,,N,,,,,49172,554,53377,202149,true,Eastw
 Arctostaphylos glauca,greatberry manzanita,N,,,,,13926,556,55133,63118,true,Bigberry Manzanita
 Arctostaphylos manzanita subsp. laevigata,Contra Costa manzanita,N,,,,,49185,574,61922,202153,true,Contra Costa Manzanita,,39,1B.2,,,S2,G5T2
 Arctostaphylos manzanita subsp. manzanita,,N,,,,,49186,575,55136,94959,true,Whiteleaf Manzanita
+Arctostaphylos nevadensis subsp. nevadensis,pine-mat manzanita,N,perennial,"white,pink",5,7
 Arctostaphylos pallida,pallid manzanita,N,,,,,13962,594,53355,63156,true,Pallid Manzanita,,33,1B.1,CE,FT,S1,G1
 Argemone munita,prickly poppy,N,,,,,14117,657,58950,10397,true,Chicalote
 Argyranthemum foeniculaceum,,X,,,,,77423,658,75554,202185,true
 Aristida oligantha,oldfield three-awn,N,,,,,14193,664,75562,135677,true,Oldfield Three-awn
 Aristolochia californica,pipevine,N,,,,,14232,674,55190,10466,true,Dutchmans Pipe
 Arnica discoidea,,N,,,,,1123,683,52851,202197,true,Rayless Arnica
+Arnica mollis,hairy arnica,N,perennial,yellow,7,9
 Artemisia biennis,biennial wormwood,X,,,,,1169,703,58798,202211,true
 Artemisia californica,California sagebrush,N,,,,,1171,705,53357,202216,true,California Sagebrush
 Artemisia douglasiana,mugwort,N,,,,,1187,708,52854,202219,true,Mugwort
 Artemisia dracunculus,tarragon,N,,,,,1188,709,57912,202220,true,Wild Tarragon
 Artemisia pycnocephala,coastal sagewort,N,,,,,1235,720,60952,202241,true,Dune Sagewort
+Artemisia tridentata subsp. tridentata,big sagebrush,N,perennial,,8,11
 Arthrocnemum subterminale,Parish's glasswort,N,,,,,14292,11352,931443,111873,true,Parish's Pickleweed
 Arum italicum,,X,,,,,14303,730,61168,207998,,,arum-italicum-plant-profile
 Arundo donax,giant reed,X,,,,,14319,732,64017,136045,true,,arundo-donax-profile
@@ -190,12 +193,14 @@ Aspidotis californica,California lace fern,N,,,,,14504,759,58758,197284,true,Cal
 Aspidotis carlotta-halliae,lace fern,N,,,,,14505,760,75607,197285,true,Carlotta Hall's Lace Fern,,1576,4.2,,,S3,G3
 Aspidotis densa,,N,,,,,14506,761,63868,197286,true,Dense Lace Fern
 Astragalus asymmetricus,San Joaquin milkvetch,N,,,,,14702,803,58145,10685,true,San Joaquin Milk Vetch
+Astragalus bolanderi,Bolander's milkvetch,N,perennial,white,6,9
 Astragalus breweri,,N,,,,,14733,810,75628,10717,true,Brewer's Milkvetch,,297,4.2,,,S3,G3
 Astragalus didymocarpus var. didymocarpus,two-seeded milkvetch,N,,,,,54711,827,58895,44840,true,Dwarf White Milkvetch
 Astragalus gambelianus,little blue loco,N,,,,,14840,838,57042,10856,true,Gambel's Dwarf Milk Vetch
 Astragalus nuttallii var. nuttallii,,N,,,,,54881,897,80423,45033,true,Ocean Bluff Milkvetch,,1825,4.3,,,S4,G4T4
 Astragalus nuttallii var. virgatus,,N,,,,,54882,898,80424,45034,true,Angel Island Milkwort
 Astragalus tener var. tener,alkali milkvetch,N,,,,,54950,940,80442,45116,true,Alkali Milkvetch,,1129,1B.2,,,S1,G2T1
+Athyrium distentifolium var. americanum,alpine lady fern,N
 Athyrium filix-femina var. cyclosorum,western lady fern,N,,,,,54990,959,61002,201218,true,Lady Fern
 Athysanus pusillus,,N,,,,,15178,960,58069,11236,true,Common Sandweed
 Athysanus unilateralis,,N,,,,,15179,11354,75695,11237,true
@@ -237,6 +242,7 @@ Berula erecta,water-parsnip,N,,,,,15614,1081,58790,202438,,Cutleaf Waterparsnip
 Beta vulgaris subsp. maritima,sea beet,X,,,,,49427,11374,79643,127821,true
 Bidens frondosa,sticktight,N,,,,,1702,1086,51712,202448,true,Sticktight
 Bidens laevis,bur-marigold,N,,,,,1711,1087,75766,202450,true,Bur Marigold
+Bistorta bistortoides,western bistort,N,perennial,white,7,9
 Blennosperma nanum var. nanum,,N,,,,,6876,1094,64152,202456,true,Common Blennosperma
 Blepharizonia laxa,glandular big tarplant,N,,,,,80231,10792,58799,202461,true,Glandular Big Tarweed
 Blepharizonia plumosa,big tarplant,N,,,,,1762,1098,57915,202462,true,Big Tarplant,,1589,1B.1,,,S1S2,G1G2
@@ -244,6 +250,8 @@ Blitum californicum,California blite,N,perennial,,3,9,100040,,878230,213354,Chen
 Blitum nuttallianum,Nuttall's poverty weed,N,annual,,4,9,82731,5671,877971,381982,Monolepis nuttalliana
 Bloomeria crocea var. aurea,,N,,yellow,4,6,55181,11376,80476,202467,true,Golden Stars
 Boechera breweri subsp. breweri,Brewer's rock cress,N,,,,,85519,11382,79644,41737,true,Brewer's Rock Cress
+Boechera lyallii,Lyall's rockcress,N,perennial,purple,6,8
+Boechera retrofracta,reflexed rockcress,N,biennial,white,4,8
 Bolboschoenus fluviatilis,river bulrush,N,,,,,80011,11419,64228,103271,true,River Bulrush
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,,,,,49436,10796,79646,107348,true,Prairie Rush
 Bolboschoenus robustus,seacoast bulrush,N,,,,,77450,10798,75840,103276,true,Big Bulrush
@@ -300,6 +308,7 @@ Calochortus clavatus var. pallidus,,N,,,,,55455,1275,58360,202583,true,Pale Yell
 Calochortus invenustus,,N,,,,,16733,1284,64432,202590,true,Plain Mariposa Lily
 Calochortus leichtlinii,,N,,,,,16735,1288,52542,202594,true,Leichtlin's Mariposa Lily
 Calochortus luteus,yellow mariposa lily,N,bulb,yellow,4,6,16737,1290,51077,202595,true,Yellow Mariposa Lily
+Calochortus minimus,Sierra mariposa lily,N,bulb,white,5,8
 Calochortus pulchellus,Mt. Diablo fairy lantern,N,bulb,,,,16755,1303,47326,202609,true,Mt. Diablo Fairy Lantern,,50,1B.2,,,S2,G2
 Calochortus splendens,,N,bulb,,,,16759,1306,58361,202611,true,Splendid Mariposa Lily
 Calochortus umbellatus,Oakland star-tulip,N,bulb,white,,,16769,1311,51054,202616,true,Oakland Star Tulip,,55,4.2,,,S3?,G3?
@@ -423,6 +432,7 @@ Chloropyron maritimum subsp. palustre,Pt. Reyes bird's-beak,N,,,,,93766,11259,79
 Chloropyron molle subsp. hispidum,hispid bird's-beak,N,,,,,93770,11260,79708,95232,true,Hispid Salty Bird's-beak,,176,1B.1,,,S1,G2T1
 Chloropyron molle subsp. molle,soft bird's-beak,N,,,,,93771,11261,79709,95233,true,Soft Salty Bird's-beak,,177,1B.2,CR,FE,S1,G2T1
 Chloropyron palmatum,palmate bird's-beak,N,,,,,93768,11256,76298,65088,true,Palmate Salty Bird's-beak,,502,1B.1,CE,FE,S1,G1
+Chorizanthe clevelandii,Cleveland's spineflower,N,annual,white,5,9
 Chorizanthe cuspidata var. cuspidata,San Francisco spineflower,N,,,,,56484,2025,80569,129579,true,San Francisco Bay Spineflower,,1620,1B.2,,,S1,G2T1
 Chorizanthe membranacea,pink spineflower,N,,,,,19342,2034,58260,112534,true,Pink Spineflower
 Chorizanthe polygonoides var. polygonoides,knotweed spineflower,N,,,,,56497,2043,64181,129592,true,Knotweed Spineflower
@@ -708,6 +718,7 @@ Eriastrum abramsii,,N,,,,,24587,3052,57203,68570,,Abrams' Woollystar
 Eriastrum ertterae,Lime Ridge eriastrum,N,,,,,99214,13079,473592,364414,,Lime Ridge Eriastrum,,3786,1B.1,CE,,S1,G1
 Eriastrum pluriflorum subsp. pluriflorum,,N,,,,,50337,11660,79842,95384,,Many-flowered Eriastrum
 Eriastrum pluriflorum,many-flowered eriastrum,N,,,,,24595,3065,58239,68581,,Many Flowered Eriastrum
+Eriastrum tracyi,"Tracy's wooly-star,Tracy's eriastrum",N,annual,"purple,white",5,6
 Ericameria arborescens,golden-fleece,N,,,,,2583,3071,63924,203595,true,Golden Fleece
 Ericameria linearifolia,interior goldenbush,N,,,,,2598,3085,57971,203609,true,Linear Leaved Goldenbush
 Ericameria nauseosa var. mohavensis,rabbitbrush,N,,,,,80505,11665,57936,203611,true,Mojave Rabbitbrush
@@ -1364,6 +1375,7 @@ Parnassia palustris,marsh grass-of-Parnassus,N,perennial,white,7,10,36283,10180,
 Paspalum dilatatum,Dallis grass,X,,,,,36384,6083,60295,145745,true
 Paspalum distichum,,N,,,,,36387,6084,60297,145752,true,Knotgrass
 Passiflora tarminiana,banana passion vine,X,,,,,81250,8666,78358,27330,true,,passiflora-tarminiana-profile
+Pectiantia breweri,Brewer's miterwort,N,perennial,green,5,9
 Pectocarya penicillata,sleeping combseed,N,,,,,36530,6092,58059,205233,,Northern Pectocarya
 Pedicularis attollens,little elephant's head,N,perennial,pink,6,9,36539,,60532,73583,true,Little Elephant's Head
 Pedicularis densiflora,warrior's plume,N,perennial,red,,,36567,6103,49645,73598,true,Warrior's Plume
