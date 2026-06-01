@@ -160,6 +160,7 @@ Arceuthobium tsugense,Arceuthobium campylopodum
 Arceuthobium tsugense subsp. contortae,Arceuthobium campylopodum
 Arceuthobium tsugense subsp. mertensianae,Arceuthobium campylopodum
 Arceuthobium tsugense subsp. tsugense,Arceuthobium campylopodum
+Arctostaphylos acutifolia,Arctostaphylos patula
 Arctostaphylos andersonii var. auriculata,Arctostaphylos auriculata
 Arctostaphylos andersonii var. pallida,Arctostaphylos pallida
 Arctostaphylos bowermaniae,Arctostaphylos manzanita subsp. manzanita
@@ -173,7 +174,9 @@ Arctostaphylos glandulosa var. mollis,Arctostaphylos glandulosa subsp. mollis
 Arctostaphylos glauca var. eremicola,Arctostaphylos glauca
 Arctostaphylos glauca var. puberula,Arctostaphylos glauca
 Arctostaphylos laevigata,Arctostaphylos manzanita subsp. laevigata
+Arctostaphylos parryana var. pinetorum,Arctostaphylos patula
 Arctostaphylos pungens subsp. laevigata,Arctostaphylos manzanita subsp. laevigata
+Arctostaphylos pungens var. platyphylla,Arctostaphylos patula
 Arctostaphylos rosei,Arctostaphylos crustacea subsp. rosei
 Arctostaphylos tomentosa subsp. crustacea,Arctostaphylos crustacea subsp. crustacea
 Arctostaphylos tomentosa subsp. rosei,Arctostaphylos crustacea subsp. rosei
@@ -181,7 +184,10 @@ Arctostaphylos zacaensis,Arctostaphylos glandulosa subsp. glandulosa
 Arenaria californica,Sabulina californica
 Arenaria douglasii,Sabulina douglasii
 Arenaria douglasii var. emarginata,Sabulina douglasii
+Arenaria kingii subsp. compacta,Eremogone kingii var. glabrescens
+Arenaria kingii var. glabrescens,Eremogone kingii var. glabrescens
 Arenaria macrophylla,Moehringia macrophylla
+Arenaria pumicola var. californica,Eremogone kingii var. glabrescens
 Arenaria pusilla,Sabulina pusilla
 Arenaria pusilla var. diffusa,Sabulina californica
 Argemone munita subsp. argentea,Argemone munita
@@ -196,6 +202,7 @@ Asclepias californica subsp. californica,Asclepias californica
 Asclepias californica subsp. greenei,Asclepias californica
 Asclepias giffordii,Asclepias speciosa
 Asparagus officinalis,Asparagus officinalis subsp. officinalis,INAT
+Aster alpigenus var. andersonii,Oreostemma alpigenum var. andersonii
 Aster breweri,Doellingeria breweri
 Aster chilensis,Symphyotrichum chilense
 Aster chilensis var. lentus,Symphyotrichum lentum
@@ -203,6 +210,7 @@ Aster chilensis var. medius,Symphyotrichum chilense
 Aster chilensis var. sonomensis,Symphyotrichum lentum
 Aster frondosus,Symphyotrichum frondosum
 Aster hesperius,Symphyotrichum lanceolatum var. hesperium
+Aster integrifolius,Eurybia integrifolia
 Aster lanceolatus subsp. hesperius,Symphyotrichum lanceolatum var. hesperium
 Aster lentus,Symphyotrichum lentum
 Aster lentus var. sonomensis,Symphyotrichum lentum
@@ -314,6 +322,7 @@ Cakile edentula subsp. californica,Cakile edentula
 Calamagrostis densa,Calamagrostis koelerioides
 Calandrinia leeana,Lewisia leeana
 Calandrinia menziesii var. macrocarpa,Calandrinia breweri
+Calandrinia nevadensis,Lewisia nevadensis
 Callitriche heterophylla subsp. bolanderi,Callitriche heterophylla var. bolanderi
 Callitropsis macrocarpa,Hesperocyparis macrocarpa
 Callitropsis sargentii,Hesperocyparis sargentii
@@ -369,6 +378,7 @@ Carex sitchensis,Carex aquatilis var. dives
 Carex tracyi,Carex leporina
 Carex vicaria,Carex densa
 Castanopsis chrysophylla var. minor,Chrysolepis chrysophylla var. minor
+Castanopsis sempervirens,Chrysolepis sempervirens
 Castilleja applegatei var. breweri,Castilleja applegatei subsp. pallida,INAT
 Castilleja breweri,Castilleja applegatei subsp. pallida
 Castilleja breweri var. pallida,Castilleja applegatei subsp. pallida
@@ -466,6 +476,8 @@ Cistanthe monosperma,Calyptridium monospermum
 Cistanthe umbellata,Calyptridium umbellatum
 Citrullus amarus,Citrullus lanatus var. citroides,INAT
 Clarkia rubicunda subsp. blasdalei,Clarkia rubicunda
+Claytonia grayana,Lewisia nevadensis
+Claytonia triphylla,Lewisia triphylla
 Coleogeton filiformis subsp. alpinus,Stuckenia filiformis subsp. alpina
 Coleogeton pectinatus,Stuckenia pectinata
 Coleogeton striatus,Stuckenia striata
@@ -668,6 +680,7 @@ Elodea brandegeeae,Elodea canadensis
 Elodea densa,Egeria densa
 Elodea densa,Egeria densa,INAT
 Elymus elongatus var. ponticus,Elymus ponticus
+Elymus elymoides subsp. californicus,Elymus elymoides var. californicus
 Elymus elymoides subsp. elymoides,Elymus elymoides var. elymoides
 Elymus glaucus subsp. jepsonii,Elymus glaucus subsp. glaucus
 Elymus glaucus var. jepsonii,Elymus glaucus subsp. glaucus
@@ -686,6 +699,7 @@ Epilobium adenocaulon,Epilobium ciliatum subsp. ciliatum
 Epilobium adenocaulon var. holosericeum,Epilobium ciliatum subsp. ciliatum
 Epilobium adenocaulon var. occidentale,Epilobium ciliatum subsp. ciliatum
 Epilobium adenocaulon var. parishii,Epilobium ciliatum subsp. ciliatum
+Epilobium angustifolium subsp. circumvagum,Chamerion angustifolium subsp. circumvagum
 Epilobium paniculatum,Epilobium brachycarpum
 Epilobium paniculatum var. jucundum,Epilobium brachycarpum
 Epilobium paniculatum var. laevicaule,Epilobium brachycarpum
@@ -771,6 +785,7 @@ Eriophyllum confertiflorum var. latum,Eriophyllum confertiflorum var. confertifl
 Eriophyllum idoneum,Eriophyllum lanatum var. achilleoides
 Eriophyllum staechadifolium var. artemisiifolium,Eriophyllum staechadifolium
 Eriophyllum staechadifolium var. depressum,Eriophyllum staechadifolium
+Erocallis triphylla,Lewisia triphylla
 Erodium macrophyllum,California macrophylla
 Erodium macrophyllum var. californicum,California macrophylla
 Erodium obtusiplicatum,Erodium brachycarpum
@@ -961,12 +976,18 @@ Heuchera micrantha var. diversifolia,Heuchera micrantha
 Heuchera micrantha var. erubescens,Heuchera micrantha
 Heuchera micrantha var. hartwegii,Heuchera micrantha
 Heuchera micrantha var. macropetala,Heuchera micrantha
+Heuchera rubescens var. alpicola,Heuchera rubescens
+Heuchera rubescens var. glandulosa,Heuchera rubescens
+Heuchera rubescens var. rydbergiana,Heuchera rubescens
+Heuchera rubescens var. versicolor,Heuchera rubescens
 Hibiscus californicus,Hibiscus lasiocarpos var. occidentalis
 Hibiscus lasiocarpos var. californicus,Hibiscus lasiocarpos var. occidentalis
 Hibiscus moscheutos var. occidentalis,Hibiscus lasiocarpos var. occidentalis
 Hieracium gracile,Hieracium triste
 Hierochloe occidentalis,Anthoxanthum occidentale
 Holocarpha obconica subsp. autumnalis,Holocarpha obconica
+Holodiscus microphyllus,Holodiscus discolor var. microphyllus
+Holodiscus microphyllus var. microphyllus,Holodiscus discolor var. microphyllus
 Hookera congesta,Dichelostemma congestum
 Hookera hyacinthina,Triteleia hyacinthina
 Hookera hyacinthina var. lactea,Triteleia hyacinthina
@@ -1035,11 +1056,16 @@ Juncus lesueurii,Juncus lescurii,INAT
 Juncus ranarius,Juncus ambiguus
 Juncus tenuis var. congestus,Juncus occidentalis
 Juncus tenuis var. occidentalis,Juncus occidentalis
+Juniperus occidentalis var. australis,Juniperus grandis
 Jussiaea californica,Ludwigia peploides subsp. peploides
 Jussiaea repens var. californica,Ludwigia peploides subsp. peploides
 Jussiaea repens var. montevidensis,Ludwigia peploides subsp. montevidensis
 Jussiaea repens var. peploides,Ludwigia peploides subsp. peploides
 Kali australis,Salsola australis
+Kalmia microphylla,Kalmia polifolia
+Kalmia microphylla var. microphylla,Kalmia polifolia
+Kalmia polifolia subsp. microphylla,Kalmia polifolia
+Kalmia polifolia subsp. polifolia,Kalmia polifolia
 Keckiella breviflora subsp. breviflora,Keckiella breviflora var. breviflora
 Koeleria cristata var. longifolia,Koeleria macrantha
 Koeleria nitida,Koeleria macrantha
@@ -1095,18 +1121,22 @@ Lessingia germanorum var. parvula,Lessingia tenuis
 Lessingia germanorum var. tenuis,Lessingia tenuis
 Lessingia nemaclada var. albiflora,Lessingia nemaclada
 Lewisia alba,Lewisia rediviva var. rediviva
+Lewisia bernardina,Lewisia nevadensis
 Lewisia eastwoodiana,Lewisia leeana
+Lewisia pygmaea var. nevadensis,Lewisia nevadensis
 Leymus ×multiflorus,Elymus ×gouldii,INAT
 Leymus condensatus,Elymus condensatus,INAT
 Leymus mollis subsp. mollis,Elymus mollis subsp. mollis,INAT
 Leymus triticoides,Elymus triticoides,INAT
 Lilaea scilloides,Triglochin scilloides
 Lilaeopsis occidentalis,Lilaeopsis masonii,INAT
+Lilium canadense var. parvum,Lilium parvum
 Lilium harrisianum,Lilium pardalinum subsp. pardalinum
 Lilium nevadense,Lilium pardalinum subsp. shastense
 Lilium nevadense var. shastense,Lilium pardalinum subsp. shastense
 Lilium pardalinum var. angustifolium,Lilium pardalinum subsp. pardalinum
 Lilium parviflorum var. luteum,Lilium pardalinum subsp. shastense
+Lilium parvum var. crocatum,Lilium parvum
 Lilium parvum var. luteum,Lilium pardalinum subsp. shastense
 Lilium roezlii,Lilium pardalinum subsp. pardalinum
 Lilium shastense,Lilium pardalinum subsp. shastense
@@ -1174,6 +1204,9 @@ Ludwigia grandiflora subsp. hexapetala,Ludwigia hexapetala
 Ludwigia palustris var. americana,Ludwigia palustris
 Ludwigia palustris var. pacifica,Ludwigia palustris
 Lupinus albifrons var. flumineus,Lupinus albifrons var. collinus
+Lupinus arbustus subsp. calcaratus,Lupinus arbustus
+Lupinus arbustus subsp. silvicola,Lupinus arbustus
+Lupinus arbustus var. montanus,Lupinus arbustus
 Lupinus benthamii var. benthamii,Lupinus benthamii
 Lupinus benthamii var. opimus,Lupinus benthamii
 Lupinus bicolor subsp. marginatus,Lupinus bicolor
@@ -1213,6 +1246,7 @@ Lupinus ruber,Lupinus microcarpus var. microcarpus
 Lupinus sellulus subsp. ursinus,Lupinus lepidus var. sellulus
 Lupinus sellulus var. artulus,Lupinus lepidus var. sellulus
 Lupinus sellulus var. sellulus,Lupinus lepidus var. sellulus
+Lupinus silvicola,Lupinus arbustus
 Lupinus subvexus,Lupinus microcarpus var. microcarpus
 Lupinus subvexus var. insularis,Lupinus microcarpus var. microcarpus
 Lupinus subvexus var. phoeniceus,Lupinus microcarpus var. microcarpus
@@ -1399,6 +1433,7 @@ Mitella breweri,Pectiantia breweri
 Monardella antonina,Monardella villosa subsp. villosa
 Monardella antonina subsp. antonina,Monardella villosa subsp. villosa
 Monardella antonina subsp. benitensis,Monardella villosa subsp. villosa
+Monardella pallida,Monardella odoratissima subsp. pallida
 Monardella reflexa,Monardella villosa subsp. villosa
 Monardella siskiyouensis,Monardella villosa subsp. villosa
 Monardella villosa subsp. globosa,Monardella villosa subsp. villosa
@@ -1454,7 +1489,9 @@ Nicotiana bigelovii var. wallacei,Nicotiana quadrivalvis
 Nicotiana quadrivalvis var. bigelovii,Nicotiana quadrivalvis
 Nicotiana quadrivalvis var. quadrivalvis,Nicotiana quadrivalvis
 Nothoscordum aureum,Bloomeria crocea var. aurea
+Nuphar lutea subsp. polysepala,Nuphar polysepala
 Nuttallia cerasiformis,Oemleria cerasiformis
+Nymphaea polysepala,Nuphar polysepala
 Obione fruticulosa,Atriplex fruticulosa
 Obione lentiformis,Atriplex lentiformis
 Obione leucophylla,Atriplex leucophylla
@@ -1480,6 +1517,7 @@ Olea europaea subsp. africana,Olea europaea
 Oloptum miliaceum,Stipa miliacea var. miliacea,INAT
 Onychium densum,Aspidotis densa
 Oreobroma leeanum,Lewisia leeana
+Oreobroma triphyllum,Lewisia triphylla
 Orobanche bulbosa,Aphyllon tuberosum
 Orobanche californica subsp. jepsonii,Aphyllon californicum subsp. jepsonii
 Orobanche californica var. corymbosa,Aphyllon corymbosum
@@ -1924,6 +1962,7 @@ Saviniona assurgentiflora,Malva assurgentiflora
 Saxifraga bryophora,Micranthes bryophora
 Saxifraga bryophora var. bryophora,Micranthes bryophora
 Saxifraga californica,Micranthes californica
+Saxifraga tolmiei,Micranthes tolmiei
 Schedonorus arundinaceus,Festuca arundinacea
 Schedonorus phoenix,Festuca arundinacea
 Schmaltzia trilobata,Rhus aromatica
@@ -2018,6 +2057,7 @@ Sisyrinchium greenei,Sisyrinchium bellum
 Sisyrinchium hesperium,Sisyrinchium bellum
 Sisyrinchium lineatum,Sisyrinchium californicum
 Sisyrinchium maritimum,Sisyrinchium bellum
+Sitanion hystrix var. californicum,Elymus elymoides var. californicus
 Sitanion jubatum,Elymus multisetus
 Sixalix atropurpurea,Scabiosa atropurpurea,INAT
 Smilacina racemosa var. amplexicaulis,Maianthemum racemosum subsp. amplexicaule
