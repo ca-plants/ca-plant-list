@@ -1,1 +1,1 @@
-Inflorescence densely glandular.
+Inflorescence densely glandular. Often on sandy soil.

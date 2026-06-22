@@ -520,15 +520,16 @@ async function getTaxa(options) {
  * @param {{outputdir:string,update:boolean}} options
  */
 async function prune(options) {
-    await pruneFile(TAXON_PHOTO_FILE_NAME, options);
-    await pruneFile(OBS_PHOTO_FILE_NAME, options);
+    await pruneFile(TAXON_PHOTO_FILE_NAME, options, false);
+    await pruneFile(OBS_PHOTO_FILE_NAME, options, true);
 }
 
 /**
  * @param {string} fileName
  * @param {{outputdir:string,update:boolean}} options
+ * @param {boolean} includeObsId
  */
-async function pruneFile(fileName, options) {
+async function pruneFile(fileName, options, includeObsId) {
     const taxa = await getTaxa(options);
     const errorLog = new ErrorLog(options.outputdir + "/log.tsv", true);
     const csvFilePath = getPhotoFilePath(fileName, options);
@@ -548,7 +549,7 @@ async function pruneFile(fileName, options) {
         for (const name of invalidNames) {
             currentTaxaPhotos.delete(name);
         }
-        writePhotos(csvFilePath, currentTaxaPhotos);
+        writePhotos(csvFilePath, currentTaxaPhotos, includeObsId);
     }
 
     errorLog.write();

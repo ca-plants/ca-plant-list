@@ -1,1 +1,1 @@
-Flowers funnel shaped. Leaves spine-tipped.
+Flowers funnel shaped. Leaves alternate, spine-tipped.
