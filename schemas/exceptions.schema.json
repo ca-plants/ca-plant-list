@@ -27,6 +27,15 @@
             "comment": {
                 "type": "string"
             },
+            "fna": {
+                "type": "object",
+                "properties": {
+                    "notintaxondata": {
+                        "const": true
+                    }
+                },
+                "additionalProperties": false
+            },
             "inat": {
                 "type": "object",
                 "properties": {

@@ -2,12 +2,7 @@
     "Aconitum columbianum": {
         "calflora": { "notintaxondata": true }
     },
-    "Blitum californicum": {
-        "calflora": { "notintaxondata": true }
-    },
-    "Blitum nuttallianum": {
-        "calflora": { "notintaxondata": true }
-    },
+    "Arctostaphylos patula": { "calflora": { "notintaxondata": true } },
     "Castilleja ambigua subsp. ambigua": {
         "rpi": {
             "translation-to-rpi": "Castilleja ambigua var. ambigua"
@@ -108,10 +103,15 @@
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
+    "Rubus pensilvanicus": { "inat": { "notintaxondata": true } },
     "Sagina procumbens": { "calflora": { "native": false } },
+    "Sporobolus montevidensis": { "calflora": { "notintaxondata": true } },
     "Streptanthus albidus subsp. peramoenus": {
         "comment": "in CNPS Rare Plant Inventory",
         "calflora": {
+            "notintaxondata": true
+        },
+        "fna": {
             "notintaxondata": true
         },
         "jepson": {
