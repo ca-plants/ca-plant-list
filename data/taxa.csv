@@ -1700,6 +1700,7 @@ Rosa woodsii,Woods' rose,N,perennial,pink,,,41704,10312,78887,30370,true,Woods' 
 Rubus armeniacus,Himalayan blackberry,X,,,,,87465,10319,61317,30459,,,rubus-armeniacus-profile
 Rubus laciniatus,cutleaf blackberry,X,,,,,42009,7195,78891,30698,true
 Rubus parviflorus,thimbleberry,N,,,,,42108,7200,51646,30808,true,Thimbleberry
+Rubus pensilvanicus,blackberry,X,perennial,white,4,7
 Rubus spectabilis,,N,,,,,42231,7203,47543,30942,true,Salmon Berry
 Rubus ulmifolius var. anoplothyrsus,,X,,,,,91783,11997,81352,51402
 Rubus ursinus,California blackberry,N,,,,,42267,7206,53445,30998,true,California Blackberry
@@ -1864,6 +1865,7 @@ Sporobolus airoides,alkali sacaton,N,,,,,45286,7744,60313,149026,true,Alkali Sac
 Sporobolus alterniflorus,saltwater cordgrass,X,,,,,82872,14901,772903,432224,Spartina alterniflora
 Sporobolus foliosus,California cordgrass,N,,,,,82873,14903,772992,208714,Spartina foliosa,California Cord Grass
 Sporobolus indicus,smutgrass,X,,,,,45308,7749,79187,149101,true
+Sporobolus montevidensis,dense-flowered cordgrass,X,perennial,,5,8
 Sporobolus niliacus,,X,,,,,82876,14905,773022,397065,Crypsis vaginiflora
 Sporobolus pumilus,saltmeadow cordgrass,X,,,,,82878,14906,773004,432226,Spartina patens
 Sporobolus schoenoides,swamp grass,X,,,,,82879,14907,773038,397066,Crypsis schoenoides
