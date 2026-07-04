@@ -109,6 +109,9 @@
         "calflora": {
             "notintaxondata": true
         },
+        "fna": {
+            "notintaxondata": true
+        },
         "jepson": {
             "notineflora": true
         },
