@@ -103,6 +103,7 @@
     "Ranunculus sceleratus var. sceleratus": {
         "calflora": { "native": false }
     },
+    "Rubus pensilvanicus": { "inat": { "notintaxondata": true } },
     "Sagina procumbens": { "calflora": { "native": false } },
     "Streptanthus albidus subsp. peramoenus": {
         "comment": "in CNPS Rare Plant Inventory",
