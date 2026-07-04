@@ -291,9 +291,11 @@ Brodiaea lactea var. lilacina,Triteleia hyacinthina
 Brodiaea laxa,Triteleia laxa
 Brodiaea laxa var. candida,Triteleia laxa
 Brodiaea laxa var. tracyi,Triteleia laxa
+Brodiaea lutea var. anilina,Triteleia ixioides subsp. anilina
 Brodiaea multiflora,Dichelostemma multiflorum
 Brodiaea parviflora,Dichelostemma multiflorum
 Brodiaea peduncularis,Triteleia peduncularis
+Brodiaea scabra var. anilina,Triteleia ixioides subsp. anilina
 Brodiaea torreyi,Brodiaea terrestris subsp. terrestris
 Brodiaea volubilis,Dichelostemma volubile
 Bromus breviaristatus,Bromus sitchensis var. marginatus
@@ -323,6 +325,8 @@ Calamagrostis densa,Calamagrostis koelerioides
 Calandrinia leeana,Lewisia leeana
 Calandrinia menziesii var. macrocarpa,Calandrinia breweri
 Calandrinia nevadensis,Lewisia nevadensis
+Calliprora anilina,Triteleia ixioides subsp. anilina
+Calliprora scabra var. anilina,Triteleia ixioides subsp. anilina
 Callitriche heterophylla subsp. bolanderi,Callitriche heterophylla var. bolanderi
 Callitropsis macrocarpa,Hesperocyparis macrocarpa
 Callitropsis sargentii,Hesperocyparis sargentii
@@ -915,6 +919,7 @@ Habenaria elegans var. elata,Platanthera elongata
 Habenaria elegans var. maritima,Platanthera elegans subsp. elegans
 Habenaria elegans var. multiflora,Platanthera elegans subsp. elegans
 Habenaria greenei,Platanthera elegans subsp. elegans
+Habenaria leucostachys var. virida,Platanthera sparsiflora
 Habenaria michaelii,Platanthera michaelii
 Habenaria unalascensis,Platanthera unalascensis
 Hackelia jessicae,Hackelia micrantha
@@ -1092,6 +1097,7 @@ Layia chrysanthemoides subsp. maritima,Layia chrysanthemoides
 Layia glandulosa subsp. lutea,Layia glandulosa
 Layia paniculata,Layia hieracioides
 Layia platyglossa subsp. campestris,Layia platyglossa
+Ledum glandulosum,Rhododendron columbianum
 Legenere valdiviana,Legenere limosa,INAT
 Lemna cyclostasa,Lemna valdiviana
 Lemna minor var. minima,Lemna minor
@@ -1626,6 +1632,8 @@ Phalaris tuberosa,Phalaris aquatica
 Phalaris tuberosa var. stenoptera,Phalaris aquatica
 Phlox azurea,Phlox diffusa
 Phlox gracilis,Microsteris gracilis
+Phoradendron juniperinum var. ligatum,Phoradendron juniperinum
+Phoradendron libocedri,Phoradendron juniperinum
 Phoradendron macrophyllum,Phoradendron leucarpum subsp. macrophyllum,INAT
 Phoradendron serotinum subsp. macrophyllum,Phoradendron leucarpum subsp. macrophyllum
 Phoradendron serotinum subsp. tomentosum,Phoradendron leucarpum subsp. tomentosum
@@ -1640,6 +1648,7 @@ Phyla nodiflora var. reptans,Phyla nodiflora
 Phyla nodiflora var. rosea,Phyla nodiflora
 Picris echioides,Helminthotheca echioides
 Pinus benthamiana,Pinus ponderosa var. benthamiana
+Pinus murrayana,Pinus contorta subsp. murrayana
 Pinus ponderosa subsp. benthamiana,Pinus ponderosa var. benthamiana
 Pinus ponderosa var. pacifica,Pinus ponderosa var. benthamiana
 Piperia elegans subsp. elegans,Platanthera elegans subsp. elegans
@@ -1800,6 +1809,7 @@ Pyrola picta subsp. dentata,Pyrola dentata
 Pyrola picta subsp. integra,Pyrola dentata
 Pyrola picta subsp. pallida,Pyrola dentata
 Pyrola picta var. dentata,Pyrola dentata
+Pyrola secunda,Orthilia secunda
 Quercus agrifolia var. frutescens,Quercus agrifolia var. agrifolia
 Quercus chrysolepis var. nana,Quercus chrysolepis
 Quercus lobata f. insperata,Quercus lobata
@@ -1843,6 +1853,7 @@ Rhus trilobata var. simplicifolia,Rhus aromatica
 Rhus trilobata var. trilobata,Rhus aromatica
 Ribes amarum var. hoffmannii,Ribes amarum
 Ribes glutinosum,Ribes sanguineum var. glutinosum
+Ribes hallii,Ribes viscosissimum
 Ribes leptanthum var. quercetorum,Ribes quercetorum
 Ribes malvaceum var. clementinum,Ribes malvaceum var. malvaceum
 Ribes menziesii var. faustum,Ribes menziesii var. menziesii
@@ -1851,8 +1862,11 @@ Ribes menziesii var. hystrix,Ribes menziesii var. menziesii
 Ribes menziesii var. leptosmum,Ribes menziesii var. menziesii
 Ribes menziesii var. retineatum,Ribes menziesii var. menziesii
 Ribes menziesii var. senile,Ribes menziesii var. menziesii
+Ribes nevadense var. glaucescens,Ribes nevadense
+Ribes nevadense var. jaegeri,Ribes nevadense
 Ribes sanguineum var. deductum,Ribes sanguineum var. glutinosum
 Ribes sanguineum var. melanocarpum,Ribes sanguineum var. glutinosum
+Ribes viscosissimum var. hallii,Ribes viscosissimum
 Romanzoffia mendocina,Romanzoffia californica
 Romanzoffia spergulina,Romanzoffia californica
 Romulea longifolia,Romulea rosea var. australis
@@ -2040,6 +2054,7 @@ Seubertia laxa,Triteleia laxa
 Seubertia obscura,Triteleia laxa
 Sida leprosa var. hederacea,Malvella leprosa
 Sidalcea delphiniifolia,Sidalcea malviflora subsp. malviflora
+Sidalcea montana,Sidalcea glaucescens
 Silene californica,Silene laciniata subsp. californica
 Silene coronaria,Lychnis coronaria,INAT
 Silene douglasii var. monantha,Silene douglasii var. douglasii
@@ -2083,7 +2098,6 @@ Sparganium eurycarpum subsp. eurycarpum,Sparganium eurycarpum var. eurycarpum
 Sparganium greenei,Sparganium eurycarpum var. greenei
 Sparganium stoloniferum subsp. stoloniferum,Sparganium eurycarpum var. greenei,INAT
 Spartina alterniflora,Sporobolus alterniflorus
-Spartina densiflora,Sporobolus densiflorus
 Spartina foliosa,Sporobolus foliosus
 Spartina patens,Sporobolus pumilus
 Spergularia bocconei,Spergularia bocconi,INAT
@@ -2094,6 +2108,10 @@ Sphaeralcea fasciculata var. elmeri,Malacothamnus arcuatus var. elmeri
 Sphaeralcea fremontii,Malacothamnus fremontii var. fremontii
 Sphaeralcea fremontii var. cercophora,Malacothamnus fremontii var. fremontii
 Sphenosciadium capitellatum,Angelica capitellata
+Spiraea densiflora,Spiraea splendens
+Spiraea densiflora subsp. splendens,Spiraea splendens
+Spiraea helleri,Spiraea splendens
+Spiraea splendens var. splendens,Spiraea splendens
 Spirodela oligorrhiza,Landoltia punctata
 Spirodela punctata,Landoltia punctata
 Sporobolus purpurascens,Sporobolus densiflorus,INAT
@@ -2119,6 +2137,7 @@ Streptanthus breweri var. breweri,Streptanthus breweri
 Streptanthus coulteri var. lemmonii,Caulanthus lemmonii
 Streptanthus flavescens,Caulanthus flavescens
 Streptanthus lemmonii,Caulanthus lemmonii
+Streptanthus lemmonii,Streptanthus tortuosus
 Stropholirion californicum,Dichelostemma volubile
 Stylocline amphibola,Micropus amphibolus
 Stylocline filaginea,Ancistrocarphus filagineus
@@ -2167,6 +2186,7 @@ Tillaea aquatica,Crassula aquatica
 Tillaea erecta,Crassula connata
 Tillaea muscosa,Crassula tillaea
 Tiniaria japonica,Fallopia japonica
+Tofieldia occidentalis subsp. occidentalis,Triantha occidentalis subsp. occidentalis
 Tomostima cuneifolia,Draba cuneifolia,INAT
 Torilis arvensis subsp. purpurea,Torilis arvensis
 Toxicodendron trilobatum,Rhus aromatica
@@ -2204,7 +2224,9 @@ Trillium chloropetalum var. giganteum,Trillium chloropetalum
 Trillium ovatum var. ovatum,Trillium ovatum
 Trisetum cernuum var. canescens,Trisetum canescens
 Triteleia angustiflora,Triteleia laxa
+Triteleia anilina,Triteleia ixioides subsp. anilina
 Triteleia candida,Triteleia laxa
+Triteleia ixioides var. anilina,Triteleia ixioides subsp. anilina
 Triteleia lactea,Triteleia hyacinthina
 Tropidocarpum gracile var. dubium,Tropidocarpum gracile
 Ulmus carpinifolia,Ulmus minor
@@ -2221,6 +2243,7 @@ Vaccinium ovatum var. saporosum,Vaccinium ovatum
 Vancouveria parviflora,Vancouveria planipetala
 Veatchia crystallina,Triteleia hyacinthina
 Velezia rigida,Dianthus nudiflorus
+Veratrum californicum var. caudatum,Veratrum californicum var. californicum
 Verbena abramsii,Verbena lasiostachys var. lasiostachys
 Verbena brasiliensis,Verbena litoralis
 Verbena hastata var. scabra,Verbena hastata
