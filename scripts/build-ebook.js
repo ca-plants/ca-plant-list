@@ -77,7 +77,7 @@ async function buildBook(outputDir, dataDir, showFlowerErrors, maxTaxa) {
     );
 
     const config = new Config(dataDir);
-    const ebook = new PlantBook(outputDir, config, taxa, maxTaxa);
+    const ebook = new PlantBook(outputDir, dataDir, config, taxa, maxTaxa);
     await ebook.create();
     errorLog.write();
 }
