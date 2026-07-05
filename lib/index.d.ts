@@ -195,7 +195,7 @@ export class HTMLTaxon {
         taxon: Taxon,
         sourceCode: RefSourceCode,
     ): void;
-    static getFooterHTML(taxon: Taxon): string;
+    static getFooterHTML(taxon: Taxon, dataDir: string): string;
     static getListSectionHTML(
         list: string[],
         header: string,
