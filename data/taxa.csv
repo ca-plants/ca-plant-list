@@ -1,6 +1,7 @@
 taxon_name,common name,status,life_cycle,flower_color,bloom_start,bloom_end,jepson id,calrecnum,inat id,cch2_id,fna,calscape_cn,calipc,RPI ID,CRPR,CESA,FESA,SRank,GRank
 Abies concolor,white fir,N,perennial,,,,11524,3,68087,58146,true,Balsam Fir
 Abies magnifica var. magnifica,red fir,N,perennial,,,,71178,8,68085,58704,Abies magnifica,California Red Fir
+Abies magnifica var. shastensis,Shasta red fir,N,perennial
 Abronia latifolia,yellow sand verbena,N,,,,,11552,13,52618,111335,true,Sand Verbena
 Abronia umbellata var. umbellata,beach sand verbena,N,,,,,75287,10748,53800,129214,true,Pink Sand Verbena
 Abutilon theophrasti,velvet-leaf,X,,,,,11605,26,60214,8869,true
@@ -303,21 +304,26 @@ Callitriche heterophylla var. bolanderi,,N,,,,,55448,1257,60158,96979,,Bolander'
 Callitriche longipedunculata,,N,,,,,16691,11443,75936,64127,true,Longstock Water-starwort
 Callitriche marginata,water-starwort,N,,,,,16692,1259,58093,64128,true,Winged Water Starwort
 Callitriche trochlearis,,N,,,,,16702,1261,69994,64137,true,Effluent Water-starwort
+Calocedrus decurrens,California incense cedar,N,perennial
 Calochortus albus,white globe lily,N,,white,4,6,16710,1264,51315,202570,true,White Globe Lily
 Calochortus argillosus,clay mariposa lily,N,bulb,"white,pink",4,6,76542,1268,64330,202576,true,Clay Mariposa Lily
 Calochortus clavatus var. pallidus,,N,,,,,55455,1275,58360,202583,true,Pale Yellow Mariposa
+Calochortus coeruleus,beavertail-grass,N,bulb,white,5,6
+Calochortus elegans,cat's ear,N,bulb,"white,purple",5,7
 Calochortus invenustus,,N,,,,,16733,1284,64432,202590,true,Plain Mariposa Lily
 Calochortus leichtlinii,,N,,,,,16735,1288,52542,202594,true,Leichtlin's Mariposa Lily
 Calochortus luteus,yellow mariposa lily,N,bulb,yellow,4,6,16737,1290,51077,202595,true,Yellow Mariposa Lily
 Calochortus minimus,Sierra mariposa lily,N,bulb,white,5,8,16742,1292,60549,202599,true,Sierra Mariposa Lily
 Calochortus pulchellus,Mt. Diablo fairy lantern,N,bulb,,,,16755,1303,47326,202609,true,Mt. Diablo Fairy Lantern,,50,1B.2,,,S2,G2
 Calochortus splendens,,N,bulb,,,,16759,1306,58361,202611,true,Splendid Mariposa Lily
+Calochortus tolmiei,pussy ears,N,bulb,white,4,7
 Calochortus umbellatus,Oakland star-tulip,N,bulb,white,,,16769,1311,51054,202616,true,Oakland Star Tulip,,55,4.2,,,S3?,G3?
 Calochortus venustus,butterfly mariposa lily,N,bulb,"white,red",5,7,16772,1313,53902,202619,true,Butterfly Mariposa
 Caltha leptosepala,white marsh-marigold,N,perennial,white,5,7,16797,9748,64445,12060,true,Marsh Marigold
 Caltha palustris,marsh-marigold,X,,,,,16802,8708,56224,12065,true
 Calycadenia multiglandulosa,,N,,,,,1875,1324,56863,202629,true,Sticky Calycadenia
 Calycadenia truncata,rosin weed,N,,,,,1884,1328,62567,202633,true,Rosin Weed
+Calypso bulbosa var. occidentalis,fairy-slipper,N,perennial,pink,3,6
 Calyptridium monospermum,one-seeded pussypaws,N,perennial,"pink,white",4,9,16846,1335,75958,112295,Cistanthe monosperma,One Seeded Pussypaws
 Calyptridium umbellatum,Mount Hood pussypaws,N,perennial,white,5,10,16852,1344,127100,112301,Cistanthe umbellata,Pussy Paws
 Calystegia malacophylla subsp. pedicellata,woolly morning-glory,N,perennial,white,4,7,76596,1364,79655,95089,true,Jepson's Morning Glory
@@ -580,6 +586,8 @@ Cytisus scoparius,Scotch broom,X,,,,,22199,2601,48538,16767,true,,cytisus-scopar
 Cytisus striatus,,X,,,,,22200,2602,76598,16770,true,,cytisus-striatus-profile
 Dactylis glomerata,orchard grass,X,,,,,22210,2603,52720,138886,true,,dactylis-glomerata-profile
 Danthonia californica,California oatgrass,N,,,,,22319,2610,57165,138931,true,California Oatgrass
+Darlingtonia californica,California pitcher plant,N,perennial,green,4,6
+Darmera peltata,umbrella plant,N,perennial,"white,pink",4,9
 Dasiphora fruticosa,shrubby cinquefoil,N,perennial,yellow,6,9,80452,11590,76606,16994,true,Shrubby Cinquefoil
 Datisca glomerata,durango root,N,perennial,yellow,5,7,22377,2618,58888,16996,true,Durango Root
 Datura stramonium,jimson weed,X,,,,,22387,2621,55854,67400,true
@@ -617,6 +625,7 @@ Descurainia pinnata subsp. brachycarpa,tansy mustard,N,,,,,50146,11596,59235,203
 Desmazeria rigida,,X,,,,,22633,2706,288259,139152,true
 Dianthus nudiflorus,,X,annual,pink,,,85151,14658,1143003,416921,Velezia rigida
 Dicentra formosa,bleeding heart,N,,,,,22766,2711,51048,17318,true,Bleeding Heart
+Dicentra pauciflora,shorthorn steer's head,N,perennial,pink,6,7
 Dichelostemma congestum,ookow,N,corm,purple,4,6,22850,2721,56593,203363,true,Ookow
 Dichelostemma multiflorum,,N,,,,,22853,2723,62262,202526,true,Wild Hyacinth
 Dichelostemma volubile,twining brodiaea,N,,,,,22855,2725,59971,203365,true,Twining Snakelily
@@ -629,6 +638,7 @@ Diplacus aurantiacus,bush monkeyflower,N,,,,,23077,13456,777371,68185,true,Bush 
 Diplacus bolanderi,,N,,,,,99039,13462,771812,203385,true,Bolander's Monkeyflower
 Diplacus douglasii,Douglas monkeyflower,N,,,,,99051,13428,771821,203391,true,Brownies
 Diplacus kelloggii,,N,,,,,99058,13472,771826,203395,true,Kellogg's Monkeyflower
+Diplacus layneae,Layne's monkeyflower,N,annual,pink,5,8
 Diplacus rattanii,Rattan monkeyflower,N,,,,,99072,13479,771830,203405,true,Rattan's Monkeyflower
 Diplacus tricolor,,N,,,,,99079,13482,771835,203410,true,Tricolor Monkeyflower
 Dipsacus sativus,teasel,X,,,,,23137,2738,53028,203416,,,dipsacus-sativus-profile
@@ -645,6 +655,7 @@ Downingia ornatissima var. mirabilis,,N,annual,blue,4,5,84766,14563,,372404,,Fol
 Downingia pulchella,,N,annual,blue,4,6,23282,2782,60167,203445,,Flatface Calicoflower
 Draba cuneifolia,,N,,,,,23332,2798,1138678,17510,true,Wedgeleaf Draba
 Draba verna,spring whitlow-grass,X,,white,2,5,23442,2816,55823,17645,true
+Draperia systyla,violet draperia,N,perennial,white,5,10
 Drymocallis glandulosa var. glandulosa,sticky cinquefoil,N,perennial,"yellow,white",5,7,82059,11609,80678,46995,true,Sticky Cinquefoil
 Drymocallis glandulosa var. wrangelliana,sticky cinquefoil,N,,,,,82064,11612,80681,46998,true
 Drymocallis lactea var. austiniae,Austin's woodbeauty,N,perennial,yellow,5,9,82054,11615,80682,206748,true,Austin's Woodbeauty
@@ -748,8 +759,10 @@ Erigeron sumatrensis,,X,,,,,91898,11669,76943,203695,Conyza floribunda
 Eriobotrya japonica,loquat,X,,,,,24627,8718,76949,17972,true
 Eriodictyon californicum,yerba santa,N,,,,,24668,3182,57095,203704,,California Yerba Santa
 Eriogonum angulosum,,N,,,,,24690,3194,58266,113902,true,Angle-stem Wild Buckwheat
+Eriogonum compositum var. compositum,arrow-leaf wild buckwheat,N,perennial,yellow,4,7
 Eriogonum covilleanum,,N,,,,,24742,3222,58269,113961,true,Coville's Wild Buckwheat
 Eriogonum deserticola,,N,,,,,24754,3231,76982,113976,true,Colorado Desert Wild Buckwheat
+Eriogonum diclinum,Jaynes Canyon buckwheat,N,perennial,yellow,6,9
 Eriogonum fasciculatum var. foliolosum,California buckwheat,N,,,,,58545,3246,58980,129982,true,Leafy California Buckwheat
 Eriogonum fasciculatum var. polifolium,,N,,,,,58546,3247,58272,129983,true,Interior California Buckwheat
 Eriogonum gracile var. gracile,slender buckwheat,N,,,,,58563,3257,58982,129999,true,Slender Woolly Wild Buckwheat
@@ -759,6 +772,7 @@ Eriogonum latifolium,seaside wild buckwheat,N,perennial,"white,pink",1,12,24832,
 Eriogonum lobbii,granite buckwheat,N,perennial,"white,pink",6,8,24839,9935,77005,114067,true,Lobb's Buckwheat
 Eriogonum luteolum var. caninum,Tiburon buckwheat,N,,,,,58623,3297,61205,130067,true,Tiburon Buckwheat,,733,1B.2,,,S2,G5T2
 Eriogonum luteolum var. luteolum,,N,,,,,58624,3298,64226,130068,true,Golden-carpet Wild Buckwheat
+Eriogonum marifolium var. marifolium,marum-leaf wild buckwheat,N,perennial,yellow,6,8
 Eriogonum nudum var. auriculatum,eared buckwheat,N,,,,,58650,3316,57220,130102,true,Nude Buckwheat
 Eriogonum nudum var. pauciflorum,,N,,,,,58658,3324,57225,130111,true,Little-flower Wild Buckwheat
 Eriogonum nudum var. psychicola,Antioch Dunes buckwheat,N,,,,,80051,11183,80823,130112,,Antioch Dunes Buckwheat,,3401,1B.1,,,S1,G5T1
@@ -775,6 +789,7 @@ Eriophyllum confertiflorum var. confertiflorum,golden-yarrow,N,perennial,yellow,
 Eriophyllum jepsonii,Jepson's woolly-sunflower,N,,,,,2816,3426,77048,203742,true,Jepson's Woolly Sunflower,,776,4.3,,,S3,G3
 Eriophyllum lanatum var. achilleoides,,N,,,,,7369,10587,80880,260847,true,Common Woollysunflower
 Eriophyllum lanatum var. integrifolium,Oregon sunshine,N,perennial,yellow,7,8,7376,3434,80884,203748,true,Oregon Sunshine
+Eriophyllum lanatum var. lanceolatum,wooly sunflower,N,perennial,yellow,5,8
 Eriophyllum staechadifolium,seaside woolly-sunflower,N,,,,,2825,3444,60963,203755,true,Seaside Woolly Sunflower
 Erodium botrys,long-beaked filaree,X,annual,pink,3,7,25037,3446,57090,17986
 Erodium brachycarpum,,X,annual,pink,3,7,25038,3447,58171,17987
@@ -1128,6 +1143,8 @@ Lessingia nemaclada,,N,,,,,3785,4753,60508,204637,true,Slenderstem Lessingia
 Lessingia pectinata var. tenuipes,,N,,,,,81838,11800,81020,204639,true
 Lessingia ramulosa,,N,,,,,3786,4755,77716,204640,true,Sonoma Lessingia
 Lessingia tenuis,spring lessingia,N,,,,,3778,4756,58025,204641,true,Spring Lessingia,,684,4.3,,,S4,G4
+Lewisia cotyledon var. cotyledon,cliff maids,N,perennial,pink,5,7
+Lewisia cotyledon var. heckneri,Heckner's lewisia,N,perennial,pink,5,7
 Lewisia leeana,quill-leaved lewisia,N,perennial,"pink,white",6,8,30833,10065,77728,115123,true,Quill Leaf Lewisia
 Lewisia nevadensis,Nevada lewisia,N,perennial,white,5,8,30836,4775,77730,115128,true,Nevada Lewisia
 Lewisia rediviva var. rediviva,bitterroot,N,perennial,"white,pink",3,6,60818,10066,81025,130385,true,Bitter Root
@@ -1191,6 +1208,7 @@ Lupinus benthamii,spider lupine,N,,,,,31791,5117,59565,24816,true,Spider Lupine
 Lupinus bicolor,miniature lupine,N,,blue,3,6,31793,5118,50614,24819,true,Miniature Lupine
 Lupinus chamissonis,beach blue lupine,N,,,,,31831,5125,61011,24853,true,Dune Bush Lupine
 Lupinus concinnus,Bajada lupine,N,,,,,31835,5129,58901,24863,true,Elegant Lupine
+Lupinus croceus,Mount Eddy lupine,N,perennial,yellow,5,8
 Lupinus formosus var. formosus,"summer lupine,western lupine",N,perennial,blue,4,9,61315,5148,61822,49175,true,Summer Lupine
 Lupinus latifolius var. dudleyi,,N,,,,,76660,5161,81063,49195,true,Broadleaf Lupine
 Lupinus latifolius var. latifolius,"broadleaf lupine,wood lupine",N,perennial,blue,4,9,75772,5162,64242,204794,true,Broad Leaf Lupine
@@ -1424,6 +1442,7 @@ Penstemon heterodoxus var. heterodoxus,Sierra penstemon,N,perennial,purple,7,8,7
 Penstemon heterophyllus var. heterophyllus,chaparral penstemon,N,perennial,purple,4,7,75906,6178,51852,99150,true,Foothill Penstemon
 Penstemon heterophyllus var. purdyi,foothill penstemon,N,perennial,purple,5,6,76773,6179,81205,99151,true,Purdy's Foothill Penstemon
 Penstemon newberryi var. newberryi,mountain pride,N,perennial,pink,6,8,76776,6192,52147,99181,true,Newberry's Penstemon
+Penstemon newberryi var. berryi,Berry's penstemon,N,perennial,"pink,red",6,8
 Penstemon rydbergii var. oreocharis,"Rydberg's beardtongue,meadow penstemon",N,perennial,"blue,purple",5,8,63317,6212,81217,99205,true,Mountain Meadow Beardtongue
 Pentachaeta alsinoides,tiny pygmy daisy,N,,,,,4273,6225,58844,205258,true,Tiny Pygmydaisy
 Pentachaeta exilis subsp. exilis,meager pygmy daisy,N,,,,,6171,6230,58846,205262,true,Meager Pygmydaisy
@@ -1669,6 +1688,7 @@ Rhaponticum repens,Russian knapweed,X,,,,,103802,13621,339502,201832,Acroptilon 
 Rhinotropis californica,California milkwort,N,,,,,107535,14636,876453,265222,true,California Milkwort
 Rhodiola integrifolia subsp. integrifolia,western roseroot,N,perennial,red,5,8,80583,10300,80170,43540,true,Western Roseroot
 Rhododendron columbianum,western Labrador tea,N,perennial,white,5,8,91858,11986,78847,75140,true,Western Labrador Tea
+Rhododendron occidentale,California azalea,N,perennial,white,4,8
 Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,,Fragrant Sumac
 Rhus integrifolia,lemonade berry,N,perennial,,,,41186,7090,55009,29829,,Lemonade Berry
 Rhus ovata,sugar bush,N,perennial,,,,41191,7091,64121,29838,,Sugar Bush
@@ -1783,6 +1803,7 @@ Scutellaria galericulata,,N,perennial,,,,43891,7433,79016,75903,,Marsh Skullcap,
 Scutellaria siphocampyloides,,N,perennial,blue,5,7,43926,7437,59792,75935,,Curve Flowered Skullcap
 Scutellaria tuberosa,,N,perennial,,,,43930,7438,57122,75940,,Danny's Skullcap
 Sedella pentandra,,N,,,,,43952,9590,58884,31828,true,Central California Stonecrop
+Sedum kiersteadiae,Mount Eddy stonecrop,N,perennial,yellow,6,8
 Sedum lanceolatum,lanceleaf stonecrop,N,perennial,yellow,5,8,43981,7443,79026,31865,true,Spearleaf Stonecrop
 Sedum obtusatum,Sierra stonecrop,N,perennial,yellow,6,8,43994,7450,60847,31878,true,Sierra Stonecrop
 Sedum radiatum subsp. radiatum,,N,,,,,52943,14601,238486,43756,Sedum radiatum var. radiatum
