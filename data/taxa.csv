@@ -407,7 +407,7 @@ Ceanothus thyrsiflorus,blue blossom,N,,,,,18501,1830,56617,12790,true,Blueblosso
 Ceanothus velutinus,snowbrush,N,perennial,white,4,7,18505,1834,64043,12792,true,Tobacco Brush
 Centaurea calcitrapa,purple star-thistle,X,,,,,1922,1845,56865,202776,true,,centaurea-calcitrapa-profile
 Centaurea cyanus,"bachelor's button,cornflower",X,,,,,1925,1846,933404,202778,true
-Centaurea iberica,Iberian starthistle,X,,,,,1931,1849,76212,206620,true
+Centaurea iberica,Iberian star-thistle,X,perennial,pink,6,8,1931,1849,76212,206620,true
 Centaurea melitensis,"tocalote,Maltese star-thistle",X,,,,,1934,1851,57922,202785,true,,centaurea-melitensis-profile
 Centaurea solstitialis,yellow star-thistle,X,,,,,1946,1853,52588,202793,true,,centaurea-solstitialis-profile
 Centranthus ruber,red valerian,X,,,,,18595,1864,57283,202799
@@ -415,6 +415,7 @@ Centromadia fitchii,Fitch's spikeweed,N,,,,,77593,10809,58804,202801,true,Fitch 
 Centromadia parryi subsp. congdonii,Congdon's tarplant,N,,,,,77575,8896,58808,202804,true,Congdon's Tarplant,,1689,1B.1,,,S2,G3T2
 Centromadia pungens subsp. pungens,common spikeweed,N,,,,,80173,9544,64196,202810,true,Common Spikeweed
 Cephalanthus occidentalis,button bush,N,,,,,18612,9794,52763,64503,,California Buttonbush
+Cephalanthera austiniae,phantom orchid,N,perennial,white,3,7
 Cerastium fontanum subsp. vulgare,,X,,,,,49818,1872,1005385,109973,true
 Cerastium glomeratum,mouse-ear chickweed,X,,,,,18675,1873,52973,109469,true
 Ceratophyllum demersum,hornwort,N,,,6,8,18711,1874,60997,112406,true,Hornwort
@@ -455,8 +456,10 @@ Cicuta douglasii,water hemlock,N,,,,,19447,2109,76338,202934,,Western Water Heml
 Cicuta maculata var. bolanderi,water hemlock,N,,,,,56538,2111,60118,202936,,Bolander's Water-hemlock,,2178,2B.1,,,S2?,G5T4T5
 Cirsium andersonii,Anderson's thistle,N,perennial,pink,7,9,2093,2115,69971,202939,true,Rose Thistle
 Cirsium andrewsii,Franciscan thistle,N,,,,,2094,2116,55294,202940,true,Franciscan Thistle,,479,1B.2,,,S3,G3
+Cirsium arvense,Canada thistle,X,perennial,pink,6,9
 Cirsium brevistylum,Indian thistle,N,,,,,2110,2119,52993,202944,true,Indian Thistle
 Cirsium cymosum var. cymosum,peregrine thistle,N,,white,4,7,85528,11529,80584,206652,true,Peregrine Thistle
+Cirsium douglasii,swamp thistle,N,"biennial,perennial",pink,6,9
 Cirsium douglasii var. douglasii,swamp thistle,N,,,,,7046,2127,80586,206654,true,Douglas' Thistle
 Cirsium fontinale var. campylon,Hamilton thistle,N,,,,,77400,2129,59750,202950,true,Mount Hamilton Fountain Thistle,,480,1B.2,,,S2,G2T2
 Cirsium occidentale var. californicum,California thistle,N,biennial,,,,77401,2140,52622,202960,true,California Thistle
@@ -494,6 +497,7 @@ Clematis lasiantha,pipestems,N,,white,1,6,19682,2254,49876,13749,true,Chaparral 
 Clematis ligusticifolia,virgin's bower,N,,white,6,9,19683,2255,58996,13750,true,Virgin's Bower
 Clinopodium douglasii,yerba buena,N,,,,,80483,11541,53203,65180,,Yerba Buena
 Clintonia andrewsiana,,N,,,,,19850,2265,51647,203004,true,Blue Bead Lily
+Clintonia uniflora,bride's bonnet,N,perennial,white,5,7
 Collinsia bartsiifolia var. bartsiifolia,,N,,,,,56710,2272,80607,97215,true,White Blue Eyed Mary
 Collinsia bartsiifolia var. davidsonii,,N,,,,,56711,2273,58330,97216,true,Davidson's Blue Eyed Mary
 Collinsia bartsiifolia var. stricta,,N,,,,,56713,9818,80608,97218,true,White Blue Eyed Mary
@@ -861,6 +865,7 @@ Festuca myuros,zorro grass,X,,,,,25869,11689,77140,141133,Vulpia myuros,,vulpia-
 Festuca octoflora,six-week's fescue,N,,,,,25872,11690,77141,141148,Vulpia octoflora,Six Weeks Fescue
 Festuca perennis,Italian ryegrass,X,,,,,91964,11691,52801,203852,Lolium multiflorum,,festuca-perennis-profile
 Festuca rubra,red fescue,N,,,,,25825,3586,61061,141223,true,Red Fescue
+Festuca subuliflora,crinkle-awn fescue,N,perennial,,5,8
 Festuca temulenta,darnel,X,,,,,93753,11692,164712,203853,Lolium temulentum
 Ficus carica,fig,X,,,,,25883,3592,60218,21896,true,,ficus-carica-profile
 Foeniculum vulgare,fennel,X,,,,,25972,3603,53052,203865,,,foeniculum-vulgare-profile
