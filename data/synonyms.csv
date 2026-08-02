@@ -1,4 +1,5 @@
 Former,Current,Type
+Abies ×shastensis,Abies magnifica var. shastensis
 Abies lowiana,Abies concolor
 Abronia umbellata subsp. umbellata,Abronia umbellata var. umbellata
 Acacia armata,Acacia paradoxa
@@ -333,7 +334,9 @@ Callitriche heterophylla subsp. bolanderi,Callitriche heterophylla var. bolander
 Callitropsis macrocarpa,Hesperocyparis macrocarpa
 Callitropsis sargentii,Hesperocyparis sargentii
 Calochortus clavatus subsp. pallidus,Calochortus clavatus var. pallidus
+Calochortus coeruleus var. fimbriatus,Calochortus coeruleus
 Calochortus davidsonianus,Calochortus splendens
+Calochortus elegans var. nanus,Calochortus elegans
 Calochortus venustus var. purpurescens,Calochortus venustus
 Caltha leptosepala subsp. howellii,Caltha leptosepala
 Caltha leptosepala var. biflora,Caltha leptosepala
@@ -463,6 +466,7 @@ Chorizanthe cuspidata var. marginata,Chorizanthe cuspidata var. cuspidata
 Chorizanthe lastarriaea var. californica,Lastarriaea coriacea
 Chorizanthe pungens var. cuspidata,Chorizanthe cuspidata var. cuspidata
 Chorizanthe pungens var. robusta,Chorizanthe robusta var. robusta
+Chrysamphora californica,Darlingtonia californica
 Chrysanthemum foeniculaceum,Argyranthemum foeniculaceum
 Chrysanthemum parthenium,Tanacetum parthenium
 Chrysanthemum segetum,Glebionis segetum
@@ -666,7 +670,9 @@ Draba cuneifolia var. integrifolia,Draba cuneifolia
 Draba cuneifolia var. sonorae,Draba cuneifolia
 Draba unilateralis,Athysanus unilateralis
 Draba verna var. verna,Draba verna
+Draperia systyla var. minor,Draperia systyla
 Dudleya cymosa subsp. gigantea,Dudleya cymosa subsp. cymosa
+Eburophyton austiniae,Cephalanthera austiniae
 Echeveria brittonii,Sedum obtusatum
 Echeveria obtusata,Sedum obtusatum
 Echinochloa crus-galli subsp. spiralis,Echinochloa crus-galli
@@ -741,6 +747,8 @@ Eriogonum acetoselloides,Eriogonum gracile var. gracile
 Eriogonum arachnoideum,Eriogonum latifolium
 Eriogonum auriculatum,Eriogonum nudum var. auriculatum
 Eriogonum caninum,Eriogonum luteolum var. caninum
+Eriogonum compositum var. citrinum,Eriogonum compositum var. compositum
+Eriogonum compositum var. pilicaule,Eriogonum compositum var. compositum
 Eriogonum curvatum,Eriogonum wrightii var. subscaposum
 Eriogonum fasciculatum subsp. foliolosum,Eriogonum fasciculatum var. foliolosum
 Eriogonum fasciculatum subsp. polifolium,Eriogonum fasciculatum var. polifolium
@@ -748,6 +756,7 @@ Eriogonum fasciculatum var. obtusiflorum,Eriogonum fasciculatum var. foliolosum
 Eriogonum fasciculatum var. revolutum,Eriogonum fasciculatum var. polifolium
 Eriogonum gracile var. acetoselloides,Eriogonum gracile var. gracile
 Eriogonum gracile var. leucocladon,Eriogonum gracile var. gracile
+Eriogonum johnstonii,Eriogonum compositum var. compositum
 Eriogonum junceum,Eriogonum wrightii var. subscaposum
 Eriogonum kennedyi subsp. pinorum,Eriogonum wrightii var. subscaposum
 Eriogonum latifolium subsp. auriculatum,Eriogonum nudum var. auriculatum
@@ -756,10 +765,12 @@ Eriogonum latifolium var. alternans,Eriogonum nudum var. auriculatum
 Eriogonum leucocladon,Eriogonum gracile var. gracile
 Eriogonum lobbii var. lobbii,Eriogonum lobbii
 Eriogonum lobbii var. minus,Eriogonum lobbii
+Eriogonum marifolium var. apertum,Eriogonum marifolium var. marifolium
 Eriogonum marifolium var. incanum,Eriogonum incanum
 Eriogonum nivale,Eriogonum ovalifolium var. nivale
 Eriogonum nudum subsp. pauciflorum,Eriogonum nudum var. pauciflorum
 Eriogonum oblongifolium,Eriogonum latifolium
+Eriogonum pilicaule,Eriogonum compositum var. compositum
 Eriogonum polifolium,Eriogonum fasciculatum var. polifolium
 Eriogonum polyanthum var. bahiiforme,Eriogonum umbellatum var. bahiiforme
 Eriogonum revolutum,Eriogonum fasciculatum var. polifolium
@@ -823,6 +834,7 @@ Eucharidium breweri,Clarkia breweri
 Eucrypta foliosa,Eucrypta chrysanthemifolia var. chrysanthemifolia
 Eucrypta paniculata,Eucrypta chrysanthemifolia var. chrysanthemifolia
 Eunanus breweri,Erythranthe breweri
+Eunanus layneae,Diplacus layneae
 Eupatorium adenophorum,Ageratina adenophora
 Eupatorium grandiflorum,Brickellia grandiflora
 Eupatorium occidentale,Ageratina occidentalis
@@ -1131,12 +1143,17 @@ Lessingia germanorum var. tenuis,Lessingia tenuis
 Lessingia nemaclada var. albiflora,Lessingia nemaclada
 Lewisia alba,Lewisia rediviva var. rediviva
 Lewisia bernardina,Lewisia nevadensis
+Lewisia cotyledon var. purdyi,Lewisia cotyledon var. cotyledon
 Lewisia eastwoodiana,Lewisia leeana
+Lewisia finchiae,Lewisia cotyledon var. cotyledon
+Lewisia heckneri,Lewisia cotyledon var. heckneri
+Lewisia purdyi,Lewisia cotyledon var. cotyledon
 Lewisia pygmaea var. nevadensis,Lewisia nevadensis
 Leymus ×multiflorus,Elymus ×gouldii,INAT
 Leymus condensatus,Elymus condensatus,INAT
 Leymus mollis subsp. mollis,Elymus mollis subsp. mollis,INAT
 Leymus triticoides,Elymus triticoides,INAT
+Libocedrus decurrens,Calocedrus decurrens
 Lilaea scilloides,Triglochin scilloides
 Lilaeopsis occidentalis,Lilaeopsis masonii,INAT
 Lilium canadense var. parvum,Lilium parvum
@@ -1335,6 +1352,7 @@ Mimulus arvensis,Erythranthe arvensis
 Mimulus aurantiacus,Diplacus aurantiacus
 Mimulus bakeri,Erythranthe nasuta
 Mimulus bolanderi,Diplacus bolanderi
+Mimulus brachiatus,Diplacus layneae
 Mimulus breweri,Erythranthe breweri
 Mimulus caespitosus var. implexus,Erythranthe tilingii
 Mimulus cardinalis,Erythranthe cardinalis
@@ -1390,6 +1408,7 @@ Mimulus langsdorffii var. platyphyllus,Erythranthe guttata
 Mimulus langsdorffii var. tilingii,Erythranthe tilingii
 Mimulus latidens,Erythranthe latidens
 Mimulus laxus,Erythranthe microphylla
+Mimulus layneae,Diplacus layneae
 Mimulus leibergii,Erythranthe moschata
 Mimulus longulus,Erythranthe arvensis
 Mimulus lucens,Erythranthe tilingii
@@ -1484,6 +1503,7 @@ Myriophyllum exalbescens,Myriophyllum sibiricum
 Myriophyllum proserpinacoides,Myriophyllum aquaticum
 Myriophyllum spicatum subsp. exalbescens,Myriophyllum sibiricum
 Myriophyllum spicatum var. exalbescens,Myriophyllum sibiricum
+Nama systyla,Draperia systyla
 Nassella cernua,Stipa cernua,INAT
 Nassella lepida,Stipa lepida,INAT
 Nassella lepida var. lepida,Stipa lepida
@@ -1525,6 +1545,7 @@ Oenothera strigulosa,Camissonia strigulosa
 Olea europaea subsp. africana,Olea europaea
 Oloptum miliaceum,Stipa miliacea var. miliacea,INAT
 Onychium densum,Aspidotis densa
+Oreobroma heckneri,Lewisia cotyledon var. heckneri
 Oreobroma leeanum,Lewisia leeana
 Oreobroma triphyllum,Lewisia triphylla
 Orobanche bulbosa,Aphyllon tuberosum
@@ -1576,9 +1597,11 @@ Paspalum distichum var. indutum,Paspalum distichum
 Paspalum paspalodes,Paspalum distichum
 Pectocarya pusilla,Gruvelia pusilla,INAT
 Pedicularis groenlandica var. surrecta,Pedicularis groenlandica
+Peltiphyllum peltatum,Darmera peltata
 Penstemon deustus subsp. heterander,Penstemon deustus var. pedicellatus
 Penstemon heterophyllus subsp. heterophyllus,Penstemon heterophyllus var. heterophyllus
 Penstemon heterophyllus subsp. purdyi,Penstemon heterophyllus var. purdyi
+Penstemon newberryi subsp. berryi,Penstemon newberryi var. berryi
 Penstemon newberryi subsp. newberryi,Penstemon newberryi var. newberryi
 Penstemon oreocharis,Penstemon rydbergii var. oreocharis
 Pentagramma triangularis subsp. semipallida,Pentagramma triangularis
@@ -1979,6 +2002,7 @@ Saviniona assurgentiflora,Malva assurgentiflora
 Saxifraga bryophora,Micranthes bryophora
 Saxifraga bryophora var. bryophora,Micranthes bryophora
 Saxifraga californica,Micranthes californica
+Saxifraga peltata,Darmera peltata
 Saxifraga tolmiei,Micranthes tolmiei
 Schedonorus arundinaceus,Festuca arundinacea
 Schedonorus phoenix,Festuca arundinacea
@@ -2026,7 +2050,9 @@ Sedum lanceolatum subsp. lanceolatum,Sedum lanceolatum
 Sedum lanceolatum subsp. subalpinum,Sedum lanceolatum
 Sedum lanceolatum var. lanceolatum,Sedum lanceolatum
 Sedum lanceolatum var. nesioticum,Sedum lanceolatum
+Sedum obtusatum subsp. boreale,Sedum kiersteadiae
 Sedum obtusatum subsp. obtusatum,Sedum obtusatum
+Sedum obtusatum var. boreale,Sedum kiersteadiae
 Sedum obtusatum var. hallii,Sedum obtusatum
 Sedum purdyi,Sedum spathulifolium
 Sedum radiatum var. radiatum,Sedum radiatum subsp. radiatum
