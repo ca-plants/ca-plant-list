@@ -590,7 +590,7 @@ Cytisus scoparius,Scotch broom,X,,,,,22199,2601,48538,16767,true,,cytisus-scopar
 Cytisus striatus,,X,,,,,22200,2602,76598,16770,true,,cytisus-striatus-profile
 Dactylis glomerata,orchard grass,X,,,,,22210,2603,52720,138886,true,,dactylis-glomerata-profile
 Danthonia californica,California oatgrass,N,,,,,22319,2610,57165,138931,true,California Oatgrass
-Darlingtonia californica,California pitcher plant,N,perennial,green,4,6,22340,,52652,67356,true
+Darlingtonia californica,California pitcher plant,N,perennial,green,4,6,22340,,52652,67356,true,,,548,4.2,,,S4,G4
 Darmera peltata,umbrella plant,N,perennial,"white,pink",4,9,22342,,67696,16991,true
 Dasiphora fruticosa,shrubby cinquefoil,N,perennial,yellow,6,9,80452,11590,76606,16994,true,Shrubby Cinquefoil
 Datisca glomerata,durango root,N,perennial,yellow,5,7,22377,2618,58888,16996,true,Durango Root
@@ -766,7 +766,7 @@ Eriogonum angulosum,,N,,,,,24690,3194,58266,113902,true,Angle-stem Wild Buckwhea
 Eriogonum compositum var. compositum,arrow-leaf wild buckwheat,N,perennial,yellow,4,7,58500,,80772,129928,true
 Eriogonum covilleanum,,N,,,,,24742,3222,58269,113961,true,Coville's Wild Buckwheat
 Eriogonum deserticola,,N,,,,,24754,3231,76982,113976,true,Colorado Desert Wild Buckwheat
-Eriogonum diclinum,Jaynes Canyon buckwheat,N,perennial,yellow,6,9,24756,,76983,113980,true
+Eriogonum diclinum,Jaynes Canyon buckwheat,N,perennial,yellow,6,9,24756,,76983,113980,true,,,737,2B.3,,,S3,G3
 Eriogonum fasciculatum var. foliolosum,California buckwheat,N,,,,,58545,3246,58980,129982,true,Leafy California Buckwheat
 Eriogonum fasciculatum var. polifolium,,N,,,,,58546,3247,58272,129983,true,Interior California Buckwheat
 Eriogonum gracile var. gracile,slender buckwheat,N,,,,,58563,3257,58982,129999,true,Slender Woolly Wild Buckwheat
@@ -1149,7 +1149,7 @@ Lessingia pectinata var. tenuipes,,N,,,,,81838,11800,81020,204639,true
 Lessingia ramulosa,,N,,,,,3786,4755,77716,204640,true,Sonoma Lessingia
 Lessingia tenuis,spring lessingia,N,,,,,3778,4756,58025,204641,true,Spring Lessingia,,684,4.3,,,S4,G4
 Lewisia cotyledon var. cotyledon,cliff maids,N,perennial,pink,5,7,60811,,81021,130377,true
-Lewisia cotyledon var. heckneri,Heckner's lewisia,N,perennial,pink,5,7,60813,,81022,130378,true
+Lewisia cotyledon var. heckneri,Heckner's lewisia,N,perennial,pink,5,7,60813,,81022,130378,true,,,688,1B.2,,,S3,G4T3
 Lewisia leeana,quill-leaved lewisia,N,perennial,"pink,white",6,8,30833,10065,77728,115123,true,Quill Leaf Lewisia
 Lewisia nevadensis,Nevada lewisia,N,perennial,white,5,8,30836,4775,77730,115128,true,Nevada Lewisia
 Lewisia rediviva var. rediviva,bitterroot,N,perennial,"white,pink",3,6,60818,10066,81025,130385,true,Bitter Root
