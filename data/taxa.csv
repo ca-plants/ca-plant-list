@@ -456,7 +456,7 @@ Cicuta douglasii,water hemlock,N,,,,,19447,2109,76338,202934,,Western Water Heml
 Cicuta maculata var. bolanderi,water hemlock,N,,,,,56538,2111,60118,202936,,Bolander's Water-hemlock,,2178,2B.1,,,S2?,G5T4T5
 Cirsium andersonii,Anderson's thistle,N,perennial,pink,7,9,2093,2115,69971,202939,true,Rose Thistle
 Cirsium andrewsii,Franciscan thistle,N,,,,,2094,2116,55294,202940,true,Franciscan Thistle,,479,1B.2,,,S3,G3
-Cirsium arvense,Canada thistle,X,perennial,pink,6,9,,,60132
+Cirsium arvense,Canada thistle,X,perennial,pink,6,9,,,60132,,,,cirsium-arvense-profile
 Cirsium brevistylum,Indian thistle,N,,,,,2110,2119,52993,202944,true,Indian Thistle
 Cirsium cymosum var. cymosum,peregrine thistle,N,,white,4,7,85528,11529,80584,206652,true,Peregrine Thistle
 Cirsium douglasii,swamp thistle,N,"biennial,perennial",pink,6,9,,,76348
