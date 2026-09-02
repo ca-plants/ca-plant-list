@@ -57,22 +57,6 @@
             "notintaxondata": true
         }
     },
-    "Malacothamnus hallii": {
-        "comment": "in CNPS Rare Plant Inventory",
-        "inat": { "notintaxondata": true },
-        "jepson": {
-            "notineflora": true
-        },
-        "rpi": {
-            "translation": "Malacothamnus arcuatus var. elmeri"
-        }
-    },
-    "Malacothamnus arcuatus var. elmeri": {
-        "comment": "in CNPS Rare Plant Inventory as Malacothamnus hallii",
-        "rpi": {
-            "translation-to-rpi": "Malacothamnus hallii"
-        }
-    },
     "Mentha arvensis": {
         "calflora": { "native": false },
         "calscape": { "notnative": true }
@@ -91,13 +75,6 @@
         },
         "jepson": {
             "notineflora": true
-        }
-    },
-    "Piperia michaelii": { "rpi": { "translation": "Platanthera michaelii" } },
-    "Platanthera michaelii": {
-        "comment": "in CNPS Rare Plant Inventory as Piperia michaelii",
-        "rpi": {
-            "translation-to-rpi": "Piperia michaelii"
         }
     },
     "Quercus agrifolia var. agrifolia": { "inat": { "notintaxondata": true } },
