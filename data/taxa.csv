@@ -575,7 +575,7 @@ Cymbalaria muralis,Kenilworth-ivy,X,,,,,21640,2552,55727,66161,true
 Cymopterus terebinthinus,Northern Indian parsnip,N,perennial,yellow,,,21700,,76579,203260
 Cynara cardunculus,"artichoke thistle,cardoon",X,,,,,2433,2568,57563,203266,true,,cynara-cardunculus-profile
 Cynodon dactylon,Bermuda grass,X,,,,,21743,2570,58371,138811,true,,cynodon-dactylon-profile
-Cynosurus echinatus,dogtail grass,X,,,,,21767,2577,47695,138861,true,,cynosurus-echinatus-profile
+Cynosurus echinatus,dogtail grass,X,,,,,21767,2577,1628703,138861,true,,cynosurus-echinatus-profile
 Cyperus difformis,,X,,,,,21811,2580,59051,104211,true
 Cyperus eragrostis,tall flatsedge,N,,,,,21820,2581,59055,104227,true,Tall Flatsedge
 Cyperus erythrorhizos,,N,,,,,21822,2582,59060,104228,true,Red Rooted Cyperus
@@ -1324,7 +1324,7 @@ Moehringia macrophylla,large-leaved sandwort,N,,,,,33866,5604,61884,116321,true,
 Mollugo verticillata,,X,,,,,33883,5609,78090,116337,true
 Monardella breweri subsp. breweri,,N,,,,,91096,11857,80023,204973
 Monardella douglasii,,N,,,,,33931,5622,61877,72446,,Douglas' Monardella
-Monardella odoratissima subsp. pallida,mountain coyote mint,N,perennial,white,6,9,51622,5650,80038,95903,,Pallid Mountain Monardella
+Monardella odoratissima subsp. pallida,mountain coyote mint,N,perennial,white,6,9,51622,5650,1557578,95903,,Pallid Mountain Monardella
 Monardella sheltonii,,N,,,,,76705,5656,78108,72468,,Shelton's Coyote Mint
 Monardella villosa subsp. villosa,coyote-mint,N,perennial,pink,5,8,51631,5665,52184,95912,,San Antonio Hills Monardella
 Monolopia gracilens,,N,,,,,4176,5674,56186,205001,true,Woodland Woollythreads,,3395,1B.2,,,S3,G3
@@ -1651,7 +1651,7 @@ Pyrola asarifolia subsp. asarifolia,bog wintergreen,N,perennial,pink,6,7,52590,6
 Pyrola dentata,toothed wintergreen,N,perennial,"white,pink",6,8,40456,13183,707672,74925,,Toothed Wintergreen
 Pyrola picta,white-veined wintergreen,N,perennial,"white,pink",6,8,40452,6961,62239,74938,true,White-veined Wintergreen
 Pyrrocoma racemosa var. racemosa,clustered goldenweed,N,,,,,8122,6975,81305,207239,true
-Quercus agrifolia var. agrifolia,coast live oak,N,,,,,64703,6984,58913,50668,Quercus agrifolia,Coast Live Oak
+Quercus agrifolia var. agrifolia,coast live oak,N,perennial,,1,4,64703,6984,47850,50668,Quercus agrifolia,Coast Live Oak
 Quercus agrifolia,coast live oak,N,,,,,40530,6983,47850,29223,true,Coast Live Oak
 Quercus berberidifolia,scrub oak,N,,,,,76903,6986,57082,29233,true,Scrub Oak
 Quercus chrysolepis,canyon live oak,N,,,,,40565,6987,51092,29251,true,Canyon Live Oak
@@ -1664,8 +1664,8 @@ Quercus lobata,valley oak,N,,,,,40663,7001,49011,29310,true,Valley Oak
 Quercus palmeri,Palmer's oak,N,,,,,40584,7002,78807,29344,true,Desert Oak
 Quercus parvula var. shrevei,,N,,,,,76907,7005,81314,50722,,Shreve Oak
 Quercus vacciniifolia,huckleberry oak,N,perennial,,,,40771,7009,78810,29383,true,Huckleberry Oak
-Quercus wislizeni var. frutescens,,N,,,,,64776,7011,58914,50761,,Interior Live Oak
-Quercus wislizeni var. wislizeni,interior live oak,N,,,,,64777,7012,58915,50762,Quercus wislizeni,Interior Live Oak
+Quercus wislizeni var. frutescens,,N,,,,,64776,7011,51089,50761,,Interior Live Oak
+Quercus wislizeni var. wislizeni,interior live oak,N,,,,,64777,7012,51089,50762,Quercus wislizeni,Interior Live Oak
 Rafinesquia californica,California chicory,N,,,,,4548,7013,53193,205716,true,California Plumseed
 Ranunculus alismifolius,plantainleaf buttercup,N,perennial,yellow,5,8,40849,,78815,29546,true,Alisma Leaved Buttercup
 Ranunculus aquatilis var. aquatilis,,N,,,,,73500,10676,78817,50797,true
