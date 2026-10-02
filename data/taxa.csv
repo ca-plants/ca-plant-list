@@ -168,7 +168,7 @@ Arctostaphylos manzanita subsp. manzanita,,N,,,,,49186,575,55136,94959,true,Whit
 Arctostaphylos nevadensis subsp. nevadensis,pine-mat manzanita,N,perennial,"white,pink",5,7,49190,11343,79607,94967,true,Pine-mat Manzanita
 Arctostaphylos pallida,pallid manzanita,N,,,,,13962,594,53355,63156,true,Pallid Manzanita,,1B.1,CE,FT,S1,G1
 Arctostaphylos patula,greenleaf manzanita,N,perennial,white,4,6,13965,596,75537,63158,true,Greenleaf Manzanita
-Arctotheca prostrata,prostrate capeweed,X,perennial,yellow,1,12,,11138,75549
+Arctotheca prostrata,prostrate capeweed,X,perennial,yellow,1,12,,11138,75549,,,,arctotheca-prostrata-profile
 Argemone munita,prickly poppy,N,,,,,14117,657,58950,10397,true,Chicalote
 Argyranthemum foeniculaceum,,X,,,,,77423,658,75554,202185,true
 Aristida oligantha,oldfield three-awn,N,,,,,14193,664,75562,135677,true,Oldfield Three-awn
@@ -1528,7 +1528,7 @@ Pinus radiata,Monterey pine,N,,,,,38300,6523,53421,58452,true,Monterey Pine,,1B.
 Pinus sabiniana,"gray pine,foothill pine",N,,,,,38304,6524,58772,58458,true,Foothill Pine
 Pistacia atlantica,,X,,,,,77247,6541,78588,28204
 Pittosporum crassifolium,,X,,,,,38444,6545,78590,208641
-Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594
+Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594,,,,pittosporum-undulatum-profile
 Plagiobothrys acanthocarpus,adobe allocarya,N,,,,,38484,6550,58062,205466,,Adobe Popcornflower
 Plagiobothrys arizonicus,,N,,,,,38485,6551,58063,205467,,Arizona Popcornflower
 Plagiobothrys bracteatus,bracted popcornflower,N,annual,white,4,6,38487,6553,57719,205469,,Bracted Popcornflower
