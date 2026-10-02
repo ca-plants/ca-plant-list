@@ -162,7 +162,7 @@ Arctostaphylos glandulosa subsp. cushingiana,,N,,,,,91856,11339,79594,94940,true
 Arctostaphylos glandulosa subsp. glandulosa,Eastwood manzanita,N,,,,,49170,552,53354,94942,true,Eastwood Manzanita
 Arctostaphylos glandulosa subsp. mollis,,N,,,,,49172,554,53377,202149,true,Eastwood's Manzanita
 Arctostaphylos glauca,greatberry manzanita,N,,,,,13926,556,55133,63118,true,Bigberry Manzanita
-Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137
+Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137,,,Common Manzanita
 Arctostaphylos manzanita subsp. laevigata,Contra Costa manzanita,N,,,,,49185,574,61922,202153,true,Contra Costa Manzanita,,1B.2,,,S2,G5T2
 Arctostaphylos manzanita subsp. manzanita,,N,,,,,49186,575,55136,94959,true,Whiteleaf Manzanita
 Arctostaphylos nevadensis subsp. nevadensis,pine-mat manzanita,N,perennial,"white,pink",5,7,49190,11343,79607,94967,true,Pine-mat Manzanita
@@ -506,7 +506,7 @@ Clintonia uniflora,bride's bonnet,N,perennial,white,5,7,19854,2266,76401,203006,
 Collinsia bartsiifolia var. bartsiifolia,,N,,,,,56710,2272,80607,97215,true,White Blue Eyed Mary
 Collinsia bartsiifolia var. davidsonii,,N,,,,,56711,2273,58330,97216,true,Davidson's Blue Eyed Mary
 Collinsia bartsiifolia var. stricta,,N,,,,,56713,9818,80608,97218,true,White Blue Eyed Mary
-Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325
+Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325,,,Purple Pagodas
 Collinsia heterophylla var. heterophylla,Chinese houses,N,,"white,purple",3,6,56716,9819,48727,97221,true,Purple Pagodas
 Collinsia parviflora,blue-eyed mary,N,annual,blue,3,7,20000,2285,59013,65288,true,Blue-eyed Mary
 Collinsia sparsiflora var. collina,,N,,,,,56722,2290,57290,97227,true,Spinster's Blue Eyed Mary
@@ -650,7 +650,7 @@ Diplacus bolanderi,,N,,,,,99039,13462,771812,203385,true,Bolander's Monkeyflower
 Diplacus douglasii,Douglas monkeyflower,N,,,,,99051,13428,771821,203391,true,Brownies
 Diplacus kelloggii,,N,,,,,99058,13472,771826,203395,true,Kellogg's Monkeyflower
 Diplacus layneae,Layne's monkeyflower,N,annual,pink,5,8,99059,13473,771827,203396,true,Layne's Monkeyflower
-Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947
+Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947,,,Red Bush Monkeyflower
 Diplacus rattanii,Rattan monkeyflower,N,,,,,99072,13479,771830,203405,true,Rattan's Monkeyflower
 Diplacus tricolor,,N,,,,,99079,13482,771835,203410,true,Tricolor Monkeyflower
 Dipsacus,teasel,X,,,,,,,53030
@@ -1004,7 +1004,7 @@ Holocarpha virgata subsp. virgata,,N,annual,yellow,5,11,6108,4210,53102,204323,t
 Holodiscus discolor var. discolor,"cream bush,oceanspray",N,perennial,white,5,8,75685,11727,80941,48501,true
 Holodiscus discolor var. microphyllus,small leaf cream bush,N,perennial,white,6,9,91904,11729,80943,48505,Holodiscus microphyllus,Little Leaf Creambush
 Holozonia filipes,Greene's white crown,N,perennial,white,6,10,3561,4216,77430,204325,true,Whitecrown
-Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173
+Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173,,,Meadow Barley
 Hordeum brachyantherum subsp. brachyantherum,meadow barley,N,,,,,76411,4219,61834,167357,true,Meadow Barley
 Hordeum brachyantherum subsp. californicum,California barley,N,,,,,76414,4220,59092,167358,true,California Meadow Barley
 Hordeum depressum,low barley,N,,,,,28384,4221,58378,141856,true,Low Barley
@@ -1631,7 +1631,7 @@ Prunella vulgaris var. vulgaris,,X,,,,,75995,6885,81287,99540
 Prunus cerasifera,cherry plum,X,,,,,39972,6887,55837,28875,true,,prunus-cerasifera-profile
 Prunus dulcis,almond,X,,,,,39976,6888,69936,28884,true
 Prunus emarginata,bitter cherry,N,,,,,39978,6889,63905,28885,true,Bitter Cherry
-Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250
+Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250,,,Hollyleaf Cherry
 Prunus ilicifolia subsp. ilicifolia,holly-leafed cherry,N,perennial,white,4,5,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
 Prunus subcordata,,N,,,,,40019,6897,56040,28936,true,Klamath Plum
 Prunus virginiana var. demissa,western choke-cherry,N,perennial,white,5,6,64546,6898,63900,50588,true,Western Chokecherry
@@ -1850,7 +1850,7 @@ Sherardia arvensis,field madder,X,,,,,44299,7542,47691,75982
 Sibbaldia procumbens,creeping sibbaldia,N,perennial,yellow,6,8,44312,7547,79076,32064,true,Creeping Sibbaldia
 Sidalcea diploscypha,fringed checkerbloom,N,annual,pink,4,5,44415,7553,57139,32180,true,Fringed Checkerbloom
 Sidalcea glaucescens,waxy checkerbloom,N,perennial,pink,6,8,44416,7554,61357,32184,true,Waxy Checkerbloom
-Sidalcea malviflora,checker mallow,N,,,,,,7564,48795
+Sidalcea malviflora,checker mallow,N,,,,,,7564,48795,,,Checker Bloom
 Sidalcea malviflora subsp. laciniata,checker mallow,N,,pink,3,6,52986,7568,61195,205941,true,Dwarf Checkerbloom
 Sidalcea malviflora subsp. malviflora,checker mallow,N,,,,,52987,7569,61041,43800,true,Checker Mallow
 Silene antirrhina,sleepy catchfly,N,,,,,44491,7586,58780,119240,true,Sleepy Catchfly
