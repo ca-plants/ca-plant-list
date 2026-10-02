@@ -16,10 +16,10 @@ Acacia retinodes,everblooming acacia,X,,,,,11662,39,57040,9041,true
 Acacia verticillata,star acacia,X,,,,,11680,40,57037,9092,true
 Acaena californica,California sheepburr,N,,,,,11685,14543,61224,9107,,California Sheepburr
 Acanthomintha lanceolata,Santa Clara thornmint,N,,,,,11726,50,61794,62120,,Santa Clara Thornmint,,4.2,,,S4,G4
-Acer campestre,hedge maple,X,,,,,11732,8451,56193,9166
-Acer glabrum var. glabrum,mountain maple,N,perennial,green,5,6,53496,11268,80298,44218,,Mountain Maple
-Acer macrophyllum,big-leaf maple,N,,,,,11746,59,48227,9183,,Big Leaf Maple
-Acer negundo,box elder,N,,,,,11747,9644,47726,9184,,Box Elder
+Acer campestre,hedge maple,X,,,,,11732,8451,56193,9166,true
+Acer glabrum var. glabrum,mountain maple,N,perennial,green,5,6,53496,11268,80298,44218,true,Mountain Maple
+Acer macrophyllum,big-leaf maple,N,,,,,11746,59,48227,9183,true,Big Leaf Maple
+Acer negundo,box elder,N,,,,,11747,9644,47726,9184,true,Box Elder
 Achillea millefolium,yarrow,N,,white,,,678,61,52821,201801,true,Common Yarrow
 Achyrachaena mollis,blow-wives,N,,,,,703,85,56852,201807,true,Blow Wives
 Acmispon americanus var. americanus,Spanish-clover,N,,"white,pink",5,10,91832,11269,57053,44261,true,Spanish Lotus
@@ -41,7 +41,7 @@ Adenostoma fasciculatum,chamise,N,,,,,11939,97,47146,9328,true,Chamise
 Adiantum aleuticum,five-finger fern,N,,,,,11945,100,52667,196920,true,Five Finger Fern
 Adiantum jordanii,California maidenhair,N,,,,,11955,102,56032,196934,true,California Maiden Hair Fern
 Aegilops triuncialis,barbed goatgrass,X,,,,,11997,107,60272,134011,true,,aegilops-triuncialis-profile
-Aesculus californica,California buckeye,N,perennial,white,,,12026,111,53348,9383,,California Buckeye
+Aesculus californica,California buckeye,N,perennial,white,,,12026,111,53348,9383,true,California Buckeye
 Agastache urticifolia,giant hyssop,N,perennial,pink,6,8,12124,113,63316,62663,,Nettle Leaf Giant Hyssop
 Ageratina adenophora,Crofton weed,X,perennial,white,1,12,735,117,64114,201878,true,,ageratina-adenophora-profile
 Ageratina occidentalis,western Snakeroot,N,perennial,"white,pink",6,10,757,119,75300,201881,true,Western Snakeroot
@@ -59,7 +59,7 @@ Agrostis hallii,Hall's bent grass,N,,,,,12290,146,57155,134358,true,Hall's Bentg
 Agrostis microphylla,,N,,,,,12307,151,60277,134435,true,Small-leaf Bent Grass
 Agrostis pallens,seashore bentgrass,N,,,,,12310,153,52692,134465,true,Thingrass
 Agrostis stolonifera,creeping bentgrass,X,,,,,12321,156,69931,134562,true,,agrostis-stolonifera-profile
-Ailanthus altissima,tree of heaven,X,,,,,12354,161,57278,9460,,,ailanthus-altissima-profile
+Ailanthus altissima,tree of heaven,X,,,,,12354,161,57278,9460,true,,ailanthus-altissima-profile
 Aira caryophyllea,silver hairgrass,X,,,,,12357,162,52694,134645,true
 Aira elegans,,X,,,,,12358,11316,75321,134657,Aira caryophyllea var. capillaris
 Alisma lanceolatum,water plantain,X,,,,,12461,169,71065,201916,true
@@ -120,15 +120,15 @@ Ancistrocarphus filagineus,woolly fishhook,N,,,,,849,345,50795,202048,true,Wooll
 Androsace elongata subsp. acuta,,N,,,,,49111,348,58299,202050,true,California Androsace,,4.2,,,S3S4,G5?T3T4
 Anemone occidentalis,white pasqueflower,N,perennial,white,5,9,13385,357,60482,9882,true,Western Pasque Flower
 Anemopsis californica,yerba mansa,N,,,,,13392,360,60241,9906,true,Yerba Mansa
-Angelica breweri,Brewer's angelica,N,perennial,white,6,8,13405,363,75447,202054,,Brewer's Angelica
-Angelica californica,,N,,,,,13406,364,75448,211125,,California Angelica
-Angelica capitellata,ranger's buttons,N,perennial,white,7,8,101118,13431,704166,202056,,Woollyhead Parsnip
+Angelica breweri,Brewer's angelica,N,perennial,white,6,8,13405,363,75447,202054,true,Brewer's Angelica
+Angelica californica,,N,,,,,13406,364,75448,211125,true,California Angelica
+Angelica capitellata,ranger's buttons,N,perennial,white,7,8,101118,13431,704166,202056,true,Woollyhead Parsnip
 Anisocarpus madioides,,N,,,,,77551,10770,53137,202061,true,Woodland Madia
 Antennaria media,Rocky Mountain pussytoes,N,perennial,white,7,8,935,383,75466,202065,true,Alpine Pussytoes
 Antennaria rosea subsp. rosea,rosy pussytoes,N,perennial,"white,pink",6,8,5718,388,79575,211615,true,Rosy Pussytoes
 Anthemis cotula,"mayweed,dog-fennel",X,,,,,1067,392,52841,202091,true
 Anthoxanthum occidentale,,N,,,,,13521,11332,75474,135418,true,California Vanilla Grass
-Anthriscus caucalis,bur-chervil,X,,white,,,13523,396,52846,202093
+Anthriscus caucalis,bur-chervil,X,,white,,,13523,396,52846,202093,true
 Antirrhinum kelloggii,,N,,,,,13568,401,165675,63029,Neogaerrhinum strictum,Kelloggs' Snapdragon
 Antirrhinum majus,snapdragon,X,,,,,13557,404,48969,63033,true
 Antirrhinum thompsonii,Sierra snapdragon,N,,pink,4,8,108978,14286,168306,207994,Sairocarpus multiflorus,Withered Snapdragon
@@ -143,8 +143,8 @@ Aphyllon pinorum,pinewoods broom-rape,N,,,,,13618,13445,802557,63057,Orobanche p
 Aphyllon purpureum,naked broom-rape,N,annual,purple,3,7,103312,13529,739040,202115,Orobanche uniflora subsp. occidentalis,Naked Broomrape
 Aphyllon tuberosum,bulbous broom-rape,N,,,,,13614,13446,809373,63058,Orobanche bulbosa,Chaparral Broomrape
 Aphyllon vallicola,hemp broom-rape,N,,,,,85145,14626,938507,416916,Orobanche vallicola,Hillside Broomrape
-Apiastrum angustifolium,,N,,,,,13619,422,58777,202120,,Mock Parsley
-Apium graveolens,celery,X,,,,,13622,423,58788,202122
+Apiastrum angustifolium,,N,,,,,13619,422,58777,202120,true,Mock Parsley
+Apium graveolens,celery,X,,,,,13622,423,58788,202122,true
 Apium nodiflorum,,X,,,,,13623,424,332963,211138
 Apocynum androsaemifolium,dogbane,N,perennial,white,5,10,13635,425,47359,63062,true,Bitter Dogbane
 Apocynum cannabinum,Indian-hemp,N,perennial,,,,13639,426,58795,63063,true,Indianhemp Dogbane
@@ -152,7 +152,7 @@ Aquilegia eximia,,N,,,,,13665,429,57230,10123,true,Van Houtte's Columbine
 Aquilegia formosa,,N,,,,,13668,430,48244,10126,true,Western Columbine
 Arabidopsis thaliana,mouse-ear cress,X,,,,,13682,433,55021,10153,true
 Arabis blepharophylla,coast rock cress,N,,,,,13690,436,60983,10166,true,Coast Rockcress,,4.3,,,S4,G4
-Aralia californica,elk-clover,N,,,,,13860,504,52848,202125,,Elk's Clover
+Aralia californica,elk-clover,N,,,,,13860,504,52848,202125,true,Elk's Clover
 Arbutus menziesii,Pacific madrone,N,perennial,white,3,5,13872,506,51046,63080,true,Pacific Madrone
 Arceuthobium campylopodum,western dwarf mistletoe,N,,,,,13881,510,918449,10362,true,Foothill Pine Dwarf Mistletoe
 Arctostaphylos auriculata,Mt. Diablo manzanita,N,,,,,13905,533,48023,63093,true,Mount Diablo Manzanita,,1B.3,,,S2,G2
@@ -162,7 +162,7 @@ Arctostaphylos glandulosa subsp. cushingiana,,N,,,,,91856,11339,79594,94940,true
 Arctostaphylos glandulosa subsp. glandulosa,Eastwood manzanita,N,,,,,49170,552,53354,94942,true,Eastwood Manzanita
 Arctostaphylos glandulosa subsp. mollis,,N,,,,,49172,554,53377,202149,true,Eastwood's Manzanita
 Arctostaphylos glauca,greatberry manzanita,N,,,,,13926,556,55133,63118,true,Bigberry Manzanita
-Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137,63133,,Common Manzanita
+Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137,63133,true,Common Manzanita
 Arctostaphylos manzanita subsp. laevigata,Contra Costa manzanita,N,,,,,49185,574,61922,202153,true,Contra Costa Manzanita,,1B.2,,,S2,G5T2
 Arctostaphylos manzanita subsp. manzanita,,N,,,,,49186,575,55136,94959,true,Whiteleaf Manzanita
 Arctostaphylos nevadensis subsp. nevadensis,pine-mat manzanita,N,perennial,"white,pink",5,7,49190,11343,79607,94967,true,Pine-mat Manzanita
@@ -224,7 +224,7 @@ Atriplex rosea,tumbling orach,X,,,,,15265,1002,58121,111998,true
 Atriplex semibaccata,Australian saltbush,X,,,,,15267,1003,60177,112001,true,,atriplex-semibaccata-profile
 Atriplex serenana var. serenana,bractscale,N,,,,,55036,1006,80470,129460,true,Bractscale
 Atriplex suberecta,sprawling saltbush,X,,,,,15272,1008,58123,112008,true
-Avena,,X,,,,,,,52697
+Avena,,X,,,,,,,52697,,true
 Avena barbata,slender wild oat,X,,,,,15320,1017,52696,136280,true,,avena-barbata-profile
 Avena fatua,wild oat,X,,,,,15321,1018,52698,136309,true,,avena-fatua-profile
 Avena sterilis,,X,,,,,15325,1021,75722,136396,true
@@ -261,7 +261,7 @@ Boechera retrofracta,reflexed rockcress,N,biennial,white,4,8,15793,11412,75816,1
 Bolboschoenus fluviatilis,river bulrush,N,,,,,80011,11419,64228,103271,true,River Bulrush
 Bolboschoenus maritimus subsp. paludosus,saltmarsh bulrush,N,,,,,49436,10796,79646,107348,true,Prairie Rush
 Bolboschoenus robustus,seacoast bulrush,N,,,,,77450,10798,75840,103276,true,Big Bulrush
-Bowlesia incana,Hoary bowlesia,N,annual,green,3,4,15999,1133,56822,202482,,Hoary Bowlesia
+Bowlesia incana,Hoary bowlesia,N,annual,green,3,4,15999,1133,56822,202482,true,Hoary Bowlesia
 Brachypodium hybridum,hybrid falsebrome,X,annual,,4,7,98980,,1586229,372399
 Brassica juncea,India mustard,X,"annual,perennial",yellow,5,9,16072,1142,64241,11799,true
 Brassica nigra,black mustard,X,annual,yellow,4,9,16079,1144,1555489,11804,true,,brassica-nigra-profile
@@ -303,7 +303,7 @@ Calandrinia menziesii,red maids,N,,,,,95066,13205,400267,202564,,Red Maids
 Calendula arvensis,field-marigold,X,,,,,1862,1252,59260,202566,true
 Calendula officinalis,pot-marigold,X,,,,,1863,1253,75931,202567,true
 Calibrachoa parviflora,wild petunia,U,,,,,16635,9592,159650,64106,true,Seaside Petunia
-California macrophylla,,N,,,,,80427,10468,60554,11982,,Round-leaved Filaree
+California macrophylla,,N,,,,,80427,10468,60554,11982,true,Round-leaved Filaree
 Callitriche heterophylla var. bolanderi,,N,,,,,55448,1257,60158,96979,,Bolander's Water-starwort
 Callitriche longipedunculata,,N,,,,,16691,11443,75936,64127,true,Longstock Water-starwort
 Callitriche marginata,water-starwort,N,,,,,16692,1259,58093,64128,true,Winged Water Starwort
@@ -430,7 +430,7 @@ Chaenactis glabriuscula var. glabriuscula,yellow pincushion,N,,yellow,2,7,6951,1
 Chaenactis glabriuscula var. heterocarpha,yellow pincushion,N,,yellow,3,6,6954,1900,80548,202828,true,Inner Coast Range Pincushion
 Chaenactis glabriuscula var. megacephala,,N,,yellow,3,6,6953,1902,80549,202830,true,Big Headed Yellow Chaenactis
 Chamerion angustifolium subsp. circumvagum,fireweed,N,perennial,pink,7,9,80417,9517,564972,41942,Chamaenerion angustifolium subsp. circumvagum
-Chasmanthe,cobralilies,X,,,,,,,56029
+Chasmanthe,cobralilies,X,,,,,,,56029,,true
 Chasmanthe floribunda,African cornflag,X,,,,,19045,1951,56028,206632,true,,chasmanthe-floribunda-profile
 Chenopodiastrum murale,,X,annual,,1,12,100067,14957,514012,210496,Chenopodium murale
 Chenopodium album,lamb's quarters,X,,,,,19131,1962,58127,112425,true
@@ -457,8 +457,8 @@ Chrysolepis chrysophylla var. minor,golden chinquapin,N,,,,,56512,2071,53365,457
 Chrysolepis sempervirens,bush chinquapin,N,perennial,,7,8,19401,2072,53386,13486,true,Bush Chinquapin
 Cicendia quadrangularis,Oregon timwort,N,,,,,19440,2105,57087,65119,true,Timwort
 Cichorium intybus,chicory,X,,,,,2087,2107,52913,202932,true
-Cicuta douglasii,water hemlock,N,,,,,19447,2109,76338,202934,,Western Water Hemlock
-Cicuta maculata var. bolanderi,water hemlock,N,,,,,56538,2111,60118,202936,,Bolander's Water-hemlock,,2B.1,,,S2?,G5T4T5
+Cicuta douglasii,water hemlock,N,,,,,19447,2109,76338,202934,true,Western Water Hemlock
+Cicuta maculata var. bolanderi,water hemlock,N,,,,,56538,2111,60118,202936,true,Bolander's Water-hemlock,,2B.1,,,S2?,G5T4T5
 Cirsium andersonii,Anderson's thistle,N,perennial,pink,7,9,2093,2115,69971,202939,true,Rose Thistle
 Cirsium andrewsii,Franciscan thistle,N,,,,,2094,2116,55294,202940,true,Franciscan Thistle,,1B.2,,,S3,G3
 Cirsium arvense,Canada thistle,X,perennial,pink,6,9,2102,2118,60132,202943,true,,cirsium-arvense-profile
@@ -506,7 +506,7 @@ Clintonia uniflora,bride's bonnet,N,perennial,white,5,7,19854,2266,76401,203006,
 Collinsia bartsiifolia var. bartsiifolia,,N,,,,,56710,2272,80607,97215,true,White Blue Eyed Mary
 Collinsia bartsiifolia var. davidsonii,,N,,,,,56711,2273,58330,97216,true,Davidson's Blue Eyed Mary
 Collinsia bartsiifolia var. stricta,,N,,,,,56713,9818,80608,97218,true,White Blue Eyed Mary
-Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325,65284,,Purple Pagodas
+Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325,65284,true,Purple Pagodas
 Collinsia heterophylla var. heterophylla,Chinese houses,N,,"white,purple",3,6,56716,9819,48727,97221,true,Purple Pagodas
 Collinsia parviflora,blue-eyed mary,N,annual,blue,3,7,20000,2285,59013,65288,true,Blue-eyed Mary
 Collinsia sparsiflora var. collina,,N,,,,,56722,2290,57290,97227,true,Spinster's Blue Eyed Mary
@@ -516,7 +516,7 @@ Collinsia torreyi,Torrey's blue-eyed Mary,N,annual,blue,5,8,20009,2294,76414,652
 Collomia diversifolia,serpentine collomia,N,,,,,20020,2299,62230,65306,,Serpentine Collomia,,4.3,,,S4,G4
 Collomia grandiflora,large-flowered collomia,N,annual,orange,4,6,20021,2300,61871,65307,,Large Flowered Collomia
 Collomia heterophylla,,N,,,,,20022,2301,52996,65308,,Variable-leaf Collomia
-Conium maculatum,poison hemlock,X,,white,,,20136,2317,52998,203031,,,conium-maculatum-profile
+Conium maculatum,poison hemlock,X,,white,,,20136,2317,52998,203031,true,,conium-maculatum-profile
 Convolvulus arvensis,bindweed,X,,,,,20203,2321,53021,65696,true
 Convolvulus simulans,,N,,,,,20208,2322,76433,65738,true,Small-flowered Morning-glory,,4.2,,,S4,G4
 Corallorhiza maculata,spotted coralroot,N,perennial,red,5,8,20259,2329,49475,203043,true,Spotted Coralroot
@@ -533,7 +533,7 @@ Cornus sericea subsp. sericea,American dogwood,N,perennial,white,,,49998,2390,53
 Cortaderia jubata,pampas grass,X,,,,,20427,2394,52714,138636,true,,cortaderia-jubata-profile
 Cortaderia selloana,pampas grass,X,,,,,20429,2395,64240,138651,true,,cortaderia-selloana-profile
 Corylus cornuta subsp. californica,California hazelnut,N,,,,,80489,10818,53368,42050,true,California Hazel
-Cotoneaster,,X,,,,,,,53376
+Cotoneaster,,X,,,,,,,53376,,true
 Cotoneaster franchetii,,X,,,,,20511,2401,1319212,14180,true,,cotoneaster-franchetii-profile
 Cotoneaster lacteus,,X,,,,,77520,8714,411074,14199,true,,cotoneaster-lacteus-profile
 Cotoneaster pannosus,,X,,,,,20517,2402,53375,14220,true,,cotoneaster-pannosus-profile
@@ -577,9 +577,9 @@ Cuscuta occidentalis,,N,,,,,21423,10825,76552,66058,true,Chaparral Dodder
 Cuscuta pacifica var. pacifica,,N,,,,,89286,11581,80645,203235,true
 Cuscuta salina,,N,,,,,21469,2540,64204,66069,true,Salt Dodder
 Cuscuta subinclusa,canyon dodder,N,,,,,21426,2544,76556,66073,true,Canyon Dodder
-Cyclospermum leptophyllum,marsh-parsley,X,,,,,88944,9082,76563,203242
+Cyclospermum leptophyllum,marsh-parsley,X,,,,,88944,9082,76563,203242,true
 Cymbalaria muralis,Kenilworth-ivy,X,,,,,21640,2552,55727,66161,true
-Cymopterus terebinthinus,Northern Indian parsnip,N,perennial,yellow,,,21700,,76579,203260
+Cymopterus terebinthinus,Northern Indian parsnip,N,perennial,yellow,,,21700,,76579,203260,true
 Cynara cardunculus,"artichoke thistle,cardoon",X,,,,,2433,2568,57563,203266,true,,cynara-cardunculus-profile
 Cynodon dactylon,Bermuda grass,X,,,,,21743,2570,58371,138811,true,,cynodon-dactylon-profile
 Cynosurus echinatus,dogtail grass,X,,,,,21767,2577,1628703,138861,true,,cynosurus-echinatus-profile
@@ -603,8 +603,8 @@ Dasiphora fruticosa,shrubby cinquefoil,N,perennial,yellow,6,9,80452,11590,76606,
 Datisca glomerata,durango root,N,perennial,yellow,5,7,22377,2618,58888,16996,true,Durango Root
 Datura stramonium,jimson weed,X,,,,,22387,2621,55854,67400,true
 Datura wrightii,"sacred datura,angel's trumpet",U,"annual,perennial",white,4,10,22389,2622,58331,67403,true,Sacred Datura
-Daucus carota,Queen Anne's lace,X,,,,,22394,2623,76610,203298
-Daucus pusillus,"American wild carrot, rattlesnake weed",N,annual,white,4,6,22395,2624,56726,203299,,Rattlesnake Weed
+Daucus carota,Queen Anne's lace,X,,,,,22394,2623,76610,203298,true
+Daucus pusillus,"American wild carrot, rattlesnake weed",N,annual,white,4,6,22395,2624,56726,203299,true,Rattlesnake Weed
 Deinandra bacigalupii,Livermore moonshine,N,,,,,77607,9090,58817,203307,true,Livermore Tarplant,,1B.1,CE,,S1,G1
 Deinandra corymbosa,,N,,,,,77598,9855,60956,203310,true,Coastal Tarweed
 Deinandra kelloggii,,N,,,,,79196,10829,76615,203319,true,Kellogg's Tarweed
@@ -650,7 +650,7 @@ Diplacus bolanderi,,N,,,,,99039,13462,771812,203385,true,Bolander's Monkeyflower
 Diplacus douglasii,Douglas monkeyflower,N,,,,,99051,13428,771821,203391,true,Brownies
 Diplacus kelloggii,,N,,,,,99058,13472,771826,203395,true,Kellogg's Monkeyflower
 Diplacus layneae,Layne's monkeyflower,N,annual,pink,5,8,99059,13473,771827,203396,true,Layne's Monkeyflower
-Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947,68199,,Red Bush Monkeyflower
+Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947,68199,true,Red Bush Monkeyflower
 Diplacus rattanii,Rattan monkeyflower,N,,,,,99072,13479,771830,203405,true,Rattan's Monkeyflower
 Diplacus tricolor,,N,,,,,99079,13482,771835,203410,true,Tricolor Monkeyflower
 Dipsacus,teasel,X,,,,,,,53030
@@ -804,21 +804,21 @@ Eriophyllum lanatum var. achilleoides,,N,,,,,7369,10587,80880,260847,true,Common
 Eriophyllum lanatum var. integrifolium,Oregon sunshine,N,perennial,yellow,7,8,7376,3434,80884,203748,true,Oregon Sunshine
 Eriophyllum lanatum var. lanceolatum,wooly sunflower,N,perennial,yellow,5,8,7380,3435,80885,203749,true,Common Woollysunflower
 Eriophyllum staechadifolium,seaside woolly-sunflower,N,,,,,2825,3444,60963,203755,true,Seaside Woolly Sunflower
-Erodium botrys,long-beaked filaree,X,annual,pink,3,7,25037,3446,57090,17986
-Erodium brachycarpum,,X,annual,pink,3,7,25038,3447,58171,17987
-Erodium cicutarium,red-stemmed filaree,X,annual,pink,3,9,25041,3448,47687,17989,,,erodium-cicutarium-profile
-Erodium malacoides,,X,,,,,76818,3451,77056,17994
-Erodium moschatum,white-stem filaree,X,"annual,biennial",pink,2,9,25048,3452,57092,17995
-Eryngium aristulatum var. aristulatum,coyote-thistle,N,,,,,58845,3458,64189,211707,,California Eryngo
-Eryngium aristulatum var. hooveri,,N,,,,,58846,3459,57904,203761,,Hoover's Button-celery,,1B.1,,,S1,G5T1
-Eryngium aristulatum,Jepson's button celery,N,,,,,25070,3457,57901,203759,,Jepson's Button Celery
-Eryngium armatum,,N,,,,,25071,3461,60950,203763,,Coastal Button-celery
-Eryngium articulatum,,N,,,,,25073,3462,60119,203764,,Beethistle
-Eryngium castrense,,N,,,,,25076,3463,77061,203765,,Great Valley Coyote-thistle
-Eryngium jepsonii,,N,,,,,78144,11674,77062,264168,,Jepson's Eryngo,,1B.2,,,S2,G2
-Eryngium racemosum,Delta button-celery,N,,,,,25097,3467,77066,206800,,Delta Button-celery,,1B.1,CE,,S1,G1
-Eryngium spinosepalum,,N,,,,,25099,3468,57894,203769,,Spiny-sepaled Button-celery,,1B.2,,,S2,G2
-Eryngium vaseyi var. vallicola,,N,,,,,58851,11675,80888,211709
+Erodium botrys,long-beaked filaree,X,annual,pink,3,7,25037,3446,57090,17986,true
+Erodium brachycarpum,,X,annual,pink,3,7,25038,3447,58171,17987,true
+Erodium cicutarium,red-stemmed filaree,X,annual,pink,3,9,25041,3448,47687,17989,true,,erodium-cicutarium-profile
+Erodium malacoides,,X,,,,,76818,3451,77056,17994,true
+Erodium moschatum,white-stem filaree,X,"annual,biennial",pink,2,9,25048,3452,57092,17995,true
+Eryngium aristulatum var. aristulatum,coyote-thistle,N,,,,,58845,3458,64189,211707,true,California Eryngo
+Eryngium aristulatum var. hooveri,,N,,,,,58846,3459,57904,203761,true,Hoover's Button-celery,,1B.1,,,S1,G5T1
+Eryngium aristulatum,Jepson's button celery,N,,,,,25070,3457,57901,203759,true,Jepson's Button Celery
+Eryngium armatum,,N,,,,,25071,3461,60950,203763,true,Coastal Button-celery
+Eryngium articulatum,,N,,,,,25073,3462,60119,203764,true,Beethistle
+Eryngium castrense,,N,,,,,25076,3463,77061,203765,true,Great Valley Coyote-thistle
+Eryngium jepsonii,,N,,,,,78144,11674,77062,264168,true,Jepson's Eryngo,,1B.2,,,S2,G2
+Eryngium racemosum,Delta button-celery,N,,,,,25097,3467,77066,206800,true,Delta Button-celery,,1B.1,CE,,S1,G1
+Eryngium spinosepalum,,N,,,,,25099,3468,57894,203769,true,Spiny-sepaled Button-celery,,1B.2,,,S2,G2
+Eryngium vaseyi var. vallicola,,N,,,,,58851,11675,80888,211709,true
 Erysimum capitatum var. angustatum,Contra Costa wallflower,N,,,,,58866,9942,119564,47093,,,,1B.1,CE,FE,S1,G5T1
 Erysimum capitatum var. capitatum,western wallflower,N,,"orange,yellow",3,9,58866,9943,50627,47096,true,Sanddune Wallflower
 Erysimum perenne,mountain wallflower,N,perennial,yellow,6,9,25125,11678,77072,18046,true,Sanddune Wallflower
@@ -877,7 +877,7 @@ Festuca rubra,red fescue,N,,,,,25825,3586,61061,141223,true,Red Fescue
 Festuca subuliflora,crinkle-awn fescue,N,perennial,,5,8,25836,3589,77146,141258,true,Crinkle-awn Fescue
 Festuca temulenta,darnel,X,,,,,93753,11692,164712,203853,Lolium temulentum
 Ficus carica,fig,X,,,,,25883,3592,60218,21896,true,,ficus-carica-profile
-Foeniculum vulgare,fennel,X,,,,,25972,3603,53052,203865,,,foeniculum-vulgare-profile
+Foeniculum vulgare,fennel,X,,,,,25972,3603,53052,203865,true,,foeniculum-vulgare-profile
 Forestiera pubescens,desert olive,N,,,,,25982,3604,58211,68756,,Desert Olive
 Fragaria vesca,wood strawberry,N,,,,,26021,3609,50298,22020,true,Woodland Strawberry
 Frangula californica subsp. californica,California coffeeberry,N,perennial,yellow,5,7,50563,10896,53429,42664,true,California Coffeeberry
@@ -890,7 +890,7 @@ Fritillaria affinis,checker lily,N,bulb,"brown,yellow",3,6,76930,3623,50618,2038
 Fritillaria agrestis,stinkbells,N,bulb,"yellow,green",3,6,26132,3626,56794,203880,true,Stinkbells,,4.2,,,S3,G3
 Fritillaria falcata,talus fritillary,N,bulb,,,,26145,3633,56791,209828,true,Talus Fritillary,,1B.2,,,S2,G2
 Fritillaria liliacea,fragrant fritillary,N,bulb,white,2,4,26153,3636,53054,203886,true,Fragrant Fritillary,,1B.2,,,S2,G2
-Fumaria,fumitory,X,,,,,,,53787
+Fumaria,fumitory,X,,,,,,,53787,,true
 Fumaria capreolata,white ramping fumitory,X,,,,,26193,8662,57852,22055,true
 Fumaria officinalis,fumitory,X,,,,,26195,3647,53785,22059,true
 Galium andrewsii subsp. gatense,needle bedstraw,N,,yellow,4,6,50593,3658,61865,203906,,Serpentine Bedstraw,,4.2,,,S3,G5T3
@@ -916,15 +916,15 @@ Gayophytum diffusum subsp. parviflorum,groundsmoke,N,annual,white,5,9,50695,3763
 Genista monspessulana,French broom,X,,,,,26558,3774,53403,22307,true,,genista-monspessulana-profile
 Gentiana calycosa,"explorers' gentian,mountain bog gentian",N,perennial,"blue,purple",7,9,26579,3779,56350,69137,true,Rainier Pleated Gentian
 Gentiana newberryi var. tiogana,Tioga gentian,N,perennial,"white,blue",7,9,59443,3783,80907,98001,true,Tioga Gentian
-Geranium carolinianum,Carolina geranium,N,,,,,26710,3797,58917,22333,,Carolina Crane's-bill
-Geranium core-core,,X,,,,,81114,10601,77254,22336
-Geranium dissectum,cut-leaved geranium,X,,,,,26715,3799,53075,22339,,,geranium-dissectum-profile
-Geranium lucidum,,X,,,,,26726,8593,77255,22354,,,geranium-lucidum-profile
-Geranium molle,cranes-bill geranium,X,,,,,26729,3800,53076,22359
-Geranium potentilloides,,X,,,,,26735,3802,77258,22368
-Geranium purpureum,little robin,X,,,,,77514,8594,57643,22370,,,geranium-purpureum-profile
-Geranium robertianum,,X,,,,,26742,3806,55925,22376
-Geranium rotundifolium,round-leaved crane's-bill,X,,,,,26743,3808,77261,22377
+Geranium carolinianum,Carolina geranium,N,,,,,26710,3797,58917,22333,true,Carolina Crane's-bill
+Geranium core-core,,X,,,,,81114,10601,77254,22336,true
+Geranium dissectum,cut-leaved geranium,X,,,,,26715,3799,53075,22339,true,,geranium-dissectum-profile
+Geranium lucidum,,X,,,,,26726,8593,77255,22354,true,,geranium-lucidum-profile
+Geranium molle,cranes-bill geranium,X,,,,,26729,3800,53076,22359,true
+Geranium potentilloides,,X,,,,,26735,3802,77258,22368,true
+Geranium purpureum,little robin,X,,,,,77514,8594,57643,22370,true,,geranium-purpureum-profile
+Geranium robertianum,,X,,,,,26742,3806,55925,22376,true
+Geranium rotundifolium,round-leaved crane's-bill,X,,,,,26743,3808,77261,22377,true
 Gilia achilleifolia subsp. achilleifolia,,N,,,,,50744,3813,51101,95568,,California Gilia
 Gilia achilleifolia subsp. multicaulis,,N,,,,,50745,3814,51102,95570,,California Gilia
 Gilia capitata subsp. capitata,,N,,,,,50764,3834,57798,95588,,Bluehead Gilia
@@ -950,7 +950,7 @@ Gutierrezia californica,California matchweed,N,,,,,3140,3977,57978,204054,true,C
 Hackelia micrantha,Jessica's stickseed,N,perennial,blue,6,8,27534,3990,77323,204095,,Jessica Sticktight
 Hainardia cylindrica,,X,,,,,27553,3996,1477514,141647,true
 Hedera canariensis,Canary Islands ivy,X,,white,8,11,81236,8467,64113,206878,,,hedera-canariensis-profile
-Hedera helix,English ivy,X,,white,8,11,27768,4023,55882,204161,,,hedera-helix-profile
+Hedera helix,English ivy,X,,white,8,11,27768,4023,55882,204161,true,,hedera-helix-profile
 Hedypnois rhagadioloides,,X,,,,,99769,13134,492864,204167,Hedypnois cretica
 Helenium bigelovii,,N,,,,,3201,4029,61807,204173,true,Bigelow's Sneezeweed
 Helenium puberulum,sneezeweed,N,,,,,3223,4031,53092,204177,true,Sneezeweed
@@ -963,7 +963,7 @@ Heliotropium curassavicum var. oculatum,heliotrope,N,,,,,59914,11723,80928,20422
 Helminthotheca echioides,bristly ox-tongue,X,"annual,biennial",yellow,1,12,81752,10921,61906,204227,true,,picris-echioides-profile
 Hemizonia congesta subsp. lutescens,,N,annual,,,,80179,10922,61173,204234,true,Hayfield Tarweed
 Hemizonia congesta subsp. luzulifolia,"hayfield tarweed,woodrush tarweed",N,annual,white,3,12,102005,4070,56956,204235,true,Hayfield Tarweed
-Heracleum maximum,cow parsnip,N,,,,,27996,9546,53094,204245,,Cow Parsnip
+Heracleum maximum,cow parsnip,N,,,,,27996,9546,53094,204245,true,Cow Parsnip
 Herniaria hirsuta var. cinerea,rupturewort,X,,,,,81545,10923,932806,130357,true
 Hesperevax acaulis var. ambusticola,fire evax,N,annual,,4,6,59934,4108,80930,204250,true,Fire Evax
 Hesperevax caulescens,hogwallow starfish,N,annual,,,,28021,4110,60135,204251,true,Hogwallow Starfish,,4.2,,,S3,G3
@@ -1004,7 +1004,7 @@ Holocarpha virgata subsp. virgata,,N,annual,yellow,5,11,6108,4210,53102,204323,t
 Holodiscus discolor var. discolor,"cream bush,oceanspray",N,perennial,white,5,8,75685,11727,80941,48501,true
 Holodiscus discolor var. microphyllus,small leaf cream bush,N,perennial,white,6,9,91904,11729,80943,48505,Holodiscus microphyllus,Little Leaf Creambush
 Holozonia filipes,Greene's white crown,N,perennial,white,6,10,3561,4216,77430,204325,true,Whitecrown
-Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173,141840,,Meadow Barley
+Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173,141840,true,Meadow Barley
 Hordeum brachyantherum subsp. brachyantherum,meadow barley,N,,,,,76411,4219,61834,167357,true,Meadow Barley
 Hordeum brachyantherum subsp. californicum,California barley,N,,,,,76414,4220,59092,167358,true,California Meadow Barley
 Hordeum depressum,low barley,N,,,,,28384,4221,58378,141856,true,Low Barley
@@ -1022,8 +1022,8 @@ Hornungia procumbens,,X,,,,,81333,11748,77452,23250,true
 Hosackia crassifolia var. crassifolia,,N,,,,,91757,11750,80960,48541,true,Big Deervetch
 Hosackia oblongifolia var. oblongifolia,,N,,,,,91760,11755,1464901,204333,true,Narrow-leaved Lotus
 Hosackia stipularis var. stipularis,,N,,,,,91763,11760,80965,48548,true,Balsam Bird's-foot Trefoil
-Hydrocotyle ranunculoides,,N,,,,,28607,4281,60951,204352,,Floating Marsh Pennywort
-Hydrocotyle verticillata,,N,,,,,28611,4284,60121,204354,,Whorled Marsh Pennywort
+Hydrocotyle ranunculoides,,N,,,,,28607,4281,60951,204352,true,Floating Marsh Pennywort
+Hydrocotyle verticillata,,N,,,,,28611,4284,60121,204354,true,Whorled Marsh Pennywort
 Hydrophyllum occidentale,western waterleaf,N,,,,,28634,4287,77471,204358,,California Waterleaf
 Hypericum anagalloides,tinker's penny,N,"annual,perennial",yellow,5,9,28732,4307,61032,23355,true,Tinker's Penny
 Hypericum androsaemum,,X,,,,,77418,8601,77480,23356,,,hypericum-androsaemum-profile
@@ -1033,7 +1033,7 @@ Hypochaeris glabra,smooth cat's ear,X,annual,yellow,3,6,3623,4313,53103,204387,t
 Hypochaeris radicata,rough cat's ear,X,perennial,yellow,4,7,3625,4314,53104,231617,true,,hypochaeris-radicata-profile
 Idahoa scapigera,flat-pod,N,,,,,28891,4316,77486,23467,true,Scalepod
 Ilex aquifolium,English holly,X,,,,,28898,4317,53856,206927,,,ilex-aquifolium-profile
-Impatiens balfourii,touch-me-not,X,,,,,28954,4320,77490,70577
+Impatiens balfourii,touch-me-not,X,,,,,28954,4320,77490,70577,true
 Ipomopsis aggregata subsp. aggregata,scarlet gilia,N,perennial,red,6,9,51025,11765,52142,95687
 Iris douglasiana,Douglas' iris,N,,,,,29188,4346,50854,204418,true,Douglas Iris
 Iris foetidissima,stinking iris,X,,,,,29193,8604,64331,208174
@@ -1166,10 +1166,10 @@ Lewisia leeana,quill-leaved lewisia,N,perennial,"pink,white",6,8,30833,10065,777
 Lewisia nevadensis,Nevada lewisia,N,perennial,white,5,8,30836,4775,77730,115128,true,Nevada Lewisia
 Lewisia rediviva var. rediviva,bitterroot,N,perennial,"white,pink",3,6,60818,10066,81025,130385,true,Bitter Root
 Lewisia triphylla,three-leaved lewisia,N,perennial,white,5,8,30846,4783,62363,115137,true,Threeleaf Lewisia
-Ligusticum apiifolium,,N,,,,,30890,4794,59298,204655,,Lovage
-Ligusticum grayi,Gray's lovage,N,perennial,white,6,9,30898,4796,77738,204657,,Gray's Licorice-root
+Ligusticum apiifolium,,N,,,,,30890,4794,59298,204655,true,Lovage
+Ligusticum grayi,Gray's lovage,N,perennial,white,6,9,30898,4796,77738,204657,true,Gray's Licorice-root
 Ligustrum lucidum,Chinese privet,X,,,,,30906,8656,77740,71423,,,ligustrum-lucidum-profile
-Lilaeopsis masonii,Mason's lilaeopsis,N,,,,,30919,4798,77742,211313,,Mason's Lilaeopsis,,1B.1,CR,,S2,G2
+Lilaeopsis masonii,Mason's lilaeopsis,N,,,,,30919,4798,77742,211313,Lilaeopsis occidentalis,Mason's Lilaeopsis,,1B.1,CR,,S2,G2
 Lilium pardalinum subsp. pardalinum,leopard lily,N,,,,,51254,4810,61829,204673,true,Leopard Lily
 Lilium pardalinum subsp. shastense,Shasta lily,N,perennial,orange,7,8,51255,4812,62231,204674,true,Shasta Lily
 Lilium parvum,Sierra tiger lily,N,perennial,"red,orange",6,8,30953,4816,59584,204676,true,Alpine Lily
@@ -1196,13 +1196,13 @@ Lithophragma parviflorum var. parviflorum,,N,perennial,"white,pink",3,7,60952,49
 Lobularia maritima,sweet alyssum,X,,,,,31347,4939,56992,24547,true,,lobularia-maritima-profile
 Logfia filaginoides,herba impia,N,annual,red,2,5,81847,10960,64254,204735,true,California Cottonrose
 Logfia gallica,narrowleaf cottonrose,X,annual,"brown,yellow",3,7,31363,9521,56949,204736,true
-Lomatium californicum,chu-chu-pate,N,,yellow,4,6,31389,4950,56824,204737,,California Lomatium
-Lomatium caruifolium var. caruifolium,,N,,,,,61026,4953,64328,204739,,Alkali Desertparsley
-Lomatium caruifolium var. denticulatum,,N,,,,,61027,4954,60123,204740
-Lomatium dasycarpum subsp. dasycarpum,,N,perennial,white,3,6,51334,4960,56829,204743,,Woolly Fruited Lomatium
-Lomatium macrocarpum,,N,perennial,white,4,6,31433,4974,56826,204754,,Bigseed Biscuitroot
-Lomatium nudicaule,,N,,,,,31441,4983,77818,204759,,Barestem Biscuitroot
-Lomatium utriculatum,,N,perennial,yellow,2,5,31473,4999,56827,204766,,Common Lomatium
+Lomatium californicum,chu-chu-pate,N,,yellow,4,6,31389,4950,56824,204737,true,California Lomatium
+Lomatium caruifolium var. caruifolium,,N,,,,,61026,4953,64328,204739,true,Alkali Desertparsley
+Lomatium caruifolium var. denticulatum,,N,,,,,61027,4954,60123,204740,true
+Lomatium dasycarpum subsp. dasycarpum,,N,perennial,white,3,6,51334,4960,56829,204743,true,Woolly Fruited Lomatium
+Lomatium macrocarpum,,N,perennial,white,4,6,31433,4974,56826,204754,true,Bigseed Biscuitroot
+Lomatium nudicaule,,N,,,,,31441,4983,77818,204759,true,Barestem Biscuitroot
+Lomatium utriculatum,,N,perennial,yellow,2,5,31473,4999,56827,204766,true,Common Lomatium
 Lonicera conjugialis,purpleflower honeysuckle,N,perennial,purple,5,7,31497,5006,77833,204767,,Double Honeysuckle
 Lonicera hispidula,California honeysuckle,N,,pink,5,6,31505,10075,53416,204768,,Pink Honeysuckle
 Lonicera interrupta,chaparral honeysuckle,N,,"yellow,white",4,5,31506,5009,60878,204770,,Chaparral Honeysuckle
@@ -1398,7 +1398,7 @@ Nothoscordum gracile,false garlic,X,,,,,34732,10157,78233,205139,true,,nothoscor
 Nuphar polysepala,western yellow pond-lily,N,perennial,yellow,4,9,34748,10994,78234,26555,true,Great Yellow Pond-lily
 Nuttallanthus texanus,blue toadflax,N,,,,,34756,11883,209238,72929,true,Blue Toadflax
 Oemleria cerasiformis,oso berrry,N,,,,,34900,5879,53419,26643,true,Osoberry
-Oenanthe sarmentosa,,N,,,,,34904,5881,60127,205153,,Pacific Oenanthe
+Oenanthe sarmentosa,,N,,,,,34904,5881,60127,205153,true,Pacific Oenanthe
 Oenothera biennis,common evening-primrose,X,,,,,34975,5882,62207,26661,true
 Oenothera deltoides subsp. cognata,,N,,,,,51746,5891,80072,43163,true,Birdcage Evening Primrose
 Oenothera deltoides subsp. howellii,Antioch Dunes evening-primrose,N,,,,,51748,5893,80074,43166,true,Antioch Dunes Evening Primrose,,1B.1,CE,FE,S1,G5T1
@@ -1411,8 +1411,8 @@ Oenothera xenogaura,,X,,,,,89232,11890,545863,26832,Oenothera hispida
 Olea europaea,olive,X,,,,,35090,5912,57140,73002,,,olea-europaea-profile
 Oreostemma alpigenum var. andersonii,tundra aster,N,perennial,purple,6,9,80348,9481,81161,205174,true,Alpine Aster
 Orthilia secunda,one-sided wintergreen,N,perennial,green,7,9,35496,5988,78288,73203,true,One Sided Wintergreen
-Osmorhiza berteroi,wood cicely,N,perennial,white,4,7,35560,10164,53166,205185,,Sweet Cicely
-Osmorhiza brachypoda,California cicely,N,,,,,35564,6000,58793,205186,,California Sweetcicely
+Osmorhiza berteroi,wood cicely,N,perennial,white,4,7,35560,10164,53166,205185,true,Sweet Cicely
+Osmorhiza brachypoda,California cicely,N,,,,,35564,6000,58793,205186,true,California Sweetcicely
 Oxalis corniculata,creeping wood sorrel,X,,yellow,1,12,35609,6010,53168,26965,true
 Oxalis incarnata,crimson wood sorrel,X,,"white,pink",3,6,35636,6012,61776,26985,true
 Oxalis oregana,Oregon wood sorrel,N,perennial,white,2,10,35641,6015,47757,27000,true,Redwood Sorrel
@@ -1443,8 +1443,8 @@ Pedicularis densiflora,warrior's plume,N,perennial,red,,,36567,6103,49645,73598,
 Pedicularis groenlandica,elephant's head,N,perennial,pink,6,9,36574,6105,59780,73608,true,Elephant Heads
 Pedicularis semibarbata,pinewoods lousewort,N,perennial,yellow,5,7,36608,6110,62700,73646,true,Bearded Lousewort
 Pediomelum californicum,Indian breadroot,N,,,,,36634,6111,78373,27438,true,California Indian Breadroot
-Pelargonium grossularioides,,X,,,,,36665,6115,78376,27470
-Pelargonium inquinans,geranium,X,,,,,36668,6116,78377,27472
+Pelargonium grossularioides,,X,,,,,36665,6115,78376,27470,true
+Pelargonium inquinans,geranium,X,,,,,36668,6116,78377,27472,true
 Pellaea andromedifolia,coffee fern,N,,,,,36775,6122,57231,199520,true,Coffee Fern
 Pellaea bridgesii,Bridges' cliff-brake,N,,,,,36779,6126,78385,199525,true,Bridges' Cliff Brake
 Pellaea mucronata var. mucronata,bird's-foot fern,N,,,,,75897,6129,58765,201665,Pellaea mucronata subsp. mucronata,Bird's-foot Fern
@@ -1463,11 +1463,11 @@ Penstemon rydbergii var. oreocharis,"Rydberg's beardtongue,meadow penstemon",N,p
 Pentachaeta alsinoides,tiny pygmy daisy,N,,,,,4273,6225,58844,205258,true,Tiny Pygmydaisy
 Pentachaeta exilis subsp. exilis,meager pygmy daisy,N,,,,,6171,6230,58846,205262,true,Meager Pygmydaisy
 Pentagramma triangularis,goldback fern,N,,,,,77119,6234,52676,199559,true,Goldenback Fern
-Perideridia californica,California yampah,N,,,,,37248,6245,58794,205283,,California Yampah
-Perideridia gairdneri subsp. gairdneri,,N,,,,,52100,6248,63880,207166,,Gairdner's Yampah,,4.2,,,S3S4,G3G4
-Perideridia kelloggii,Kellog's yampah,N,,,,,37253,6250,56838,207167,,Kellogg's Yampah
-Perideridia oregana,Oregon yampah,N,,,,,37256,6253,78438,207168,,Oregon Yampah
-Perideridia parishii subsp. latifolia,Sierra yampah,N,perennial,white,6,8,52101,6255,80106,205287
+Perideridia californica,California yampah,N,,,,,37248,6245,58794,205283,true,California Yampah
+Perideridia gairdneri subsp. gairdneri,,N,,,,,52100,6248,63880,207166,Perideridia gairdneri,Gairdner's Yampah,,4.2,,,S3S4,G3G4
+Perideridia kelloggii,Kellog's yampah,N,,,,,37253,6250,56838,207167,true,Kellogg's Yampah
+Perideridia oregana,Oregon yampah,N,,,,,37256,6253,78438,207168,true,Oregon Yampah
+Perideridia parishii subsp. latifolia,Sierra yampah,N,perennial,white,6,8,52101,6255,80106,205287,true
 Persicaria amphibia,water smartweed,N,,,,,69778,11006,78450,117831,true,Swamp Knotweed
 Persicaria hydropiper,waterpepper,X,,,,,37286,11009,78452,117846,true
 Persicaria hydropiperoides,false waterpepper,N,,,,,37287,11008,78453,117847,true,Water Pepper
@@ -1526,9 +1526,9 @@ Pinus monticola,western white pine,N,perennial,,,,38285,6519,68084,58433,true,We
 Pinus ponderosa var. benthamiana,Ponderosa pine,N,,,,,103000,14962,127204,58824
 Pinus radiata,Monterey pine,N,,,,,38300,6523,53421,58452,true,Monterey Pine,,1B.1,,,S1,G1
 Pinus sabiniana,"gray pine,foothill pine",N,,,,,38304,6524,58772,58458,true,Foothill Pine
-Pistacia atlantica,,X,,,,,77247,6541,78588,28204
-Pittosporum crassifolium,,X,,,,,38444,6545,78590,208641
-Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594,205464,,,pittosporum-undulatum-profile
+Pistacia atlantica,,X,,,,,77247,6541,78588,28204,true
+Pittosporum crassifolium,,X,,,,,38444,6545,78590,208641,true
+Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594,205464,true,,pittosporum-undulatum-profile
 Plagiobothrys acanthocarpus,adobe allocarya,N,,,,,38484,6550,58062,205466,,Adobe Popcornflower
 Plagiobothrys arizonicus,,N,,,,,38485,6551,58063,205467,,Arizona Popcornflower
 Plagiobothrys bracteatus,bracted popcornflower,N,annual,white,4,6,38487,6553,57719,205469,,Bracted Popcornflower
@@ -1584,7 +1584,7 @@ Polemonium carneum,royal sky pilot,N,,,,,38971,6712,78665,74629,,Royal Sky Pilot
 Polemonium pulcherrimum var. pulcherrimum,pretty Jacob's-ladder,N,perennial,"blue,purple",6,9,75974,6719,81276,99496,,Jacob's-ladder
 Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,,,,,80560,14756,81277,128866,true
 Polygonum argyrocoleon,persian knotweed,X,,,,,39158,6738,78676,118197,true
-Polygonum aviculare,prostrate knotweed,X,,,,,,10251,78678,118204
+Polygonum aviculare,prostrate knotweed,X,,,,,,10251,78678,118204,true
 Polygonum aviculare subsp. aviculare,,X,,,,,80990,10667,80151,128868,true
 Polygonum aviculare subsp. depressum,,X,,,,,80993,11034,53179,128871,true
 Polygonum aviculare subsp. neglectum,,X,,,,,80992,10669,80154,128872,true
@@ -1631,7 +1631,7 @@ Prunella vulgaris var. vulgaris,,X,,,,,75995,6885,81287,99540
 Prunus cerasifera,cherry plum,X,,,,,39972,6887,55837,28875,true,,prunus-cerasifera-profile
 Prunus dulcis,almond,X,,,,,39976,6888,69936,28884,true
 Prunus emarginata,bitter cherry,N,,,,,39978,6889,63905,28885,true,Bitter Cherry
-Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250,28897,,Hollyleaf Cherry
+Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250,28897,true,Hollyleaf Cherry
 Prunus ilicifolia subsp. ilicifolia,holly-leafed cherry,N,perennial,white,4,5,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
 Prunus subcordata,,N,,,,,40019,6897,56040,28936,true,Klamath Plum
 Prunus virginiana var. demissa,western choke-cherry,N,perennial,white,5,6,64546,6898,63900,50588,true,Western Chokecherry
@@ -1649,7 +1649,7 @@ Psilocarphus brevissimus var. multiflorus,,N,,,,,8099,6910,60148,205667,true,Del
 Psilocarphus chilensis,round woolly-marbles,N,annual,white,3,7,81848,11050,64158,205670,true,Round Woolly-marbles
 Psilocarphus oregonus,Oregon woolly-marbles,N,annual,white,3,7,4500,6912,60149,205671,true,Oregon Woollyheads
 Psilocarphus tenellus,slender woolly-marbles,N,annual,white,3,7,4501,6913,53188,205668,true,Slender Woolly-marbles
-Ptelea crenulata,hop tree,N,,,,,40219,6929,50622,29077,,Western Hoptree
+Ptelea crenulata,hop tree,N,,,,,40219,6929,50622,29077,true,Western Hoptree
 Pteridium aquilinum var. pubescens,bracken fern,N,,,,,64626,6930,52684,201716,true,Hairy Brackenfern
 Pterospora andromedea,woodland pinedrops,N,perennial,white,6,8,40272,6934,52118,74876,true,Pine Drops
 Pterostegia drymarioides,,N,,,,,40273,6935,53191,118523,true,Woodland Threadstem
@@ -1678,7 +1678,7 @@ Quercus lobata,valley oak,N,,,,,40663,7001,49011,29310,true,Valley Oak
 Quercus palmeri,Palmer's oak,N,,,,,40584,7002,78807,29344,true,Desert Oak
 Quercus parvula var. shrevei,,N,,,,,76907,7005,81314,50722,,Shreve Oak
 Quercus vacciniifolia,huckleberry oak,N,perennial,,,,40771,7009,78810,29383,true,Huckleberry Oak
-Quercus wislizeni var. frutescens,,N,,,,,64776,7011,51089,50761,,Interior Live Oak
+Quercus wislizeni var. frutescens,,N,,,,,64776,7011,51089,50761,Quercus wislizeni,Interior Live Oak
 Quercus wislizeni var. wislizeni,interior live oak,N,,,,,64777,7012,51089,50762,Quercus wislizeni,Interior Live Oak
 Rafinesquia californica,California chicory,N,,,,,4548,7013,53193,205716,true,California Plumseed
 Ranunculus alismifolius,plantainleaf buttercup,N,perennial,yellow,5,8,40849,,78815,29546,true,Alisma Leaved Buttercup
@@ -1708,9 +1708,9 @@ Rhinotropis californica,California milkwort,N,,,,,107535,14636,876453,265222,tru
 Rhodiola integrifolia subsp. integrifolia,western roseroot,N,perennial,red,5,8,80583,10300,80170,43540,true,Western Roseroot
 Rhododendron columbianum,western Labrador tea,N,perennial,white,5,8,91858,11986,78847,75140,true,Western Labrador Tea
 Rhododendron occidentale,California azalea,N,perennial,white,4,8,41152,,60527,75168,true,Western Azalea
-Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,,Fragrant Sumac
-Rhus integrifolia,lemonade berry,N,perennial,,,,41186,7090,55009,29829,,Lemonade Berry
-Rhus ovata,sugar bush,N,perennial,,,,41191,7091,64121,29838,,Sugar Bush
+Rhus aromatica,skunkbrush,N,,,,,41175,11056,58738,29816,true,Fragrant Sumac
+Rhus integrifolia,lemonade berry,N,perennial,,,,41186,7090,55009,29829,true,Lemonade Berry
+Rhus ovata,sugar bush,N,perennial,,,,41191,7091,64121,29838,true,Sugar Bush
 Ribes amarum,bitter gooseberry,N,,,,,41372,7099,53433,29899,true,Bitter Gooseberry
 Ribes aureum var. gracillimum,golden currant,N,perennial,yellow,2,5,65126,7104,55547,51084,true,Golden Currant
 Ribes californicum var. californicum,hillside gooseberry,N,perennial,white,2,3,65128,7108,47128,51086,true,Hillside Gooseberry
@@ -1794,18 +1794,18 @@ Salvia spathacea,California hummingbird sage,N,,,,,43098,7316,64133,75698,,Hummi
 Sambucus mexicana,blue elderberry,N,,,,,43127,7320,143799,205802,,Blue Elderberry
 Sambucus racemosa var. racemosa,red elderberry,N,,,,,76057,7323,57826,205808,,Mountain Red Elderberry
 Samolus parviflorus,water-pimpernel,N,,,,,43144,7324,60234,75726,true,Seaside Brookweed
-Sanicula arctopoides,footsteps-of-spring,N,,,,,43161,7329,55466,205813,,Footsteps Of Spring
-Sanicula bipinnata,poison sanicle,N,,,,,43165,7331,57626,205815,,Poison Sanicle
-Sanicula bipinnatifida,purple sanicle,N,,,,,43166,7332,56840,205816,,Snakeroot
-Sanicula crassicaulis,Pacific sanicle,N,,,,,43169,7333,53201,205817,,Pacific Sanicle
-Sanicula laciniata,,N,,,,,43175,7336,56841,205820,,Coastal Blacksnakeroot
-Sanicula maritima,adobe sanicle,N,,,,,43177,7337,57625,207269,,Adobe Sanicle,,1B.1,CR,,S2,G2
-Sanicula saxatilis,rock sanicle,N,,,,,43186,7339,57783,205823,,Diablo Sanicle,,1B.2,CR,,S2,G2
-Sanicula tuberosa,,N,,,,,43190,7341,56842,205825,,Tuberous Sanicle
+Sanicula arctopoides,footsteps-of-spring,N,,,,,43161,7329,55466,205813,true,Footsteps Of Spring
+Sanicula bipinnata,poison sanicle,N,,,,,43165,7331,57626,205815,true,Poison Sanicle
+Sanicula bipinnatifida,purple sanicle,N,,,,,43166,7332,56840,205816,true,Snakeroot
+Sanicula crassicaulis,Pacific sanicle,N,,,,,43169,7333,53201,205817,true,Pacific Sanicle
+Sanicula laciniata,,N,,,,,43175,7336,56841,205820,true,Coastal Blacksnakeroot
+Sanicula maritima,adobe sanicle,N,,,,,43177,7337,57625,207269,true,Adobe Sanicle,,1B.1,CR,,S2,G2
+Sanicula saxatilis,rock sanicle,N,,,,,43186,7339,57783,205823,true,Diablo Sanicle,,1B.2,CR,,S2,G2
+Sanicula tuberosa,,N,,,,,43190,7341,56842,205825,true,Tuberous Sanicle
 Sarcodes sanguinea,snowplant,N,perennial,red,5,7,43234,7346,49472,75739,true,Snow Plant
 Scabiosa atropurpurea,pincushion flower,X,,,,,43445,7374,372376,205831,,,scabiosa-atropurpurea-profile
-Scandix pecten-veneris,Venus' needle,X,,,,,43465,7376,56843,205833
-Schinus molle,Peruvian pepper-tree,X,,,,,43505,7378,57354,31759,,,schinus-molle-profile
+Scandix pecten-veneris,Venus' needle,X,,,,,43465,7376,56843,205833,true
+Schinus molle,Peruvian pepper-tree,X,,,,,43505,7378,57354,31759,true,,schinus-molle-profile
 Schismus arabicus,Mediterranean grass,X,,,,,43510,7380,58384,148381,true,,schismus-arabicus-profile
 Schoenoplectus acutus var. occidentalis,common tule,N,,,,,79929,9602,59209,108326,true,Tule
 Schoenoplectus americanus,Olney's three-square bulrush,N,,,,,80328,9603,59066,105186,true,Olney's Bulrush
@@ -1850,7 +1850,7 @@ Sherardia arvensis,field madder,X,,,,,44299,7542,47691,75982
 Sibbaldia procumbens,creeping sibbaldia,N,perennial,yellow,6,8,44312,7547,79076,32064,true,Creeping Sibbaldia
 Sidalcea diploscypha,fringed checkerbloom,N,annual,pink,4,5,44415,7553,57139,32180,true,Fringed Checkerbloom
 Sidalcea glaucescens,waxy checkerbloom,N,perennial,pink,6,8,44416,7554,61357,32184,true,Waxy Checkerbloom
-Sidalcea malviflora,checker mallow,N,,,,,,7564,48795,32195,,Checker Bloom
+Sidalcea malviflora,checker mallow,N,,,,,,7564,48795,32195,true,Checker Bloom
 Sidalcea malviflora subsp. laciniata,checker mallow,N,,pink,3,6,52986,7568,61195,205941,true,Dwarf Checkerbloom
 Sidalcea malviflora subsp. malviflora,checker mallow,N,,,,,52987,7569,61041,43800,true,Checker Mallow
 Silene antirrhina,sleepy catchfly,N,,,,,44491,7586,58780,119240,true,Sleepy Catchfly
@@ -1868,7 +1868,7 @@ Sisymbrium officinale,hedge mustard,X,,,,,44653,7630,53266,32267,true
 Sisymbrium orientale,,X,,,,,44654,7631,58086,32268,true
 Sisyrinchium bellum,blue-eyed-grass,N,,,,,44682,7632,49918,205956,true,Blue-eyed Grass
 Sisyrinchium californicum,golden-eyed-grass,N,,,,,44688,7633,60550,205957,true,Yellow Eyed Grass
-Sium suave,,N,,,,,44763,7641,79131,208695,,Hemlock Waterparsnip
+Sium suave,,N,,,,,44763,7641,79131,208695,true,Hemlock Waterparsnip
 Solanum americanum,,N,,,,,44818,7647,59035,76168,true,American Black Nightshade
 Solanum elaeagnifolium,white horse-nettle,X,,,,,44852,7654,79137,76470,true
 Solanum furcatum,forked nightshade,X,,,,,44856,7655,79138,76521,true
@@ -1957,7 +1957,7 @@ Tanacetum parthenium,feverfew,X,,,,,5215,7919,54520,206156,true
 Taraxacum erythrospermum,red-seeded dandelion,X,,,,,5225,12084,79317,211458,true
 Taraxacum officinale,common dandelion,X,,yellow,,,5231,7922,47602,206161,true
 Taraxia ovata,sun cup,N,,yellow,,,89233,12085,68182,32773,true,Sun Cup
-Tauschia hartwegii,,N,,,,,46097,7925,54948,206164,,Tauschia
+Tauschia hartwegii,,N,,,,,46097,7925,54948,206164,true,Tauschia
 Taxus brevifolia,,N,,,,,46109,7929,55209,58524,true,Pacific Yew
 Tellima grandiflora,fringe cups,N,,,,,46142,7931,51655,32787,true,Bigflower Tellima
 Tetragonia tetragonoides,New Zealand spinach,X,,,,,99693,13131,418653,207368
@@ -1970,11 +1970,11 @@ Thysanocarpus laciniatus,lacepod,N,,white,3,5,46555,7985,58090,33058,true,Narrow
 Thysanocarpus radians,,N,,,,,46556,7986,68891,33060,true,Ribbed Fringepod
 Tolmiea diplomenziesii,pig-a-back plant,N,,,,,89306,12095,79368,33907,true,Pig-a-Back Plant
 Tonella tenella,,N,,,,,46732,8000,79369,78063,true,Lesser Baby Innocence
-Torilis,sock-destroyer,X,,,,,,,53305
-Torilis arvensis,tall sock-destroyer,X,,,,,46743,8004,56846,206200,,,torilis-arvensis-profile
-Torilis nodosa,short sock-destroyer,X,,,,,46747,8007,53304,206201
+Torilis,sock-destroyer,X,,,,,,,53305,,true
+Torilis arvensis,tall sock-destroyer,X,,,,,46743,8004,56846,206200,true,,torilis-arvensis-profile
+Torilis nodosa,short sock-destroyer,X,,,,,46747,8007,53304,206201,true
 Torreyochloa pallida var. pauciflora,,N,,,,,67197,8010,81431,173088,true,Weak Manna Grass
-Toxicodendron diversilobum,poison-oak,N,,white,,,46791,8015,51080,33920,,Western Poison Oak
+Toxicodendron diversilobum,poison-oak,N,,white,,,46791,8015,51080,33920,true,Western Poison Oak
 Toxicoscordion fremontii,zigadene,N,bulb,white,2,6,89163,11103,49649,206215,Zigadenus fremontii,Chaparral Zygadene
 Toxicoscordion paniculatum,,N,bulb,white,5,6,46802,11105,79380,206217,Zigadenus paniculatus,Panicled Death Camas
 Toxicoscordion venenosum var. venenosum,death-camas,N,bulb,white,5,7,93851,11106,81432,206219,Zigadenus venenosus var. venenosus,Death Camas
@@ -2042,7 +2042,7 @@ Turritis glabra,tower mustard,N,,,,,47457,12119,79460,34347,true,Tower Mustard
 Typha angustifolia,narrow-leaved cattail,U,,,,,47462,8176,60316,174863,true,Narrowleaf Cattail
 Typha domingensis,southern cattail,N,,,,,47463,8177,58392,174864,true,Southern Cattail
 Typha latifolia,cattail,N,,,,,47466,8178,48685,174865,true,Broadleaf Cattail
-Ulmus,elm,X,,,,,,,53549
+Ulmus,elm,X,,,,,,,53549,,true
 Ulmus minor,English elm,X,,,,,47478,8180,79461,34372,Ulmus procera
 Umbellularia californica,California bay,N,perennial,yellow,11,5,47489,8183,48807,34384,true,California Laurel
 Uropappus lindleyi,silver puffs,N,,,,,76212,8184,50806,206299,true,Silverpuffs
@@ -2074,10 +2074,10 @@ Vicia benghalensis,purple vetch,X,annual,red,purple,3,48060,8261,53333,34506,tru
 Vicia disperma,,X,annual,blue,3,5,48066,8263,79502,34518,true
 Vicia gigantea,giant vetch,N,perennial,red,3,8,48092,8265,53322,34529,Vicia nigricans var. gigantea,Giant Vetch
 Vicia hassei,slender vetch,N,,,,,48071,8266,57313,34535,true,Slender Vetch
-Vicia sativa,common vetch,X,,,,,,8446,53324,34586
+Vicia sativa,common vetch,X,,,,,,8446,53324,34586,true
 Vicia sativa subsp. nigra,common vetch,X,annual,pink,3,6,53355,8272,710103,44080
 Vicia sativa subsp. sativa,spring vetch,X,,,,,53356,8273,53334,44081,Vicia sativa var. sativa
-Vicia villosa,hairy vetch,X,,,,,,8447,57317,34603
+Vicia villosa,hairy vetch,X,,,,,,8447,57317,34603,true
 Vicia villosa subsp. varia,winter vetch,X,,,,,53358,8275,57316,44085
 Vicia villosa subsp. villosa,hairy vetch,X,,,,,53359,8276,57315,44086,Vicia villosa var. villosa
 Vinca major,greater periwinkle,X,,,,,48131,8280,53326,78696,true,,vinca-major-profile
@@ -2102,7 +2102,7 @@ Wyethia helenioides,wooly mules ears,N,perennial,yellow,3,5,5579,8360,50799,2064
 Wyethia mollis,wooly mules ears,N,perennial,yellow,5,7,5584,8363,60843,206407,true,Mule Ears
 Xanthium orientale,cocklebur,N,,,,,5618,14779,506262,206411,,Cocklebur
 Xanthium spinosum,spiny cocklebur,X,,,,,5590,8366,58045,206414,true
-Yabea microcarpa,California hedge parsley,N,,,,,48745,8373,56847,206426,,California Hedge Parsley
+Yabea microcarpa,California hedge parsley,N,,,,,48745,8373,56847,206426,true,California Hedge Parsley
 Zannichellia palustris,horned-pondweed,N,,,,,48827,8379,79546,206437,true,Horned Pondweed
 Zantedeschia aethiopica,calla-lily,X,,,,,48829,8380,56006,206439,,,zantesdeschia-aethiopica-profile
 Zeltnera davyi,conchalagua,N,,,,,81827,11122,79548,78771,true,Davy's Centaury
