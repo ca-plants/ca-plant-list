@@ -162,13 +162,13 @@ Arctostaphylos glandulosa subsp. cushingiana,,N,,,,,91856,11339,79594,94940,true
 Arctostaphylos glandulosa subsp. glandulosa,Eastwood manzanita,N,,,,,49170,552,53354,94942,true,Eastwood Manzanita
 Arctostaphylos glandulosa subsp. mollis,,N,,,,,49172,554,53377,202149,true,Eastwood's Manzanita
 Arctostaphylos glauca,greatberry manzanita,N,,,,,13926,556,55133,63118,true,Bigberry Manzanita
-Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137,,,Common Manzanita
+Arctostaphylos manzanita,common manzanita,N,,,,,,571,55137,63133,,Common Manzanita
 Arctostaphylos manzanita subsp. laevigata,Contra Costa manzanita,N,,,,,49185,574,61922,202153,true,Contra Costa Manzanita,,1B.2,,,S2,G5T2
 Arctostaphylos manzanita subsp. manzanita,,N,,,,,49186,575,55136,94959,true,Whiteleaf Manzanita
 Arctostaphylos nevadensis subsp. nevadensis,pine-mat manzanita,N,perennial,"white,pink",5,7,49190,11343,79607,94967,true,Pine-mat Manzanita
 Arctostaphylos pallida,pallid manzanita,N,,,,,13962,594,53355,63156,true,Pallid Manzanita,,1B.1,CE,FT,S1,G1
 Arctostaphylos patula,greenleaf manzanita,N,perennial,white,4,6,13965,596,75537,63158,true,Greenleaf Manzanita
-Arctotheca prostrata,prostrate capeweed,X,perennial,yellow,1,12,,11138,75549,,,,arctotheca-prostrata-profile
+Arctotheca prostrata,prostrate capeweed,X,perennial,yellow,1,12,,11138,75549,206540,,,arctotheca-prostrata-profile
 Argemone munita,prickly poppy,N,,,,,14117,657,58950,10397,true,Chicalote
 Argyranthemum foeniculaceum,,X,,,,,77423,658,75554,202185,true
 Aristida oligantha,oldfield three-awn,N,,,,,14193,664,75562,135677,true,Oldfield Three-awn
@@ -506,7 +506,7 @@ Clintonia uniflora,bride's bonnet,N,perennial,white,5,7,19854,2266,76401,203006,
 Collinsia bartsiifolia var. bartsiifolia,,N,,,,,56710,2272,80607,97215,true,White Blue Eyed Mary
 Collinsia bartsiifolia var. davidsonii,,N,,,,,56711,2273,58330,97216,true,Davidson's Blue Eyed Mary
 Collinsia bartsiifolia var. stricta,,N,,,,,56713,9818,80608,97218,true,White Blue Eyed Mary
-Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325,,,Purple Pagodas
+Collinsia heterophylla,Chinese houses,N,,,,,,2280,47325,65284,,Purple Pagodas
 Collinsia heterophylla var. heterophylla,Chinese houses,N,,"white,purple",3,6,56716,9819,48727,97221,true,Purple Pagodas
 Collinsia parviflora,blue-eyed mary,N,annual,blue,3,7,20000,2285,59013,65288,true,Blue-eyed Mary
 Collinsia sparsiflora var. collina,,N,,,,,56722,2290,57290,97227,true,Spinster's Blue Eyed Mary
@@ -650,7 +650,7 @@ Diplacus bolanderi,,N,,,,,99039,13462,771812,203385,true,Bolander's Monkeyflower
 Diplacus douglasii,Douglas monkeyflower,N,,,,,99051,13428,771821,203391,true,Brownies
 Diplacus kelloggii,,N,,,,,99058,13472,771826,203395,true,Kellogg's Monkeyflower
 Diplacus layneae,Layne's monkeyflower,N,annual,pink,5,8,99059,13473,771827,203396,true,Layne's Monkeyflower
-Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947,,,Red Bush Monkeyflower
+Diplacus puniceus,red bush monkeyflower,N,perennial,red,3,6,,13478,161947,68199,,Red Bush Monkeyflower
 Diplacus rattanii,Rattan monkeyflower,N,,,,,99072,13479,771830,203405,true,Rattan's Monkeyflower
 Diplacus tricolor,,N,,,,,99079,13482,771835,203410,true,Tricolor Monkeyflower
 Dipsacus,teasel,X,,,,,,,53030
@@ -1004,7 +1004,7 @@ Holocarpha virgata subsp. virgata,,N,annual,yellow,5,11,6108,4210,53102,204323,t
 Holodiscus discolor var. discolor,"cream bush,oceanspray",N,perennial,white,5,8,75685,11727,80941,48501,true
 Holodiscus discolor var. microphyllus,small leaf cream bush,N,perennial,white,6,9,91904,11729,80943,48505,Holodiscus microphyllus,Little Leaf Creambush
 Holozonia filipes,Greene's white crown,N,perennial,white,6,10,3561,4216,77430,204325,true,Whitecrown
-Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173,,,Meadow Barley
+Hordeum brachyantherum,meadow barley,N,,,,,,4218,57173,141840,,Meadow Barley
 Hordeum brachyantherum subsp. brachyantherum,meadow barley,N,,,,,76411,4219,61834,167357,true,Meadow Barley
 Hordeum brachyantherum subsp. californicum,California barley,N,,,,,76414,4220,59092,167358,true,California Meadow Barley
 Hordeum depressum,low barley,N,,,,,28384,4221,58378,141856,true,Low Barley
@@ -1528,7 +1528,7 @@ Pinus radiata,Monterey pine,N,,,,,38300,6523,53421,58452,true,Monterey Pine,,1B.
 Pinus sabiniana,"gray pine,foothill pine",N,,,,,38304,6524,58772,58458,true,Foothill Pine
 Pistacia atlantica,,X,,,,,77247,6541,78588,28204
 Pittosporum crassifolium,,X,,,,,38444,6545,78590,208641
-Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594,,,,pittosporum-undulatum-profile
+Pittosporum undulatum,"victorian box,mock orange",X,perennial,white,11,6,,6548,51594,205464,,,pittosporum-undulatum-profile
 Plagiobothrys acanthocarpus,adobe allocarya,N,,,,,38484,6550,58062,205466,,Adobe Popcornflower
 Plagiobothrys arizonicus,,N,,,,,38485,6551,58063,205467,,Arizona Popcornflower
 Plagiobothrys bracteatus,bracted popcornflower,N,annual,white,4,6,38487,6553,57719,205469,,Bracted Popcornflower
@@ -1584,7 +1584,7 @@ Polemonium carneum,royal sky pilot,N,,,,,38971,6712,78665,74629,,Royal Sky Pilot
 Polemonium pulcherrimum var. pulcherrimum,pretty Jacob's-ladder,N,perennial,"blue,purple",6,9,75974,6719,81276,99496,,Jacob's-ladder
 Polycarpon tetraphyllum subsp. tetraphyllum,four-leaved allseed,X,,,,,80560,14756,81277,128866,true
 Polygonum argyrocoleon,persian knotweed,X,,,,,39158,6738,78676,118197,true
-Polygonum aviculare,prostrate knotweed,X,,,,,,10251,78678
+Polygonum aviculare,prostrate knotweed,X,,,,,,10251,78678,118204
 Polygonum aviculare subsp. aviculare,,X,,,,,80990,10667,80151,128868,true
 Polygonum aviculare subsp. depressum,,X,,,,,80993,11034,53179,128871,true
 Polygonum aviculare subsp. neglectum,,X,,,,,80992,10669,80154,128872,true
@@ -1631,7 +1631,7 @@ Prunella vulgaris var. vulgaris,,X,,,,,75995,6885,81287,99540
 Prunus cerasifera,cherry plum,X,,,,,39972,6887,55837,28875,true,,prunus-cerasifera-profile
 Prunus dulcis,almond,X,,,,,39976,6888,69936,28884,true
 Prunus emarginata,bitter cherry,N,,,,,39978,6889,63905,28885,true,Bitter Cherry
-Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250,,,Hollyleaf Cherry
+Prunus ilicifolia,hollyleaf cherry,N,,,,,,6894,57250,28897,,Hollyleaf Cherry
 Prunus ilicifolia subsp. ilicifolia,holly-leafed cherry,N,perennial,white,4,5,76988,6895,59002,43463,Prunus ilicifolia var. ilicifolia,Hollyleaf Cherry
 Prunus subcordata,,N,,,,,40019,6897,56040,28936,true,Klamath Plum
 Prunus virginiana var. demissa,western choke-cherry,N,perennial,white,5,6,64546,6898,63900,50588,true,Western Chokecherry
@@ -1850,7 +1850,7 @@ Sherardia arvensis,field madder,X,,,,,44299,7542,47691,75982
 Sibbaldia procumbens,creeping sibbaldia,N,perennial,yellow,6,8,44312,7547,79076,32064,true,Creeping Sibbaldia
 Sidalcea diploscypha,fringed checkerbloom,N,annual,pink,4,5,44415,7553,57139,32180,true,Fringed Checkerbloom
 Sidalcea glaucescens,waxy checkerbloom,N,perennial,pink,6,8,44416,7554,61357,32184,true,Waxy Checkerbloom
-Sidalcea malviflora,checker mallow,N,,,,,,7564,48795,,,Checker Bloom
+Sidalcea malviflora,checker mallow,N,,,,,,7564,48795,32195,,Checker Bloom
 Sidalcea malviflora subsp. laciniata,checker mallow,N,,pink,3,6,52986,7568,61195,205941,true,Dwarf Checkerbloom
 Sidalcea malviflora subsp. malviflora,checker mallow,N,,,,,52987,7569,61041,43800,true,Checker Mallow
 Silene antirrhina,sleepy catchfly,N,,,,,44491,7586,58780,119240,true,Sleepy Catchfly
@@ -2047,7 +2047,7 @@ Ulmus minor,English elm,X,,,,,47478,8180,79461,34372,Ulmus procera
 Umbellularia californica,California bay,N,perennial,yellow,11,5,47489,8183,48807,34384,true,California Laurel
 Uropappus lindleyi,silver puffs,N,,,,,76212,8184,50806,206299,true,Silverpuffs
 Urospermum picroides,false hawkbit,X,,,,,5477,8185,59361,206301,true,,urospermum-picroides-profile
-Urtica gracilis,stinging nettle,N,,,,,,14909,141854
+Urtica gracilis,stinging nettle,N,,,,,,14909,141854,34410
 Urtica gracilis subsp. gracilis,American stinging nettle,N,,,,,70675,14910,1074432,207397,Urtica dioica subsp. gracilis,California Nettle
 Urtica gracilis subsp. holosericea,hoary nettle,N,,,,,53304,14911,141851,44056,Urtica dioica subsp. holosericea,Hoary Nettle
 Urtica urens,dwarf nettle,X,,,,,47589,8188,53315,34426,true
@@ -2074,10 +2074,10 @@ Vicia benghalensis,purple vetch,X,annual,red,purple,3,48060,8261,53333,34506,tru
 Vicia disperma,,X,annual,blue,3,5,48066,8263,79502,34518,true
 Vicia gigantea,giant vetch,N,perennial,red,3,8,48092,8265,53322,34529,Vicia nigricans var. gigantea,Giant Vetch
 Vicia hassei,slender vetch,N,,,,,48071,8266,57313,34535,true,Slender Vetch
-Vicia sativa,common vetch,X,,,,,,8446,53324
+Vicia sativa,common vetch,X,,,,,,8446,53324,34586
 Vicia sativa subsp. nigra,common vetch,X,annual,pink,3,6,53355,8272,710103,44080
 Vicia sativa subsp. sativa,spring vetch,X,,,,,53356,8273,53334,44081,Vicia sativa var. sativa
-Vicia villosa,hairy vetch,X,,,,,,8447,57317
+Vicia villosa,hairy vetch,X,,,,,,8447,57317,34603
 Vicia villosa subsp. varia,winter vetch,X,,,,,53358,8275,57316,44085
 Vicia villosa subsp. villosa,hairy vetch,X,,,,,53359,8276,57315,44086,Vicia villosa var. villosa
 Vinca major,greater periwinkle,X,,,,,48131,8280,53326,78696,true,,vinca-major-profile
