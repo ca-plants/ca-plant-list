@@ -228,7 +228,9 @@ Atriplex argentea subsp. expansa,Atriplex argentea var. expansa
 Atriplex argentea var. mohavensis,Atriplex argentea var. expansa
 Atriplex californica,Extriplex californica
 Atriplex cordulata var. erecticaulis,Atriplex erecticaulis
+Atriplex cordulata var. erecticaulis,Atriplex erecticaulis,INAT
 Atriplex coronata var. vallicola,Atriplex vallicola
+Atriplex coronata var. vallicola,Atriplex vallicola,INAT
 Atriplex coronata var. verna,Atriplex coronata var. coronata
 Atriplex expansa,Atriplex argentea var. expansa
 Atriplex flagellaris,Atriplex semibaccata
@@ -562,6 +564,7 @@ Crypsis niliaca,Sporobolus niliacus
 Crypsis schoenoides,Sporobolus schoenoides
 Crypsis vaginiflora,Sporobolus niliacus
 Cryptantha decipiens,Cryptantha corollata,INAT
+Cryptantha decipiens,Cryptantha rattanii,INAT
 Cryptantha decipiens var. corollata,Cryptantha corollata
 Cryptantha hanseni,Cryptantha intermedia var. intermedia
 Cryptantha intermedia var. rigida,Cryptantha juniperensis
@@ -911,6 +914,7 @@ Githopsis calycina,Githopsis specularioides
 Glaux maritima,Lysimachia maritima
 Glyceria davyi,Glyceria leptostachya
 Glyceria occidentalis,Glyceria ×occidentalis
+Glyceria occidentalis,Glyceria ×occidentalis,INAT
 Gnaphalium beneolens,Pseudognaphalium beneolens
 Gnaphalium californicum,Pseudognaphalium californicum
 Gnaphalium canescens subsp. beneolens,Pseudognaphalium beneolens
