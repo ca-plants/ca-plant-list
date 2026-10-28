@@ -21,6 +21,7 @@
             "notintaxondata": true
         }
     },
+    "Eriastrum sapphirinum": { "calflora": { "notintaxondata": true } },
     "Erysimum capitatum var. angustatum": {
         "comment": "in CNPS Rare Plant Inventory",
         "calflora": {
