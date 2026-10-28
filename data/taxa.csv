@@ -215,7 +215,7 @@ Atriplex cordulata,heartscale,N,annual,,6,7,15199,971,75698
 Atriplex coronata var. coronata,crownscale,N,,,,,55004,973,80462,129401,true,Crownscale,,4.2,,,S3,G4T3
 Atriplex depressa,brittlescale,N,,,,,76507,976,60174,111916,Atriplex parishii var. depressa,Brittlescale,,1B.2,,,S2,G2
 Atriplex dioica,thickleaf orach,N,,,,,15275,10508,75701,111917,true,Thickleaf Orach
-Atriplex erecticaulis,Earlimart orach,N,,,,,77582,8773
+Atriplex erecticaulis,Earlimart orach,N,,,,,77582,8773,80461
 Atriplex fruticulosa,ballscale,N,,,,,15211,980,58117,111927,true,Ballscale
 Atriplex gmelinii var. gmelinii,,N,,,,,71458,11364,75705,129425,true,Gmelin's Saltbush
 Atriplex lentiformis,big saltbush,N,,,,,15228,986,58118,111953,true,Big Saltbush
@@ -227,7 +227,7 @@ Atriplex rosea,tumbling orach,X,,,,,15265,1002,58121,111998,true
 Atriplex semibaccata,Australian saltbush,X,,,,,15267,1003,60177,112001,true,,atriplex-semibaccata-profile
 Atriplex serenana var. serenana,bractscale,N,,,,,55036,1006,80470,129460,true,Bractscale
 Atriplex suberecta,sprawling saltbush,X,,,,,15272,1008,58123,112008,true
-Atriplex vallicola,Lost Hills crownscale,N,annual,,4,9,15284,1013
+Atriplex vallicola,Lost Hills crownscale,N,annual,,4,9,15284,1013,80464
 Avena,,X,,,,,10991,,52697,,true
 Avena barbata,slender wild oat,X,,,,,15320,1017,52696,136280,true,,avena-barbata-profile
 Avena fatua,wild oat,X,,,,,15321,1018,52698,136309,true,,avena-fatua-profile
@@ -571,7 +571,7 @@ Cryptantha microstachys,,N,,,,,21264,2477,57696,203195,,Tejon Cryptantha
 Cryptantha muricata var. jonesii,,N,,,,,57144,11572,80631,203200,,Jones' Cryptantha
 Cryptantha muricata var. muricata,,N,,,,,57145,11573,80632,203201,,Showy Prickly-nut Cryptantha
 Cryptantha nemaclada,,N,,,,,21271,2481,57705,203202,,Colusa Cryptantha
-Cryptantha rattanii,Rattan's cryptantha,N,annual,white,4,7,21286,2488
+Cryptantha rattanii,Rattan's cryptantha,N,annual,white,4,7,21286,2488,58853
 Cryptantha torreyana var. pumila,dwarf cryptantha,N,,,,,57161,11578,57697,209690,,Dwarf Cryptantha
 Cryptogramma acrostichoides,American parsley fern,N,,,,,21329,2505,76536,197692,true,Parsley Fern
 Cucurbita foetidissima,calabazilla,N,,,,,21361,2510,58138,16666,true,Missouri Gourd
@@ -945,7 +945,7 @@ Githopsis diffusa subsp. robusta,,N,,,,,50832,3908,79925,203994,,San Gabriel Blu
 Githopsis specularioides,bluecup,N,,,,,26999,3914,58867,203996,,Common Bluecup
 Glebionis segetum,corn chrysanthemum,X,,,,,81845,9501,77281,206858,true
 Glinus lotoides,,X,,,,,27053,3922,77283,114515,true
-Glyceria ×occidentalis,western manna grass,X,perennial,,6,8,93855,11718
+Glyceria ×occidentalis,western manna grass,X,perennial,,6,8,93855,11718,61060
 Glyceria declinata,waxy mannagrass,X,,,,,27072,9343,77288,141402,true,,glyceria-declinata-profile
 Glyceria leptostachya,narrow mannagrass,N,,,,,27079,3929,77292,141421,true,Narrow Manna Grass
 Glycyrrhiza lepidota,wild licorice,N,,,,,27117,3933,58896,22506,true,Wild Licorice
