@@ -227,6 +227,10 @@ Athyrium filix-femina var. sitchense,Athyrium filix-femina var. cyclosorum
 Atriplex argentea subsp. expansa,Atriplex argentea var. expansa
 Atriplex argentea var. mohavensis,Atriplex argentea var. expansa
 Atriplex californica,Extriplex californica
+Atriplex cordulata var. erecticaulis,Atriplex erecticaulis
+Atriplex cordulata var. erecticaulis,Atriplex erecticaulis,INAT
+Atriplex coronata var. vallicola,Atriplex vallicola
+Atriplex coronata var. vallicola,Atriplex vallicola,INAT
 Atriplex coronata var. verna,Atriplex coronata var. coronata
 Atriplex expansa,Atriplex argentea var. expansa
 Atriplex flagellaris,Atriplex semibaccata
@@ -560,6 +564,7 @@ Crypsis niliaca,Sporobolus niliacus
 Crypsis schoenoides,Sporobolus schoenoides
 Crypsis vaginiflora,Sporobolus niliacus
 Cryptantha decipiens,Cryptantha corollata,INAT
+Cryptantha decipiens,Cryptantha rattanii,INAT
 Cryptantha decipiens var. corollata,Cryptantha corollata
 Cryptantha hanseni,Cryptantha intermedia var. intermedia
 Cryptantha intermedia var. rigida,Cryptantha juniperensis
@@ -799,10 +804,12 @@ Eriogonum virgatum var. rubidum,Eriogonum roseum
 Eriogonum wrightii subsp. subscaposum,Eriogonum wrightii var. subscaposum
 Eriogonum wrightii subsp. trachygonum,Eriogonum wrightii var. trachygonum
 Eriogonum wrightii var. curvatum,Eriogonum wrightii var. subscaposum
+Eriophyllum aureum,Eriophyllum wallacei
 Eriophyllum confertiflorum var. latum,Eriophyllum confertiflorum var. confertiflorum
 Eriophyllum idoneum,Eriophyllum lanatum var. achilleoides
 Eriophyllum staechadifolium var. artemisiifolium,Eriophyllum staechadifolium
 Eriophyllum staechadifolium var. depressum,Eriophyllum staechadifolium
+Eriophyllum wallacei var. calvescens,Eriophyllum wallacei
 Erocallis triphylla,Lewisia triphylla
 Erodium macrophyllum,California macrophylla
 Erodium macrophyllum var. californicum,California macrophylla
@@ -906,6 +913,8 @@ Gilia multicaulis,Gilia achilleifolia subsp. multicaulis
 Githopsis calycina,Githopsis specularioides
 Glaux maritima,Lysimachia maritima
 Glyceria davyi,Glyceria leptostachya
+Glyceria occidentalis,Glyceria ×occidentalis
+Glyceria occidentalis,Glyceria ×occidentalis,INAT
 Gnaphalium beneolens,Pseudognaphalium beneolens
 Gnaphalium californicum,Pseudognaphalium californicum
 Gnaphalium canescens subsp. beneolens,Pseudognaphalium beneolens
@@ -925,6 +934,7 @@ Graphephorum canescens,Trisetum canescens,INAT
 Grindelia camporum var. bracteosa,Grindelia camporum
 Grindelia hirsutula var. davyi,Grindelia camporum
 Grindelia hirsutula var. maritima,Grindelia hirsutula
+Grindelia latifolia,Grindelia stricta var. platyphylla
 Guillenia flavescens,Caulanthus flavescens
 Guillenia lasiophylla,Caulanthus lasiophyllus
 Gutierrezia bracteata,Gutierrezia californica
@@ -1230,6 +1240,7 @@ Lotus wrangelianus,Acmispon wrangelianus
 Ludwigia grandiflora subsp. hexapetala,Ludwigia hexapetala
 Ludwigia palustris var. americana,Ludwigia palustris
 Ludwigia palustris var. pacifica,Ludwigia palustris
+Lupinus abramsii,Lupinus albifrons var. abramsii
 Lupinus albifrons var. flumineus,Lupinus albifrons var. collinus
 Lupinus arbustus subsp. calcaratus,Lupinus arbustus
 Lupinus arbustus subsp. silvicola,Lupinus arbustus
@@ -1333,6 +1344,7 @@ Mentzelia dispersa var. dispersa,Mentzelia dispersa
 Mentzelia dispersa var. latifolia,Mentzelia dispersa
 Mentzelia dispersa var. obtusa,Mentzelia dispersa
 Mentzelia pinetorum,Mentzelia dispersa
+Mentzelia tricuspis var. brevicornuta,Mentzelia tridentata
 Mesembryanthemum chilensis,Carpobrotus chilensis
 Mesembryanthemum edule,Carpobrotus edulis
 Microcala quadrangularis,Cicendia quadrangularis
@@ -1525,6 +1537,7 @@ Nothoscordum aureum,Bloomeria crocea var. aurea
 Nuphar lutea subsp. polysepala,Nuphar polysepala
 Nuttallia cerasiformis,Oemleria cerasiformis
 Nymphaea polysepala,Nuphar polysepala
+Obione cordulata,Atriplex cordulata
 Obione fruticulosa,Atriplex fruticulosa
 Obione lentiformis,Atriplex lentiformis
 Obione leucophylla,Atriplex leucophylla
@@ -1911,6 +1924,9 @@ Rorippa palustris subsp. occidentalis,Rorippa palustris subsp. palustris
 Rorippa palustris var. fernaldiana,Rorippa palustris subsp. palustris
 Rorippa palustris var. occidentalis,Rorippa palustris subsp. palustris
 Rosa eglanteria,Rosa rubiginosa
+Rosa nutkana var. muriculata,Rosa nutkana subsp. nutkana
+Rosa nutkana var. nutkana,Rosa nutkana subsp. nutkana
+Rosa nutkana var. setosa,Rosa nutkana subsp. nutkana
 Rosa spithamea var. sonomensis,Rosa spithamea
 Rostraria cristata,Koeleria gerardi
 Rostraria cristata,Koeleria gerardi,INAT
@@ -2116,6 +2132,10 @@ Smilacina stellata,Maianthemum stellatum
 Smilacina stellata var. sessilifolia,Maianthemum stellatum
 Solanum nodiflorum,Solanum americanum
 Solanum physalifolium var. nitidibaccatum,Solanum nitidibaccatum
+Solanum umbelliferum var. intermedium,Solanum umbelliferum var. xanti
+Solanum xanti,Solanum umbelliferum var. xanti,INAT
+Solanum xanti var. intermedium,Solanum umbelliferum var. xanti
+Solanum xanti var. montanum,Solanum umbelliferum var. xanti
 Solidago californica,Solidago velutina subsp. californica
 Solidago canadensis subsp. elongata,Solidago elongata
 Solidago canadensis var. elongata,Solidago elongata
