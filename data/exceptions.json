@@ -52,7 +52,6 @@
         "calflora": { "native": false },
         "calscape": { "notnative": true }
     },
-    "Limosella australis": { "jepson": { "native": true } },
     "Lupinus littoralis var. variicolor": {
         "inat": {
             "notintaxondata": true
