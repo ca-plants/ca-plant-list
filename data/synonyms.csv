@@ -35,6 +35,7 @@ Adiantum boreale,Adiantum aleuticum
 Adiantum pedatum subsp. calderi,Adiantum aleuticum
 Adiantum pedatum var. aleuticum,Adiantum aleuticum
 Adiantum pedatum var. subpumilum,Adiantum aleuticum
+Aegochloa cotulifolia,Navarretia cotulifolia
 Agastache glaucifolia,Agastache urticifolia
 Agoseris californica,Agoseris heterophylla var. cryptopleura
 Agoseris cinerea,Agoseris grandiflora var. grandiflora
@@ -547,6 +548,7 @@ Corylus cornuta var. californica,Corylus cornuta subsp. californica
 Corylus rostrata var. tracyi,Corylus cornuta subsp. californica
 Cotoneaster coriaceus,Cotoneaster lacteus,INAT
 Cotyledon burnhamii,Sedum obtusatum
+Cotyledon caespitosa var. paniculata,Dudleya cymosa subsp. paniculata
 Cotyledon cespitosa var. paniculata,Dudleya cymosa subsp. paniculata
 Cotyledon obtusata,Sedum obtusatum
 Cotyledon yosemitensis,Sedum obtusatum
@@ -1935,7 +1937,6 @@ Rubacer parviflorum,Rubus parviflorus
 Rubus almus,Rubus pensilvanicus
 Rubus eastwoodianus,Rubus ursinus
 Rubus franciscanus,Rubus spectabilis
-Rubus inermis,Rubus ulmifolius var. anoplothyrsus
 Rubus lemurum,Rubus ursinus
 Rubus macropetalus,Rubus ursinus
 Rubus nutkanus,Rubus parviflorus
@@ -1973,7 +1974,6 @@ Rumex salicifolius var. salicifolius,Rumex salicifolius
 Rumex salicifolius var. transitorius,Rumex transitorius
 Rupalleya volubilis,Dichelostemma volubile
 Ruppia occidentalis,Ruppia cirrhosa
-Ruppia spiralis,Ruppia cirrhosa
 Sagina apetala var. barbata,Sagina apetala
 Sagina occidentalis,Sagina decumbens subsp. occidentalis
 Sagittaria calycina,Sagittaria montevidensis subsp. calycina,INAT
@@ -2149,7 +2149,6 @@ Sorghum lanceolatum,Sorghum bicolor
 Sorghum sudanense,Sorghum bicolor
 Sorghum virgatum,Sorghum bicolor
 Sparganium erectum subsp. stoloniferum,Sparganium eurycarpum var. greenei
-Sparganium eurycarpum subsp. eurycarpum,Sparganium eurycarpum var. eurycarpum
 Sparganium greenei,Sparganium eurycarpum var. greenei
 Sparganium stoloniferum subsp. stoloniferum,Sparganium eurycarpum var. greenei,INAT
 Spartina alterniflora,Sporobolus alterniflorus
