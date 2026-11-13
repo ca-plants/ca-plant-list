@@ -571,7 +571,7 @@ Cryptantha microstachys,,N,,,,,21264,2477,57696,203195,,Tejon Cryptantha
 Cryptantha muricata var. jonesii,,N,,,,,57144,11572,80631,203200,,Jones' Cryptantha
 Cryptantha muricata var. muricata,,N,,,,,57145,11573,80632,203201,,Showy Prickly-nut Cryptantha
 Cryptantha nemaclada,,N,,,,,21271,2481,57705,203202,,Colusa Cryptantha
-Cryptantha rattanii,Rattan's cryptantha,N,annual,white,4,7,21286,2488,58853,,,Rattan's Cryptantha
+Cryptantha rattanii,Rattan's cryptantha,N,annual,white,4,7,21286,2488,58853,,,Rattan's Cryptantha,,4.3,,,S4,G4
 Cryptantha torreyana var. pumila,dwarf cryptantha,N,,,,,57161,11578,57697,209690,,Dwarf Cryptantha
 Cryptogramma acrostichoides,American parsley fern,N,,,,,21329,2505,76536,197692,true,Parsley Fern
 Cucurbita foetidissima,calabazilla,N,,,,,21361,2510,58138,16666,true,Missouri Gourd
@@ -1226,7 +1226,7 @@ Ludwigia peploides subsp. montevidensis,water-primrose,X,,,,,51358,5085,61049,42
 Ludwigia peploides subsp. peploides,,X,,,,,51359,5086,61046,42921,true
 Lunaria annua,moonwort,X,,,,,31676,5091,55886,24748,true
 Lupinus affinis,,N,,blue,3,5,31690,5095,77846,24759,true,Fleshy Lupine
-Lupinus albifrons var. abramsii,Abrams' lupine,N,perennial,blue,5,6,76658,5098,81042,,,Abrams' Lupine
+Lupinus albifrons var. abramsii,Abrams' lupine,N,perennial,blue,5,6,76658,5098,81042,,,Abrams' Lupine,,3.2,,,S3?,G5T3?Q
 Lupinus albifrons var. albifrons,bush lupine,N,,blue,3,6,61188,5099,53418,49040,true,Silver Lupine
 Lupinus albifrons var. collinus,,N,,,,,61189,5100,61795,49041,true,Silver Bush Lupine
 Lupinus arboreus,yellow bush lupine,N,,yellow,4,7,31731,5106,61010,24796,true,Coastal Bush Lupine
@@ -1322,7 +1322,7 @@ Mentzelia laevicaulis var. laevicaulis,blazingstar,N,,,,,61864,14741,241687,2544
 Mentzelia lindleyi,,N,,,,,33255,5432,53923,204917,true,Lindley's Blazing Star
 Mentzelia micrantha,,N,,,,,33259,5433,58933,204920,true,San Luis Blazingstar
 Mentzelia pectinata,,N,,,,,33274,5439,58198,204927,true,San Joaquin Blazingstar
-Mentzelia tridentata,creamy blazing star,N,annual,white,4,5,33293,5446,78014,,,Creamy Blazing Star
+Mentzelia tridentata,creamy blazing star,N,annual,white,4,5,33293,5446,78014,,,Creamy Blazing Star,,1B.3,,,S3,G3
 Mercurialis annua,annual mercury,X,,,,,33300,5450,68838,25939,true
 Mertensia ciliata var. stomatechoides,streamside bluebell,N,perennial,blue,6,8,61894,5453,81103,207072,,Streamside Bluebell
 Mesembryanthemum nodiflorum,,X,,,,,33363,5461,71191,116177,true,,mesembryanthemum-nodiflorum-profile
@@ -1833,7 +1833,7 @@ Scrophularia californica,California figwort,N,,white,,,43849,7422,50812,75853,tr
 Scutellaria bolanderi subsp. bolanderi,Sierra skullcap,N,perennial,"white,blue",6,7,52896,7431,80184,96443,,Sierra Skullcap
 Scutellaria californica,,N,perennial,,,,43883,7432,59791,75893,,California Skullcap
 Scutellaria galericulata,,N,perennial,,,,43891,7433,79016,75903,,Marsh Skullcap,,2B.2,,,S2,G5
-Scutellaria lateriflora,side-flowering skullcap,N,perennial,blue,5,7,43900,7435,79017,,,Mad Dog Skullcap
+Scutellaria lateriflora,side-flowering skullcap,N,perennial,blue,5,7,43900,7435,79017,,,Mad Dog Skullcap,,2B.2,,,S1S2,G5
 Scutellaria siphocampyloides,,N,perennial,blue,5,7,43926,7437,59792,75935,,Curve Flowered Skullcap
 Scutellaria tuberosa,,N,perennial,,,,43930,7438,57122,75940,,Danny's Skullcap
 Sedella pentandra,,N,,,,,43952,9590,58884,31828,true,Central California Stonecrop
